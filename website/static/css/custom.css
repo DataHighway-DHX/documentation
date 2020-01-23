@@ -7,29 +7,7 @@
  
 /* your custom css */
 
-/* Customizing the Navigation Colors */
 
-.headerTitleWithLogo {
-    color: black;
-}
-
-.toc .toggleNav ul li.navListItemActive a {
-    color: #007bff;
-}
-.toc .toggleNav ul li a:hover, .toc .toggleNav ul li a:focus {
-    color: #007bff;
-}
-.navigationSlider .slidingNav ul li a {
-    color: black;
-}
-
-.navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
-    color: #007bff;
-}
-
-.navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
-    color: #007bff;
-}
 
 
 
