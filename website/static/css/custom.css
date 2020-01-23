@@ -9,9 +9,11 @@
 
 /* Customizing the Navigation Colors */
 
+
 .headerTitleWithLogo {
     color: black;
 }
+
 .toc .toggleNav ul li.navListItemActive a {
     color: #007bff;
 }
@@ -25,6 +27,12 @@
 .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
     color: #007bff;
 }
+
+.navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
+    color: #007bff;
+}
+
+
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
