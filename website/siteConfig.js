@@ -29,6 +29,8 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  cname: 'https://datahighway-com.github.io/',
+
   // Used for publishing and more
   projectName: 'documentation',
   organizationName: 'DataHighway-com',
