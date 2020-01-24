@@ -5,6 +5,17 @@ Welcome to the Data Highway developer documentation. We're just getting started,
 ## Contributing
 The repository is structured as a docusaurus project with the markdown files organized in the /docs directory. The images and other assets are in the /docs/assets/ directory.
 
+### Running & Viewing Documentation Locally
+
+Run the following commands to install dependencies and start build the website.
+
+```bash
+cd website &&
+npm install && npm start
+```
+
+View in web browser http://localhost:3000
+
 ### Adding a New Document
 
 * Create your markdown document in a suitable directory inside /docs.
