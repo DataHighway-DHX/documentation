@@ -1,3 +1,7 @@
+## Pull Requests
+
+Authors or Pull Requests (PRs) should first merge into the 'develop' branch then reviewers will merge into 'master' branch upon approval.
+
 ## Publishing Live Updates to GitHub Pages
 
 Run the following as a GitHub user with commit access to the repo:
