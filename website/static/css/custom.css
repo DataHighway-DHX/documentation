@@ -7,9 +7,21 @@
  
 /* your custom css */
 
+.download-whitepaper:link {
+  text-decoration: none;
+}
 
+.download-whitepaper:visited {
+  text-decoration: none;
+}
 
+.download-whitepaper:hover {
+  text-decoration: underline;
+}
 
+.download-whitepaper:active {
+  text-decoration: underline;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
