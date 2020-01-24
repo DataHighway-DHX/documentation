@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Data Highway Developer Hub', // Title for your website.
   tagline: 'Complete develop documentation for the Data Highway DAO.',
   url: 'https://dev.datahighway.com', // Your website URL
-  baseUrl: '/documentation/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
