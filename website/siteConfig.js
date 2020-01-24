@@ -40,7 +40,8 @@ const siteConfig = {
   headerLinks: [
     {doc: 'index', label: 'Docs'},
     {doc: 'recipes/recipes', label: 'Recipes'},
-    {doc: 'tutorials/tutorials', label: 'Tutorials'}
+    {doc: 'tutorials/tutorials', label: 'Tutorials'},
+    { href: 'https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/v1/whitepaper.pdf', label: 'Whitepaper' },
   ],
 
   // If you have users set above, you add it here:
