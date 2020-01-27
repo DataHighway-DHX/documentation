@@ -5,6 +5,8 @@ Welcome to the Data Highway developer documentation. We're just getting started,
 ## Contributing
 The repository is structured as a docusaurus project with the markdown files organized in the /docs directory. The images and other assets are in the /docs/assets/ directory.
 
+Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
 ### Running & Viewing Documentation Locally
 
 Run the following commands to install dependencies and start build the website.
