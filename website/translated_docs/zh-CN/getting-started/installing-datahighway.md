@@ -1,7 +1,7 @@
 ---
-id: installing-datahighway
-title: Installing Data Highway
-sidebar_label: Installing Data highway
+id: 下载-数据高速公路
+title: 下载数据高速公路
+sidebar_label: 下载数据高速公路
 ---
 
-# Installing Data Highway
+# 下载数据高速公路
