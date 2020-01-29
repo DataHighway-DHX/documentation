@@ -1,9 +1,9 @@
 ---
-id: recipes
-title: Recipes
-sidebar_label: Recipes
+id: 食譜
+title: 食譜
+sidebar_label: 食譜
 ---
 
-# Recipes
+# 食譜
 
-Entry page for recipes.
+食譜的輸入頁面。
