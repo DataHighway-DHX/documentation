@@ -1,9 +1,9 @@
 ---
-id: recipes
-title: Recipes
-sidebar_label: Recipes
+id: 食谱
+title: 食谱
+sidebar_label: 食谱
 ---
 
-# Recipes
+# 食谱
 
-Entry page for recipes.
+食谱的输入页面。
