@@ -1,9 +1,9 @@
 ---
-id: tutorials
-title: tutorials
-sidebar_label: tutorials
+id: 教學
+title: 教學
+sidebar_label: 教學
 ---
 
-# tutorials
+# 教學
 
-Entry page for tutorials.
+教學的輸入頁面。
