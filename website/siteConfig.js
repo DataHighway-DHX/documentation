@@ -23,15 +23,16 @@ const users = [
 const siteConfig = {
   title: 'Data Highway Developer Hub', // Title for your website.
   tagline: 'Complete develop documentation for the Data Highway DAO.',
-  url: 'https://docs.datahighway.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://dev.datahighway.com', // Your website URL
+  baseUrl: '/documentation/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'Data Highway Documentation',
-  organizationName: 'DataHighway',
+  projectName: 'documentation',
+  organizationName: 'DataHighway-com',
+  cname: 'dev.datahighway.com',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
