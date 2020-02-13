@@ -1,7 +1,8 @@
 {
   "docs": {
     "Overview": [
-      "index"
+      "index",
+      "whitepaper"
     ]
   },
   "recipes": {
