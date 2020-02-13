@@ -42,7 +42,7 @@ const siteConfig = {
     {doc: 'index', label: 'Docs'},
     {doc: 'recipes/recipes', label: 'Recipes'},
     {doc: 'tutorials/tutorials', label: 'Tutorials'},
-    { href: 'https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/v1/whitepaper.pdf', label: 'Whitepaper' },
+    {doc: 'whitepaper', label: 'Whitepaper' },
   ],
 
   // If you have users set above, you add it here:
