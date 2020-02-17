@@ -4,7 +4,6 @@ title: 总览
 sidebar_label: 总览
 ---
 
-# 总览
+## About Data Highway
 
-<a href="https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/v1/whitepaper.pdf" class="download-whitepaper" style="font-size:2em; color: #7719AA !important">下载白皮书</a>
-
+The decentralised Data Highway (DH) economic system for the future of IoT will have a monetary system of the DHX token.
