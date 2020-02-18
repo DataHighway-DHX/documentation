@@ -40,21 +40,18 @@ class Footer extends React.Component {
             <a href={this.docUrl('index.html', this.props.language)}>
               Getting Started
             </a>
-            <a href={this.docUrl('recipes/recipes.html', this.props.language)}>
-              Recipes
-            </a>
             <a href={this.docUrl('tutorials/tutorials.html', this.props.language)}>
               Tutorials
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+            {/* <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
-            </a>
-            <a href="https://discord.gg/HbpetNS">Project Chat</a>
+            </a> */}
+            <a href={this.props.config.chatUrlDiscord}>Chat on Discord</a>
             <a
-              href="https://twitter.com/datahighway_dhx"
+              href={`https://twitter.com/${this.props.config.twitterUsername}`}
               target="_blank"
               rel="noreferrer noopener">
               Twitter
@@ -62,10 +59,10 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/">GitHub</a>
+            <a href={this.props.config.baseUrlGithub}>GitHub</a>
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href={`${this.props.config.baseUrlGithub}/node`}
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count="true"
