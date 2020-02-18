@@ -8,10 +8,10 @@ sidebar_label: Whitepaper
 
 <div class="margin-sm"></div>
 
-<span class="language-options" style='font-style: italic;'>Read this in other languages: [English](https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/README.md), [한국어](https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/README.ko.md), [日本語](https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/README.ja.md), [简体中文](https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/README.zh-cn.md), [正體中文](https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/README.zh-tw.md)</span>
+<span class="language-options" style='font-style: italic;'>Read this in other languages: [English](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.md), [한국어](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.ko.md), [日本語](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.ja.md), [简体中文](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.zh-cn.md), [正體中文](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.zh-tw.md)</span>
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
 
-<a href="https://raw.githubusercontent.com/DataHighway-com/whitepaper/master/v1/whitepaper.pdf" class="download-whitepaper" style="margin: 40px; font-size:1.5em; font-weight: 700; color: #00aaff !important">DOWNLOAD WHITEPAPER</a>
+<a href="https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/v1/whitepaper.pdf" class="download-whitepaper" style="margin: 40px; font-size:1.5em; font-weight: 700; color: #00aaff !important">DOWNLOAD WHITEPAPER</a>
 
 ## Contributions
 
@@ -19,7 +19,7 @@ To contribute edits to this whitepaper, please submit pull requests to this repo
 
 ### Releases
 
-Refer to steps outlined in [CONTRIBUTING](https://github.com/DataHighway-com/whitepaper/blob/master/CONTRIBUTING.md).
+Refer to steps outlined in [CONTRIBUTING](https://github.com/DataHighway-DHX/whitepaper/blob/master/CONTRIBUTING.md).
 
 <div class="margin-sm"></div>
 
@@ -1591,7 +1591,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 * Roaming
     * API
-      * Refer to current implementation of Roaming Runtime Modules https://github.com/DataHighway-com/node/tree/master/packages/roaming
+      * Refer to current implementation of Roaming Runtime Modules https://github.com/DataHighway-DHX/node/tree/master/packages/roaming
 * Staking (NPoS):
     * Reward
         * Amount
