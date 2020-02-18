@@ -40,7 +40,6 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'getting-started/users-purpose', label: 'Getting Started'},
-    // {doc: 'index', label: 'Docs'},
     {doc: 'tutorials/tutorials-accounts-create-account', label: 'Tutorials'},
     {doc: 'api/rust-reference-docs', label: 'API Reference'},
     {doc: 'whitepaper', label: 'Whitepaper' },
