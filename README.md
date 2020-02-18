@@ -1,11 +1,11 @@
-# Data Highway Documentation
+# DataHighway Documentation
 
-Welcome to the Data Highway developer documentation. We're just getting started, so our documentation is going to look somewhat empty. We'll start out with modifying the https://docusaurus.io/ initial template to create something that looks more like our Data Highway branding.
+Welcome to the DataHighway developer documentation. We're just getting started, so our documentation is going to look somewhat empty. We'll start out with modifying the https://docusaurus.io/ initial template to create something that looks more like our DataHighway branding.
 
 ## Contributing
 The repository is structured as a docusaurus project with the markdown files organized in the /docs directory. The images and other assets are in the /docs/assets/ directory.
 
-Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+Refer to <a href="./CONTRIBUTING.md" target="_blank" class="pretty-link pretty-link-colored" style="">CONTRIBUTING.md</a> for details.
 
 ### Running & Viewing Documentation Locally
 

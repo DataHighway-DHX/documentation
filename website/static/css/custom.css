@@ -7,20 +7,30 @@
  
 /* your custom css */
 
-.download-whitepaper:link {
+.pretty-link:link {
   text-decoration: none;
 }
 
-.download-whitepaper:visited {
+.pretty-link:visited {
   text-decoration: none;
 }
 
-.download-whitepaper:hover {
+.pretty-link:hover {
   text-decoration: underline;
 }
 
-.download-whitepaper:active {
+.pretty-link:active {
   text-decoration: underline;
+}
+
+.pretty-link-colored {
+  font-weight: 400;
+  color: #00aaff !important;
+}
+
+.pretty-link-colored-bold {
+  font-weight: 600;
+  color: #00aaff !important;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
