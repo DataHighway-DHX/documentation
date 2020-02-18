@@ -4,29 +4,343 @@ title: Data Highway's Economic Whitepaper
 sidebar_label: Whitepaper
 ---
 
+<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">Data Highway's Economic Whitepaper</span>
+<br />
+
 <div class="background-custom"></div>
 
 <div class="margin-sm"></div>
 
-<span class="language-options" style='font-style: italic;'>Read this in other languages: [English](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.md), [한국어](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.ko.md), [日本語](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.ja.md), [简体中文](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.zh-cn.md), [正體中文](https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/README.zh-tw.md)</span>
+<span class="language-options" style='font-style: italic;'><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.md" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span>
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
-
-<a href="https://raw.githubusercontent.com/DataHighway-DHX/whitepaper/master/v1/whitepaper.pdf" class="download-whitepaper" style="margin: 40px; font-size:1.5em; font-weight: 700; color: #00aaff !important">DOWNLOAD WHITEPAPER</a>
+<span>
+    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1/whitepaper.pdf" class="download-whitepaper" style="margin: 40px; font-size:1.5em; font-weight: 700; color: #00aaff !important">DOWNLOAD WHITEPAPER</a>
+</span>
 
 ## Contributions
 
-To contribute edits to this whitepaper, please submit pull requests to this repository with your changes.
-
-### Releases
-
-Refer to steps outlined in [CONTRIBUTING](https://github.com/DataHighway-DHX/whitepaper/blob/master/CONTRIBUTING.md).
+To contribute edits to this whitepaper, please submit pull requests to this repository with your changes. Refer to steps outlined in <a href="https://github.com/DataHighway-DHX/documentation/blob/master/CONTRIBUTING.md" target="_blank" class="pretty-link-colored">CONTRIBUTING</a> on how to Creating Issues and Pull Requests.
 
 <div class="margin-sm"></div>
 
 ## Questions
 
-If you have any questions, please join the [DataHighway Discord](https://discord.gg/KGTbv9Z) and ask in the #general channel.
+If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" target="_blank" class="pretty-link-colored">DataHighway Discord</a> and ask in the #general channel.
 
+<div class="page-break"></div>
+
+<div class="pdf-only">
+    <span style="font-size: 1.5em; font-weight: 700;!important" class="pdf-only">Table of Contents</span>
+    <!-- INSERT TOC BELOW HERE -->
+    <ul>
+    <li><a href="#releases">Releases</a></li>
+    <li><a href="#questions">Questions</a></li>
+    <li><a href="#table-of-contents">Table of Contents</a></li>
+    <li><a href="#introduction">Introduction</a>
+    <ul>
+    <li><a href="#dao">DAO</a></li>
+    <li><a href="#mining">Mining</a></li>
+    <li><a href="#inter-chain-data-market">Inter-Chain Data Market</a></li>
+    <li><a href="#lpwan">LPWAN</a></li>
+    <li><a href="#roaming">Roaming</a></li>
+    </ul></li>
+    <li><a href="#goals">Goals</a>
+    <ul>
+    <li><a href="#fair-distribution--decentralisation-model">Fair Distribution &amp; Decentralisation Model</a></li>
+    <li><a href="#equal-participation-opportunity">Equal Participation Opportunity</a></li>
+    <li><a href="#inter-chain-data-market-1">Inter-Chain Data Market</a></li>
+    <li><a href="#roaming-1">Roaming</a>
+    <ul>
+    <li><a href="#fully-decentralized-roaming-solution">Fully Decentralized Roaming Solution</a></li>
+    <li><a href="#compatibility-with-the-lora-alliance">Compatibility with the LoRa Alliance</a></li>
+    <li><a href="#integrates-with-other-roaming-hubs">Integrates with other Roaming Hubs</a></li>
+    <li><a href="#automated-billing--charging">Automated Billing &amp; Charging</a></li>
+    <li><a href="#competitive-low-cost-fair-access-and-consumer-protection">Competitive (Low-Cost), Fair Access, and Consumer Protection</a></li>
+    <li><a href="#interfaces">Interfaces</a></li>
+    <li><a href="#intuitive-ux">Intuitive UX</a></li>
+    </ul></li>
+    <li><a href="#external-oracle">External Oracle</a></li>
+    <li><a href="#scalability">Scalability</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#auditable">Auditable</a></li>
+    <li><a href="#plugins">Plugins</a></li>
+    <li><a href="#dex">DEX</a></li>
+    <li><a href="#api">API</a></li>
+    </ul></li>
+    <li><a href="#roadmap">Roadmap</a>
+    <ul>
+    <li><a href="#january-2020">January 2020</a></li>
+    <li><a href="#february-2020">February 2020</a></li>
+    <li><a href="#march-2020">March 2020</a></li>
+    <li><a href="#april-2020">April 2020</a></li>
+    <li><a href="#june-2020">June 2020</a></li>
+    <li><a href="#july-2020">July 2020</a></li>
+    </ul></li>
+    <li><a href="#economic-configuration">Economic Configuration</a>
+    <ul>
+    <li><a href="#economic-variables">Economic Variables</a>
+    <ul>
+    <li><a href="#genesis-total-symbol">Genesis Total Symbol</a></li>
+    <li><a href="#genesis-total-supply">Genesis Total Supply</a></li>
+    <li><a href="#block-production--mining-time">Block Production / Mining Time</a>
+    <ul>
+    <li><a href="#comparison-with-other-networks">Comparison with Other Networks</a></li>
+    </ul></li>
+    <li><a href="#exchange-rate">Exchange Rate</a></li>
+    <li><a href="#future-changes">Future Changes</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#token-issuance">Token Issuance</a>
+    <ul>
+    <li><a href="#token-issuance-options">Token Issuance Options</a>
+    <ul>
+    <li><a href="#block-authoring--production-rewards">Block Authoring / Production Rewards</a>
+    <ul>
+    <li><a href="#token-issuance-initial-rate">Token Issuance Initial Rate</a></li>
+    <li><a href="#block-reward-issuance-rate">Block Reward Issuance Rate</a></li>
+    <li><a href="#transactions-per-block">Transactions Per Block</a></li>
+    <li><a href="#collators">Collators</a>
+    <ul>
+    <li><a href="#collator-pool-size">Collator Pool Size</a></li>
+    </ul></li>
+    <li><a href="#block-reward-treasury-fees">Block Reward Treasury Fees</a></li>
+    </ul></li>
+    <li><a href="#allocating-dao-treasury-unlocked-reserves">Allocating DAO Treasury Unlocked Reserves</a></li>
+    </ul></li>
+    <li><a href="#token-issuance-halving-inflation-strategy">Token Issuance Halving Inflation Strategy</a>
+    <ul>
+    <li><a href="#about-halving">About Halving</a></li>
+    <li><a href="#impact--benefits">Impact &amp; Benefits</a></li>
+    <li><a href="#frequency">Frequency</a></li>
+    <li><a href="#longevity">Longevity</a></li>
+    <li><a href="#transparency">Transparency</a></li>
+    <li><a href="#comparison-with-halving-on-the-bitcoin-network">Comparison with Halving on the Bitcoin Network</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#token-acquisition">Token Acquisition</a></li>
+    <li><a href="#dao-1">DAO</a>
+    <ul>
+    <li><a href="#treasury">Treasury</a>
+    <ul>
+    <li><a href="#unlocked-reserves">Unlocked Reserves</a></li>
+    </ul></li>
+    <li><a href="#future-monetary--fiscal-policies">Future Monetary &amp; Fiscal Policies</a></li>
+    <li><a href="#financial-model">Financial Model</a>
+    <ul>
+    <li><a href="#balance-sheet">Balance Sheet</a></li>
+    <li><a href="#cash-flow-statement">Cash Flow Statement</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#mining-1">Mining</a>
+    <ul>
+    <li><a href="#benefits">Benefits</a></li>
+    <li><a href="#reward-options">Reward Options</a></li>
+    <li><a href="#reward-types">Reward Types</a></li>
+    <li><a href="#fixed-term-periods">Fixed Term Periods</a></li>
+    <li><a href="#random-sampling-dates">Random Sampling Dates</a></li>
+    <li><a href="#reward-spending--reinvestment">Reward Spending &amp; Reinvestment</a></li>
+    <li><a href="#rules">Rules</a></li>
+    <li><a href="#mining-speed-boost-msb">Mining Speed Boost (MSB)</a></li>
+    <li><a href="#mining-loyalty-bonus-mlb">Mining Loyalty Bonus (MLB)</a></li>
+    <li><a href="#mining-diversity-threshold-mdt">Mining Diversity Threshold (MDT)</a></li>
+    <li><a href="#initial-asset-distribution">Initial Asset Distribution</a></li>
+    <li><a href="#financial-model-1">Financial Model</a></li>
+    <li><a href="#token-mining">Token Mining</a>
+    <ul>
+    <li><a href="#goals-1">Goals</a></li>
+    <li><a href="#background--benefits">Background &amp; Benefits</a></li>
+    <li><a href="#rights">Rights</a>
+    <ul>
+    <li><a href="#compounding-rewards">Compounding Rewards</a></li>
+    </ul></li>
+    <li><a href="#costs">Costs</a></li>
+    <li><a href="#registration">Registration</a></li>
+    <li><a href="#reward-calculation">Reward Calculation</a></li>
+    <li><a href="#example-pop-icbam-combo-mining-for-voting-power">Example: PoP ICBAM Combo Mining for Voting Power</a></li>
+    <li><a href="#transfer-bridge">Transfer Bridge</a></li>
+    <li><a href="#inter-chain-asset-mappings">Inter-Chain Asset Mappings</a></li>
+    </ul></li>
+    <li><a href="#token-dex">Token DEX</a></li>
+    <li><a href="#hardware-mining-hardware-as-collateral">Hardware Mining (Hardware as Collateral)</a>
+    <ul>
+    <li><a href="#background--benefits-1">Background &amp; Benefits</a></li>
+    <li><a href="#goals-2">Goals</a></li>
+    <li><a href="#costs-1">Costs</a></li>
+    <li><a href="#registration-1">Registration</a></li>
+    <li><a href="#reward-calculation-1">Reward Calculation</a></li>
+    <li><a href="#rights-1">Rights</a></li>
+    <li><a href="#financial-model-2">Financial Model</a>
+    <ul>
+    <li><a href="#example-pop-hardware-assets-combo-mining-for-voting-power">Example: PoP Hardware Assets Combo Mining for Voting Power</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#development-mining-runtimes--dapps-as-collateral">Development Mining (Runtimes &amp; DApps as Collateral)</a>
+    <ul>
+    <li><a href="#background--benefits-2">Background &amp; Benefits</a></li>
+    <li><a href="#goals-3">Goals</a></li>
+    <li><a href="#costs-2">Costs</a></li>
+    <li><a href="#tags">Tags</a></li>
+    <li><a href="#registration-2">Registration</a></li>
+    <li><a href="#reward-calculation-2">Reward Calculation</a></li>
+    <li><a href="#rights-2">Rights</a></li>
+    <li><a href="#financial-model-3">Financial Model</a></li>
+    </ul></li>
+    <li><a href="#advocacy-mining-marketing-as-collateral">Advocacy Mining (Marketing as Collateral)</a>
+    <ul>
+    <li><a href="#background--benefits-3">Background &amp; Benefits</a></li>
+    <li><a href="#goals-4">Goals</a></li>
+    <li><a href="#costs-3">Costs</a></li>
+    <li><a href="#tags-1">Tags</a></li>
+    <li><a href="#registration-3">Registration</a></li>
+    <li><a href="#reward-calculation-3">Reward Calculation</a></li>
+    <li><a href="#rights-3">Rights</a></li>
+    <li><a href="#financial-model-4">Financial Model</a></li>
+    </ul></li>
+    <li><a href="#governance-mining-governance-as-collateral">Governance Mining (Governance as Collateral)</a>
+    <ul>
+    <li><a href="#background--benefits-4">Background &amp; Benefits</a></li>
+    <li><a href="#goals-5">Goals</a></li>
+    <li><a href="#costs-4">Costs</a></li>
+    <li><a href="#registration-4">Registration</a></li>
+    <li><a href="#reward-calculation-4">Reward Calculation</a></li>
+    <li><a href="#rights-4">Rights</a></li>
+    <li><a href="#financial-model-5">Financial Model</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#roaming-2">Roaming</a>
+    <ul>
+    <li><a href="#economics">Economics</a>
+    <ul>
+    <li><a href="#payment-and-monthly-audit-process">Payment and Monthly Audit Process</a></li>
+    <li><a href="#transaction-fees-subscription-based-or-ad-hoc-usage">Transaction Fees (Subscription-based or Ad-Hoc Usage)</a></li>
+    <li><a href="#operations-fees">Operations Fees</a>
+    <ul>
+    <li><a href="#subscription">Subscription</a></li>
+    <li><a href="#ad-hoc">Ad-Hoc</a></li>
+    </ul></li>
+    <li><a href="#default-roaming-fees">Default Roaming Fees</a></li>
+    <li><a href="#changes-to-roaming-fees">Changes to Roaming Fees</a></li>
+    <li><a href="#risks--mitigation-measures">Risks &amp; Mitigation Measures</a></li>
+    <li><a href="#token-acquisition-dhx">Token Acquisition (DHX)</a></li>
+    </ul></li>
+    <li><a href="#data-storage">Data Storage</a>
+    <ul>
+    <li><a href="#storage-requirements">Storage Requirements</a></li>
+    <li><a href="#storage-periodic-maintenance-and-migration">Storage Periodic Maintenance and Migration</a>
+    <ul>
+    <li><a href="#data-pruning">Data Pruning</a></li>
+    <li><a href="#data-retention-and-periodic-migration">Data Retention and Periodic Migration</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#architecture">Architecture</a>
+    <ul>
+    <li><a href="#class-diagrams">Class Diagrams</a>
+    <ul>
+    <li><a href="#aggregations-of-smb-and-forwarding">Aggregations (of SMB and Forwarding)</a></li>
+    </ul></li>
+    <li><a href="#class-diagram-simplified">Class Diagram (Simplified)</a></li>
+    <li><a href="#swimlane-flowchart-diagrams">Swimlane (Flowchart) Diagrams</a>
+    <ul>
+    <li><a href="#lpwan-supernode-network-setup-shared-identity--staking">LPWAN Supernode Network Setup, Shared Identity &amp; Staking</a></li>
+    <li><a href="#gateway-setup--staking">Gateway Setup &amp; Staking</a></li>
+    <li><a href="#end-device-setup--staking">End Device Setup &amp; Staking</a></li>
+    <li><a href="#end-device-roaming-setup">End Device Roaming Setup</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#use-cases">Use Cases</a>
+    <ul>
+    <li><a href="#roaming-with-mxc-end-device-between-supernodes-registered-on-mxc-network">Roaming with MXC End Device between Supernodes Registered on MXC Network</a></li>
+    <li><a href="#roaming-at-a-supernode-that-is-registered-on-the-mxc-network-using-an-end-device-from-a-different-network-operator-that-is-registered-on-thingpark-exchange-tex">Roaming at a Supernode that is registered on the MXC Network using an End Device from a different Network Operator that is registered on ThingPark Exchange (TEX)</a></li>
+    <li><a href="#flowchart-diagrams">Flowchart Diagrams</a></li>
+    <li><a href="#roaming-at-a-swisscom-network-server-ns-using-an-end-device-from-a-different-network-operator-eg-mxc-swisscom-that-is-registered-on-thingpark-exchange-tex">Roaming at a Swisscom Network Server (NS) using an End Device from a different Network Operator (e.g. MXC, Swisscom) that is registered on ThingPark Exchange (TEX)</a></li>
+    </ul></li>
+    <li><a href="#ux-design">UX Design</a>
+    <ul>
+    <li><a href="#proposed-roaming-integration-into-mxprotocol-of-lpwan-supernodes">Proposed Roaming Integration into MXProtocol of LPWAN Supernodes</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#inter-chain-data-market-2">Inter-Chain Data Market</a>
+    <ul>
+    <li><a href="#data-trading">Data Trading</a>
+    <ul>
+    <li><a href="#ux-design-1">UX Design</a></li>
+    <li><a href="#class-diagram">Class Diagram</a>
+    <ul>
+    <li><a href="#data-item-end-device-data-listed-on-inter-chain-data-market--purchase-order-granting-access-with-data-validated--certified">Data Item (End Device Data) Listed on Inter-Chain Data Market &amp; Purchase Order Granting Access with Data Validated &amp; Certified</a></li>
+    </ul></li>
+    <li><a href="#swimlane-flowchart-diagrams-1">Swimlane (Flowchart) Diagrams</a>
+    <ul>
+    <li><a href="#data-seller-configures-end-device-sensor-data-frames-for-graphs-on-m2m-portal">Data Seller configures End Device (Sensor) Data Frames for Graphs on M2M Portal</a></li>
+    <li><a href="#data-seller-configures-end-device-sensor-data-visualizations--monitoring-for-dashboard-on-inter-chain-data-market">Data Seller configures End Device (Sensor) Data Visualizations &amp; Monitoring for Dashboard on Inter-Chain Data Market</a></li>
+    <li><a href="#data-seller-configures-sale--auction-of-end-device-sensor-data-listing-on-inter-chain-data-market">Data Seller configures Sale / Auction of End Device (Sensor) Data Listing on Inter-Chain Data Market</a>
+    <ul>
+    <li><a href="#data-buyer-requirements">Data Buyer Requirements</a></li>
+    <li><a href="#data-buyer-choices">Data Buyer Choices</a></li>
+    </ul></li>
+    <li><a href="#data-buyer-purchases--bids-for-access-grant-to-end-device-sensor-data-listing-on-inter-chain-data-market">Data Buyer Purchases / Bids for Access Grant to End Device (Sensor) Data Listing on Inter-Chain Data Market</a>
+    <ul>
+    <li><a href="#data-buyer-payment-options">Data Buyer Payment Options</a></li>
+    </ul></li>
+    <li><a href="#data-buyer-accesses-sensor-data-frames-from-inter-chain-decentralized-app-dapp">Data Buyer Accesses Sensor Data Frames from Inter-Chain Decentralized App (DApp)</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#data-validation">Data Validation</a>
+    <ul>
+    <li><a href="#external-oracles">External Oracles</a>
+    <ul>
+    <li><a href="#purpose">Purpose</a></li>
+    <li><a href="#definition">Definition</a></li>
+    <li><a href="#types">Types</a></li>
+    <li><a href="#risk-ratings">Risk Ratings</a></li>
+    <li><a href="#example">Example</a></li>
+    </ul></li>
+    <li><a href="#swimlane-flowchart-diagrams-2">Swimlane (Flowchart) Diagrams</a>
+    <ul>
+    <li><a href="#validate--certify--store-external-data-frames-retrieved-using-oracles-notaries--data-storage-backend">Validate &amp; Certify &amp; Store External Data Frames Retrieved using Oracles, Notaries &amp; Data Storage Backend</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#data-monitoring">Data Monitoring</a>
+    <ul>
+    <li><a href="#business-concept-diagram">Business Concept Diagram</a></li>
+    </ul></li>
+    </ul></li>
+    <li><a href="#application-ecosystem">Application Ecosystem</a></li>
+    <li><a href="#technical-model">Technical Model</a>
+    <ul>
+    <li><a href="#consensus">Consensus</a></li>
+    <li><a href="#custom-substrate-runtime-modules">Custom Substrate Runtime Modules</a></li>
+    <li><a href="#node">Node</a></li>
+    <li><a href="#other-infrastructure">Other Infrastructure</a></li>
+    </ul></li>
+    <li><a href="#glossary">Glossary</a>
+    <ul>
+    <li><a href="#mining-2">Mining</a></li>
+    <li><a href="#roaming-3">Roaming</a></li>
+    </ul></li>
+    <li><a href="#abbreviations">Abbreviations</a>
+    <ul>
+    <li><a href="#mining-3">Mining</a></li>
+    <li><a href="#roaming-4">Roaming</a></li>
+    </ul></li>
+    <li><a href="#references">References</a></li>
+    <li><a href="#appendices">Appendices</a>
+    <ul>
+    <li><a href="#appendix-1-general---technical-model-of-substrate">Appendix 1: General - Technical Model of Substrate</a>
+    <ul>
+    <li><a href="#integration-of-the-data-highway-parachain-into-the-polkadot-network">Integration of the Data Highway Parachain into the Polkadot network</a></li>
+    </ul></li>
+    <li><a href="#appendix-2-roaming---lorawan-technology">Appendix 2: Roaming - LoRaWAN Technology</a></li>
+    <li><a href="#appendix-3-roaming---use-case-alice-and-bob">Appendix 3: Roaming - Use Case (Alice and Bob)</a>
+    <ul>
+    <li><a href="#assumptions">Assumptions</a></li>
+    <li><a href="#user-personas">User Personas</a></li>
+    <li><a href="#user-story">User Story</a></li>
+    </ul></li>
+    </ul></li>
+    </ul>
+</div>
+
+<div class="page-break"></div>
 
 ## Introduction
 
@@ -44,9 +358,13 @@ It will allow users to be rewarded in return for participation.
 
 The Data Highway's (DHX) Inter-Chain Data Market allows participants to become data providers and to share IoT data from their devices to application developers in exchange for DHX tokens.
 
+#### LPWAN
+
+A category of devices that run on low bandwidths (less than 125kHz, 200bps) with low power consumption (less than 2W when transmitting). Typically the technologies involved include LoRaWAN, Sigfox, Weightless, NB-IoT.
+
 #### Roaming
 
-Devices (LoRaWAN IoT End Devices) are owned by Data Providers and registered at a "home" Network Server (or Supernode that has purchased specific Network ID) that belongs to a specific Network Operator (such as the MXC Network).
+Devices (LPWAN IoT End Devices) are owned by Data Providers and registered at a "home" Network Server (or Supernode that has purchased a specific Network ID) that belongs to a specific Network Operator (such as the MXC Network).
 
 Data Consumers may request to be granted access to receive packets of data that have been uplinked from a device, which may require purchasing ad-hoc access or a subscription from the Data Highway's Inter-Chain Data Market (see separate "Inter-Chain Data Market" Whitepaper).
 
@@ -54,23 +372,23 @@ Device owners may enable or disable roaming and associated payments via the LPWA
 
 Supernode owners may also choose to restrict access to roaming devices via the LPWAN Supernode Portal.
 
-Data Highway (DH) is an implementation of an open-source and fully decentralised roaming service that allows LoRaWAN IoT End Devices that have enabled roaming to move out of the network coverage area of their "home" Network Server and into the network coverage area of a "visited" Network Server, where the "visited" Network Server may query the Data Highways distributed ledger (database storage) to retrieve information such as whether the device has enabled roaming, and whether an individual party to party (bilateral) roaming agreement has been established between the Network Operator of the "visited" Network Server and the Network Operator of the "home" Network Server. If the roaming join request is accepted then the packets of data that are uplinked when roaming will be forwarded such that Data Consumers gain continuous access to the data.
+Data Highway (DH) is an implementation of an open-source and fully decentralised roaming service that allows LPWAN IoT End Devices that have enabled roaming to move out of the network coverage area of their "home" Network Server and into the network coverage area of a "visited" Network Server, where the "visited" Network Server may query the Data Highways distributed ledger (database storage) to retrieve information such as whether the device has enabled roaming, and whether an individual party to party (bilateral) roaming agreement has been established between the Network Operator of the "visited" Network Server and the Network Operator of the "home" Network Server. If the roaming join request is accepted then the packets of data that are uplinked when roaming will be forwarded such that Data Consumers gain continuous access to the data.
 
-The Network Server's are referred to as Supernodes if they have purchased a Network ID and belong to the MXC Network).
+The Network Server's are referred to as MXC Supernodes if they have purchased a Network ID and belong to the MXC Network. Other technologies like Sigfox and NB-IoT can also participate through Network ID based roaming.
 
-It will be compatible with the latest [LoRaWAN Backend Interface Specification](https://lora-alliance.org/sites/default/files/2018-04/lorawantm-backend-interfaces-v1.0.pdf). A public API will be exposed that anyone (including but not limited to LoRa Alliance DNS Operators and LoRa Alliance members) may access to allow them to setup and immutably store and retrieve information about roaming network operators (decentralized LPWAN DNS Service), networks (decentralised LPWAN Roaming Service, including purchase price for network ids), users (and their priveleges), organizations, roaming policies (accounting, billing, charging, adjustments), and profiles (routing, service).
+It will be compatible with the latest <a href="https://lora-alliance.org/sites/default/files/2018-04/lorawantm-backend-interfaces-v1.0.pdf" target="_blank" class="pretty-link-colored">LoRaWAN Backend Interface Specification</a>. A public API will be exposed that anyone (including but not limited to LoRa Alliance DNS Operators and LoRa Alliance members) may access to allow them to setup and immutably store and retrieve information about roaming network operators (decentralized LPWAN DNS Service), networks (decentralised LPWAN Roaming Service, including purchase price for network ids), users (and their priveleges), organizations, roaming policies (accounting, billing, charging, adjustments), and profiles (routing, service).
 
-Supernodes implement the MXProtocol and provide a user-interface (UI). This UI shall be updated to allow Supernode owners and stakeholders to interact with this API, as shown in these [proposed changes](#Proposed-Roaming-Integration-into-MXProtocol-of-LPWAN-Supernodes).
+Supernodes implement the MXProtocol and provide a user-interface (UI). This UI shall be updated to allow Supernode owners and stakeholders to interact with this API, as shown in these <a href="#Proposed-Roaming-Integration-into-MXProtocol-of-LPWAN-Supernodes" class="pretty-link-colored">proposed changes</a>.
 
-Other roaming hubs that choose to store their roaming policies and agreements on the Data Highway will be supported in their efforts. Alternatively the MXC Foundation gGmbH will facilitate the bridge between other centralized and decentralized roaming hubs and the Data Highway.
+Other roaming hubs that choose to store their roaming policies and agreements on the Data Highway will be supported in their efforts. Alternatively the MXC Foundation gGmbH, Lora Alliance, Sigfox and 3GPP will facilitate the bridge between other centralized and decentralized roaming hubs and the Data Highway.
 
-Reference: Page 22 of https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf
+Reference: Page 22 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Whitepaper</a>.
 
 <div class="page-break"></div>
 
 ## Goals
 
-Reference: Page 25 of https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf
+Reference: Page 25 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Whitepaper</a>.
 
 ### Fair Distribution & Decentralisation Model
 
@@ -94,13 +412,9 @@ MXC has designed a low barrier to entry to allow anyone to participate in the DH
 
 #### Fully Decentralized Roaming Solution
 
-The goal is to create a fully decentralized LPWAN Roaming hub solution that uses the Parachain Operator layer of the MXProtocol Architecture and provides a decentralized LPWAN DNS Service.
+The goal is to create a fully decentralized LPWAN Roaming hub solution that uses the Parachain Operator layer of the MXProtocol Architecture and provides a decentralized LPWAN Roaming Packet Forwarding Service.
 
-![](https://i.imgur.com/7RQpnui.jpg)
-
-Figure: MXProtocol Architecture
-
-Reference: Page 2 of [MXC's Data Economy Whitepaper](https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf)
+Reference to the proposed implementation of the DataHighway: Page 2 of [MXC's Data Economy Whitepaper](https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf)
 
 MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of [LoRaWAN Technology](#Appendix-2-LoRaWAN-Technology)
 
@@ -122,7 +436,7 @@ Implementations of the LPWAN App Server and LPWAN Server will be updated to be c
 
 #### Automated Billing & Charging
 
-* Financial settlement of exchanged roaming-specific data handled on the Data Highway
+* Financial settlement of exchanged roaming-specific data handled on the DataHighway
 
 #### Competitive (Low-Cost), Fair Access, and Consumer Protection
 
@@ -147,11 +461,11 @@ The LPWAN Supernode Hub has a modern and intuitive interface that allows IoT End
 
 ![](https://i.imgur.com/iNShRuJ.png)
 
-**Figure: Toggle Roaming participation in Gateway User Panel (old UX)**
+**Figure: Toggle Roaming participation in Gateway User Panel (example implementation with DataHighway)**
 
 ![](https://i.imgur.com/ypAnAIy.png)
 
-**Figure: Toggle Roaming participation in End Device User Panel (old UX)**
+**Figure: Toggle Roaming participation in End Device User Panel (example implementation with DataHighway)**
 
 Reference:
 * https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf
@@ -166,7 +480,7 @@ The Data Highway will be a Polkadot parachain that is forecast to support at lea
 
 *"Depending on the block production algorithm and parameters, the transaction throughput of each chain can vary, and thus the overall throughput of the Polkadot network can only be estimated. The first version of Polkadot will allow up to 100 parachains, and assuming each can support at least 10 transactions per second (TPS), a lower bound on throughput would be about 1000 TPS."*
 
-Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the Data Highway's Inter-Chain Data Market (separate Whitepaper) will require higher TPS since it includes a DEX.
+Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the Data Highway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX.
 
 ![](https://i.imgur.com/Sc5GRdi.png)
 
@@ -175,7 +489,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### Security
 
-* Secure mechanism to ensure data stream may be copied and transmitted sequentially from Data Provider (owner of IoT End Device) to Data Buyer (consumer).
+* Secure End2End mechanism to ensure data streams may be copied and transmitted sequentially from Data Providers (owners of IoT End Devices) to Data Buyers (consumers).
 
 ### Auditable
 
@@ -188,7 +502,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### DEX
 
-* Financial settlement of exchanged data may be handled by MXC.
+* Financial settlement of exchanged data may be handled by the DataHighway for roaming payments.
 
 ### API
 
@@ -280,8 +594,8 @@ The DHX DAO may elect to make a protocol change these economic variables.
 
 The issuance of the DHX token is through either:
 * Block Authoring / Production Rewards - DHX to NPoS Collators for producing a block
-* Unfreezing DAO Treasury Unlocked Reserves - DHX entitlements claimed through DAO approval
-* Decentralised Exchange - DHX exchanged for other assets
+* Unfreezing DAO Treasury Unlocked Reserves - DHX entitlements claimed through DAO approval in a democratic way
+* Decentralised/Centralized Exchange - DHX exchanged for other assets
 
 #### Block Authoring / Production Rewards
 
@@ -1590,7 +1904,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 * Roaming
     * API
-      * Refer to current implementation of Roaming Runtime Modules https://github.com/DataHighway-DHX/node/tree/master/packages/roaming
+      * Refer to current implementation of Roaming Runtime Modules https://github.com/DataHighway-com/node/tree/master/packages/roaming
 * Staking (NPoS):
     * Reward
         * Amount
