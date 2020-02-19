@@ -3,6 +3,24 @@ id: whitepaper
 title: DataHighway's Economic Whitepaper
 sidebar_label: Whitepaper
 ---
+
+<!-- Onn the Whitepaper page we need to show the left sidebar, otherwise on smaller
+responsive views the Docusaurus-generated Table of Contents does not turn into
+a hanburger menu. But when the left sidebar is shown it only shows a link "Whitepaper"
+and uses up a large column space. So we want to hide it, but only on the Whitepaper
+page, otherwise other pages won't display their left sidebar. Since this is a static
+site we don't have access to the `window` object to conditioally apply globally defined
+styles that are defined in website/static/css folder to only certain pages, so we're
+using an alternative of defining a styles tag here where its styles will only apply to this
+page -->
+<style>
+@media only screen and (min-width: 1024px) {
+  .docsNavContainer {
+    display: none !important;
+  }
+}
+</style>
+
 <span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">DataHighway's Economic Whitepaper</span>
 <br />
 <div class="background-custom"></div>
