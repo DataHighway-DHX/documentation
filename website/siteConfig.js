@@ -43,6 +43,8 @@ const siteConfig = {
     {doc: 'tutorials/tutorials-accounts-create-account', label: 'Tutorials'},
     {doc: 'api/rust-reference-docs', label: 'API Reference'},
     {doc: 'whitepaper', label: 'Whitepaper' },
+    { search: false }, // See Algolia
+    { languages: false },
   ],
 
   // If you have users set above, you add it here:
@@ -109,7 +111,14 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
   baseUrlGithub: 'https://github.com/DataHighway-DHX',
-  chatUrlDiscord: 'https://discord.gg/t3mQAZ'
+  chatUrlDiscord: 'https://discord.gg/t3mQAZ',
+
+  // Search https://docusaurus.io/docs/en/search
+  // algolia: {
+  //   apiKey: 'my-api-key',
+  //   indexName: 'my-index-name',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
 };
 
 // Use prism for syntax highlighting

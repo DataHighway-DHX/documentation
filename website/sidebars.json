@@ -18,5 +18,10 @@
       "tutorials/tutorials-mining-hardware-check-eligibility",
       "tutorials/tutorials-mining-hardware-claim-rewards"
     ]
+  },
+  "whitepaper": {
+    "Whitepaper": [
+      "whitepaper"
+    ]
   }
 }
