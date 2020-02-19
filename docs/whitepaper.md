@@ -3,7 +3,7 @@ id: whitepaper
 title: Data Highway's Economic Whitepaper
 sidebar_label: Whitepaper
 ---
-<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">Data Highway's Economic Whitepaper</span>
+<span style="font-size: 2em; font-weight: 700;" class="pdf-only">Data Highway's Economic Whitepaper</span>
 <br />
 <div class="background-custom"></div>
 
@@ -29,7 +29,7 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
 <div class="page-break"></div>
 
 <div class="pdf-only">
-    <span style="font-size: 1.5em; font-weight: 700;!important" class="pdf-only">Table of Contents</span>
+    <span style="font-size: 1.5em; font-weight: 700;" class="pdf-only">Table of Contents</span>
     <!-- INSERT TOC BELOW HERE -->
     <ul>
 	<li><a href="#releases">Releases</a></li>
@@ -394,7 +394,7 @@ Reference: Page 25 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_wh
 * No pre-mining (no DHX coins in circulation before announcement to achieve the concept of decentralisation)
 * No ICO
 
-![](https://i.imgur.com/yvZdFKO.png)
+<img src="https://i.imgur.com/yvZdFKO.png">
 
 Figure 0: Overview of Mining in the Data Highway
 
@@ -413,13 +413,14 @@ MXC has designed a low barrier to entry to allow anyone to participate in the DH
 
 The goal is to create a fully decentralized LPWAN Roaming hub solution that uses the Parachain Operator layer of the MXProtocol Architecture and provides a decentralized LPWAN Roaming Packet Forwarding Service.
 
-Reference to the proposed implementation of the DataHighway: Page 2 of [MXC's Data Economy Whitepaper](https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf)
+Reference to the proposed implementation of the DataHighway: Page 2 of <a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
 
-MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of [LoRaWAN Technology](#Appendix-2-LoRaWAN-Technology)
+MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of <a href="#Appendix-2-LoRaWAN-Technology" class="pretty-link-colored">LoRaWAN Technology</a>
 
 ![](https://i.imgur.com/SAcZlI3.png)
 
-Figure: LoRa App Server Architecture (Source: https://www.loraserver.io/lora-app-server/overview/)
+Figure: 
+<a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
 
 #### Compatibility with the LoRa Alliance
 
@@ -445,7 +446,7 @@ Implementations of the LPWAN App Server and LPWAN Server will be updated to be c
 * Standards shall be established so there is logic and consistency between these bilateral agreements that will be openly accessible, which will drive Network Operators to seek other means to remain competitive. This is a remarkably better than the approach that is taken in mobile phone roaming, where there is a lack of transparency and insight available surrounding such similar agreements that are argued to be commercially sensitive based on the grounds that this is necessary for Network Operators to remain competitive, and whether the market strength of the parties involved are known to influence the terms of the agreements.
 
 References:
-  * Page 12 of http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf
+  * Page 12 of <a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report</a>
 
 #### Interfaces
 
@@ -458,20 +459,19 @@ References:
 
 The LPWAN Supernode Hub has a modern and intuitive interface that allows IoT End Device and Gateway owners to easily toggle whether their device will participate in roaming.
 
-![](https://i.imgur.com/iNShRuJ.png)
+<img src="https://i.imgur.com/iNShRuJ.png">
 
 **Figure: Toggle Roaming participation in Gateway User Panel (example implementation with DataHighway)**
 
-![](https://i.imgur.com/ypAnAIy.png)
+<img src="https://i.imgur.com/ypAnAIy.png">
 
 **Figure: Toggle Roaming participation in End Device User Panel (example implementation with DataHighway)**
 
-Reference: 
-* https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf
+Reference: <a href="https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC SMB Whitepaper</a>
 
 ### External Oracle
 
-Refer to [Data Validation](#Data-Validation) section.
+Refer to <a href="#Data-Validation" class="pretty-link-colored">Data Validation</a> section.
 
 ### Scalability
 
@@ -481,10 +481,9 @@ The Data Highway will be a Polkadot parachain that is forecast to support at lea
 
 Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the Data Highway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX.
 
-![](https://i.imgur.com/Sc5GRdi.png)
+<img src="https://i.imgur.com/Sc5GRdi.png">
 
-* Reference
-  * https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff
+* Reference <a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
 
 ### Security
 
@@ -496,7 +495,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### Plugins
 
-* Plugin architecture offering compatibility with third-party tools (see Data Monitoring). Example: [Grafana](https://grafana.com/) with [Alibaba Cloud](https://www.alibabacloud.com/product/iot) (or similar equivalent)
+* Plugin architecture offering compatibility with third-party tools (see Data Monitoring). Example: <a href="https://grafana.com" target="_blank" class="pretty-link-colored">Grafana</a> with <a href="https://www.alibabacloud.com/product/iot" target="_blank" class="pretty-link-colored">Alibaba Cloud</a> (or similar equivalent)
 * Data stacked in bundles and purchasable in future
 
 ### DEX
@@ -505,7 +504,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### API
 
-* Expose API endpoints, such as to access data from the data market, which may be roaming-specific. Refer to the [API](#Technical-Model).
+* Expose API endpoints, such as to access data from the data market, which may be roaming-specific. Refer to the <a href="#Technical-Model" class="pretty-link-colored">API</a>.
 
 <div class="page-break"></div>
 
@@ -529,8 +528,8 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 - Data Highway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 
 ### April 2020
-- Polkadot Mainnet Launch. See https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png
-- Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's [Cumulus Framework](https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/) or the Parachain Development Kit (PDK)
+- Polkadot Mainnet Launch. See <a href="https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png" target="_blank" class="pretty-link-colored">Extract from Discord Discussion</a>
+- Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's <a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a> or the Parachain Development Kit (PDK)
 - Data Highway Testnet (Roaming + Mining) on Substrate-based chain using PoA collators
 
 ### June 2020
@@ -540,8 +539,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 ### July 2020
 - Data Highway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
 
-* References:
-  * https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699
+* References <a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slots</a>
 
 <div class="page-break"></div>
 
@@ -551,7 +549,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
-![](https://i.imgur.com/tK4d8Lr.png)
+<img src="https://i.imgur.com/tK4d8Lr.png">
 
 Table 1: Data Highway Economic Variables
 

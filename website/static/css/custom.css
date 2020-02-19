@@ -7,6 +7,30 @@
  
 /* your custom css */
 
+/* unvisited link */
+/* a:link {
+  font-weight: 400;
+  color: #00aaff;
+} */
+
+/* visited link */
+/* a:visited {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
+/* mouse over link */
+/* a:hover {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
+/* selected link */
+/* a:active {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
 .pretty-link:link {
   text-decoration: none;
 }
