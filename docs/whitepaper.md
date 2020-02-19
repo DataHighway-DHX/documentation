@@ -676,6 +676,8 @@ The block reward treasury fees is the amount remaining after collator fees. They
             * Max. 20% MSB Per Proposal
                 * Token Mining (ICBAM)
                     * Locking of assets that are supported
+                    * Sigalling
+                        * Token Miners that wish to only signal (rather than locking) attract **10%** of the lowest locking MSBs
             * Max. 40% MSB Per Proposal
                 * Hardware Assets Mining
                     * Partially subsidising new setup costs of Secure LPWAN hardware through the DHX DAO Treasury for "early majority adopters" in new regions incase hardware and cloud costs have not reduced despite a halving, and to subsidise upgrade costs for "early adopters" incase hardware and cloud costs have not reduced despite a halving.
@@ -774,9 +776,10 @@ Other means of acquiring DHX tokens at through participating as follows:
         * Network Operators benefit from interoperability through decentralised DNS and earn DHX from roaming fees.
         * Supernodes that earn DHX from roaming fees.
     * Mining Base (Voting Power) Rewards
-        * Data participants that earn interest in DHX from just holding DHX, MXC, IOTA, and DOT (wihout even locking it) that may be paid for using a proportion of the Token Mining boost of up to 1.2x their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval. Mining Base (Voting Power) is paid for using a proportion of the MSB (if any), where MSB is always issued through DAO approval.
+        * Data participants that earn interest in DHX from just holding DHX, MXC, IOTA, and DOT (without even locking it) that may be paid for using a proportion of the Token Mining boost of up to 1.2x their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval. Mining Base (Voting Power) is paid for using a proportion of the MSB (if any), where MSB is always issued through DAO approval.
     * Mining-Speed Boosts (MSB)
         * Token Mining by registering that any of the following tokens have been locked for a period of time: DHX, MXC, IOTA, or DOT. Paid for using DHX DAO Treasury's Unlocked Reserves.
+        * Token Mining by Signalling, where they just hold DHX, MXC, IOTA, and DOT (without even locking it) and may be eligible to claim **10%** of the lowest locking MSBs rates and apply it to their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval.
         * Hardware Mining owners (i.e. End Devices, Gateway owners, Supernode owners, Collator Nodes), DHX DAO Governance participants (from the Council that audit referendums or other participants that vote on Council elections or help to organise resolution of other proposals such as categorising, proposing financial impact, disputes) where they may earn the Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
         * Data buyers such as Inter-Chain Data Market buyers that use Data Highway data in DApps that may be from other chains (e.g. IOTA) and increase adoption in the IoT data economy overall, thereby participate in Development Mining and/or Advocacy Mining through API referrals which contributes to the potential Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
     * Mining Loyalty Boost (MLB)
@@ -912,16 +915,17 @@ Initially only automatic rewards shall be offered, which requires mining registr
 
 * PoP ICBAM MSB Periods Available
     * MXC ICBAM MSB is calculated using a linear regression formula `1.025*0.00015*days_mxc_held` of the form `y=a+bx`, where `y` is the dependent variable on the y axis, `x` is the independent variable plotted on the x axis, `b` is the slope of the line, and `a` is the y-intercept
-    * IOTA and DOT ICBAM MSB is calculated using a linear regression formula `1.0125*0.000075*days_mxc_held` of the form `y=a+bx`
+    * IOTA and DOT ICBAM MSB Locking is calculated using a linear regression formula `1.0125*0.000075*days_mxc_held` of the form `y=a+bx`
     * 3, 6, 9, 12, 24, 36 months (maximum)
         * MXC corresponding MSBs are approx. 1.025, 1.05, 1.075, 1.10, 1.15, 1.2
-        * IOTA, DOT corresponding MSBs are approx. 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
+        * IOTA, DOT corresponding lower MSBs are approx. 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
+    * Signalling when Token Mining receives 10% of the lower MSBs (those that apply to IOTA and DOT)
 
 ![](https://i.imgur.com/zwc5ibf.png)
 
 * PoP ICBAM Supported Cryptocurrencies/Tokens and MSB
     * MXC, IOTA, or DOT
-* PoP ICBAM MSB Range 
+* PoP ICBAM MSB Range for Locking. Signalling receives 10% of lowest MSB. 
     * 1.0-1.2
 * PoP MDT Qualifying Level of PoP MSB required to unlock PoP ICBAM MSB
     * Greater than 1.1
@@ -960,7 +964,7 @@ An identity may earn an MSB factor through PoP.
 
 MXC receives a PoP MSB approx. twice as high as using IOTA or DOT.
 
-* Example - MSB: If a user stakes as a collator or a nominator and receives a proportion of the block reward of `4` DHX for producing a block at the same time as they are participating in PoP ICBAM with IOTA for 36 months that gives a `1.1` PoP ICBAM MSB, and they also received a `1.4` PoP Non-ICBAM MSB, then they will instead receive a block reward of `4 * (1.1 + 1.4) = 6 DHX`.
+* Example - MSB: If a user stakes as a collator or a nominator and receives a proportion of the block reward of `4` DHX for producing a block at the same time as they are participating in PoP ICBAM by Locking with IOTA for 36 months that gives a `1.1` PoP ICBAM MSB, and they also received a `1.4` PoP Non-ICBAM MSB, then they will instead receive a block reward of `4 * (1.1 + 1.4) = 6 DHX`. Note: If they only Signalled instead of Locking then they would receive 10% (i.e. `1.01` PoP ICBAM MSB) instead.
 
 ### Mining Loyalty Bonus (MLB)
 
@@ -1222,7 +1226,8 @@ Table 1.5: Hardware Assets Mining MSB
                 * 50x Secure End Devices
 * Process
     * Calculate Voting Power
-    * Calculate ICBAM MSB
+    * Calculate ICBAM MSB from Locking
+    * Calculate ICBAM MSB from Signalling 
     * Calculate Hardware MSB (using Table 1.5)
         * 1x Supernode => 1.24 MSB
         * 1x Consensus Node => 1.15 MSB
