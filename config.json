@@ -2,7 +2,7 @@
   "stylesheet": [
     "./style.css"
   ],
-  "css": "body { } .dh-logo-readme,.download-whitepaper { display: none; } .pdf-only { display: block; } .pretty-link-colored { font-weight: 400; color: #00aaff !important; }",
+  "css": "body { } .dh-logo-readme,.download-whitepaper { display: none; } .pdf-only { display: block; } .pretty-link-colored { font-weight: 400; color: #00aaff !important; } table,tr,th,td { border: 1px solid black; text-align: center; } td { padding: 0.5em; }",
   "body_class": "markdown-body",
   "highlight_style": "monokai",
   "marked_options": {

@@ -54,3 +54,18 @@
 .pdf-only {
   display: none;
 }
+
+table {
+  width: 100%; 
+  text-align: center;
+}
+
+tr,td { text-align: center; }
+
+.table-vertical-column-text {
+  text-align: center;
+  white-space: nowrap;
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+  padding: 20px 0px 0px 0px;
+}

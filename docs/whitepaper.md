@@ -551,7 +551,48 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
-![](https://i.imgur.com/tK4d8Lr.png)
+<table>
+    <tr>
+        <td>Genesis Total Supply (Monetary Base)</td>
+        <td>100000000</td>
+    </tr>
+    <tr>
+        <td>Genesis DHX DAO Treasury Unlocked Reserves</td>
+        <td>30000000</td>
+    </tr>
+    <tr>
+        <td>Remaining Genesis Supply</td>
+        <td>70000000</td>
+    </tr>
+    <tr>
+        <td>Genesis Estimated Staking Participation Collator Pool Size</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Exchange Rate (USD per DHX) Assumption</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Block Production / Mining Time</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Initial Block Reward</td>
+        <td>0.25</td>
+    </tr>
+    <tr>
+        <td>Block Reward Collator Fees (% of Annual Supply)</td>
+        <td>20%</td>
+    </tr>
+    <tr>
+        <td>Block Reward Treasury Fees (% of Annual Supply)</td>
+        <td>80%</td>
+    </tr>
+    <tr>
+        <td>Inflation Cycle Duration (Years)</td>
+        <td>4</td>
+    </tr>
+</table>
 
 Table 1: DataHighway Economic Variables
 
@@ -600,7 +641,104 @@ The issuance of the DHX token is through either:
 
 The initial token issuance halving inflation strategy cycle (halving of the block production reward) shall occur every four (4) years using the "Decreasing-Supply Algorithm".
 
-![](https://i.imgur.com/o6x9GdJ.png)
+<table class="block-authoring">
+    <tr>
+        <th>Year</th>
+        <th>Inflation Cycle</th>
+        <th>Inflation Factor</th>
+        <th>Block Reward</th>
+        <th>Remaining Total Supply (DHX)</th>
+        <th>% of Total Supply Issued</th>
+    </tr>
+    <tr>
+        <td>2020</td>
+        <td>1</td>
+        <td>1.00</td>
+        <td>0.25</td>
+        <td>69121600</td>
+        <td>1.25</td>
+    </tr>
+    <tr>
+        <td>2021</td>
+        <td>1</td>
+        <td>1.00</td>
+        <td>0.25</td>
+        <td>68245600</td>
+        <td>2.51</td>
+    </tr>
+    <tr>
+        <td>2022</td>
+        <td>1</td>
+        <td>1.00</td>
+        <td>0.25</td>
+        <td>67369600</td>
+        <td>3.76</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>1</td>
+        <td>1.00</td>
+        <td>0.25</td>
+        <td>66493600</td>
+        <td>5.01</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>2</td>
+        <td>0.96</td>
+        <td>0.24</td>
+        <td>65650336</td>
+        <td>6.21</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>2</td>
+        <td>0.96</td>
+        <td>0.24</td>
+        <td>64809376</td>
+        <td>7.42</td>
+    </tr>
+    <tr>
+        <td>2026</td>
+        <td>2</td>
+        <td>0.96</td>
+        <td>0.24</td>
+        <td>63968416</td>
+        <td>8.62</td>
+    </tr>
+    <tr>
+        <td>2027</td>
+        <td>2</td>
+        <td>0.96</td>
+        <td>0.24</td>
+        <td>63127456</td>
+        <td>9.82</td>
+    </tr>
+    <tr>
+        <td>2028</td>
+        <td>3</td>
+        <td>0.92</td>
+        <td>0.23</td>
+        <td>62317923</td>
+        <td>10.97</td>
+    </tr>
+    <tr>
+        <td>2029</td>
+        <td>3</td>
+        <td>0.92</td>
+        <td>0.23</td>
+        <td>61510601</td>
+        <td>12.13</td>
+    </tr>
+    <tr>
+        <td>2030</td>
+        <td>3</td>
+        <td>0.92</td>
+        <td>0.23</td>
+        <td>60703279</td>
+        <td>13.28</td>
+    </tr>
+</table>
 
 Table 2: Token Issuance Halving
 
@@ -647,17 +785,308 @@ The forecast collator pool size staking at genesis is 100.
 
 The consensus node capacity shall be 1000 (same as ChainX).
 
-![](https://i.imgur.com/PcMsSOE.png)
+<!-- http://beautifytools.com/csv-to-html-converter.php -->
+<table>
+    <tr>
+        <th rowspan="2">Year</th>
+        <th colspan="2">Block Production / Mining Rate</th>
+        <th colspan="3">Block Reward Issuance Breakdown (in DHX)</th>
+    </tr>
+    <tr>
+        <th>Per Min.</th>
+        <th>Per Day</th>
+        <th>Block Reward Issuance Per Min. (DHX)</th>
+        <th>Block Reward Issuance Per Day (DHX)</th>
+        <th>Block Reward Issuance Per Year (DHX)</th>
+    </tr>
+    <tr>
+        <td>2020</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6667</td>
+        <td>2400</td>
+        <td>876000</td>
+    </tr>
+    <tr>
+        <td>2021</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6667</td>
+        <td>2400</td>
+        <td>876000</td>
+    </tr>
+    <tr>
+        <td>2022</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6667</td>
+        <td>2400</td>
+        <td>876000</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6667</td>
+        <td>2400</td>
+        <td>876000</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6000</td>
+        <td>2304</td>
+        <td>840960</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6000</td>
+        <td>2304</td>
+        <td>840960</td>
+    </tr>
+    <tr>
+        <td>2026</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6000</td>
+        <td>2304</td>
+        <td>840960</td>
+    </tr>
+    <tr>
+        <td>2027</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.6000</td>
+        <td>2304</td>
+        <td>840960</td>
+    </tr>
+    <tr>
+        <td>2028</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.5360</td>
+        <td>2212</td>
+        <td>807322</td>
+    </tr>
+    <tr>
+        <td>2029</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.5360</td>
+        <td>2212</td>
+        <td>807322</td>
+    </tr>
+    <tr>
+        <td>2030</td>
+        <td>6.667</td>
+        <td>9600</td>
+        <td>1.5360</td>
+        <td>2212</td>
+        <td>807322</td>
+    </tr>
+</table>
+
 
 Table 3: Block Production Rate & Block Reward
 
 Note: Block reward treasury and collator fees have been calculated using the treasury and collator fee rates respectively.
 
-![](https://i.imgur.com/mKO72Jp.png)
+<table>
+    <tr>
+        <th rowspan="3">Year</th>
+        <th colspan="5">Collator Estimates</th>
+    </tr>
+    <tr>
+        <th>Revenue (DHX)</th>
+        <th>Max. Revenue (DHX)</th>
+        <th>Costs (DHX)</th>
+        <th>ROI (Profit Factor)</th>
+        <th>ROI (Profit Factor)</th>
+    </tr>
+    <tr>
+        <th>Per Collator Per Year (Excluding MSB & MLB)</th>
+        <th>Per Collator Per Year (Including Max. MSB of 60% & Max. MLB of 20%)</th>
+        <th>Per Collator Per Year (Excluding MSB & MLB)</th>
+        <th>Per Collator Per Year (Excluding MSB & MLB)</th>
+        <th>Per Collator Per Year (Including MSB & MLB)</th>
+    </tr>
+    <tr>
+        <td>2020</td>
+        <td>1756.8</td>
+        <td>2810.9</td>
+        <td>120.0</td>
+        <td>14.6</td>
+        <td>23.4</td>
+    </tr>
+    <tr>
+        <td>2021</td>
+        <td>1752.0</td>
+        <td>2803.2</td>
+        <td>121.8</td>
+        <td>14.4</td>
+        <td>23.0</td>
+    </tr>
+    <tr>
+        <td>2022</td>
+        <td>1752.0</td>
+        <td>2803.2</td>
+        <td>123.6</td>
+        <td>14.2</td>
+        <td>22.7</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>1752.0</td>
+        <td>2803.2</td>
+        <td>125.5</td>
+        <td>14.0</td>
+        <td>22.3</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>1686.5</td>
+        <td>2698.4</td>
+        <td>127.4</td>
+        <td>13.2</td>
+        <td>21.2</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>1681.9</td>
+        <td>2691.1</td>
+        <td>129.3</td>
+        <td>13.0</td>
+        <td>20.8</td>
+    </tr>
+    <tr>
+        <td>2026</td>
+        <td>1681.9</td>
+        <td>2691.1</td>
+        <td>131.2</td>
+        <td>12.8</td>
+        <td>20.5</td>
+    </tr>
+    <tr>
+        <td>2027</td>
+        <td>1681.9</td>
+        <td>2691.1</td>
+        <td>133.2</td>
+        <td>12.6</td>
+        <td>20.2</td>
+    </tr>
+    <tr>
+        <td>2028</td>
+        <td>1619.1</td>
+        <td>2590.5</td>
+        <td>135.2</td>
+        <td>12.0</td>
+        <td>19.2</td>
+    </tr>
+    <tr>
+        <td>2029</td>
+        <td>1614.6</td>
+        <td>2583.4</td>
+        <td>137.2</td>
+        <td>11.8</td>
+        <td>18.8</td>
+    </tr>
+    <tr>
+        <td>2030</td>
+        <td>1614.6</td>
+        <td>2583.4</td>
+        <td>139.3</td>
+        <td>11.6</td>
+        <td>18.6</td>
+    </tr>
+</table>
 
 Table 4: Collator Estimated ROI
 
-![](https://i.imgur.com/VtmfAjs.png)
+<table>
+    <tr>
+        <th rowspan="3">Year</th>
+        <th colspan="3">Block Reward Distribution</th>
+    </tr>
+    <tr>
+        <th>Issuance</th>
+        <th>Collator Fees</th>
+        <th>Treasury Fees</th>
+    </tr>
+    <tr>
+        <th>Per Year (DHX)</th>
+        <th>Per Year (DHX)</th>
+        <th>Per Year (DHX)</th>
+    </tr>
+    <tr>
+        <td>2020</td>
+        <td>878400</td>
+        <td>175680</td>
+        <td>702720</td>
+    </tr>
+    <tr>
+        <td>2021</td>
+        <td>876000</td>
+        <td>175200</td>
+        <td>700800</td>
+    </tr>
+    <tr>
+        <td>2022</td>
+        <td>876000</td>
+        <td>175200</td>
+        <td>700800</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>876000</td>
+        <td>175200</td>
+        <td>700800</td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>843264</td>
+        <td>168653</td>
+        <td>674611</td>
+    </tr>
+    <tr>
+        <td>2025</td>
+        <td>840960</td>
+        <td>168192</td>
+        <td>672768</td>
+    </tr>
+    <tr>
+        <td>2026</td>
+        <td>840960</td>
+        <td>168192</td>
+        <td>672768</td>
+    </tr>
+    <tr>
+        <td>2027</td>
+        <td>840960</td>
+        <td>168192</td>
+        <td>672768</td>
+    </tr>
+    <tr>
+        <td>2028</td>
+        <td>809533</td>
+        <td>161907</td>
+        <td>647627</td>
+    </tr>
+    <tr>
+        <td>2029</td>
+        <td>807322</td>
+        <td>161464</td>
+        <td>645857</td>
+    </tr>
+    <tr>
+        <td>2030</td>
+        <td>807322</td>
+        <td>161464</td>
+        <td>645857</td>
+    </tr>
+</table>
 
 Table 5: Block Reward Distribution
 
@@ -845,6 +1274,197 @@ The DH's Cash Flow Statement reports for a period of time how changes in the Fin
 ![](https://i.imgur.com/Xom2VPv.png)
 
 ![](https://i.imgur.com/Hn8hTb9.png)
+
+<!-- HTML version below looks horrible -->
+
+<!-- <table style="font-size: 0.7em">
+    <tr>
+        <th>Activity Type</th>
+        <th>Name</th>
+        <th class="table-vertical-column-text">Revenue</th>
+        <th class="table-vertical-column-text">Expense</th>
+        <th>Payer</th>
+        <th>Payee</th>
+        <th>Sub-Type</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Operating</td>
+        <td>Anti-Tax Evasion Transaction Fee</td>
+        <td>X</td>
+        <td></td>
+        <td>Validator</td>
+        <td>DAO Treasury</td>
+        <td>Fee (Transaction)</td>
+        <td>Fee that must be paid (using a proportion of the block reward) by the validator that produced the block to pay for securing the blockchain to discourage validators from evading fees. Minimum fee to be paid by the Validator that shall apply per transaction is 20% of the block reward. This does not apply to Treasury validators. An additional per-byte fee may also be applied depending on the size of each transaction subject to DHX DAO approval. See [5] [6].</td>
+    </tr>
+    <tr>
+        <td>Operating</td>
+        <td>Anti-DDoS Transaction Fee</td>
+        <td>X</td>
+        <td></td>
+        <td>End Users</td>
+        <td>Validator and DHX DAO Treasury</td>
+        <td>Fee (Transaction)</td>
+        <td>Fee that must be paid by the sender of a transaction to pay for securing the blockchain to reduce the likelihood of DDoS attacks. <br /><br />Free Transactions may apply subject to DHX DAO approval to user account proposals that demonstrated a history of staking PoP and an adequate DHX DAO Reputation Level</td>
+    </tr>
+    <tr>
+        <td>Operating</td>
+        <td>Misbehaviour Penalty Fee</td>
+        <td>X</td>
+        <td></td>
+        <td>Validator</td>
+        <td>DHX DAO Treasury</td>
+        <td>Fee (Penalty)</td>
+        <td>Fee that must be paid by End Users as a penalty (slashing) for misbehaviour. It pays for maintaining the security of the blockchain</td>
+    </tr>
+    <tr>
+        <td>Operating</td>
+        <td>Misbehaviour Penalty Fee</td>
+        <td>X</td>
+        <td></td>
+        <td>Validator (owned by DHX DAO Treasury)</td>
+        <td>N/A (Burn Tokens)</td>
+        <td>Negative Inflation</td>
+        <td>Fee that must be paid as a penalty (slashing) by the DHX DAO Treasury when they own a validator and are found to have misbehaved. It pays for maintaining the security of the blockchain.</td>
+    </tr>
+    <tr>
+        <td>Operating</td>
+        <td>Halving</td>
+        <td>X</td>
+        <td></td>
+        <td>Monetary Reserve</td>
+        <td>Monetary Reserve</td>
+        <td>Negative Inflation</td>
+        <td>Initiate a negative inflation from genesis by adopting halving ("Decreasing-Supply Algorithm") to decrease the block reward every "Halving Period". The DHX DAO Treasury community may propose to change inflation to a different strategy such as no inflation ("Transaction-Fee-Only Model").</td>
+    </tr>
+    <tr>
+        <td>Investing</td>
+        <td>Sale of DHX tokens</td>
+        <td>X</td>
+        <td></td>
+        <td>End Users</td>
+        <td>DEX</td>
+        <td>Issuance (of Token by DEX) or Exchange (by End User)</td>
+        <td>DEX excluded for simpler design</td>
+    </tr>
+    <tr>
+        <td>Investing</td>
+        <td>Purchase of DHX tokens</td>
+        <td></td>
+        <td>X</td>
+        <td>DEX</td>
+        <td>End Users</td>
+        <td>Investment (by DEX) or Exchange (by End User)</td>
+        <td>DEX excluded for simpler design</td>
+    </tr>
+    <tr>
+        <td>Investing</td>
+        <td>Purchase of MXC, IOTA, or DOT for the DHX DAO Treasury's Unlocked Reserves</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury</td>
+        <td>End Users</td>
+        <td>Investment</td>
+        <td>Tokens may be purchased for Quantitative Easing purposes.</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Payment of Block Reward</td>
+        <td></td>
+        <td>X</td>
+        <td>Monetary Reserve</td>
+        <td>Validator</td>
+        <td>Issuance (Token)</td>
+        <td>Tokens issued by the Monetary Reserve to validators that produce a valid block (with a proportion of this block reward used for the anti-tax evasion fee or the whole block reward if the validator is owned by the DHX DAO Treasury). The goal is to incentivise economic participation in the blockchain's consensus protocol and secure the blockchain. Since the reward goes to the validator that mined the block that validator has an incentive equal to the value of the fees to include as many transactions as possible in the block whereas if the reward were shared equally with the validators then there would be negligible incentive [5]. DHX DAO community governance participants may elect to modify the level of security of the blockchain protocol (i.e. modify the total supply cap).</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Refund of Anti-Tax Evasion Transaction Fees</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury</td>
+        <td>Validators</td>
+        <td>Refund</td>
+        <td>Refunds may apply subject to DHX DAO approval to user account proposals that demonstrated a healthy history of staking as a validator PoP and an adequate DHX DAO Reputation Level</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Rebate of Anti-DDoS Transaction Fees</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury</td>
+        <td>End User</td>
+        <td>Rebate</td>
+        <td>Future bundled Rebate Requests may be proposed for DHX DAO approval based on their DHX DAO Reputation Level.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>DHX DAO Treasury Unlocked Reserves to fund DHX DAO approved PoP MSBs (hashrate) through proposal evidence of Inter-Chain Bridged Asset Mining (ICBAM) and Hardware, Development, Advocacy and Governance Mining</td>
+        <td></td>
+        <td>X</td>
+        <td>Monetary Reserve</td>
+        <td>DHX DAO Treasury (then End User or DHX DAO Treasury)</td>
+        <td>Fund</td>
+        <td>DHX DAO unlocked reserve funds are reserved for potential future payment. A portion of them are allocated (within a daily limit) upon each DHX DAO approval of a proposal that contains evidence (PoP) of their entitlement eligibility to receive a MSB or MLB in DHX on top of any block reward that they may have earnt (up to an upper limit of 80% comprising 20% ICBAM MSB 40% non-ICBAM and 20% MLB) when validating or nominating over a period of time. <br /><br />To become entitled in addition to their stake having to have won the block reward the identity must first have participated prior through PoP means that the DHX DAO community would deem worthy to approve of.</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Proposal requesting to allocate DHX DAO unlocked reserve entitlements for PoP</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury</td>
+        <td>End Users or DHX DAO Treasury</td>
+        <td>Unlock (Tokens)</td>
+        <td>Release various DHX DAO unlocked reserve entitlements subject to DHX DAO Treasury community approval.  <br /><br />DHX DAO Treasury reviews proposals that are prioritised using a DHX DAO Proposal Prioritisation Formula that shall take into consideration weightings such as the DHX DAO Reputation of the proposer. <br /><br />Rejected proposals may be appealed through the DHX DAO Appeals Court. Rejected requests that are not appealed or are rejected by the appeal will have their entitlements allocated but shall remain in the DHX DAO Treasury.</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Distribution of DHX DAO Treasury Unlocked Reserves</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury</td>
+        <td>Various</td>
+        <td>Fund</td>
+        <td>DHX DAO Treasury Approvers that are eligible to approve proposals are selected using a formula that considers the proposers DHX DAO Reputation. DHX DAO Treasury Approvers are changed after each proposal. DHX DAO Treasury Approvers are responsible for rejecting or approving proposals (i.e. grant or loan request) that upon approval are allocated and distributed to the requestor. The proposal's requested funding amount determines DHX DAO Reputation Level that is required to be selected as a DHX DAO Treasury Approver (i.e. higher funding requested = higher reputation level to approve).
+        <br /><br />DHX DAO Treasury Grant Funding Proposals Reviewed Default Daily Limit applies to provide a daily upper limit on the quantity of proposals the DHX DAO may approve.
+        <br /><br />DHX DAO Treasury Grant Funding Amount Default Approval Limit applies to each requestor. Requestors may only increase it to a Custom amount through a DHX DAO decision that will take into consideration the requestor's DHX DAO Reputation (including their handing of funds that were distributed to them prior).
+        <br /><br />DHX DAO Treasury Grant Funding Staged Release Default Approval Times shall specify times when different proportions of the approved funds may be allocated for access by the requestor and with a proportion still possibly subject to the requestor providing further evidence of entitlement. The requestor's proposal may request that the funds be provided sooner at Custom times instead of the Default times through a DHX DAO decision that will take into consideration their DHX DAO Reputation (including their handing of funds that were distributed to them prior). <br /><br />DHX DAO Treasury Challenge Bounties shall be be used to fund identities in the community that identify inappropriate use of granted funds (similar to Fisherman that identify bad behaviour in the Polkadot network).
+        <br />DHX DAO Reputation Level (voting power) of an identity is measured by a DHX DAO Reputation Formula that takes into consideration weightings that include the identity's Staking history (both DH native and PoP history including prior DHX DAO proposal performance). The DHX DAO Reputation Formula and weightings may be changed through a DHX DAO decision.</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>DHX DAO Dispute Resolution (Governance)</td>
+        <td></td>
+        <td>X</td>
+        <td>DHX DAO Treasury or End Users</td>
+        <td>End Users or DHX DAO Treasury</td>
+        <td>Dispute Resolution</td>
+        <td>DHX DAO Appeals Court handles dispute resolution. Disputes must be raised within a reasonable period of time after the disputed transaction or after DHX DAO Treasury rejection of a proposal.</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Loan interest collected by DAO lending from borrowers</td>
+        <td>X</td>
+        <td></td>
+        <td>End Users</td>
+        <td>DEX</td>
+        <td>Fee (Interest)</td>
+        <td>DEX excluded for simpler design</td>
+    </tr>
+    <tr>
+        <td>Financing</td>
+        <td>Loan from DAO lending to borrowing identities</td>
+        <td></td>
+        <td>X</td>
+        <td>DEX</td>
+        <td>End Users</td>
+        <td>Loan</td>
+        <td>DEX excluded for simpler design</td>
+    </tr>
+</table> -->
 
 Table 6: DH Cash Flow Statement
 
