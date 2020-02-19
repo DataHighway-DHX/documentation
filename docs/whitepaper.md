@@ -676,6 +676,8 @@ The block reward treasury fees is the amount remaining after collator fees. They
             * Max. 20% MSB Per Proposal
                 * Token Mining (ICBAM)
                     * Locking of assets that are supported
+                    * Sigalling
+                        * Token Miners that wish to only signal (rather than locking) attract **10%** of the lowest locking MSBs
             * Max. 40% MSB Per Proposal
                 * Hardware Assets Mining
                     * Partially subsidising new setup costs of Secure LPWAN hardware through the DHX DAO Treasury for "early majority adopters" in new regions incase hardware and cloud costs have not reduced despite a halving, and to subsidise upgrade costs for "early adopters" incase hardware and cloud costs have not reduced despite a halving.
@@ -774,7 +776,7 @@ Other means of acquiring DHX tokens at through participating as follows:
         * Network Operators benefit from interoperability through decentralised DNS and earn DHX from roaming fees.
         * Supernodes that earn DHX from roaming fees.
     * Mining Base (Voting Power) Rewards
-        * Data participants that earn interest in DHX from just holding DHX, MXC, IOTA, and DOT (wihout even locking it) that may be paid for using a proportion of the Token Mining boost of up to 1.2x their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval. Mining Base (Voting Power) is paid for using a proportion of the MSB (if any), where MSB is always issued through DAO approval.
+        * Data participants that may earn DHX from signalling, where they just hold DHX, MXC, IOTA, and DOT (without even locking it) and may be eligible to claim **10%** of the lowest locking MSBs rates and apply it to their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval. Mining Base (Voting Power) is paid for using a proportion of the MSB (if any), where MSB is always issued through DAO approval.
     * Mining-Speed Boosts (MSB)
         * Token Mining by registering that any of the following tokens have been locked for a period of time: DHX, MXC, IOTA, or DOT. Paid for using DHX DAO Treasury's Unlocked Reserves.
         * Hardware Mining owners (i.e. End Devices, Gateway owners, Supernode owners, Collator Nodes), DHX DAO Governance participants (from the Council that audit referendums or other participants that vote on Council elections or help to organise resolution of other proposals such as categorising, proposing financial impact, disputes) where they may earn the Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
