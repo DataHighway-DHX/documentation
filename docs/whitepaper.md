@@ -3,7 +3,7 @@ id: whitepaper
 title: Data Highway's Economic Whitepaper
 sidebar_label: Whitepaper
 ---
-<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">Data Highway's Economic Whitepaper</span>
+<span style="font-size: 2em; font-weight: 700;" class="pdf-only">Data Highway's Economic Whitepaper</span>
 <br />
 <div class="background-custom"></div>
 
@@ -29,7 +29,7 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
 <div class="page-break"></div>
 
 <div class="pdf-only">
-    <span style="font-size: 1.5em; font-weight: 700;!important" class="pdf-only">Table of Contents</span>
+    <span style="font-size: 1.5em; font-weight: 700;" class="pdf-only">Table of Contents</span>
     <!-- INSERT TOC BELOW HERE -->
     <ul>
 	<li><a href="#releases">Releases</a></li>
@@ -394,7 +394,7 @@ Reference: Page 25 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_wh
 * No pre-mining (no DHX coins in circulation before announcement to achieve the concept of decentralisation)
 * No ICO
 
-![](https://i.imgur.com/yvZdFKO.png)
+<img src="https://i.imgur.com/yvZdFKO.png">
 
 Figure 0: Overview of Mining in the Data Highway
 
@@ -413,13 +413,14 @@ MXC has designed a low barrier to entry to allow anyone to participate in the DH
 
 The goal is to create a fully decentralized LPWAN Roaming hub solution that uses the Parachain Operator layer of the MXProtocol Architecture and provides a decentralized LPWAN Roaming Packet Forwarding Service.
 
-Reference to the proposed implementation of the DataHighway: Page 2 of [MXC's Data Economy Whitepaper](https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf)
+Reference to the proposed implementation of the DataHighway: Page 2 of <a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
 
-MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of [LoRaWAN Technology](#Appendix-2-LoRaWAN-Technology)
+MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of <a href="#Appendix-2-LoRaWAN-Technology" class="pretty-link-colored">LoRaWAN Technology</a>
 
-![](https://i.imgur.com/SAcZlI3.png)
+<img src= 'https://i.imgur.com/SAcZlI3.png' />
 
-Figure: LoRa App Server Architecture (Source: https://www.loraserver.io/lora-app-server/overview/)
+Figure: 
+<a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
 
 #### Compatibility with the LoRa Alliance
 
@@ -445,7 +446,7 @@ Implementations of the LPWAN App Server and LPWAN Server will be updated to be c
 * Standards shall be established so there is logic and consistency between these bilateral agreements that will be openly accessible, which will drive Network Operators to seek other means to remain competitive. This is a remarkably better than the approach that is taken in mobile phone roaming, where there is a lack of transparency and insight available surrounding such similar agreements that are argued to be commercially sensitive based on the grounds that this is necessary for Network Operators to remain competitive, and whether the market strength of the parties involved are known to influence the terms of the agreements.
 
 References:
-  * Page 12 of http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf
+  * Page 12 of <a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report</a>
 
 #### Interfaces
 
@@ -458,20 +459,19 @@ References:
 
 The LPWAN Supernode Hub has a modern and intuitive interface that allows IoT End Device and Gateway owners to easily toggle whether their device will participate in roaming.
 
-![](https://i.imgur.com/iNShRuJ.png)
+<img src="https://i.imgur.com/iNShRuJ.png">
 
 **Figure: Toggle Roaming participation in Gateway User Panel (example implementation with DataHighway)**
 
-![](https://i.imgur.com/ypAnAIy.png)
+<img src="https://i.imgur.com/ypAnAIy.png">
 
 **Figure: Toggle Roaming participation in End Device User Panel (example implementation with DataHighway)**
 
-Reference: 
-* https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf
+Reference: <a href="https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC SMB Whitepaper</a>
 
 ### External Oracle
 
-Refer to [Data Validation](#Data-Validation) section.
+Refer to <a href="#Data-Validation" class="pretty-link-colored">Data Validation</a> section.
 
 ### Scalability
 
@@ -481,10 +481,9 @@ The Data Highway will be a Polkadot parachain that is forecast to support at lea
 
 Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the Data Highway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX.
 
-![](https://i.imgur.com/Sc5GRdi.png)
+<img src="https://i.imgur.com/Sc5GRdi.png">
 
-* Reference
-  * https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff
+* Reference <a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
 
 ### Security
 
@@ -496,7 +495,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### Plugins
 
-* Plugin architecture offering compatibility with third-party tools (see Data Monitoring). Example: [Grafana](https://grafana.com/) with [Alibaba Cloud](https://www.alibabacloud.com/product/iot) (or similar equivalent)
+* Plugin architecture offering compatibility with third-party tools (see Data Monitoring). Example: <a href="https://grafana.com" target="_blank" class="pretty-link-colored">Grafana</a> with <a href="https://www.alibabacloud.com/product/iot" target="_blank" class="pretty-link-colored">Alibaba Cloud</a> (or similar equivalent)
 * Data stacked in bundles and purchasable in future
 
 ### DEX
@@ -505,7 +504,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### API
 
-* Expose API endpoints, such as to access data from the data market, which may be roaming-specific. Refer to the [API](#Technical-Model).
+* Expose API endpoints, such as to access data from the data market, which may be roaming-specific. Refer to the <a href="#Technical-Model" class="pretty-link-colored">API</a>.
 
 <div class="page-break"></div>
 
@@ -529,8 +528,8 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 - Data Highway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 
 ### April 2020
-- Polkadot Mainnet Launch. See https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png
-- Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's [Cumulus Framework](https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/) or the Parachain Development Kit (PDK)
+- Polkadot Mainnet Launch. See <a href="https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png" target="_blank" class="pretty-link-colored">Extract from Discord Discussion</a>
+- Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's <a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a> or the Parachain Development Kit (PDK)
 - Data Highway Testnet (Roaming + Mining) on Substrate-based chain using PoA collators
 
 ### June 2020
@@ -540,8 +539,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 ### July 2020
 - Data Highway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
 
-* References:
-  * https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699
+* References <a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slots</a>
 
 <div class="page-break"></div>
 
@@ -551,7 +549,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
-![](https://i.imgur.com/tK4d8Lr.png)
+<img src="https://i.imgur.com/tK4d8Lr.png">
 
 Table 1: Data Highway Economic Variables
 
@@ -574,8 +572,8 @@ It was deemed safer to choose a larger supply incase DHX needs to be deflated, a
 * Bitcoin's estimated block time: 10 mins
 
 * References:
-    * https://medium.facilelogin.com/the-mystery-behind-block-time-63351e35603a
-    * https://www.bitcoinblockhalf.com/
+    * <a href="https://medium.facilelogin.com/" target= "_blank" class="pretty-link-colored">https://medium.facilelogin.com/the-mystery-behind-block-time-63351e35603a</a>
+    * <a href="https://www.bitcoinblockhalf.com/" target= "_blank" class="pretty-link-colored">https://www.bitcoinblockhalf.com/</a>
 
 #### Exchange Rate
 
@@ -600,7 +598,7 @@ The issuance of the DHX token is through either:
 
 The initial token issuance halving inflation strategy cycle (halving of the block production reward) shall occur every four (4) years using the "Decreasing-Supply Algorithm".
 
-![](https://i.imgur.com/o6x9GdJ.png)
+<img src="https://i.imgur.com/o6x9GdJ.png" />
 
 Table 2: Token Issuance Halving
 
@@ -631,7 +629,8 @@ Using Aura consensus the block producer when constructing a block must not take 
 The maximum transactions that may be injected per block in a Substrate-based chain has been tested to be approximately 90 [11] because with Aura consensus block production cannot take longer than the BAT to produce. This increases the BAT to 9 seconds, and equates to a supported throughput of 10 TPS per parachain.
 
 * Reference
-    * https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff
+    * <a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target= "_blank" class="pretty-link-colored">https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff</a> 
+    
 
 ##### Collators
 
@@ -647,22 +646,23 @@ The forecast collator pool size staking at genesis is 100.
 
 The consensus node capacity shall be 1000 (same as ChainX).
 
-![](https://i.imgur.com/PcMsSOE.png)
+<img src="https://i.imgur.com/PcMsSOE.png"/>
 
 Table 3: Block Production Rate & Block Reward
 
 Note: Block reward treasury and collator fees have been calculated using the treasury and collator fee rates respectively.
 
-![](https://i.imgur.com/mKO72Jp.png)
+<img src="https://i.imgur.com/mKO72Jp.png" />
 
 Table 4: Collator Estimated ROI
 
-![](https://i.imgur.com/VtmfAjs.png)
+<img src="https://i.imgur.com/VtmfAjs.png" />
 
 Table 5: Block Reward Distribution
 
 * Reference:
-    * https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386
+    * <a href="https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386" target= "_blank" class="pretty-link-colored">https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386</a> 
+    
 
 ##### Block Reward Treasury Fees
 
@@ -744,7 +744,7 @@ Historically, the Bitcoin network adopted the halving strategy as follows:
 
 ## Token Acquisition
 
-![](https://i.imgur.com/ek8nb29.png)
+<img src="https://i.imgur.com/ek8nb29.png" />
 
 In addition to Data Traders earning through the savings they make as a result of the democratisation of data using the decentralised Data Highway, the Inter-Chain Data Market incentives users to participate in order to potentially earn more DHX tokens, as follows:
 
@@ -793,7 +793,7 @@ Other means of acquiring DHX tokens at through participating as follows:
 
 The DHX DAO allows for distributed community membership, governance, and funding.
 
-It shall be based upon [Sunshine DAO](https://github.com/ltfschoen/SunshineDAO), which [ProtoShine](https://github.com/ltfschoen/protoshine).
+It shall be based upon <a href="https://github.com/ltfschoen/SunshineDAO" target= "_blank" class="pretty-link-colored">Sunshine DAO</a>, which <a href="https://github.com/ltfschoen/protoshine" target= "_blank" class="pretty-link-colored">ProtoShine</a>.
 
 ### Treasury
 
@@ -832,23 +832,23 @@ The DHX DAO Treasury may in future at any time, when interest rates from lenders
 
 The Balance Sheet reports for a specific moment in time the DHX DAOs statement of financial balances position, including assets, liabilities, and shareholder's equity, to reflect the equation `Assets = Liabilities + Stockholders' Equity`, where the working capital `Assets - Liabilities` may be compared with the `Stockholders' Equity`.
 
-![](https://i.imgur.com/8tUSPiz.png)
+<img src="https://i.imgur.com/8tUSPiz.png" />
 
-Reference: https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386
+Reference: <a href="https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386" target= "_blank" class="pretty-link-colored">https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386</a>
 
 #### Cash Flow Statement
 
 The DH's Cash Flow Statement reports for a period of time how changes in the Financial Balance Sheet affect its monetary position.
 
-![](https://i.imgur.com/EC8bEAW.png)
+<img src="https://i.imgur.com/EC8bEAW.png" />
 
-![](https://i.imgur.com/Xom2VPv.png)
+<img src="https://i.imgur.com/Xom2VPv.png" />
 
-![](https://i.imgur.com/Hn8hTb9.png)
+<img src ="https://i.imgur.com/Hn8hTb9.png" />
 
 Table 6: DH Cash Flow Statement
 
-Reference: https://docs.google.com/spreadsheets/d/1pVp7wXq_CxZEmt-5jHVSd1oO1txPCq_U1_drMIceTiw/edit#gid=0
+Reference: <a href="https://docs.google.com/spreadsheets/d/1pVp7wXq_CxZEmt-5jHVSd1oO1txPCq_U1_drMIceTiw/edit#gid=0" target= "_blank" class="pretty-link-colored">https://docs.google.com/spreadsheets/d/1pVp7wXq_CxZEmt-5jHVSd1oO1txPCq_U1_drMIceTiw/edit#gid=0</a>
 
 <div class="page-break"></div>
 
@@ -907,7 +907,7 @@ Initially only automatic rewards shall be offered, which requires mining registr
 
 ### Rules
 
-* Users may not participate in token mining using the MXC balances already staked at MXC Supernodes in the "Supernode Layer" from which they already receive quarterly rewards (see section "2.0 Staking Participation" https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf).
+* Users may not participate in token mining using the MXC balances already staked at MXC Supernodes in the "Supernode Layer" from which they already receive quarterly rewards (see section "2.0 Staking Participation" <a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target= "_blank" class="pretty-link-colored">https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf</a>).
 * User mining base rewards and MSB rewards depend on the type and amount of their token holding.
 * It is a goal to avoid users that only need a single organisation from create multiple organisations instead unnecessarily just in order to obtain a higher MSB.
 
@@ -921,7 +921,7 @@ Initially only automatic rewards shall be offered, which requires mining registr
         * IOTA, DOT corresponding lower MSBs are approx. 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
     * Signalling when Token Mining receives 10% of the lower MSBs (those that apply to IOTA and DOT)
 
-![](https://i.imgur.com/zwc5ibf.png)
+<img src="https://i.imgur.com/zwc5ibf.png" />
 
 * PoP ICBAM Supported Cryptocurrencies/Tokens and MSB
     * MXC, IOTA, or DOT
@@ -948,10 +948,10 @@ Initially only automatic rewards shall be offered, which requires mining registr
             * IOTA, DOT corresponding MSBs are approx. 1.0025-1.0039, 1.0039-1.006, 1.006-1.015, 1.015-1.1
         * IOTA or DOT MLB is only valid since the respective chain existed
     * Reference:
-        * https://stackoverflow.com/a/32250025/3208553
-        * https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=1483475332
-
-![](https://i.imgur.com/5owzzyr.png)
+        * <a href="https://stackoverflow.com/a/32250025/3208553" target= "_blank" class="pretty-link-colored">https://stackoverflow.com/a/32250025/3208553</a>
+        * <a href="https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=1483475332" target= "_blank" class="pretty-link-colored">https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=1483475332</a>
+        
+<img src="https://i.imgur.com/5owzzyr.png" />
 
 * PoP Non-ICBAM MSB Range
     * 1.0-1.4
@@ -1046,7 +1046,7 @@ A higher quantity of ICBA tokens "reserved" in a locked deposit corresponds to h
     * Eligibility for reward and reputation requires the "sampled average" account balance to be at least 90% of the start balance.
     * Adjustment resulting from governance audits 
 
-![](https://i.imgur.com/ELafDaj.png)
+<img src="https://i.imgur.com/ELafDaj.png" />
 
 Figure x: Token Mining Use Case Diagram
 
@@ -1068,7 +1068,8 @@ Figure x: Token Mining Use Case Diagram
     * Block Reward Issuance (of DHX) Daily
         * 2,400
         * Note
-            * Assumes Halving Factor of 1, Block Reward of 0.25, and Block Time of 9 seconds. Refer to DHX Halving Spreadsheet https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit?usp=sharing
+            * Assumes Halving Factor of 1, Block Reward of 0.25, and Block Time of 9 seconds. Refer to DHX Halving Spreadsheet 
+            <a href="https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit?usp=sharing" target= "_blank" class="pretty-link-colored">https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit?usp=sharing</a>
     * Users
         * User 1
             * Assets
@@ -1132,7 +1133,7 @@ Figure x: Token Mining Use Case Diagram
             * Since the user is staking `100 DHX` as a collator and receives a proportion of the block reward (after fees) of `4` DHX for producing a block at the same time as they are participating in PoP ICBAM with MXC for 3 months that gives a MAX `1.025` PoP ICBAM MSB (for 200 DHX), and where they their "real mining power" is `0.1385%` of all users, so it becomes `0.001385 * 1.025 ==> 1.00142`, and they also received a `0.0` PoP Non-ICBAM MSB, then they will instead receive a block reward of `4 * (1.00142 + 0.0) = 4.0057 DHX`.
 
         * References
-            * Page 6 of https://chainx.org/chainx_en.pdf
+            * Page 6 of <a href="https://chainx.org/chainx_en.pdf" target= "_blank" class="pretty-link-colored">https://chainx.org/chainx_en.pdf</a>
 
 #### Transfer Bridge
 
@@ -1146,7 +1147,7 @@ TODO
 
 * Users will have a variety of options to acquire DHX tokens through mining and staking on the DH, without having to purchase them from a DEX.
 
-![](https://i.imgur.com/CpUQc1K.png)
+<img src="https://i.imgur.com/CpUQc1K.png" />
 
 Figure x: DEX Use Case Diagram
 
@@ -1185,7 +1186,7 @@ Figure x: DEX Use Case Diagram
     * Eligibility for reward and reputation requires the "sampled average" hardware online status to be at least 90% and the hardware type to be verified. In addition to checking the online status, data driven pattern recognition methods may be used to confirm if a Supernode, LPWAN gateway or LPWAN end device is working properly.
     * Adjustment resulting from governance audits.
 
-![](https://i.imgur.com/Ypracwf.png)
+<img src="https://i.imgur.com/Ypracwf.png" />
 
 Figure x: Hardware Mining Use Case Diagram
 
@@ -1195,7 +1196,7 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
 
 #### Financial Model
 
-![](https://i.imgur.com/tEGW6za.png)
+<img src="https://i.imgur.com/tEGW6za.png" />
 
 Table 1.5: Hardware Assets Mining MSB
 
@@ -1296,7 +1297,7 @@ Table 1.5: Hardware Assets Mining MSB
             * Staking API activity
     * Adjustment resulting from governance audits.
 
-![](https://i.imgur.com/FP4SK1a.png)
+<img src="https://i.imgur.com/FP4SK1a.png" />
 
 Figure x: Development Mining Use Case Diagram
 
@@ -1360,7 +1361,7 @@ Same as Token Mining
         * Eligibility for level of reward and reputation is determined.
         * Adjustment resulting from governance audits.
 
-![](https://i.imgur.com/iK8TngJ.png)
+<img src="https://i.imgur.com/iK8TngJ.png" />
 
 Figure x: Advocacy Mining Use Case Diagram
 
@@ -1392,11 +1393,11 @@ TODO
 
 #### Reward Calculation
 
-![](https://i.imgur.com/AnhAbuZ.png)
+<img src="https://i.imgur.com/AnhAbuZ.png" />
 
 Figure x: Governance (Council Election) Mining Use Case Diagram
 
-![](https://i.imgur.com/V3Js4D5.png)
+<img src="https://i.imgur.com/V3Js4D5.png" />
 
 Figure x: Governance (Democracy) Mining Use Case Diagram
 
@@ -1433,7 +1434,7 @@ Supernode information is stored on the Data Highway (i.e. IP address that may ch
 
 End Device owner turns on roaming in the UI of the LPWAN Server and their information (i.e. roaming enabled) is stored on the Data Highway.
 
-End Device moves from its Home NS to another NS, and the NS queries the Data Highway to find out the End Devices JS IP address and Home NS. SMB occurs (agreement automated based on quantity of packets sent, min. bid required by SN/GW, max. bid by End Device), join request is forwarded to JS via Home NS, then accept/reject whether the End Device is allowed to roam with the other NS (packets are forwarded without having to frequently agree). See "Activation Passive Roaming" https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing
+End Device moves from its Home NS to another NS, and the NS queries the Data Highway to find out the End Devices JS IP address and Home NS. SMB occurs (agreement automated based on quantity of packets sent, min. bid required by SN/GW, max. bid by End Device), join request is forwarded to JS via Home NS, then accept/reject whether the End Device is allowed to roam with the other NS (packets are forwarded without having to frequently agree). See "Activation Passive Roaming" <a href="https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing" target= "_blank" class="pretty-link-colored">https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing</a>
 
 No agreement is established or payment required if join is rejected, since the packets are dropped.
 
@@ -1447,7 +1448,7 @@ Monthly payments are calculated on the Data Highway (for subscription payment pl
 
 Each of the initial 21 Supernodes (SNs) need to top-up MXC to get a sufficient amount in their SN to be able achieve a threshold holding that will allow them to generate a unique NetID (Network ID) that's associated with their SN and will be recorded on-chain.
 
-End Devices that is activated at their "home" Supernode, once activated, will have had a DevAddr stored on the End Device, which contains a NwkAddr (which is derived from the "home" Supernode's unique Network ID). The LPWAN Server (Supernode powered by MXProtocol) will then make one or more POST request from the LPWAN App Server codebase to the Data Highway to store roaming related information about that End Device on the distributed ledger database (under the RoamingBaseProfile class's `devAddr` and `homeNet` properties of the EndDevice class), as shown in the [Roaming Class Diagram](#Class-Diagrams). 
+End Devices that is activated at their "home" Supernode, once activated, will have had a DevAddr stored on the End Device, which contains a NwkAddr (which is derived from the "home" Supernode's unique Network ID). The LPWAN Server (Supernode powered by MXProtocol) will then make one or more POST request from the LPWAN App Server codebase to the Data Highway to store roaming related information about that End Device on the distributed ledger database (under the RoamingBaseProfile class's `devAddr` and `homeNet` properties of the EndDevice class), as shown in the <a href="#Class-Diagrams" class="pretty-link-colored">Roaming Class Diagram</a>. 
 
 End Device owners may subscribed to roaming or pay ad-hoc roaming fees in DHX to gain sufficient balance to roam. This will be recorded under the RoamingBaseProfile class's `expiry` date property of the EndDevice class).
 
@@ -1461,7 +1462,7 @@ End Devices may only be allowed to roam at a "visited" Network Server (or Supern
 
 In the situation where the End Device tries to roam by attempting to join a "visited" Supernode, that "visited" Supernode will check for the DevAddr in the uplinked packets, then make a query from the LPWAN App Server codebase (written in GoLang and powered by MXProtocol) to the Data Highway to lookup whether roaming fees have been paid by that End Device (stored under the RoamingBaseProfile class's `expiry` date property of the EndDevice class), and if so it will return "home" Supernode's IP address (if the Network ID is recognizable), otherwise it will just drop the uplinked packets.
 
-If the End Device owner changed it's roaming configuration (in the UI, see [Intuitive-UX](#Intuitive-UX)) but the transaction was still pending, then the Supernode could still find out if that's the case by querying the `pending_extrinsics` of the Data Highway parachain.
+If the End Device owner changed it's roaming configuration (in the UI, see <a href="#Intuitive-UX" class="pretty-link-colored">Intuitive-UX</a>) but the transaction was still pending, then the Supernode could still find out if that's the case by querying the `pending_extrinsics` of the Data Highway parachain.
 
 Note that this is separate from staking where a user who is an MXC holder chooses one of the 21 Supernodes and participates in staking by depositing their MXC in it to earn DHX depending on how much data that Supernode processes.
 
@@ -1489,11 +1490,11 @@ The DHX DAOs Treasury will be funded with a proportion of the block reward or a 
 - RoamingSupernodeTransactionByteFee - per-byte portion of a Supernode transaction fee
 - RoamingApplicationServerTransactionBaseFee - Application Server transaction fee charged for each uplink and downlink
 - RoamingApplicationServerTransactionByteFee - per-byte portion of an Application Server transaction fee
-- RoamingParachainValidatorFee - fee for resolving a roaming end-device's HomeNS. https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details
+- RoamingParachainValidatorFee - fee for resolving a roaming end-device's HomeNS. <a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details" target="_blank" class="pretty-link-colored">https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details</a>
 - RoamingParachainStorageRentDepositOffsetFee - fee to cover the cost of storing roaming state on-chain (i.e. we need to fund and maintain a deposit large enough such that its earnings from staking cover the amount of ongoing on-chain storage costs, which may vary over time, since we need to store whether a end-device is roaming or not, and storing the mapping to its HomeNS, and store a counter that gets updated with packets processed by each entity, which resets say each month after bulk calculation of how much is owed between different parties and ultimate MXC payment exchange so still able to revert if required
 
 * References:
-  * Polkadot Crowdfunding for Parachain Slots - https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16
+  * <a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a> 
 
 #### Default Roaming Fees
 
@@ -1511,10 +1512,10 @@ The default fee values for the below are defined in the Balances SRML module whe
 The fees may be changed by upgrading the Data Highway parachain by using the Sudo SRML. The stakeholders of the parachain may wish to vote on how the fees should change, which would require use of the Democracy SRML (governance module).
 
 * References:
-  * Balances SRML - https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs
-  * NPoS Payments and Inflation - https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation
-  * Relay Chain Transaction Fees - https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees
-  * Inflation Model - http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model
+  * <a href="https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Balances SRML</a>
+  * <a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">NPoS Payments and Inflation</a>
+  * <a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees" target="_blank" class="pretty-link-colored">Relay Chain Transaction Fees</a> 
+  * <a href="http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model" target="_blank" class="pretty-link-colored">Inflation Model</a>
 
 #### Risks & Mitigation Measures
 
@@ -1570,19 +1571,19 @@ Other data that was stored in historic blocks (e.g. whether there is sufficient 
 
 #### Class Diagrams
 
-![](https://i.imgur.com/QV5ShUR.jpg)
+<img src="https://i.imgur.com/QV5ShUR.jpg" />
 
 ##### Aggregations (of SMB and Forwarding)
 
 Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding from "visited" Network Servers back to the roaming End Device's "home" Network Server may also be stored on the Data Highway, if necessary.
 
-![](https://i.imgur.com/bgTLbxO.png)
+<img src="https://i.imgur.com/bgTLbxO.png" />
 
 * Source: roaming_class_diagram
 
 #### Class Diagram (Simplified)
 
-![](https://i.imgur.com/4JpL6jM.png)
+<img src="https://i.imgur.com/4JpL6jM.png" />
 
 Source: roaming_class
 
@@ -1599,7 +1600,7 @@ Source: roaming_class
 7. Show Supernode Stake.
 8. Note that Join Servers and Application Servers must be associated with an Organisation ID to be rewarded.
 
-![](https://i.imgur.com/WoC9Tyd.png)
+<img src="https://i.imgur.com/WoC9Tyd.png" />
 
 Source: register_supernode
 
@@ -1615,7 +1616,7 @@ Gateway ID must be associated with both its Organisation ID and its “Home” S
 
 Organisation ID may stake across multiple Supernodes.
 
-![](https://i.imgur.com/FbR6gK0.png)
+<img src="https://i.imgur.com/FbR6gK0.png" />
 
 Source: register_supernode
 
@@ -1628,7 +1629,7 @@ Source: register_supernode
 * Store mapping of End Device ID, “Home” Supernode IP, and Join Server IP for resolving when roaming.
 * Show updated Supernode Stake after adding End Device Stake to existing Supernode Stake. 
 
-![](https://i.imgur.com/tWTjWXP.png)
+<img src="https://i.imgur.com/tWTjWXP.png" />
 
 Source: register_supernode
 
@@ -1641,7 +1642,7 @@ Source: register_supernode
 * Store mapping for resolving when roaming (see previous slide).
 * Show updated Supernode Stake after deducting End Device Roaming Fee from existing Supernode Stake.
 
-![](https://i.imgur.com/UYIjeep.png)
+<img src="https://i.imgur.com/UYIjeep.png" />
 
 Source: register_supernode
 
@@ -1655,7 +1656,7 @@ Source: register_supernode
 * Gateway (GW) at Visited Supernode (VSN) does not get share of roaming fees
 * Shows simple version of Data Market where End Devices data may be traded but not tokenized.
 
-![](https://i.imgur.com/OFrAKNR.png)
+<img src="https://i.imgur.com/OFrAKNR.png" />
 
 Source: register_supernode
 
@@ -1668,18 +1669,18 @@ Source: register_supernode
 * Periodic Billing & Payments via MXC Service
 * Roaming API
 
-![](https://i.imgur.com/rEIYV6b.png)
+<img src="https://i.imgur.com/rEIYV6b.png" />
 
 * Connect & Register LoRaWAN End Devices & Gateways on ThingPark Exchange Hub (TEX)
 * Roaming with an End Device (from a Network Operator that is registered on TEX) at a Supernode (MXC Network Operator)
 
-![](https://i.imgur.com/S4HG62f.png)
+<img src="https://i.imgur.com/S4HG62f.png" />
 
 Source: datahighway-interrelationship-diagram
 
 #### Flowchart Diagrams
 
-![](https://i.imgur.com/hwtCFWB.png)
+<img src="https://i.imgur.com/hwtCFWB.png" />
 
 Source: roaming_class_diagram
 
@@ -1697,7 +1698,7 @@ Source: roaming_class_diagram
 
 #### Proposed Roaming Integration into MXProtocol of LPWAN Supernodes
 
-![](https://i.imgur.com/Y1c9OGT.png)
+<img src="https://i.imgur.com/Y1c9OGT.png" />
 
 Source: roaming_ux
 
@@ -1709,7 +1710,7 @@ Source: roaming_ux
 
 #### UX Design
 
-MXC's Datahighway.com will provide a User Interface (UI) with the following features:
+MXC's <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> will provide a User Interface (UI) with the following features:
 
 * Data Wallet
   * Shows balance in DHX that is to be used for inter-chain data trading
@@ -1723,9 +1724,9 @@ MXC's Datahighway.com will provide a User Interface (UI) with the following feat
 
 Source: visualization_brainstorm
 
-![](https://i.imgur.com/ttczF9V.jpg)
+<img src="https://i.imgur.com/ttczF9V.jpg" />
 
-![](https://i.imgur.com/JY4Yk0C.jpg)
+<img src="https://i.imgur.com/JY4Yk0C.jpg" />
 
 #### Class Diagram
 
@@ -1733,25 +1734,25 @@ Source: visualization_brainstorm
 
 > Important Note: Detailed attributes and functions of classes that are coloured in "grey" have been omitted for brevity. Refer to Roaming Class Diagram (in the Roaming Whitepaper) for the details.
 
-![](https://i.imgur.com/PKo8SOh.png)
+<img src="https://i.imgur.com/PKo8SOh.png" />
 
 #### Swimlane (Flowchart) Diagrams
 
 ##### Data Seller configures End Device (Sensor) Data Frames for Graphs on M2M Portal
 
-![](https://i.imgur.com/17GrqCF.png)
+<img src="https://i.imgur.com/17GrqCF.png" />
 
 ##### Data Seller configures End Device (Sensor) Data Visualizations & Monitoring for Dashboard on Inter-Chain Data Market
 
-![](https://i.imgur.com/26EGTFy.png)
+<img src="https://i.imgur.com/26EGTFy.png" />
 
 ##### Data Seller configures Sale / Auction of End Device (Sensor) Data Listing on Inter-Chain Data Market
 
-![](https://i.imgur.com/zJWdEjq.png)
+<img src="https://i.imgur.com/zJWdEjq.png" />
 
 ###### Data Buyer Requirements
 
-A Data Buyer may need access to an End Device's sensor data for a Weather Application. They would visit Datahighway.com that offers the following:
+A Data Buyer may need access to an End Device's sensor data for a Weather Application. They would visit <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> that offers the following:
 * Data Marketplace
 * Data Wallet & Exchange
 
@@ -1767,7 +1768,7 @@ Lastly, the Data Buyer adds items to their shopping cart and chooses to go to ch
 
 ##### Data Buyer Purchases / Bids for Access Grant to End Device (Sensor) Data Listing on Inter-Chain Data Market
 
-![](https://i.imgur.com/v3YqZSY.png)
+<img src="https://i.imgur.com/v3YqZSY.png" />
 
 ###### Data Buyer Payment Options
 
@@ -1776,9 +1777,9 @@ The Data Buyer (i.e. an Application Developer) is given payment options that inc
 
 They may choosing to pay in DHX, which they may have obtained from either:
 * Earning DHX through:
-  * Staking payments in DHX from running a Datahighway.com parachain validator node or from nominating a validator
+  * Staking payments in DHX from running a <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> parachain validator node or from nominating a validator
   * Staking payments in DHX from running a Mining bridge (i.e. IOTA, etc)
-  * Royalty payments in DHX from offering End Devices or Gateways as a Data Provider that other users choose to use on the Inter-Chain Data Market of Datahighway.com
+  * Royalty payments in DHX from offering End Devices or Gateways as a Data Provider that other users choose to use on the Inter-Chain Data Market of <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a>
   * Royalty payments in DHX from running a Supernode
   * Rewards for participating in the DHX DAO
 * Credit card payment in fiat (i.e. USD or EUR) in exchange for DHX
@@ -1789,7 +1790,7 @@ They may choosing to pay in DHX, which they may have obtained from either:
 
 The Data Buyer is then granted access to the data from the Data Provider's IoT End Device. API Keys are provided for the Application Developer to configure their Inter-Chain (i.e. IOTA or MXC) DApp to performs queries on the data.
 
-![](https://i.imgur.com/vSdV4Rt.png)
+<img src="https://i.imgur.com/vSdV4Rt.png" />
 
 ### Data Validation
 
@@ -1799,7 +1800,7 @@ The Data Buyer is then granted access to the data from the Data Provider's IoT E
 
 External Oracles validate external data that can change frequently as part of Quality of Service (QoS) framework.
 
-![](https://i.imgur.com/gUyPBVW.png)
+<img src="https://i.imgur.com/gUyPBVW.png" />
 
 ##### Definition
 
@@ -1842,19 +1843,19 @@ Refer to Swimlane (Flowchart) Diagrams.
 
 * References:
     * Oracles
-        * https://blockchainhub.net/blockchain-oracles/
-        * https://docs.chain.link/docs/contract-creators-overview
-        * https://github.com/JohannEid/awesome-chainlink
-        * https://lankydan.dev/2019/01/01/validating-external-data-with-an-oracle
-        * https://medium.com/@SharesChainITO/what-is-an-oracle-and-how-can-it-be-used-on-and-off-the-blockchain-fb585d53fa2b
+        * <a href="https://blockchainhub.net/blockchain-oracles/" target="_blank" class="pretty-link-colored">https://blockchainhub.net/blockchain-oracles/</a>
+        * <a href="https://docs.chain.link/docs/contract-creators-overview" target="_blank" class="pretty-link-colored">https://docs.chain.link/docs/contract-creators-overview</a>
+        * <a href="https://github.com/JohannEid/awesome-chainlink" target="_blank" class="pretty-link-colored">https://github.com/JohannEid/awesome-chainlink</a>
+        * <a href="https://lankydan.dev/2019/01/01/validating-external-data-with-an-oracle" target="_blank" class="pretty-link-colored">https://lankydan.dev/2019/01/01/validating-external-data-with-an-oracle</a>
+        * <a href="https://medium.com/@SharesChainITO/what-is-an-oracle-and-how-can-it-be-used-on-and-off-the-blockchain-fb585d53fa2b" target="_blank" class="pretty-link-colored">https://medium.com/@SharesChainITO/what-is-an-oracle-and-how-can-it-be-used-on-and-off-the-blockchain-fb585d53fa2b</a>
     * Notaries
-        * https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d
+        * <a href="https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d" target="_blank" class="pretty-link-colored">https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d</a>
 
 #### Swimlane (Flowchart) Diagrams
 
 ##### Validate & Certify & Store External Data Frames Retrieved using Oracles, Notaries & Data Storage Backend
 
-![](https://i.imgur.com/FvSpYXt.png)
+<img src="https://i.imgur.com/FvSpYXt.png" />
 
 ### Data Monitoring
 
@@ -1865,9 +1866,9 @@ Example combinations of cloud-based services (or similar equivalent):
 
 #### Business Concept Diagram
 
-![](https://i.imgur.com/hpRbOCY.png)
+<img src="https://i.imgur.com/hpRbOCY.png" />
 
-* Reference: https://www.loomsystems.com/blog/single-post/2017/06/07/prometheus-vs-grafana-vs-graphite-a-feature-comparison
+* Reference: <a href="https://www.loomsystems.com/blog/single-post/2017/06/07/prometheus-vs-grafana-vs-graphite-a-feature-comparison" target="_blank" class="pretty-link-colored">https://www.loomsystems.com/blog/single-post/2017/06/07/prometheus-vs-grafana-vs-graphite-a-feature-comparison</a>
 
 <div class="page-break"></div>
 
@@ -1900,7 +1901,7 @@ The custom Substrate Core Design is as follows:
         * Block production protocol: BABE
         * Block finality protocol: GRANDPA
             * Note: Future BABE runtime has 6 seconds (0.1 minutes) per block (see substrate > node > runtime > src > constants.rs)
-            * Reference: https://substrate.dev/docs/en/overview/glossary#aura-aka-authority-round
+            * Reference: <a href="https://substrate.dev/docs/en/overview/glossary#aura-aka-authority-round" target="_blank" class="pretty-link-colored">https://substrate.dev/docs/en/overview/glossary#aura-aka-authority-round</a>
         * Block production time: 2 seconds (same as ChainX)
 
 ### Custom Substrate Runtime Modules
@@ -1909,7 +1910,8 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 * Roaming
     * API
-      * Refer to current implementation of Roaming Runtime Modules https://github.com/DataHighway-com/node/tree/master/packages/roaming
+      * Refer to current implementation of Roaming Runtime Modules 
+      <a href="https://github.com/DataHighway-com/node/tree/master/packages/roaming" target="_blank" class="pretty-link-colored">https://github.com/DataHighway-com/node/tree/master/packages/roaming</a>
 * Staking (NPoS):
     * Reward
         * Amount
@@ -1926,11 +1928,11 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
         * Punishment penalty fund recipients
             * Offence penalty (e.g. slash the stake of a collators and its nominators, or just their potential rewards) transferred to treasury
     * Reference
-        * https://substrate.dev/docs/en/overview/glossary#nominated-proof-of-stake-npos
+        * <a href="https://substrate.dev/docs/en/overview/glossary#nominated-proof-of-stake-npos" target="_blank" class="pretty-link-colored">https://substrate.dev/docs/en/overview/glossary#nominated-proof-of-stake-npos</a>
 * Mining ("Virtual" Mining + PoP)
     * Note: Sufficient "reserve" is required in the multi-signed address of Trustee Nodes to support user withdrawal.
     * Code resources:
-        * https://substrate.dev/substrate-verifiable-credentials
+        * <a href="https://substrate.dev/substrate-verifiable-credentials" target="_blank" class="pretty-link-colored">https://substrate.dev/substrate-verifiable-credentials</a>
     * General
         * API
             * Configuration Changes
@@ -2088,7 +2090,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
             * Sources (e.g. offence slashing penalties)
 
 * Allow collators to donate rewards in return for other governance tokens. 
-* Allow further lockdrop/airdrop to holders of other assets (like DOTs) to be processed through a Democracy Runtime Module vote or a Treasury Runtime Module spend proposal. The proposal will need to include either a roadmap of how payouts will be handled or an implementation of a DHX DAO/module that can sustain a distribution of tokens to participants with those specific assets. See https://commonwealth.im/#!/edgeware-testnet/proposal/discussion/22
+* Allow further lockdrop/airdrop to holders of other assets (like DOTs) to be processed through a Democracy Runtime Module vote or a Treasury Runtime Module spend proposal. The proposal will need to include either a roadmap of how payouts will be handled or an implementation of a DHX DAO/module that can sustain a distribution of tokens to participants with those specific assets. See <a href="https://commonwealth.im/#!/edgeware-testnet/proposal/discussion/22" target="_blank" class="pretty-link-colored">https://commonwealth.im/#!/edgeware-testnet/proposal/discussion/22</a>
 
 ### Node
 
@@ -2100,7 +2102,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 * Telemetry server (telemetry.polkadot.io)
 * Polkascan (polkascan.io)
 * Monitor Slashable Offences on Substrate-based chains
-  * Reference: https://github.com/w3f/offences-monitor
+  * Reference: <a href="https://github.com/w3f/offences-monitor" target="_blank" class="pretty-link-colored">https://github.com/w3f/offences-monitor</a>
 * Notifications
     * Data Highway Discord Bot (similar to Polkabot)
 * UI
@@ -2114,12 +2116,12 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
         * Governance
     * Substrate Full Client UI
         * Block Explorer (based on PolkadotJS Apps for interacting with Polkadot and Substrate-based chains)
-            * Reference: https://polkadot.js.org/apps
+            * Reference: <a href="https://polkadot.js.org/apps" target="_blank" class="pretty-link-colored">https://polkadot.js.org/apps</a>
     * Other
         * Speckle 
-            * Reference: https://twitter.com/get_speckle
+            * Reference: <a href="https://twitter.com/get_speckle" target="_blank" class="pretty-link-colored">https://twitter.com/get_speckle</a>
         * Substrate Light Client UI
-            * Reference: https://github.com/paritytech/substrate-light-ui
+            * Reference: <a href="https://github.com/paritytech/substrate-light-ui" target="_blank" class="pretty-link-colored">https://github.com/paritytech/substrate-light-ui</a>
 
 <div class="page-break"></div>
 
@@ -2188,19 +2190,19 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 ## References
 
-* [1] https://royalsocietypublishing.org/doi/full/10.1098/rsos.180298
-* [2] "A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks" - https://arxiv.org/abs/1805.02707
-* [3] https://hackernoon.com/will-bitcoins-price-rise-following-the-halving-in-2020-4885f9dcffb0
-* [4] https://en.bitcoin.it/wiki/Controlled_supply
-* [5] https://blog.ethereum.org/2016/07/27/inflation-transaction-fees-cryptocurrency-monetary-policy/
-* [6] https://www.investopedia.com/terms/q/quantitative-easing.asp
-* [7] https://en.bitcoin.it/wiki/Proof_of_Stake
-* [8] https://substrate.dev/rustdocs/v1.0/srml_sudo/index.html#executing-privileged-functions
-* [9] https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details
-* [10] https://wiki.parity.io/Proof-of-Authority-Chains#chain-engine-specification
-* [11] https://github.com/paritytech/substrate/issues/1354
-* [12] https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp
-* [13] https://chainx.org/chainx_en.pdf
+* [1] <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.180298" target="_blank" class="pretty-link-colored">https://royalsocietypublishing.org/doi/full/10.1098/rsos.180298</a>
+* [2] <a href="https://arxiv.org/abs/1805.02707" target="_blank" class="pretty-link-colored">"A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks" - https://arxiv.org/abs/1805.02707</a>
+* [3] <a href="https://hackernoon.com/will-bitcoins-price-rise-following-the-halving-in-2020-4885f9dcffb0" target="_blank" class="pretty-link-colored">https://hackernoon.com/will-bitcoins-price-rise-following-the-halving-in-2020-4885f9dcffb0</a>
+* [4] <a href="https://en.bitcoin.it/wiki/Controlled_supply" target="_blank" class="pretty-link-colored">https://en.bitcoin.it/wiki/Controlled_supply</a>
+* [5] <a href="https://blog.ethereum.org/2016/07/27/inflation-transaction-fees-cryptocurrency-monetary-policy/" target="_blank" class="pretty-link-colored">https://blog.ethereum.org/2016/07/27/inflation-transaction-fees-cryptocurrency-monetary-policy/</a>
+* [6] <a href="https://www.investopedia.com/terms/q/quantitative-easing.asp" target="_blank" class="pretty-link-colored">https://www.investopedia.com/terms/q/quantitative-easing.asp</a>
+* [7] <a href="https://en.bitcoin.it/wiki/Proof_of_Stake" target="_blank" class="pretty-link-colored">https://en.bitcoin.it/wiki/Proof_of_Stake</a>
+* [8] <a href="https://substrate.dev/rustdocs/v1.0/srml_sudo/index.html#executing-privileged-functions" target="_blank" class="pretty-link-colored">https://substrate.dev/rustdocs/v1.0/srml_sudo/index.html#executing-privileged-functions</a>
+* [9] <a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details" target="_blank" class="pretty-link-colored">https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details</a>
+* [10] <a href="https://wiki.parity.io/Proof-of-Authority-Chains#chain-engine-specification" target="_blank" class="pretty-link-colored">https://wiki.parity.io/Proof-of-Authority-Chains#chain-engine-specification</a>
+* [11] <a href="https://github.com/paritytech/substrate/issues/1354" target="_blank" class="pretty-link-colored">https://github.com/paritytech/substrate/issues/1354</a>
+* [12] <a href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" target="_blank" class="pretty-link-colored">https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp</a>
+* [13] <a href="https://chainx.org/chainx_en.pdf" target="_blank" class="pretty-link-colored">https://chainx.org/chainx_en.pdf</a>
 
 <div class="page-break"></div>
 
@@ -2210,7 +2212,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 #### Integration of the Data Highway Parachain into the Polkadot network
 
-![](https://i.imgur.com/MBAHjlg.png)
+<img src="https://i.imgur.com/MBAHjlg.png" />
 
 (View image by right-clicking and choosing to "Open Image in New Tab" or "Save Image As")
 
@@ -2247,13 +2249,13 @@ Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
   * **Device Provisioning & Joining (of Sensors)**
     * OTAA recommended since assigns new encryption key on each connection or renewed by rebooting the device to force reconnection and relies on confirmation response from a Gateway (better security than ABP whose encryption keys never change and may be compromised over a period of time)
   * **Messages from Sensors to Gateways** - Gateways with 8-channels may receive data from Sensors on 7 of those channels. Data throughput depends on how often Sensors are sending messages, data size of each message, signal strength between Sensor and Gateway (Sensors with a weak signal need more time to transmit the data so they use a receive channel on the Gateway longer)
-    * Reference: https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/
+    * Reference: <a href="https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/" target="_blank" class="pretty-link-colored">https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/</a>
   * **Throughput** - Max. throughput decreases as the number of Sensors increases. https://arxiv.org/pdf/1607.08011.pdf
 * **LoRaWAN Network Usage (Bandwidth & Duration) Estimation**
   * Assumptions
     * Gateway average message payload size: 50 Bytes (20 Bytes + 30 Bytes overhead added to application payload by LoRaWAN Protocol)
     * Gateway max. Message payload size: 243 Bytes
-    * 250 Sensors @ 50 Bytes payload (see Table https://arxiv.org/pdf/1607.08011.pdf)
+    * 250 Sensors @ 50 Bytes payload (see Table <a href="https://arxiv.org/pdf/1607.08011.pdf" target="_blank" class="pretty-link-colored">https://arxiv.org/pdf/1607.08011.pdf</a>)
       * **Max. Sensor Throughput** - 150 Packets/hr, 7850 Bytes/hr
         * Note: 50 Packets per Byte
   * Estimates
@@ -2267,11 +2269,11 @@ Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
       * Assumption - Each Sensor sends a message 10 times per hour)
       * 1x Sensor sends per hour: 1.4 kB (243 Bytes x 6, since 10 times per hour)
       * 1x Sensors send per month: 1 MB / ~50000 Packets (720 hrs, 720 x 1.45 / 1000)
-  * References - https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/
+  * References - <a href="https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/" target="_blank" class="pretty-link-colored">https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/</a>
 * **LoRaWAN Network Usage (Bandwidth & Duration) Limitations**
   * **Data Bandwidth Limits to send data from Gateway to Sensors**
     * Gateway’s single channel for sending data is only allowed to send data to Sensors 5% of the time daily (European regulation for use of ISM band radio devices).
-      * 1% Duty Cycle? prevents Sensors from increasing data rate to stabilize and maximize the throughput https://arxiv.org/pdf/1607.08011.pdf
+      * 1% Duty Cycle? prevents Sensors from increasing data rate to stabilize and maximize the throughput <a href="https://arxiv.org/pdf/1607.08011.pdf" target="_blank" class="pretty-link-colored">https://arxiv.org/pdf/1607.08011.pdf</a>
   * **Fair Access Policy (airtime transmission limits)**
     * End Device Usage Duration Limits
       * Uplinks
@@ -2284,7 +2286,7 @@ Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
         * Note: This also helps to limit tx downlink events (from timing loop) to avoid spamming the End Device's Transceiver such that it denies downlink tx requests
         * Note:
           * **Network Compliance Service**
-            * Each Application accessing API's to access data from End Devices need to limit the usage of specific End Devices, and the amount of join requests from each End Device. Transmit an accumulated unconfirmed count every 60 mins. Reset the count every 24 hours by sending a downlink and receiving a confirmed uplink. See https://www.rs-online.com/designspark/lorawan-enable-a-sensor
+            * Each Application accessing API's to access data from End Devices need to limit the usage of specific End Devices, and the amount of join requests from each End Device. Transmit an accumulated unconfirmed count every 60 mins. Reset the count every 24 hours by sending a downlink and receiving a confirmed uplink. See <a href="https://www.rs-online.com/designspark/lorawan-enable-a-sensor" target="_blank" class="pretty-link-colored">https://www.rs-online.com/designspark/lorawan-enable-a-sensor</a>
     * Note:
       * The above limits to apply to Gateways and End Devices such as LoRaWAN Wireless Transceivers (i.e. RN2483)
       * Gateways must comply with these limitations, however a Gateway reply is not guaranteed
@@ -2300,8 +2302,8 @@ Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
 * Existing MXC Supernodes are already deployed in Germany and Poland
 * Existing M2M Wallet Gateway Discovery feature shows that there’s a Gateway device every 20km between the Supernodes
 * Existing M2M Wallet allows user to exchange fiat for MXC and convert to VMXC to initially pay for M2M IoT payments and to regularly earn from staking on a Supernode
-* Existing Datahighway.com Data Wallet allows existing BTC or IOTA holders to stake across a bridge to earn and claim DHX
-* Existing Datahighway.com Data Wallet provides a DEX to exchange BTC or IOTA for DHX or VMXC
+* Existing <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Data Wallet allows existing BTC or IOTA holders to stake across a bridge to earn and claim DHX
+* Existing <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Data Wallet provides a DEX to exchange BTC or IOTA for DHX or VMXC
 * Existing Datahighways.com Data Marketplace lists offers from IoT devices and data buyers may purchase a plan to access the data from and API  
 
 #### User Personas
@@ -2371,8 +2373,7 @@ Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
           * Usage
             * Flower Garden Tourism - estimate if too noisy (tourists)
   * Operating Costs
-    * Estimated €40 annually (20x €3 per device per year)
-https://www.sciencedirect.com/science/article/pii/S2405959517302953
+    * Estimated €40 annually (20x €3 per device per year) <a href="https://www.sciencedirect.com/science/article/pii/S2405959517302953" target="_blank" class="pretty-link-colored">https://www.sciencedirect.com/science/article/pii/S2405959517302953</a>
   * Expectations
     * Free or low-cost to share sensor data (if possible)
     * Location-specific real-time data readings provided
@@ -2392,7 +2393,7 @@ https://www.sciencedirect.com/science/article/pii/S2405959517302953
   * Bob uploads PEM file TLS and CA Certificates (including those for the routing profile) to enable TLS in the M2M “Applications” section called “TLS Certificates” for the connection between the Supernode (MXProtocol Server that’s based on LoRa Server) and the Application Server (LoRa App Server) 
   * Bob configures the M2M “Service Profile” section to connect his organisation to the “home” Supernode. He toggles enabling the attachment of metadata to uplink packets processed by his Gateways (i.e. geolocation). He also toggles allowing the Supernode to geolocate all his Sensors and Gateways to support roaming
   * Bob configures the M2M “Applications” section to associate the Sensors in his Service Profile with real-world applications including: Watersport Tourism and Flower Garden Photography Tourism.
-  * Bob configures in the M2M “Applications” section under "HTTP Integration Headers" an endpoint URL of a Data Service (including associated HTTP headers for authorization) so that uplink data packets received in the current session by the Supernode (LoRa App Server) from Sensors may be automatically forwarded in JSON format by HTTP POST request and then parsed, stored, and served to authorised Data Buyers from the Datahighway.com. He uses http://mockbin.org or https://requestloggerbin.herokuapp.com to preview the data.
+  * Bob configures in the M2M “Applications” section under "HTTP Integration Headers" an endpoint URL of a Data Service (including associated HTTP headers for authorization) so that uplink data packets received in the current session by the Supernode (LoRa App Server) from Sensors may be automatically forwarded in JSON format by HTTP POST request and then parsed, stored, and served to authorised Data Buyers from the <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a>. He uses <a href="http://mockbin.org" target="_blank" class="pretty-link-colored">http://mockbin.org</a> or <a href="https://requestloggerbin.herokuapp.com" target="_blank" class="pretty-link-colored">https://requestloggerbin.herokuapp.com</a> to preview the data.
   * Bob configures in the M2M “Multicast Groups” section by adding Fixed Weather Unit #1 and Fixed Weather Unit #2 (that each comprise of Sensors from a Service Profile and Application) to a new Multicast Group, and configures the Multicast address, the session and application session keys, the frame counter, data rate and frequency to transmit the Multicast frames, chooses the Multicast Group Type to schedule Multicast frames from the Supernode only during daylight hours 
   * Bob finds the following M2M Wallets sections most useful for monitoring his Sensors and Gateways:
     * “Devices” section, where it lists each device, its Device EUI, GPS map location, activation status, battery level, last online status, downlink queue list and confirmation status, frames, device data collected (collect from devices via Websockets API), and firmware details.
@@ -2420,31 +2421,31 @@ https://www.sciencedirect.com/science/article/pii/S2405959517302953
     * Supernode #2 (Poland)
       * Gateway - any available nearby
         * Mobile Weather Unit #3 - transported around in backpack
-  * Bob goes to Datahighway.com and adds his Gateway and Sensors to the data market
+  * Bob goes to <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> and adds his Gateway and Sensors to the data market
     * Location - Spandau Lake, Berlin
       * Gateway #1 - fixed near his favourite sailing location
       * Roaming - Yes
       * “Home” Supernode #1 (Berlin)
-      * Price - Price not shown on Datahighway.com - Bob knows he’s the only Gateway near his devices, so if anyone purchases access to the Sensors in one of his Fixed Weather Unit #1 or #2, he’ll be paying off the price of his investment in buying the Gateway
+      * Price - Price not shown on <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> - Bob knows he’s the only Gateway near his devices, so if anyone purchases access to the Sensors in one of his Fixed Weather Unit #1 or #2, he’ll be paying off the price of his investment in buying the Gateway
     * Location - Spandau Lake (North), Berlin
       * 5x Sensors (Fixed Weather Unit #1)
       * Roaming - No
       * “Home” Supernode - Supernode #1 (Berlin)
       * Gateway - Gateway #1
-      * Datahighway.com Market Price - 5 MB (~250,000 Packets) for 200 DHX (200 MXC, 1 USD) with max. 10 messages per hour per Sensor, which expires after 1 month.
+      * <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Market Price - 5 MB (~250,000 Packets) for 200 DHX (200 MXC, 1 USD) with max. 10 messages per hour per Sensor, which expires after 1 month.
       * Note: Bob knows in this case he’s only selling a fraction of his bandwidth, and if he obtains one customer per month he’s covering his whole monthly “data” costs, and if he had more than one customer he’ll start paying off his Sensors, and eventually just make profit to reinvest into purchasing more devices. He could also sell access only to individual Sensors.
     * Location - Spandau Lake (South), Berlin
       * 5x Sensors (Fixed Weather Unit #2)
       * Roaming: No
       * “Home” Supernode - Supernode #1 (Berlin)
       * Gateway - Gateway #1 
-      * Datahighway.com Market Price - Same as at Fixed Weather Unit #1 
+      * <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Market Price - Same as at Fixed Weather Unit #1 
     * Location - Krakow, Poland
       * 6x Sensors (Mobile Weather Unit #3)
       * Roaming - Yes
       * “Home” Supernode - Supernode #2 (Poland)
       * Gateway - any available
-      * Datahighway.com Market Price - Same as at Fixed Weather Unit #1
+      * <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Market Price - Same as at Fixed Weather Unit #1
     * Supernode #1
       * 500 MXC Staked (for his Gateway)
       * 125 MXC Staked (from 10x Sensors)
@@ -2452,19 +2453,19 @@ https://www.sciencedirect.com/science/article/pii/S2405959517302953
       * 75 MXC Staked (from 6x Sensors)
 
 * Alice’s Setup
-  * Alice has heard about the IoT “gig” economy where anyone can sell device data, and she’s heard about MXC’s Datahighway.com
+  * Alice has heard about the IoT “gig” economy where anyone can sell device data, and she’s heard about MXC’s <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a>
   * Alice wants to update the Krakow Sailing Club’s website with a map of holiday destinations at popular lakes in Poland and Germany.
-  * Alice goes to Datahighway.com, and searches for “Watersport” applications in the Data Market. It lists Bob’s different fixed and mobile Weather Units. She’s wants to buy access to the “data” bundle from Bob’s Mobile Weather Unit #3, since it has roaming enabled, and there’s evidence that it has sufficient uptime
+  * Alice goes to <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a>, and searches for “Watersport” applications in the Data Market. It lists Bob’s different fixed and mobile Weather Units. She’s wants to buy access to the “data” bundle from Bob’s Mobile Weather Unit #3, since it has roaming enabled, and there’s evidence that it has sufficient uptime
   * Alice finds out that she could earn DHX by staking some of her IOTA over a bridge, but she doesn’t have time and she doesn’t want to miss out on Bob’s cheap offer.
-  * Alice also finds out that she could run Datahighway.com Parachain Validator node to earn DHX, but she doesn’t have time for that yet either.
-  * Alice finds out she could earn DHX by buying more DHX than she needs and staking it against an existing Datahighway.com Parachain Validator by Nominating them.
-  * Alice decides to use the Datahighway.com In-built DEX to exchange all her BTC for DHX.
-  * Alice purchases Bob’s Mobile Weather Unit #3 and and stakes the remaining DHX on a Datahighway.com Parachain Validator, so 200 DHX are converted to 200 VMXC internally and transferred to Bob’s “Home” Supernode #2 (Poland) associated with Bob’s organisation, since the Supernode will handle calculating the transaction costs and earnings over the month, and any roaming that’s involved and then make monthly payments
+  * Alice also finds out that she could run <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Parachain Validator node to earn DHX, but she doesn’t have time for that yet either.
+  * Alice finds out she could earn DHX by buying more DHX than she needs and staking it against an existing <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Parachain Validator by Nominating them.
+  * Alice decides to use the <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> In-built DEX to exchange all her BTC for DHX.
+  * Alice purchases Bob’s Mobile Weather Unit #3 and and stakes the remaining DHX on a <a href="https://datahighway.com" target="_blank" class="pretty-link-colored">Datahighway.com</a> Parachain Validator, so 200 DHX are converted to 200 VMXC internally and transferred to Bob’s “Home” Supernode #2 (Poland) associated with Bob’s organisation, since the Supernode will handle calculating the transaction costs and earnings over the month, and any roaming that’s involved and then make monthly payments
   * Alice is granted access to the data provider’s API Keys so her Application may perform queries
 
 * References:
-  * https://www.sciencedirect.com/science/article/pii/S2405959517302953
-  * https://www.rs-online.com/designspark/lorawan-enable-a-sensor
-  * https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300
-  * https://arxiv.org/pdf/1607.08011.pdf
-  * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/
+  * <a href="https://www.sciencedirect.com/science/article/pii/S2405959517302953" target="_blank" class="pretty-link-colored">https://www.sciencedirect.com/science/article/pii/S2405959517302953</a>
+  * <a href="https://www.rs-online.com/designspark/lorawan-enable-a-sensor" target="_blank" class="pretty-link-colored">https://www.rs-online.com/designspark/lorawan-enable-a-sensor</a>
+  * <a href="https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300" target="_blank" class="pretty-link-colored">https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300</a>
+  * <a href="https://arxiv.org/pdf/1607.08011.pdf" target="_blank" class="pretty-link-colored">https://arxiv.org/pdf/1607.08011.pdf</a>
+  * <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/" target="_blank" class="pretty-link-colored">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/</a>
