@@ -1,10 +1,10 @@
 ---
 id: whitepaper
-title: Data Highway's Economic Whitepaper
+title: DataHighway's Economic Whitepaper
 sidebar_label: Whitepaper
 ---
 
-<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">Data Highway's Economic Whitepaper</span>
+<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">DataHighway's Economic Whitepaper</span>
 <br />
 
 <div class="background-custom"></div>
@@ -327,7 +327,7 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
     <ul>
     <li><a href="#appendix-1-general---technical-model-of-substrate">Appendix 1: General - Technical Model of Substrate</a>
     <ul>
-    <li><a href="#integration-of-the-data-highway-parachain-into-the-polkadot-network">Integration of the Data Highway Parachain into the Polkadot network</a></li>
+    <li><a href="#integration-of-the-data-highway-parachain-into-the-polkadot-network">Integration of the DataHighway Parachain into the Polkadot network</a></li>
     </ul></li>
     <li><a href="#appendix-2-roaming---lorawan-technology">Appendix 2: Roaming - LoRaWAN Technology</a></li>
     <li><a href="#appendix-3-roaming---use-case-alice-and-bob">Appendix 3: Roaming - Use Case (Alice and Bob)</a>
@@ -344,7 +344,7 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
 
 ## Introduction
 
-The decentralised Data Highway (DH) economic system for the future of IoT will have a monetary system of the DHX token.
+The decentralised DataHighway (DH) economic system for the future of IoT will have a monetary system of the DHX token.
 
 #### DAO
 
@@ -356,7 +356,7 @@ It will allow users to be rewarded in return for participation.
 
 #### Inter-Chain Data Market
 
-The Data Highway's (DHX) Inter-Chain Data Market allows participants to become data providers and to share IoT data from their devices to application developers in exchange for DHX tokens.
+The DataHighway's (DHX) Inter-Chain Data Market allows participants to become data providers and to share IoT data from their devices to application developers in exchange for DHX tokens.
 
 #### LPWAN
 
@@ -366,13 +366,13 @@ A category of devices that run on low bandwidths (less than 125kHz, 200bps) with
 
 Devices (LPWAN IoT End Devices) are owned by Data Providers and registered at a "home" Network Server (or Supernode that has purchased a specific Network ID) that belongs to a specific Network Operator (such as the MXC Network).
 
-Data Consumers may request to be granted access to receive packets of data that have been uplinked from a device, which may require purchasing ad-hoc access or a subscription from the Data Highway's Inter-Chain Data Market (see separate "Inter-Chain Data Market" Whitepaper).
+Data Consumers may request to be granted access to receive packets of data that have been uplinked from a device, which may require purchasing ad-hoc access or a subscription from the DataHighway's Inter-Chain Data Market (see separate "Inter-Chain Data Market" Whitepaper).
 
 Device owners may enable or disable roaming and associated payments via the LPWAN Supernode Portal.
 
 Supernode owners may also choose to restrict access to roaming devices via the LPWAN Supernode Portal.
 
-Data Highway (DH) is an implementation of an open-source and fully decentralised roaming service that allows LPWAN IoT End Devices that have enabled roaming to move out of the network coverage area of their "home" Network Server and into the network coverage area of a "visited" Network Server, where the "visited" Network Server may query the Data Highways distributed ledger (database storage) to retrieve information such as whether the device has enabled roaming, and whether an individual party to party (bilateral) roaming agreement has been established between the Network Operator of the "visited" Network Server and the Network Operator of the "home" Network Server. If the roaming join request is accepted then the packets of data that are uplinked when roaming will be forwarded such that Data Consumers gain continuous access to the data.
+DataHighway (DH) is an implementation of an open-source and fully decentralised roaming service that allows LPWAN IoT End Devices that have enabled roaming to move out of the network coverage area of their "home" Network Server and into the network coverage area of a "visited" Network Server, where the "visited" Network Server may query the DataHighways distributed ledger (database storage) to retrieve information such as whether the device has enabled roaming, and whether an individual party to party (bilateral) roaming agreement has been established between the Network Operator of the "visited" Network Server and the Network Operator of the "home" Network Server. If the roaming join request is accepted then the packets of data that are uplinked when roaming will be forwarded such that Data Consumers gain continuous access to the data.
 
 The Network Server's are referred to as MXC Supernodes if they have purchased a Network ID and belong to the MXC Network. Other technologies like Sigfox and NB-IoT can also participate through Network ID based roaming.
 
@@ -380,7 +380,7 @@ It will be compatible with the latest <a href="https://lora-alliance.org/sites/d
 
 Supernodes implement the MXProtocol and provide a user-interface (UI). This UI shall be updated to allow Supernode owners and stakeholders to interact with this API, as shown in these <a href="#Proposed-Roaming-Integration-into-MXProtocol-of-LPWAN-Supernodes" class="pretty-link-colored">proposed changes</a>.
 
-Other roaming hubs that choose to store their roaming policies and agreements on the Data Highway will be supported in their efforts. Alternatively the MXC Foundation gGmbH, Lora Alliance, Sigfox and 3GPP will facilitate the bridge between other centralized and decentralized roaming hubs and the Data Highway.
+Other roaming hubs that choose to store their roaming policies and agreements on the DataHighway will be supported in their efforts. Alternatively the MXC Foundation gGmbH, Lora Alliance, Sigfox and 3GPP will facilitate the bridge between other centralized and decentralized roaming hubs and the DataHighway.
 
 Reference: Page 22 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Whitepaper</a>.
 
@@ -397,7 +397,7 @@ Reference: Page 25 of the <a href="https://www.mxc.org/hubfs/WP/MXC_technical_wh
 
 ![](https://i.imgur.com/yvZdFKO.png)
 
-Figure 0: Overview of Mining in the Data Highway
+Figure 0: Overview of Mining in the DataHighway
 
 ### Equal Participation Opportunity
 
@@ -476,11 +476,11 @@ Refer to [Data Validation](#Data-Validation) section.
 
 ### Scalability
 
-The Data Highway will be a Polkadot parachain that is forecast to support at least 10 TPS. Refer to quote from reference document below, which was reviewed by Dr Gavin Wood. Quote from the blog post:
+The DataHighway will be a Polkadot parachain that is forecast to support at least 10 TPS. Refer to quote from reference document below, which was reviewed by Dr Gavin Wood. Quote from the blog post:
 
 *"Depending on the block production algorithm and parameters, the transaction throughput of each chain can vary, and thus the overall throughput of the Polkadot network can only be estimated. The first version of Polkadot will allow up to 100 parachains, and assuming each can support at least 10 transactions per second (TPS), a lower bound on throughput would be about 1000 TPS."*
 
-Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the Data Highway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX.
+Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the DataHighway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX.
 
 ![](https://i.imgur.com/Sc5GRdi.png)
 
@@ -514,32 +514,32 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ### January 2020
 
-- Data Highway Initial Website Published
-- Data Highway Combined (Mining, Inter-Chain Data Market, and Roaming) Whitepaper Released (Open-Source)
-- Data Highway Roaming Preliminary Design Implementation Published on Github (Open-Source)
+- DataHighway Initial Website Published
+- DataHighway Combined (Mining, Inter-Chain Data Market, and Roaming) Whitepaper Released (Open-Source)
+- DataHighway Roaming Preliminary Design Implementation Published on Github (Open-Source)
 
 ### February 2020
-- Data Highway Testnet (Mining Only) on Substrate-based chain using PoA collators
-- Data Highway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
-- Data Highway Roaming Detailed Design Implementation Published on Github (Open-Source)
-- Data Highway Parachain Slot Auction on Polkadot Testnet
-- Data Highway Blockchain ported to Polkadot Parachain using Cumulus
+- DataHighway Testnet (Mining Only) on Substrate-based chain using PoA collators
+- DataHighway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
+- DataHighway Roaming Detailed Design Implementation Published on Github (Open-Source)
+- DataHighway Parachain Slot Auction on Polkadot Testnet
+- DataHighway Blockchain ported to Polkadot Parachain using Cumulus
 
 ### March 2020
-- Data Highway Roaming Final Design (integration of Backend Interface 1.0 Specification)
-- Data Highway Testnet (Mining Only) on Substrate-based chain using NPoS collators
+- DataHighway Roaming Final Design (integration of Backend Interface 1.0 Specification)
+- DataHighway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 
 ### April 2020
 - Polkadot Mainnet Launch. See https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png
-- Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's [Cumulus Framework](https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/) or the Parachain Development Kit (PDK)
-- Data Highway Testnet (Roaming + Mining) on Substrate-based chain using PoA collators
+- DataHighway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's [Cumulus Framework](https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/) or the Parachain Development Kit (PDK)
+- DataHighway Testnet (Roaming + Mining) on Substrate-based chain using PoA collators
 
 ### June 2020
-- Data Highway Mainnet Upgrade (Roaming + Mining)
-- Data Highway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using PoA collators
+- DataHighway Mainnet Upgrade (Roaming + Mining)
+- DataHighway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using PoA collators
 
 ### July 2020
-- Data Highway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
+- DataHighway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
 
 * References:
   * https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699
@@ -554,7 +554,7 @@ The initial economic variables shown in the table below were decided upon throug
 
 ![](https://i.imgur.com/tK4d8Lr.png)
 
-Table 1: Data Highway Economic Variables
+Table 1: DataHighway Economic Variables
 
 #### Genesis Total Symbol
 
@@ -685,7 +685,7 @@ The block reward treasury fees is the amount remaining after collator fees. They
                 * Development Mining
                     * To improve DApps
                 * Advocacy Mining
-                    * Creating standards and patterns to satisfy community expectations, and discovering ways to maintain low transaction fees (that collators may rely on) to maintain a low barrier to entry for new Data Highway users (unless an increase in DHX price and transaction fees is supported due to rapid adoption) and prevent causing IoT fees to become prohibitively expensivel, and to reduce hardware and hosting costs to maintain ROI
+                    * Creating standards and patterns to satisfy community expectations, and discovering ways to maintain low transaction fees (that collators may rely on) to maintain a low barrier to entry for new DataHighway users (unless an increase in DHX price and transaction fees is supported due to rapid adoption) and prevent causing IoT fees to become prohibitively expensivel, and to reduce hardware and hosting costs to maintain ROI
                 * Governance Mining
         * MLB
             * Max. 20% MLB Per Proposal
@@ -717,7 +717,7 @@ The initial halvings have higher reward per block that provides a higher potenti
 * More frequent upgrades and volatility
 
 Additionally there should be an incentive for collators to:
-* Lower transaction fees to reduce the barrier to entry for new Data Highway users, which is also an overarching IoT goal.
+* Lower transaction fees to reduce the barrier to entry for new DataHighway users, which is also an overarching IoT goal.
 
 #### Frequency
 
@@ -747,7 +747,7 @@ Historically, the Bitcoin network adopted the halving strategy as follows:
 
 ![](https://i.imgur.com/ek8nb29.png)
 
-In addition to Data Traders earning through the savings they make as a result of the democratisation of data using the decentralised Data Highway, the Inter-Chain Data Market incentives users to participate in order to potentially earn more DHX tokens, as follows:
+In addition to Data Traders earning through the savings they make as a result of the democratisation of data using the decentralised DataHighway, the Inter-Chain Data Market incentives users to participate in order to potentially earn more DHX tokens, as follows:
 
 * Data Trading Transaction Fees
     * 1% from each trade is pooled into the DHX DAO Treasury and may be automatically distributed to eligible candidates each month that must have initiated at least one trade above 0 DHX that was executed that month.
@@ -782,9 +782,9 @@ Other means of acquiring DHX tokens at through participating as follows:
         * Token Mining by registering that any of the following tokens have been locked for a period of time: DHX, MXC, IOTA, or DOT. Paid for using DHX DAO Treasury's Unlocked Reserves.
         * Token Mining by Signalling, where they just hold DHX, MXC, IOTA, and DOT (without even locking it) and may be eligible to claim **10%** of the lowest locking MSBs rates and apply it to their DHX staking profits (if they are also staking DHX as a Collator Node or Nominator), and where the MSB is always issued through DHX DAO approval.
         * Hardware Mining owners (i.e. End Devices, Gateway owners, Supernode owners, Collator Nodes), DHX DAO Governance participants (from the Council that audit referendums or other participants that vote on Council elections or help to organise resolution of other proposals such as categorising, proposing financial impact, disputes) where they may earn the Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
-        * Data buyers such as Inter-Chain Data Market buyers that use Data Highway data in DApps that may be from other chains (e.g. IOTA) and increase adoption in the IoT data economy overall, thereby participate in Development Mining and/or Advocacy Mining through API referrals which contributes to the potential Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
+        * Data buyers such as Inter-Chain Data Market buyers that use DataHighway data in DApps that may be from other chains (e.g. IOTA) and increase adoption in the IoT data economy overall, thereby participate in Development Mining and/or Advocacy Mining through API referrals which contributes to the potential Non-Token Mining boost of up to 1.4x their DHX staking profits through MSB.
     * Mining Loyalty Boost (MLB)
-        * Loyal MXC holders that held MXC prior to the launch of the Data Highway may earn a boost of up to 1.2x their DHX staking profits through the MLB. Paid for using DHX DAO Treasury's Unlocked Reserves.
+        * Loyal MXC holders that held MXC prior to the launch of the DataHighway may earn a boost of up to 1.2x their DHX staking profits through the MLB. Paid for using DHX DAO Treasury's Unlocked Reserves.
     * Combo Boost
         * Up to 1.2x their DHX staking profits (a proportion of the Token Mining boost) by both staking MXC and either staking DHX or Token Mining at the same time.
 
@@ -1244,7 +1244,7 @@ Table 1.5: Hardware Assets Mining MSB
 
 #### Background & Benefits
 
-* Incubate Runtime & DApp development on Data Highway through DHX funding (e.g. DApps, Bounties)
+* Incubate Runtime & DApp development on DataHighway through DHX funding (e.g. DApps, Bounties)
 
 #### Goals
 
@@ -1313,7 +1313,7 @@ Same as Token Mining
 
 #### Background & Benefits
 
-* Incubate Runtime & DApp development on Data Highway through DHX funding (e.g. Referrals, Publications, Presentations, Ambassadors, Sponsors)
+* Incubate Runtime & DApp development on DataHighway through DHX funding (e.g. Referrals, Publications, Presentations, Ambassadors, Sponsors)
 
 #### Goals
 
@@ -1377,7 +1377,7 @@ Same as Token Mining
 
 #### Background & Benefits
 
-* Incubate Runtime & DApp development on Data Highway through DHX funding (e.g. Governance, Voting)
+* Incubate Runtime & DApp development on DataHighway through DHX funding (e.g. Governance, Voting)
 
 #### Goals
 
@@ -1429,11 +1429,11 @@ End Device owner user of an organization agrees on payment conditions such as:
 
 End Device owner user of an organization exchanges a money type (e.g. another token or fiat) for sufficient MXC.
 
-Supernode information is stored on the Data Highway (i.e. IP address that may change later, min. bid required)
+Supernode information is stored on the DataHighway (i.e. IP address that may change later, min. bid required)
 
-End Device owner turns on roaming in the UI of the LPWAN Server and their information (i.e. roaming enabled) is stored on the Data Highway.
+End Device owner turns on roaming in the UI of the LPWAN Server and their information (i.e. roaming enabled) is stored on the DataHighway.
 
-End Device moves from its Home NS to another NS, and the NS queries the Data Highway to find out the End Devices JS IP address and Home NS. SMB occurs (agreement automated based on quantity of packets sent, min. bid required by SN/GW, max. bid by End Device), join request is forwarded to JS via Home NS, then accept/reject whether the End Device is allowed to roam with the other NS (packets are forwarded without having to frequently agree). See "Activation Passive Roaming" https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing
+End Device moves from its Home NS to another NS, and the NS queries the DataHighway to find out the End Devices JS IP address and Home NS. SMB occurs (agreement automated based on quantity of packets sent, min. bid required by SN/GW, max. bid by End Device), join request is forwarded to JS via Home NS, then accept/reject whether the End Device is allowed to roam with the other NS (packets are forwarded without having to frequently agree). See "Activation Passive Roaming" https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing
 
 No agreement is established or payment required if join is rejected, since the packets are dropped.
 
@@ -1441,13 +1441,13 @@ End Device owners are sent an email notification recommending that they topup wi
 
 End Device roaming packets and associated Network Servers that forward them are stored in a counter that is reset to 0 each week, sufficiently after associated roaming fees and payments were made so it may be reverted if the counter value is found to be incorrect. Otherwise the list of changing IP addresses may get too long. The finalized transaction is used to prove whether the counter value is legitimate.
 
-Monthly payments are calculated on the Data Highway (for subscription payment plan) and DHX billing, charging, and payments are done automatically.
+Monthly payments are calculated on the DataHighway (for subscription payment plan) and DHX billing, charging, and payments are done automatically.
 
 #### Transaction Fees (Subscription-based or Ad-Hoc Usage)
 
 Each of the initial 21 Supernodes (SNs) need to top-up MXC to get a sufficient amount in their SN to be able achieve a threshold holding that will allow them to generate a unique NetID (Network ID) that's associated with their SN and will be recorded on-chain.
 
-End Devices that is activated at their "home" Supernode, once activated, will have had a DevAddr stored on the End Device, which contains a NwkAddr (which is derived from the "home" Supernode's unique Network ID). The LPWAN Server (Supernode powered by MXProtocol) will then make one or more POST request from the LPWAN App Server codebase to the Data Highway to store roaming related information about that End Device on the distributed ledger database (under the RoamingBaseProfile class's `devAddr` and `homeNet` properties of the EndDevice class), as shown in the [Roaming Class Diagram](#Class-Diagrams).
+End Devices that is activated at their "home" Supernode, once activated, will have had a DevAddr stored on the End Device, which contains a NwkAddr (which is derived from the "home" Supernode's unique Network ID). The LPWAN Server (Supernode powered by MXProtocol) will then make one or more POST request from the LPWAN App Server codebase to the DataHighway to store roaming related information about that End Device on the distributed ledger database (under the RoamingBaseProfile class's `devAddr` and `homeNet` properties of the EndDevice class), as shown in the [Roaming Class Diagram](#Class-Diagrams).
 
 End Device owners may subscribed to roaming or pay ad-hoc roaming fees in DHX to gain sufficient balance to roam. This will be recorded under the RoamingBaseProfile class's `expiry` date property of the EndDevice class).
 
@@ -1457,15 +1457,15 @@ End Devices may only be allowed to roam at a "visited" Network Server (or Supern
   * End Device owner subscribes to roaming or pays ad-hoc roaming fees in DHX and has sufficient balance.
   * Roaming policies and agreements have been executed between the Network Operator of the End Device's "home" network server (or Supernode) and the Network Operator of the "visited" network server (or Supernode).
   * End Device behaviour satisfies the relevant roaming policies and agreements
-  * The "visited" network server (if not a Supernode) supports the MXProtocol (i.e. supports querying decentralized DNS of the Data Highway to find the "home" network server or Supernode, and retrieving the roaming policies and agreements, if any) or similar equivalent.
+  * The "visited" network server (if not a Supernode) supports the MXProtocol (i.e. supports querying decentralized DNS of the DataHighway to find the "home" network server or Supernode, and retrieving the roaming policies and agreements, if any) or similar equivalent.
 
-In the situation where the End Device tries to roam by attempting to join a "visited" Supernode, that "visited" Supernode will check for the DevAddr in the uplinked packets, then make a query from the LPWAN App Server codebase (written in GoLang and powered by MXProtocol) to the Data Highway to lookup whether roaming fees have been paid by that End Device (stored under the RoamingBaseProfile class's `expiry` date property of the EndDevice class), and if so it will return "home" Supernode's IP address (if the Network ID is recognizable), otherwise it will just drop the uplinked packets.
+In the situation where the End Device tries to roam by attempting to join a "visited" Supernode, that "visited" Supernode will check for the DevAddr in the uplinked packets, then make a query from the LPWAN App Server codebase (written in GoLang and powered by MXProtocol) to the DataHighway to lookup whether roaming fees have been paid by that End Device (stored under the RoamingBaseProfile class's `expiry` date property of the EndDevice class), and if so it will return "home" Supernode's IP address (if the Network ID is recognizable), otherwise it will just drop the uplinked packets.
 
-If the End Device owner changed it's roaming configuration (in the UI, see [Intuitive-UX](#Intuitive-UX)) but the transaction was still pending, then the Supernode could still find out if that's the case by querying the `pending_extrinsics` of the Data Highway parachain.
+If the End Device owner changed it's roaming configuration (in the UI, see [Intuitive-UX](#Intuitive-UX)) but the transaction was still pending, then the Supernode could still find out if that's the case by querying the `pending_extrinsics` of the DataHighway parachain.
 
 Note that this is separate from staking where a user who is an MXC holder chooses one of the 21 Supernodes and participates in staking by depositing their MXC in it to earn DHX depending on how much data that Supernode processes.
 
-Network Operators may benefit from interoperability through decentralised DNS and earn DHX from roaming fees. Network Operators outside of the MXC network may always access the MXC network's decentralised DNS that is provided by the Data Highway, and they may choose to either establish publicly accessible decentralized roaming policies directly on the Data Highway or to update existing roaming policies (e.g. on ThingPark Exchange) and create new agreements (e.g. with MXC Foundation on ThingPark Exchange)
+Network Operators may benefit from interoperability through decentralised DNS and earn DHX from roaming fees. Network Operators outside of the MXC network may always access the MXC network's decentralised DNS that is provided by the DataHighway, and they may choose to either establish publicly accessible decentralized roaming policies directly on the DataHighway or to update existing roaming policies (e.g. on ThingPark Exchange) and create new agreements (e.g. with MXC Foundation on ThingPark Exchange)
 
 #### Operations Fees
 
@@ -1508,7 +1508,7 @@ The default fee values for the below are defined in the Balances SRML module whe
 
 #### Changes to Roaming Fees
 
-The fees may be changed by upgrading the Data Highway parachain by using the Sudo SRML. The stakeholders of the parachain may wish to vote on how the fees should change, which would require use of the Democracy SRML (governance module).
+The fees may be changed by upgrading the DataHighway parachain by using the Sudo SRML. The stakeholders of the parachain may wish to vote on how the fees should change, which would require use of the Democracy SRML (governance module).
 
 * References:
   * Balances SRML - https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs
@@ -1532,7 +1532,7 @@ The new DHX token is only used for:
 3. Payment for IoT data (separate Inter-Chain Data Market Whitepaper)
 
 * MXC tokens may already be obtained from various DEXs
-* DHX tokens may be obtained initially through Data Highway Mining & Governance (see Mining Whitepaper)
+* DHX tokens may be obtained initially through DataHighway Mining & Governance (see Mining Whitepaper)
 * DHX tokens may be also be obtained in future for MXC tokens through a DEX (see Inter-Chain Data Market Whitepaper)
 * See the "DHX Token Acquisition" section of the Inter-Chain Data Market Whitepaper for further details.
 
@@ -1540,27 +1540,27 @@ The new DHX token is only used for:
 
 #### Storage Requirements
 
-End Device information that should be stored on the Data Highway includes:
+End Device information that should be stored on the DataHighway includes:
 
 * Roaming Configuration
   * Mapping of whether an End Device has enabled roaming and its expiry date
   * "home" Network Server's DNS resolution information
-  * Owner Account ID on the Data Highway and their User ID and Oorganization ID on the LPWAN Server
+  * Owner Account ID on the DataHighway and their User ID and Oorganization ID on the LPWAN Server
 * Owner Information
   * M2M Wallet User ID (which may be associated with multiple Organisation IDs, and the End Device may be part of one of its Organisation IDs).
-  * Organization ID should have an MXC "network" balance so the owner of the End Device may exchange them for the Data Highway's "data" tokens (DHX) to pay for roaming
+  * Organization ID should have an MXC "network" balance so the owner of the End Device may exchange them for the DataHighway's "data" tokens (DHX) to pay for roaming
 * Smart Machine Bidding (SMB) and Forwarding Parameters:
   * Packets of data (count/nonce) that the End Device and Network Servers have exchanged, who else was party to the exchange and owes or is owed DHX for roaming.
 
 #### Storage Periodic Maintenance and Migration
 
-Data Highway nodes should be able to be run on servers without storing unnecessary data.
+DataHighway nodes should be able to be run on servers without storing unnecessary data.
 
 ##### Data Pruning
 
-On Polkadot, all data related to an account is pruned when the account's balance drops below an existential deposit value (avoids dust accounts). The Data Highway will include this feature.
+On Polkadot, all data related to an account is pruned when the account's balance drops below an existential deposit value (avoids dust accounts). The DataHighway will include this feature.
 
-Data Highway nodes may be run with `pruning=1000000` to discard historical data prior to a certain block 1000000 (not with `pruning=archive`). This will be useful on the Data Highway, since the Data Highway will be a public chain with an initial database size of 0 GB. After 1 year its database size could be over 5Gb, and over 10Gb after 2 years. The payment related roaming data stored in the database is for audit purposes, where an audit of payments and disputes of payment transactions may occur for up to 1 year after the payment occurred, such that no payments in the first year can be reverted by lodging proposal through governance, and as such those historical records are no longer required.
+DataHighway nodes may be run with `pruning=1000000` to discard historical data prior to a certain block 1000000 (not with `pruning=archive`). This will be useful on the DataHighway, since the DataHighway will be a public chain with an initial database size of 0 GB. After 1 year its database size could be over 5Gb, and over 10Gb after 2 years. The payment related roaming data stored in the database is for audit purposes, where an audit of payments and disputes of payment transactions may occur for up to 1 year after the payment occurred, such that no payments in the first year can be reverted by lodging proposal through governance, and as such those historical records are no longer required.
 
 ##### Data Retention and Periodic Migration
 
@@ -1574,7 +1574,7 @@ Other data that was stored in historic blocks (e.g. whether there is sufficient 
 
 ##### Aggregations (of SMB and Forwarding)
 
-Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding from "visited" Network Servers back to the roaming End Device's "home" Network Server may also be stored on the Data Highway, if necessary.
+Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding from "visited" Network Servers back to the roaming End Device's "home" Network Server may also be stored on the DataHighway, if necessary.
 
 ![](https://i.imgur.com/bgTLbxO.png)
 
@@ -1591,7 +1591,7 @@ Source: roaming_class
 ##### LPWAN Supernode Network Setup, Shared Identity & Staking
 
 1. Register Organisations ID at MXC’s M2M Portal.
-2. Generate Data Highway (DH) Parachain Account ID.
+2. Generate DataHighway (DH) Parachain Account ID.
 3. Store mapping of Organisation ID, Supernode ID and Shared Identity (Parachain Account ID) on parachain.
 4. Store Staking requirements for Supernodes on the parachain.
 5. Obtain Network ID for Supernode by locking the minimum MXC tokens to Stake on a Supernode ready for Contour Payments. Pay fee for Network ID.
@@ -1662,9 +1662,9 @@ Source: register_supernode
 #### Roaming at a Supernode that is registered on the MXC Network using an End Device from a different Network Operator that is registered on ThingPark Exchange (TEX)
 
 * MXProtocol Policy Integrated into ThingPark Partners UI
-* Roaming Policy stored on Data Highway
-* IT Integration Setup Whitelisting stored on Data Highway
-* Store Profile Of End Device on Data Highway so no request required to to Home NS
+* Roaming Policy stored on DataHighway
+* IT Integration Setup Whitelisting stored on DataHighway
+* Store Profile Of End Device on DataHighway so no request required to to Home NS
 * Periodic Billing & Payments via MXC Service
 * Roaming API
 
@@ -1687,7 +1687,7 @@ Source: roaming_class_diagram
 
 * Create MXProtocol Policies for roaming on ThingPark Exchange (between MXC Network Operator and others on ThingPark Exchange e.g. Swisscom, Orange)
 * Optionally the Swisscom Network Server (NS) may also support MXProtocol.
-* Use Data Highway Parachain Roaming API to check Roaming Agreement Policy for network associated with End Device (MXC)
+* Use DataHighway Parachain Roaming API to check Roaming Agreement Policy for network associated with End Device (MXC)
 * Use Roaming API to check Roaming Whitelisting
 * Use Roaming API to accept the Roaming Policy and start Roaming Accounting
 * Use MXProtocol Policy that is integrated into ThingPark Partners UI to audit periodic (i.e. monthly) payments from MXC, which queries the Roaming API for Billing & Payments
@@ -1817,8 +1817,8 @@ External Oracle definition:
 
 External Oracle types:
 
-* Software Oracles - feed information that originates online into the Data Highway parachain runtime
-* Hardware Oracles - feeds IoT sensor data from the physical world into the Data Highway parachain runtime
+* Software Oracles - feed information that originates online into the DataHighway parachain runtime
+* Hardware Oracles - feeds IoT sensor data from the physical world into the DataHighway parachain runtime
 * Inbound Oracles - feeds data from the external world
 * Outbound Oracles - listen and respond to on-chain data events such as payment events prior to triggering IoT devices
 * Consensus-based Oracles - DAO data (human consensus) or prediction markets (e.g. Augur, Gnosis) that implement a rating system for Oracles and for security they require a combination of the Oracles to all agree in order to gain confidence as to the outcome of an event.
@@ -1829,7 +1829,7 @@ External Oracle Risk Ratings are necessary to mitigate risks such as "man-in-the
 
 ##### Example
 
-Data Buyer purchases from the Inter-Chain Data Market access to IoT data from a specific End Device that is at a specific location and is owned by a Data Seller (Provider). The Inter-Chain Data Market module of the Data Highway parachain or smart contract specifies that the promised data needs to be available via the API and shall not be compromised.
+Data Buyer purchases from the Inter-Chain Data Market access to IoT data from a specific End Device that is at a specific location and is owned by a Data Seller (Provider). The Inter-Chain Data Market module of the DataHighway parachain or smart contract specifies that the promised data needs to be available via the API and shall not be compromised.
 
 External Oracles validate the IoT data that is stored in a Data Storage Backend (e.g. Alibaba Cloud or similar equivalent) and notaries certify a hash of the data that is commited on-chain. IoT data that must be validated includes but is not limited to that comprising the agreement between the Data Provider and Data Buyer, such as:
 
@@ -1940,7 +1940,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
                 // GENERAL MINING
 
                 // Mining Speed (Base + Boosts).
-                // Applies to DHX Profits from Staking on Data Highway
+                // Applies to DHX Profits from Staking on DataHighway
                 pub MiningSpeedOf get (parachainAccount): map(T: ParachainAccountId) => (T: Speed);
 
                 pub enum MiningSpeedBaseForTokenType {
@@ -2102,7 +2102,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 * Monitor Slashable Offences on Substrate-based chains
   * Reference: https://github.com/w3f/offences-monitor
 * Notifications
-    * Data Highway Discord Bot (similar to Polkabot)
+    * DataHighway Discord Bot (similar to Polkabot)
 * UI
     * Inter-Chain Data Market Dashboard
     * "Virtual" Mining using ICBA
@@ -2154,9 +2154,9 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 * BAT - Block Authoring / Production Time ("Block Time")
 * BPT - Block Propagation Time (Network Latency)
 * DAO - Decentralized Autonomous Organization
-* DH - Data Highway
-* DHX - Data Highway Asset Token
-* DHX DAO - Data Highway DAO
+* DH - DataHighway
+* DHX - DataHighway Asset Token
+* DHX DAO - DataHighway DAO
 * ICBA - Inter-Chain Bridged Asset
 * ICBAM - Inter-Chain Bridged Asset Mining
 * MDT - PoP Mining Diversity Threshold
@@ -2173,7 +2173,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 ### Roaming
 
 * AS - Application Server
-* DH - Data Highway
+* DH - DataHighway
 * ED - End Device
 * FNS - Forwarding Network Server
 * IoT - Internet of Things
@@ -2208,13 +2208,13 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 ### Appendix 1: General - Technical Model of Substrate
 
-#### Integration of the Data Highway Parachain into the Polkadot network
+#### Integration of the DataHighway Parachain into the Polkadot network
 
 ![](https://i.imgur.com/MBAHjlg.png)
 
 (View image by right-clicking and choosing to "Open Image in New Tab" or "Save Image As")
 
-Table A1: Polkadot Relay Chain and the Data Highway (DH) Parachain
+Table A1: Polkadot Relay Chain and the DataHighway (DH) Parachain
 
 ### Appendix 2: Roaming - LoRaWAN Technology
 
