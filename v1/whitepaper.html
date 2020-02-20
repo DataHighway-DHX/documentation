@@ -70,7 +70,14 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-selector-id {
   font-weight: bold;
 }
-/*# sourceURL=/Users/ls/.nvm/versions/node/v12.7.0/lib/node_modules/md-to-pdf/node_modules/highlight.js/styles/monokai.css*/</style><style type="text/css">body {
+/*# sourceURL=/Users/ls/.nvm/versions/node/v12.7.0/lib/node_modules/md-to-pdf/node_modules/highlight.js/styles/monokai.css*/</style><style type="text/css">/* IMPORTANT: These styles are specifically for applying styles to
+PDF or HTML files that are generated using the md-to-pdf program.
+It may be necessary to maintain duplicated styles between ./style.css (used
+for generating PDF of whitepaper for download)
+and website/static/css/custom.css (used for generating Whitepaper
+in the DataHighway Developer Hub) */
+
+body {
   color: #000;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
@@ -130,6 +137,73 @@ a:active {
 code {
   font-size: 12px;
 }
+
+/* Download Whitepaper Button */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-download-wrapper {
+  /* Important: Displaying as block doesn't render correctly on PDF, so we
+  won't centre the download button in the middle this way, just use margin left */
+  /* display: block; */
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+  background: #FFF;
+}
+
+@media only screen and (min-device-width: 720px) {
+  .btn-download-wrapper {
+    margin-left: 100px;
+  }
+
+  .btn-download {
+    font-size: 1.5em;
+  }
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-download {
+  width: 200px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:focus {
+  outline: none;
+}
+
+.btn-download.button-color-1 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #bf2fcb);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
 /*# sourceURL=./style.css*/</style></head>
 <body class="markdown-body">
 <!-- Onn the Whitepaper page we need to show the left sidebar, otherwise on smaller
@@ -157,9 +231,11 @@ page -->
 
 <p><span class="language-options" style="font-style: italic;"><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.md" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span></p>
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
-<span>
-    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1/whitepaper.pdf" class="download-whitepaper" style="margin: 40px; font-size:1.5em; font-weight: 700; color: #00aaff !important">DOWNLOAD WHITEPAPER</a>
+<br>
+<span class="btn-download-wrapper">
+    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
 </span>
+<br><br>
 
 <h2 id="contributions">Contributions</h2>
 <p>To contribute edits to this whitepaper, please submit pull requests to this repository with your changes.

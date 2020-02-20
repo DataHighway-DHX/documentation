@@ -79,3 +79,69 @@
 .pdf-only {
   display: none;
 }
+
+/* Download Whitepaper Button */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-download-wrapper {
+  /* Important: Displaying as block doesn't render correctly on PDF, so we
+  won't centre the download button in the middle this way, just use margin left */
+  /* display: block; */
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+  background: #FFF;
+}
+
+@media only screen and (min-device-width: 720px) {
+  .btn-download-wrapper {
+    margin-left: 100px;
+  }
+
+  .btn-download {
+    font-size: 1.5em;
+  }
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-download {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:focus {
+  outline: none;
+}
+
+.btn-download.button-color-1 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #bf2fcb);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}

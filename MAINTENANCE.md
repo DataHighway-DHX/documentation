@@ -1,6 +1,13 @@
 ## Updating the Whitepaper
 
-1. Run the following to create a new release in both PDF and HTML format. Replace `v1` below with the desired version:
+1. Modifying styles
+
+It may be necessary to maintain duplicated styles that are in both ./style.css
+(used for generating PDF of whitepaper for download with md-to-pdf program) and
+website/static/css/custom.css (used for generating Whitepaper
+in the DataHighway Developer Hub).
+
+2. Run the following to create a new release in both PDF and HTML format. Replace `v1` below with the desired version:
 
 ```
 npm i -g md-to-pdf &&
@@ -15,7 +22,7 @@ md-to-pdf ./docs/whitepaper.md \
 
 Note: `headerIds` must be `true` in config.json otherwise TOC links do not work.
 
-2. Update the Whitepaper Table of Contents (TOC)
+3. Update the Whitepaper Table of Contents (TOC)
 
 Generate the TOC of the Whitepaper and save to a file in Markdown format using [markdown-toc](https://github.com/jonschlinkert/markdown-toc):
 
