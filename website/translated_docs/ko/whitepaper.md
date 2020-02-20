@@ -1602,13 +1602,13 @@ Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding f
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-aggregation.png" />
 
-* Source: roaming_class_diagram
+<!-- Source (Visual Paradigm): roaming_class_diagram -->
 
 #### Class Diagram (Simplified)
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-simplified.png" />
 
-Source: roaming_class
+<!-- Source (Visual Paradigm): roaming_class -->
 
 #### Swimlane (Flowchart) Diagrams
 
@@ -1625,7 +1625,7 @@ Source: roaming_class
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-network.png" />
 
-Source: register_supernode
+<!-- Source (Visual Paradigm): register_supernode -->
 
 ##### Gateway Setup & Staking
 
@@ -1641,7 +1641,7 @@ Organisation ID may stake across multiple Supernodes.
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-gateway.png" />
 
-Source: register_supernode
+<!-- Source (Visual Paradigm): register_supernode -->
 
 ##### End Device Setup & Staking
 
@@ -1654,7 +1654,7 @@ Source: register_supernode
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device.png" />
 
-Source: register_supernode
+<!-- Source (Visual Paradigm): register_supernode -->
 
 ##### End Device Roaming Setup
 
@@ -1667,7 +1667,7 @@ Source: register_supernode
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device-roaming.png" />
 
-Source: register_supernode
+<!-- Source (Visual Paradigm): register_supernode -->
 
 ### Use Cases
 
@@ -1681,7 +1681,7 @@ Source: register_supernode
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-roaming-mxc-device-mxc-network-supernodes.png" />
 
-Source: register_supernode
+<!-- Source (Visual Paradigm): register_supernode -->
 
 #### Roaming at a Supernode that is registered on the MXC Network using an End Device from a different Network Operator that is registered on ThingPark Exchange (TEX)
 
@@ -1699,13 +1699,13 @@ Source: register_supernode
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-actility.png" />
 
-Source: datahighway-interrelationship-diagram
+<!-- Source (Visual Paradigm): datahighway-interrelationship-diagram -->
 
 #### Flowchart Diagrams
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-test.png" />
 
-Source: roaming_class_diagram
+<!-- Source (Visual Paradigm): roaming_class_diagram -->
 
 #### Roaming at a Swisscom Network Server (NS) using an End Device from a different Network Operator (e.g. MXC, Swisscom) that is registered on ThingPark Exchange (TEX)
 
@@ -1723,7 +1723,7 @@ Source: roaming_class_diagram
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-supernode.png" />
 
-Source: roaming_ux
+<!-- Source (Visual Paradigm): roaming_ux -->
 
 <div class="page-break"></div>
 
@@ -1745,7 +1745,7 @@ MXC's <a href="https://datahighway.com" target="_blank" class="pretty-link-color
 * Data Marketplace
   * Manage DHX for users of an organisation, or an individual
 
-Source: visualization_brainstorm
+<!-- Source (Visual Paradigm): visualization_brainstorm -->
 
 <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-datahighway-ux-sketch.jpg" />
 
