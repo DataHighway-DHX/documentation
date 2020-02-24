@@ -1189,14 +1189,6 @@ A higher quantity of ICBA tokens "reserved" in a locked deposit corresponds to h
         * References
             * Page 6 of ChainX Whitepaper <a href="#reference-b31f7c" class="pretty-link-colored">[b31f7c]</a>.
 
-#### Transfer Bridge
-
-TODO
-
-#### Inter-Chain Asset Mappings
-
-TODO
-
 ### Token DEX
 
 * Users will have a variety of options to acquire DHX tokens through mining and staking on the DH, without having to purchase them from a DEX.
@@ -1442,18 +1434,6 @@ Same as Token Mining
 #### Background & Benefits
 
 * Incubate Runtime & DApp development on DataHighway through DHX funding (e.g. Governance, Voting)
-
-#### Goals
-
-TODO
-
-#### Costs
-
-TODO
-
-#### Registration
-
-TODO
 
 #### Reward Calculation
 
@@ -2021,12 +2001,6 @@ Example combinations of cloud-based services (or similar equivalent):
 
 <div class="page-break"></div>
 
-## Application Ecosystem
-
-TODO
-
-<div class="page-break"></div>
-
 ## Technical Model
 
 The DH is a Substrate-based chain.
@@ -2062,8 +2036,6 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 * Staking (NPoS) <a href="#reference-7fd55a" class="pretty-link-colored">[7fd55a]</a>:
     * Reward
-        * Amount
-            * TODO
         * Recipients
             * Collators (Consensus nodes) that secure block rewards
             * Nominators that lent their stake to the Collators that secure block rewards
@@ -2193,7 +2165,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
             * Automatically updates based on certain actions.
             * Manual DHX DAO approval to obtain reputation for other actions.
     * Crowdfund
-        * TODO
+        * Polkadot Crowdfunding for Parachain Slots <a href="#reference-038640" class="pretty-link-colored">[038640]</a>
     * Democracy
         * Proposals & Referendums
             * Vote purpose
