@@ -52,7 +52,7 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
     <span style="font-size: 1.5em; font-weight: 700;" class="pdf-only">Table of Contents</span>
     <!-- INSERT TOC BELOW HERE -->
     <ul>
-	<li><a href="#releases">Releases</a></li>
+	<li><a href="#contributions">Contributions</a></li>
 	<li><a href="#questions">Questions</a></li>
 	<li><a href="#table-of-contents">Table of Contents</a></li>
 	<li><a href="#introduction">Introduction</a>
@@ -410,9 +410,13 @@ Other roaming hubs that choose to store their roaming policies and agreements on
 * No pre-mining (no DHX coins in circulation before announcement to achieve the concept of decentralisation)
 * No ICO
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx.png">
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx.png">
+</div>
 
-**Figure: Overview of Mining in the DataHighway**
+<div class="figure-text">Figure: Overview of Mining in the DataHighway</div>
+
+<div class="page-break"></div>
 
 ### Equal Participation Opportunity
 
@@ -433,9 +437,13 @@ Refer to the proposed implementation of the DataHighway <a href="#reference-7c63
 
 MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of <a href="#Appendix-2-LoRaWAN-Technology" class="pretty-link-colored">LoRaWAN Technology</a>
 
-<img src= 'https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-architecture-lorawan.png' />
+<div class="image-wrapper">
+    <img src= 'https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-architecture-lorawan.png' />
+</div>
 
-**Figure LoRa App Server Architecture <a href="#reference-a90861" class="pretty-link-colored">[a90861]</a>**
+<div class="figure-text">
+    Figure LoRa App Server Architecture <a href="#reference-a90861" class="pretty-link-colored">[a90861]</a>
+</div>
 
 #### Compatibility with the LoRa Alliance
 
@@ -460,7 +468,6 @@ Implementations of the LPWAN App Server and LPWAN Server will be updated to be c
 * Roaming Agreements shall be negotiated between Network Operators
 * Standards shall be established so there is logic and consistency between these bilateral agreements that will be openly accessible, which will drive Network Operators to seek other means to remain competitive. This is a remarkably better than the approach that is taken in mobile phone roaming, where there is a lack of transparency and insight available surrounding such similar agreements that are argued to be commercially sensitive based on the grounds that this is necessary for Network Operators to remain competitive, and whether the market strength of the parties involved are known to influence the terms of the agreements <a href="#reference-4948eb" class="pretty-link-colored">[4948eb]</a>.
 
-
 #### Interfaces
 
 * Telemetry
@@ -472,13 +479,17 @@ Implementations of the LPWAN App Server and LPWAN Server will be updated to be c
 
 The LPWAN Supernode Hub has a modern and intuitive interface that allows IoT End Device and Gateway owners to easily toggle whether their device will participate in roaming. See MXC SMB Whitepaper <a href="#reference-c63390" class="pretty-link-colored">[c63390]</a>.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/ui-supernode-gateway.png">
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/ui-supernode-gateway.png">
+</div>
 
-**Figure: Toggle Roaming participation in Gateway User Panel (example implementation with DataHighway)**
+<div class="figure-text">Figure: Toggle Roaming participation in Gateway User Panel (example implementation with DataHighway)</div>
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/ui-supernode-device.png">
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/ui-supernode-device.png">
+</div>
 
-**Figure: Toggle Roaming participation in End Device User Panel (example implementation with DataHighway)**
+<div class="figure-text">Figure: Toggle Roaming participation in End Device User Panel (example implementation with DataHighway)</div>
 
 ### External Oracle
 
@@ -492,9 +503,11 @@ The DataHighway will be a Polkadot parachain that is forecast to support at leas
 
 Only a limited amount of End Devices will be roaming initially, but scalability is still important for future proofing. In contrast the DataHighway's Inter-Chain Data Market (separate section under this Whitepaper) will require a higher TPS since it includes a DEX. See Smart Contract Platforms Blogpost <a href="#reference-2c6aa0" class="pretty-link-colored">[2c6aa0]</a>.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx-scaling.png">
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx-scaling.png">
+</div>
 
-**Figure: DataHighway Scaling Solutions**
+<div class="figure-text">Figure: DataHighway Scaling Solutions</div>
 
 ### Security
 
@@ -558,9 +571,11 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-economic-variables.png">
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-economic-variables.png">
+</div>
 
-**Table: DataHighway Economic Variables**
+<div class="figure-text">Table: DataHighway Economic Variables</div>
 
 #### Genesis Total Symbol
 
@@ -582,7 +597,7 @@ It was deemed safer to choose a larger supply incase DHX needs to be deflated, a
 
 * References:
     * Mystery Behind Blocktime <a href="#reference-180b38" class="pretty-link-colored">[180b38]</a>
-    * Bitcoin Block Halfing <a href="#reference-305bf5" class="pretty-link-colored">[305bf5]</a>
+    * Bitcoin Block Halving <a href="#reference-305bf5" class="pretty-link-colored">[305bf5]</a>
 
 #### Exchange Rate
 
@@ -607,9 +622,11 @@ The issuance of the DHX token is through either:
 
 The initial token issuance halving inflation strategy cycle (halving of the block production reward) shall occur every four (4) years using the "Decreasing-Supply Algorithm".
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-token-issuance-halving.png" />
+<div class="image-wrapper">
+    <img style="width: 75%;" src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-token-issuance-halving.png" />
+</div>
 
-**Table: Token Issuance Halving**
+<div class="figure-text">Table: Token Issuance Halving</div>
 
 Note: Calculations after 2030 are not shown for brevity.
 
@@ -654,19 +671,25 @@ The forecast collator pool size staking at genesis is 100.
 
 The consensus node capacity shall be 1000 (same as ChainX).
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-block-production-rate-reward.png"/>
+<div class="image-wrapper">
+    <img style="width: 75%;" src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-block-production-rate-reward.png"/>
+</div>
 
-**Table: Block Production Rate & Block Reward**
+<div class="figure-text">Table: Block Production Rate & Block Reward</div>
 
 Note: Block reward treasury and collator fees have been calculated using the treasury and collator fee rates respectively.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-collator-estimate-roi.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-collator-estimate-roi.png" />
+</div>
 
-**Table: Collator Estimated ROI**
+<div class="figure-text">Table: Collator Estimated ROI</div>
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-block-reward-distribution.png" />
+<div class="image-wrapper">
+    <img style="width: 75%;" src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-block-reward-distribution.png" />
+</div>
 
-**Table: Block Reward Distribution**
+<div class="figure-text">Table: Block Reward Distribution</div>
 
 <!-- Reference https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386 -->
 
@@ -682,7 +705,7 @@ The block reward treasury fees is the amount remaining after collator fees. They
             * Max. 20% MSB Per Proposal
                 * Token Mining (ICBAM)
                     * Locking of assets that are supported
-                    * Sigalling
+                    * Signalling
                         * Token Miners that wish to only signal (rather than locking) attract **10%** of the lowest locking MSBs
             * Max. 40% MSB Per Proposal
                 * Hardware Assets Mining
@@ -690,7 +713,7 @@ The block reward treasury fees is the amount remaining after collator fees. They
                 * Development Mining
                     * To improve DApps
                 * Advocacy Mining
-                    * Creating standards and patterns to satisfy community expectations, and discovering ways to maintain low transaction fees (that collators may rely on) to maintain a low barrier to entry for new DataHighway users (unless an increase in DHX price and transaction fees is supported due to rapid adoption) and prevent causing IoT fees to become prohibitively expensivel, and to reduce hardware and hosting costs to maintain ROI
+                    * Creating standards and patterns to satisfy community expectations, and discovering ways to maintain low transaction fees (that collators may rely on) to maintain a low barrier to entry for new DataHighway users (unless an increase in DHX price and transaction fees is supported due to rapid adoption) and prevent causing IoT fees to become prohibitively expensive, and to reduce hardware and hosting costs to maintain ROI
                 * Governance Mining
         * MLB
             * Max. 20% MLB Per Proposal
@@ -709,7 +732,7 @@ The block reward treasury fees is the amount remaining after collator fees. They
 The DH's monetary policy may apply a halving to encourage early production (collator BAT) sparking an inflation strategy, where after each halving period the size of the block reward that is given to a collator for producing a block is halved, and the collator may share the block reward with its nominators.
 
 * An event where the number of generated DHX rewards earned by miners per block will be halved (divided by 2). The number of DHX found per block will become more scarce. The halving reward ensures that DHX total supply will reach its target cap.
-* Tradionally in Bitcoin the expected block time was set at a constant value to make sure miners could not impact the security of the network by adding more computational power.
+* Traditionally in Bitcoin the expected block time was set at a constant value to make sure miners could not impact the security of the network by adding more computational power.
 * DHX miners may proposed the DHX DAO to have a dynamic block time.
 * Each DHX halving lowers DHX's inflation rate.
 * DHX miners would be incentivized to maintain the network even when the reward becomes very small because they would have a say in the direction of the DH and may still be collecting fees for:
@@ -750,9 +773,11 @@ Historically, the Bitcoin network adopted the halving strategy as follows:
 
 ## Token Acquisition
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx-reward-types.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx-reward-types.png" />
+</div>
 
-**Figure: Rewards Types on the Data Highway**
+<div class="figure-text">Figure: Rewards Types on the Data Highway</div>
 
 In addition to Data Traders earning through the savings they make as a result of the democratisation of data using the decentralised DataHighway, the Inter-Chain Data Market incentives users to participate in order to potentially earn more DHX tokens, as follows:
 
@@ -778,7 +803,7 @@ Other means of acquiring DHX tokens at through participating as follows:
         * Proportion of block rewards.
     * Collator Node Block Rewards & Nominator's Proportion
         * Network Server hosts that earn DHX from running Collator node, staking DHX on it, and earning DHX from block rewards that are split equally amongst the Collators, and may be shared with their Nominators.
-    * Supernoda Data Market Purchase Fee
+    * Supernode Data Market Purchase Fee
         * Supernodes earn a proportion of each Inter-Chain Data Market Purchase (e.g. 0.1%)
     * Roaming Fees
         * Network Operators benefit from interoperability through decentralised DNS and earn DHX from roaming fees.
@@ -834,15 +859,19 @@ After genesis whenever the DHX DAO Treasury (i.e. MXC Foundation) collators get 
 
 The DHX DAO Treasury may in future at any time, when interest rates from lenders are low, adopt that strategy by requesting DHX DAO approval to reinvest a proportion of their Unlocked Reserves into the target assets <a href="#reference-c98d3f" class="pretty-link-colored">[c98d3f]</a> (i.e. MXC, IOTA, DOT) that will then be locked for PoP ICBAM to maintain the highest MSB (since the minimum inter-chain asset holding amount that is required to achieve the highest MSB may increase over time) for their stake to further increase the DHX DAO Treasury's liquidity and the DHX supply (by allocating Entitlement Fees from the Unlocked Reserves to be used for MSB).
 
+<div class="page-break"></div>
+
 ### Financial Model
 
 #### Balance Sheet
 
 The Balance Sheet reports for a specific moment in time the DHX DAOs statement of financial balances position, including assets, liabilities, and shareholder's equity, to reflect the equation `Assets = Liabilities + Stockholders' Equity`, where the working capital `Assets - Liabilities` may be compared with the `Stockholders' Equity`.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-balance-sheet.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-balance-sheet.png" />
+</div>
 
-**Table: DataHighway Balance Sheet**
+<div class="figure-text">Table: DataHighway Balance Sheet</div>
 
 <!-- Reference https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=267871386 -->
 
@@ -850,13 +879,19 @@ The Balance Sheet reports for a specific moment in time the DHX DAOs statement o
 
 The DH's Cash Flow Statement reports for a period of time how changes in the Financial Balance Sheet affect its monetary position.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part1of3.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part1of3.png" />
+</div>
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part2of3.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part2of3.png" />
+</div>
 
-<img src ="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part3of3.png" />
+<div class="image-wrapper">
+    <img src ="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-cashflow-statement-part3of3.png" />
+</div>
 
-**Table: DataHighway Cash Flow Statement**
+<div class="figure-text">Table: DataHighway Cash Flow Statement</div>
 
 <!-- Reference: https://docs.google.com/spreadsheets/d/1pVp7wXq_CxZEmt-5jHVSd1oO1txPCq_U1_drMIceTiw/edit#gid=0 -->
 
@@ -871,7 +906,7 @@ The DH's Cash Flow Statement reports for a period of time how changes in the Fin
 * Early adopters that invest in DH infrastructure get exposed to a variety of Mining Reward Types.
     * Higher token mining base rewards prior to halving.
     * Loyalty reward MSBs are available.
-    * Higher reputation to influence to future of the DHX DAO.
+    * Higher reputation to influence the future of the DHX DAO.
 
 ### Reward Options
 
@@ -885,10 +920,10 @@ Initially only automatic rewards shall be offered, which requires mining registr
 
 * Mining base (MB) rewards 
     * Only for token mining
-    * Indefinate or fixed term
+    * Indefinite or fixed term
 * Mining speed boost (MSB) rewards
     * Only for hardware, development, advocacy, and governance mining
-    * Indefinate or fixed term
+    * Indefinite or fixed term
 * Mining speed boost (MSB) combo rewards
     * Only for mining plus staking
 * Mining speed boost (MSB) loyalty rewards
@@ -899,17 +934,17 @@ Initially only automatic rewards shall be offered, which requires mining registr
 
 * Mining fixed term periods available include:
     * 3, 6, 9, 12, 24, 36 months
-* Locking for a fixed term period attracts a higher return than indefinate terms (higher MB for token mining, and higher MSB for other forms of mining) since when users make commitments its easier to forecast the overall ecosystem.
+* Locking for a fixed term period attracts a higher return than indefinite terms (higher MB for token mining, and higher MSB for other forms of mining) since when users make commitments its easier to forecast the overall ecosystem.
 * Locking requires a minimum uptime to be maintained to remain eligible for the reward to incentivise users to maintain its availability.
 
 ### Random Sampling Dates
 
-* Random sampling dates that are chosen and used for the subsequent calculation of the sampled average balance or uptime should differ between users and are generated randomly on the start date of the fixed term period and are not revealed until the end of the fixed term period. The goal is to avoid using a single sampling date that may be gamed or may cause unncessary congestion.
+* Random sampling dates that are chosen and used for the subsequent calculation of the sampled average balance or uptime should differ between users and are generated randomly on the start date of the fixed term period and are not revealed until the end of the fixed term period. The goal is to avoid using a single sampling date that may be gamed or may cause unnecessary congestion.
 
 ### Reward Spending & Reinvestment
 
 * Users may use their rewards in DHX in a variety of ways:
-    * Locking them on the DH as a form or reinvestment to compound their rewards for an indefinate period of time or a predefined period of time to gain exposure to Fixed Term Bonus Rewards.
+    * Locking them on the DH as a form or reinvestment to compound their rewards for an indefinite period of time or a predefined period of time to gain exposure to Fixed Term Bonus Rewards.
     * Stake them on the DH as a form of diversifying their reinvestment to compound their rewards and also gain exposure to Combo Bonus Rewards.
     * Spend them to purchase roaming for their End Devices.
     * Spend them to purchase data from the DHX Data Market.
@@ -919,7 +954,7 @@ Initially only automatic rewards shall be offered, which requires mining registr
 
 * Users may not participate in token mining using the MXC balances already staked at MXC Supernodes in the "Supernode Layer" from which they already receive quarterly rewards (see section "2.0 Staking Participation" in MXC's Data Economy Whitepaper <a href="#reference-2f6302" class="pretty-link-colored">[2f6302]</a>).
 * User mining base rewards and MSB rewards depend on the type and amount of their token holding.
-* It is a goal to avoid users that only need a single organisation from create multiple organisations instead unnecessarily just in order to obtain a higher MSB.
+* It is a goal to avoid users that only need a single organisation from creating multiple organisations instead unnecessarily just in order to obtain a higher MSB.
 
 ### Mining Speed Boost (MSB)
 
@@ -931,13 +966,15 @@ Initially only automatic rewards shall be offered, which requires mining registr
         * IOTA, DOT corresponding lower MSBs are approx. 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
     * Signalling when Token Mining receives 10% of the lower MSBs (those that apply to IOTA and DOT)
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-msb.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-msb.png" />
+</div>
 
-**Chart: DataHighway Mining Speed Boosts**
+<div class="figure-text">Chart: DataHighway Mining Speed Boosts</div>
 
 * PoP ICBAM Supported Cryptocurrencies/Tokens and MSB
     * MXC, IOTA, or DOT
-* PoP ICBAM MSB Range for Locking. Signalling receives 10% of lowest MSB. 
+* PoP ICBAM MSB Range for Locking. Signalling receives 10% of the lowest MSB. 
     * 1.0-1.2
 * PoP MDT Qualifying Level of PoP MSB required to unlock PoP ICBAM MSB
     * Greater than 1.1
@@ -961,10 +998,12 @@ Initially only automatic rewards shall be offered, which requires mining registr
         * IOTA or DOT MLB is only valid since the respective chain existed
         <!-- Reference: Creating chart https://stackoverflow.com/a/32250025/3208553 -->
         <!-- Reference: https://docs.google.com/spreadsheets/d/1W2AzOH9Cs9oCR8UYfYCbpmd9X7hp-USbYXL7AuwMY_Q/edit#gid=1483475332 -->
-        
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-mlb.png" />
 
-**Chart: DataHighway Mining Loyalty Bonus**
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-mlb.png" />
+</div>
+
+<div class="figure-text">Chart: DataHighway Mining Loyalty Bonus</div>
 
 * PoP Non-ICBAM MSB Range
     * 1.0-1.4
@@ -1022,7 +1061,7 @@ Allows users from other chains to participate and profit in DHX, even if they wa
     * DOT (Polkadot network native token)
     * MXC (Ethereum network ERC-20 token)
 
-Note: Users may use MXC that has already be staked on a Supernode for obtaining MSB through PoP ICBAM too
+Note: Users may use MXC that has already be staked on a Supernode for obtaining MSB through PoP ICBAM too.
 
 #### Rights
 
@@ -1059,9 +1098,11 @@ A higher quantity of ICBA tokens "reserved" in a locked deposit corresponds to h
     * Eligibility for reward and reputation requires the "sampled average" account balance to be at least 90% of the start balance.
     * Adjustment resulting from governance audits 
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-token-mining.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-token-mining.png" />
+</div>
 
-**Figure: Token Mining Use Case Diagram**
+<div class="figure-text">Figure: Token Mining Use Case Diagram</div>
 
 #### Example: PoP ICBAM Combo Mining for Voting Power
 
@@ -1160,9 +1201,11 @@ TODO
 
 * Users will have a variety of options to acquire DHX tokens through mining and staking on the DH, without having to purchase them from a DEX.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-dex.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-dex.png" />
+</div>
 
-**Figure: DEX Use Case Diagram**
+<div class="figure-text">Figure: DEX Use Case Diagram</div>
 
 ### Hardware Mining (Hardware as Collateral)
 
@@ -1199,9 +1242,11 @@ TODO
     * Eligibility for reward and reputation requires the "sampled average" hardware online status to be at least 90% and the hardware type to be verified. In addition to checking the online status, data driven pattern recognition methods may be used to confirm if a Supernode, LPWAN gateway or LPWAN end device is working properly.
     * Adjustment resulting from governance audits.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-hardware-mining.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-hardware-mining.png" />
+</div>
 
-**Figure: Hardware Mining Use Case Diagram**
+<div class="figure-text">Figure: Hardware Mining Use Case Diagram</div>
 
 #### Rights
 
@@ -1209,9 +1254,11 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
 
 #### Financial Model
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-msb-hardware-mining.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/chart-dhx-msb-hardware-mining.png" />
+</div>
 
-**Table: Hardware Assets Mining MSB**
+<div class="figure-text">Table: Hardware Assets Mining MSB</div>
 
 ##### Example: PoP Hardware Assets Combo Mining for Voting Power
 
@@ -1249,7 +1296,7 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
         * 20x Secure End Devices => 1.008 MSB
 
         * Total MSB: 1.4 (total is 1.448 but max. is 1.4)
-    * Check Sample Dates during their lock bonus period to determine whether eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the "sampling" dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period 
+    * Check Sample Dates during their lock bonus period to determine whether they are eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the "sampling" dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period 
     * Calculate Overall Bonus (i.e. max capped at 1.2 for Voting Power/ICBAM, max capped at 1.4 for PoP)
     * Show how may use the earned DHX and how more likely to earn bonus than other users
 
@@ -1306,13 +1353,15 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
     * Eligibility for level of reward and reputation is influenced by:
         * "Sampled average" DApp user activity using their API keys exceeding predefined thresholds
             * Data Market API activity including data seller sale levels or data buyer purchase levels
-            * Mining API actvity
+            * Mining API activity
             * Staking API activity
     * Adjustment resulting from governance audits.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-development-mining.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-development-mining.png" />
+</div>
 
-**Figure: Development Mining Use Case Diagram**
+<div class="figure-text">Figure: Development Mining Use Case Diagram</div>
 
 #### Rights
 
@@ -1374,9 +1423,11 @@ Same as Token Mining
         * Eligibility for level of reward and reputation is determined.
         * Adjustment resulting from governance audits.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-advocacy-mining.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-advocacy-mining.png" />
+</div>
 
-**Figure: Advocacy Mining Use Case Diagram**
+<div class="figure-text">Figure: Advocacy Mining Use Case Diagram</div>
 
 #### Rights
 
@@ -1406,13 +1457,17 @@ TODO
 
 #### Reward Calculation
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-governance-mining-council.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-governance-mining-council.png" />
+</div>
 
-**Figure: Governance (Council Election) Mining Use Case Diagram**
+<div class="figure-text">Figure: Governance (Council Election) Mining Use Case Diagram</div>
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-governance-mining-democracy.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-governance-mining-democracy.png" />
+</div>
 
-**Figure: Governance (Democracy) Mining Use Case Diagram**
+<div class="figure-text">Figure: Governance (Democracy) Mining Use Case Diagram</div>
 
 #### Rights
 
@@ -1451,7 +1506,7 @@ End Device moves from its Home NS to another NS, and the NS queries the Data Hig
 
 No agreement is established or payment required if join is rejected, since the packets are dropped.
 
-End Device owners are sent an email notification recommending that they topup with a sufficient balance to pay for roaming network access when their balance drops too low, otherwise it will be disabled.
+End Device owners are sent an email notification recommending that they top-up with a sufficient balance to pay for roaming network access when their balance drops too low, otherwise it will be disabled.
 
 End Device roaming packets and associated Network Servers that forward them are stored in a counter that is reset to 0 each week, sufficiently after associated roaming fees and payments were made so it may be reverted if the counter value is found to be incorrect. Otherwise the list of changing IP addresses may get too long. The finalized transaction is used to prove whether the counter value is legitimate.
 
@@ -1463,7 +1518,7 @@ Each of the initial 21 Supernodes (SNs) need to top-up MXC to get a sufficient a
 
 End Devices that is activated at their "home" Supernode, once activated, will have had a DevAddr stored on the End Device, which contains a NwkAddr (which is derived from the "home" Supernode's unique Network ID). The LPWAN Server (Supernode powered by MXProtocol) will then make one or more POST request from the LPWAN App Server codebase to the Data Highway to store roaming related information about that End Device on the distributed ledger database (under the RoamingBaseProfile class's `devAddr` and `homeNet` properties of the EndDevice class), as shown in the <a href="#Class-Diagrams" class="pretty-link-colored">Roaming Class Diagram</a>. 
 
-End Device owners may subscribed to roaming or pay ad-hoc roaming fees in DHX to gain sufficient balance to roam. This will be recorded under the RoamingBaseProfile class's `expiry` date property of the EndDevice class).
+End Device owners may subscribe to roaming or pay ad-hoc roaming fees in DHX to gain sufficient balance to roam. This will be recorded under the RoamingBaseProfile class's `expiry` date property of the EndDevice class).
 
 Supernodes earn DHX from these Roaming Transaction Fees and are responsible distributing a cut in accordance with **Roaming Operations Fees**.
 
@@ -1533,7 +1588,7 @@ The fees may be changed by upgrading the DataHighway parachain by using the Sudo
 
 #### Risks & Mitigation Measures
 
-Potential spammers of the public transaction pool that may cause congestion shall be mitigated by using a fee-based spam prevention mechanism as a deterent.
+Potential spammers of the public transaction pool that may cause congestion shall be mitigated by using a fee-based spam prevention mechanism as a deterrent.
 
 End Devices should be cautious of roaming where "visited" network servers (or Supernodes) have been flagged using the DHX DAO as being malicious, such as having allowed End Devices to join them and uplink their data, but repeatedly fail to adequately forward packets of data back to the "home" network server (or Supernode) even after payment (i.e. with limited corruption, and in a timely fashion).
 
@@ -1560,7 +1615,7 @@ End Device information that should be stored on the DataHighway includes:
 * Roaming Configuration
   * Mapping of whether an End Device has enabled roaming and its expiry date
   * "home" Network Server's DNS resolution information
-  * Owner Account ID on the DataHighway and their User ID and Oorganization ID on the LPWAN Server
+  * Owner Account ID on the DataHighway and their User ID and Organization ID on the LPWAN Server
 * Owner Information
   * M2M Wallet User ID (which may be associated with multiple Organisation IDs, and the End Device may be part of one of its Organisation IDs).
   * Organization ID should have an MXC "network" balance so the owner of the End Device may exchange them for the DataHighway's "data" tokens (DHX) to pay for roaming
@@ -1585,25 +1640,31 @@ Other data that was stored in historic blocks (e.g. whether there is sufficient 
 
 #### Class Diagrams
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming.jpg" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming.jpg" />
+</div>
 
-**Figure: Class Diagram Roaming**
+<div class="figure-text">Figure: Class Diagram Roaming</div>
 
 ##### Aggregations (of SMB and Forwarding)
 
 Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding from "visited" Network Servers back to the roaming End Device's "home" Network Server may also be stored on the DataHighway, if necessary.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-aggregation.png" />
+<div class="image-wrapper">
+    <img style="width: 50%" src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-aggregation.png" />
+</div>
 
-**Figure: Class Diagram Roaming Aggregation**
+<div class="figure-text">Figure: Class Diagram Roaming Aggregation</div>
 
 <!-- Source (Visual Paradigm): roaming_class_diagram -->
 
 #### Class Diagram (Simplified)
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-simplified.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-roaming-simplified.png" />
+</div>
 
-**Figure: Class Diagram Roaming Simplified**
+<div class="figure-text">Figure: Class Diagram Roaming Simplified</div>
 
 <!-- Source (Visual Paradigm): roaming_class -->
 
@@ -1620,9 +1681,11 @@ Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding f
 7. Show Supernode Stake.
 8. Note that Join Servers and Application Servers must be associated with an Organisation ID to be rewarded.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-network.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-network.png" />
+</div>
 
-**Figure: Swimlane Diagram Roaming Setup Network**
+<div class="figure-text">Figure: Swimlane Diagram Roaming Setup Network</div>
 
 <!-- Source (Visual Paradigm): register_supernode -->
 
@@ -1638,9 +1701,11 @@ Gateway ID must be associated with both its Organisation ID and its “Home” S
 
 Organisation ID may stake across multiple Supernodes.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-gateway.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-gateway.png" />
+</div>
 
-**Figure: Swimlane Diagram Roaming Setup Gateway**
+<div class="figure-text">Figure: Swimlane Diagram Roaming Setup Gateway</div>
 
 <!-- Source (Visual Paradigm): register_supernode -->
 
@@ -1653,9 +1718,11 @@ Organisation ID may stake across multiple Supernodes.
 * Store mapping of End Device ID, “Home” Supernode IP, and Join Server IP for resolving when roaming.
 * Show updated Supernode Stake after adding End Device Stake to existing Supernode Stake. 
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device.png" />
+</div>
 
-**Figure: Swimlane Diagram Roaming Setup End Device**
+<div class="figure-text">Figure: Swimlane Diagram Roaming Setup End Device</div>
 
 <!-- Source (Visual Paradigm): register_supernode -->
 
@@ -1668,9 +1735,11 @@ Organisation ID may stake across multiple Supernodes.
 * Store mapping for resolving when roaming (see previous slide).
 * Show updated Supernode Stake after deducting End Device Roaming Fee from existing Supernode Stake.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device-roaming.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-setup-device-roaming.png" />
+</div>
 
-**Figure: Swimlane Diagram Roaming Setup End Device Roaming**
+<div class="figure-text">Figure: Swimlane Diagram Roaming Setup End Device Roaming</div>
 
 <!-- Source (Visual Paradigm): register_supernode -->
 
@@ -1684,9 +1753,11 @@ Organisation ID may stake across multiple Supernodes.
 * Gateway (GW) at Visited Supernode (VSN) does not get share of roaming fees
 * Shows simple version of Data Market where End Devices data may be traded but not tokenized.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-roaming-mxc-device-mxc-network-supernodes.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-roaming-mxc-device-mxc-network-supernodes.png" />
+</div>
 
-**Figure: Use Case Roaming MXC End Device using MXC Network Supernodes**
+<div class="figure-text">Figure: Use Case Roaming MXC End Device using MXC Network Supernodes</div>
 
 <!-- Source (Visual Paradigm): register_supernode -->
 
@@ -1699,24 +1770,30 @@ Organisation ID may stake across multiple Supernodes.
 * Periodic Billing & Payments via MXC Service
 * Roaming API
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-between-network-operators.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-between-network-operators.png" />
+</div>
 
-**Figure: Flow of Roaming between Network Operators**
+<div class="figure-text">Figure: Flow of Roaming between Network Operators</div>
 
 * Connect & Register LoRaWAN End Devices & Gateways on ThingPark Exchange Hub (TEX)
 * Roaming with an End Device (from a Network Operator that is registered on TEX) at a Supernode (MXC Network Operator)
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-actility.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-actility.png" />
+</div>
 
-**Figure: Flow of Roaming with Actility**
+<div class="figure-text">Figure: Flow of Roaming with Actility</div>
 
 <!-- Source (Visual Paradigm): datahighway-interrelationship-diagram -->
 
 #### Flowchart Diagrams
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-test.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-test.png" />
+</div>
 
-**Figure: Flow of Roaming in Integration Tests**
+<div class="figure-text">Figure: Flow of Roaming in Integration Tests</div>
 
 <!-- Source (Visual Paradigm): roaming_class_diagram -->
 
@@ -1734,9 +1811,11 @@ Organisation ID may stake across multiple Supernodes.
 
 #### Proposed Roaming Integration into MXProtocol of LPWAN Supernodes
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-supernode.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-roaming-integration-supernode.png" />
+</div>
 
-**Figure: Flow of Roaming when Integrating into a Supernode**
+<div class="figure-text">Figure: Flow of Roaming when Integrating into a Supernode</div>
 
 <!-- Source (Visual Paradigm): roaming_ux -->
 
@@ -1762,13 +1841,17 @@ MXC's DataHighway.com <a href="#reference-7c63ac" class="pretty-link-colored">[7
 
 <!-- Source (Visual Paradigm): visualization_brainstorm -->
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-datahighway-datamarket-sketch.jpg" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-datahighway-datamarket-sketch.jpg" />
+</div>
 
-**Figure: Inter-Chain Data Market Use Flow Sketch**
+<div class="figure-text">Figure: Inter-Chain Data Market Use Flow Sketch</div>
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-datahighway-ux-sketch.jpg" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-datahighway-ux-sketch.jpg" />
+</div>
 
-**Figure: Inter-Chain Data Market UX Ideation Sketch**
+<div class="figure-text">Figure: Inter-Chain Data Market UX Ideation Sketch</div>
 
 #### Class Diagram
 
@@ -1776,29 +1859,37 @@ MXC's DataHighway.com <a href="#reference-7c63ac" class="pretty-link-colored">[7
 
 > Important Note: Detailed attributes and functions of classes that are coloured in "grey" have been omitted for brevity. Refer to Roaming Class Diagram (in the Roaming Whitepaper) for the details.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-datamarket.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-class-datamarket.png" />
+</div>
 
-**Figure: Class Diagram Inter-Chain Data Market**
+<div class="figure-text">Figure: Class Diagram Inter-Chain Data Market</div>
 
 #### Swimlane (Flowchart) Diagrams
 
 ##### Data Seller configures End Device (Sensor) Data Frames for Graphs on M2M Portal
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-frames.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-frames.png" />
+</div>
 
-**Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Frames**
+<div class="figure-text">Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Frames</div>
 
 ##### Data Seller configures End Device (Sensor) Data Visualizations & Monitoring for Dashboard on Inter-Chain Data Market
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-visualizations.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-visualizations.png" />
+</div>
 
-**Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Visualizations**
+<div class="figure-text">Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Visualizations</div>
 
 ##### Data Seller configures Sale / Auction of End Device (Sensor) Data Listing on Inter-Chain Data Market
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-listing.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-dataseller-configure-listing.png" />
+</div>
 
-**Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Listing**
+<div class="figure-text">Figure: Swimlane Diagram Inter-Chain Data Market Data Seller Configuration of Listing</div>
 
 ###### Data Buyer Requirements
 
@@ -1812,15 +1903,17 @@ Data Buyers may be presented with a variety of paths to be onboarded, such as a 
 
 After visiting the Data Marketplace, choosing a region and specifying their roaming requirements if any, they will be presented with a list of bundled plans that have been pre-packaged by organizations from various Supernodes that are competing for business.
 
-Data Buyers may search, filter, and select a pre-packaged bundle. An advanced option may be provided for users that would prefer to choose a specific combination of their favourite End Devices, dedicated Gateways, and Supernodes, such as only those from specific hardware manufacturers or specifications (i.e. MatchX), or only from specific “Data Producer” organisations, or only from those with a certain level of reputation (i.e. only Supernodes with an amount of MXC staked by stakeholders on their "home" Supernode that exceeds a certain threshold) that is proven to have been obtained by a broad diversity of different stakeholders, and that has historical records demonstrating proven reliability of uptime (of the Supernode and/or the recommended or chosen devices), whether they've enabled roaming or not, and whether they have invested in backup devices to try to guarantee a level of service uptime incase they have limited historic records (fallback device details that are offered by the same Supernode and other Supernodes from other networks incase the chosen Supernode or device fails).
+Data Buyers may search, filter, and select a pre-packaged bundle. An advanced option may be provided for users that would prefer to choose a specific combination of their favourite End Devices, dedicated Gateways, and Supernodes, such as only those from specific hardware manufacturers or specifications (i.e. MatchX), or only from specific “Data Producer” organisations, or only from those with a certain level of reputation (i.e. only Supernodes with an amount of MXC staked by stakeholders on their "home" Supernode that exceeds a certain threshold) that is proven to have been obtained by a broad diversity of different stakeholders, and that has historical records demonstrating proven reliability of uptime (of the Supernode and/or the recommended or chosen devices), whether they've enabled roaming or not, and whether they have invested in backup devices to try to guarantee a level of service uptime incase they have limited historical records (fallback device details that are offered by the same Supernode and other Supernodes from other networks incase the chosen Supernode or device fails).
 
 Lastly, the Data Buyer adds items to their shopping cart and chooses to go to checkout for payment. The Data Buyer may optionally be offered insurance coverage incase of roaming network failure or failure of their chosen or similar equivalent device.
 
 ##### Data Buyer Purchases / Bids for Access Grant to End Device (Sensor) Data Listing on Inter-Chain Data Market
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-databuyer-purchase-listing.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-databuyer-purchase-listing.png" />
+</div>
 
-**Figure: Swimlane Diagram Inter-Chain Data Market Data Buyer Purchase Listing**
+<div class="figure-text">Figure: Swimlane Diagram Inter-Chain Data Market Data Buyer Purchase Listing</div>
 
 ###### Data Buyer Payment Options
 
@@ -1840,11 +1933,13 @@ They may choosing to pay in DHX, which they may have obtained from either:
 
 ##### Data Buyer Accesses Sensor Data Frames from Inter-Chain Decentralized App (DApp)
 
-The Data Buyer is then granted access to the data from the Data Provider's IoT End Device. API Keys are provided for the Application Developer to configure their Inter-Chain (i.e. IOTA or MXC) DApp to performs queries on the data.
+The Data Buyer is then granted access to the data from the Data Provider's IoT End Device. API Keys are provided for the Application Developer to configure their Inter-Chain (i.e. IOTA or MXC) DApp to perform queries on the data.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-databuyer-access-frames.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-swimlane-databuyer-access-frames.png" />
+</div>
 
-**Figure: Swimlane Diagram Inter-Chain Data Market Data Buyer Purchase Listing**
+<div class="figure-text">Figure: Swimlane Diagram Inter-Chain Data Market Data Buyer Purchase Listing</div>
 
 ### Data Validation
 
@@ -1854,9 +1949,11 @@ The Data Buyer is then granted access to the data from the Data Provider's IoT E
 
 External Oracles <a href="#reference-459cee" class="pretty-link-colored">[459cee]</a> validate external data that can change frequently as part of Quality of Service (QoS) framework.
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-oracles.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-oracles.png" />
+</div>
 
-**Figure: Flow Diagram of External Oracles**
+<div class="figure-text">Figure: Flow Diagram of External Oracles</div>
 
 ##### Definition
 
@@ -1866,7 +1963,7 @@ External Oracle definition:
 * Audited using an Oracle Rating System
 * Detect compromised data sources that need to be trustworthy (i.e. GPS location and Certificate of Authenticity of Hardware such as IoT End Device or IoT Gateway):
     * Check the legitimacy (not fake), accuracy (not lower quality) of input data sources
-        * Certifices of Authenticity associated with IoT End Devices that provide data that is traded in the Inter-Chain Data Marketplace
+        * Certificates of Authenticity associated with IoT End Devices that provide data that is traded in the Inter-Chain Data Marketplace
     * Check that input data source IoT End Devices are actually feeding data from the GPS location that was promised in the Inter-Chain Data Marketplace
 * Determine the trustworthiness of data sources through a diversity of information sources to reduce the risk of the data being unreliable.
 
@@ -1888,7 +1985,7 @@ External Oracle Risk Ratings are necessary to mitigate risks such as "man-in-the
 
 Data Buyer purchases from the Inter-Chain Data Market access to IoT data from a specific End Device that is at a specific location and is owned by a Data Seller (Provider). The Inter-Chain Data Market module of the DataHighway parachain or smart contract specifies that the promised data needs to be available via the API and shall not be compromised.
 
-External Oracles validate the IoT data that is stored in a Data Storage Backend (e.g. Alibaba Cloud or similar equivalent) and Notaries <a href="#reference-702f3f" class="pretty-link-colored">[702f3f]</a> certify a hash of the data that is commited on-chain. IoT data that must be validated includes but is not limited to that comprising the agreement between the Data Provider and Data Buyer, such as:
+External Oracles validate the IoT data that is stored in a Data Storage Backend (e.g. Alibaba Cloud or similar equivalent) and Notaries <a href="#reference-702f3f" class="pretty-link-colored">[702f3f]</a> certify a hash of the data that is committed on-chain. IoT data that must be validated includes but is not limited to that comprising the agreement between the Data Provider and Data Buyer, such as:
 
 * Price feed data for financial aspects that show USD-equivalent value of token assets
 * GPS location data of the IoT End Device and the Gateway
@@ -1901,22 +1998,26 @@ Refer to Swimlane (Flowchart) Diagrams.
 
 ##### Validate & Certify & Store External Data Frames Retrieved using Oracles, Notaries & Data Storage Backend
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-oracles-validate.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-oracles-validate.png" />
+</div>
 
-**Figure: Swimlane Diagram of Validation, Certication, and Storage Data from Oracles and Notaries**
+<div class="figure-text">Figure: Swimlane Diagram of Validation, Certification, and Storage Data from Oracles and Notaries</div>
 
 ### Data Monitoring
 
 Example combinations of cloud-based services (or similar equivalent):
 
-* Graphana <a href="#reference-f05938" class="pretty-link-colored">[f05938]</a> + Alibaba Cloud
-* Graphana + AWS CloudWatch
+* Grafana <a href="#reference-f05938" class="pretty-link-colored">[f05938]</a> + Alibaba Cloud
+* Grafana + AWS CloudWatch
 
 #### Business Concept Diagram
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-business-concept-datamarket-oracles.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-business-concept-datamarket-oracles.png" />
+</div>
 
-**Figure: Business Concept Diagram Inter-Chain Data Market Oracles**
+<div class="figure-text">Figure: Business Concept Diagram Inter-Chain Data Market Oracles</div>
 
 <div class="page-break"></div>
 
@@ -1953,7 +2054,7 @@ The custom Substrate Core Design is as follows:
 
 ### Custom Substrate Runtime Modules
 
-In addition to the Substrate Core Runtime Modules, the DH will have the following runtime modules that leverage the Substrate Runtime Module Library:
+In addition to the Substrate Core Runtime Modules, the DH will have the following runtime modules that leverage the Substrate Runtime Module (Palette) Library:
 
 * Roaming
     * API
@@ -2103,7 +2204,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
                     * PoP Collaboration Schemes
                         * Benefits Modification (i.e. modify mining speed for "Development" Collaboration Scheme, or add new token to "Token" Collaboration Scheme)
                     * Reputation request (manual)
-                    * Approver (with sufficient reputation) to releaseing DHX DAO Treasury Unlocked Reserves
+                    * Approver (with sufficient reputation) to releasing DHX DAO Treasury Unlocked Reserves
             * Voter entitlement
                 * DHX tokens may be used
     * Council
@@ -2157,7 +2258,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
         * Advocacy
         * Governance
     * Substrate Full Client UI
-        * Block Explorer (based on PolkadotJS Apps for interacting with Polkadot.js Apps <a href="#reference-34e740" class="pretty-link-colored">[34e740]</a> and Substrate-based chains)
+        * Block Explorer (based on Polkadot.js Apps for interacting with Polkadot.js Apps <a href="#reference-34e740" class="pretty-link-colored">[34e740]</a> and Substrate-based chains)
     * Other
         * Speckle <a href="#reference-836a2f" class="pretty-link-colored">[836a2f]</a>
         * Substrate Light Client UI <a href="#reference-81db2d" class="pretty-link-colored">[81db2d]</a>
@@ -2223,7 +2324,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 * NwkID - Network ID
 * NS - Network Server
 * TPS - Transactions Per Second
-* VNS - Visted Network Server
+* VNS - Visited Network Server
 
 <div class="page-break"></div>
 
@@ -2233,10 +2334,12 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
 #### Integration of the DataHighway Parachain into the Polkadot network
 
-<img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-polkadot-network.png" />
+<div class="image-wrapper">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-polkadot-network.png" />
+</div>
 (View image by right-clicking and choosing to "Open Image in New Tab" or "Save Image As")
 
-**Table: Polkadot Relay Chain and the DataHighway (DH) Parachain**
+<div class="figure-text">Table: Polkadot Relay Chain and the DataHighway (DH) Parachain</div>
 
 ### Appendix 2: Roaming - LoRaWAN Technology
 
@@ -2429,7 +2532,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
     * Toggles “Roaming Participation” in the Devices User Panel to activate roaming for the 6x Sensors used in his Mobile Weather Unit #3
       * Note: When roaming his transaction fees will be higher
   * Bob makes payment and chooses Supernodes to stake against to earn
-    * Topup MXC in exchange for ETH in AXS Wallet
+    * Top-up MXC in exchange for ETH in AXS Wallet
     * Supernode #1
       * 500 MXC Staked (for his Gateway)
       * 125 MXC Staked (from 10x Sensors)
@@ -2550,7 +2653,7 @@ Note: Generate a new reference with `openssl rand -hex 2`
 * [3b726b] <a id="reference-3b726b"></a><a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slot</a>
 * [4330ba] <a id="reference-4330ba"></a><a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a>
 * [180b38] <a id="reference-180b38"></a><a href="https://medium.facilelogin.com/" target="_blank" class="pretty-link-colored">Mystery Behind Blocktime</a>
-* [305bf5] <a id="reference-305bf5"></a><a href="https://www.bitcoinblockhalf.com/" target="_blank" class="pretty-link-colored">Bitcoin Block Halfing</a>
+* [305bf5] <a id="reference-305bf5"></a><a href="https://www.bitcoinblockhalf.com/" target="_blank" class="pretty-link-colored">Bitcoin Block Halving</a>
 * [c18c08] <a id="reference-c18c08"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">On the Origin of Polkadot</a>
 * [2f6302] <a id="reference-2f6302"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
 * [038640] <a id="reference-038640"></a><a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a>

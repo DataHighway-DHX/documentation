@@ -7,15 +7,13 @@ It may be necessary to maintain duplicated styles that are in both ./style.css
 website/static/css/custom.css (used for generating Whitepaper
 in the DataHighway Developer Hub).
 
-2. Run the following to create a new release in both PDF and HTML format. Replace `v1` below with the desired version:
+2. Run the following to create a new release in PDF format. Replace `v1` below with the desired version:
 
 ```
-npm i -g md-to-pdf &&
+nvm use v10.16.0
+npm i md-to-pdf &&
 mkdir ./v1 &&
-md-to-pdf --as-html ./docs/whitepaper.md \
-  --config-file ./config.json \
-  ./v1/whitepaper.html &&
-md-to-pdf ./docs/whitepaper.md \
+node ./node_modules/.bin/md-to-pdf ./docs/whitepaper.md \
   --config-file ./config.json \
   ./v1/whitepaper.pdf
 ```
@@ -46,6 +44,10 @@ Copy the contents of output-html-toc.html into ./docs/whitepaper.md as indicated
     <!-- INSERT TOC BELOW HERE -->
 </div>
 ```
+
+### Troubleshooting
+
+If you get an error such as `Chromium revision is not downloaded`), then you are likely using a version of Node.js that isn't supported by md-to-pdf
 
 ## Publishing Live Updates to GitHub Pages
 
