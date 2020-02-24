@@ -1,6 +1,6 @@
 ---
 id: whitepaper
-title: DataHighway's Economic Whitepaper
+title: DataHighway's Whitepaper
 sidebar_label: Whitepaper
 ---
 
@@ -21,7 +21,7 @@ page -->
 }
 </style>
 
-<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">DataHighway's Economic Whitepaper</span>
+<span style="font-size: 2em; font-weight: 700;!important" class="pdf-only">DataHighway's Whitepaper</span>
 <br />
 <div class="background-custom"></div>
 
@@ -433,7 +433,7 @@ MXC has designed a low barrier to entry to allow anyone to participate in the DH
 
 The goal is to create a fully decentralized LPWAN Roaming hub solution that uses the Parachain Operator layer of the MXProtocol Architecture and provides a decentralized LPWAN Roaming Packet Forwarding Service.
 
-Refer to the proposed implementation of the DataHighway <a href="#reference-7c63ac" class="pretty-link-colored">[7c63ac]</a>.
+Refer to the proposed implementation of the DataHighway on Page 2 of MXC's Data Economy Whitepaper <a href="#reference-7c63ac" class="pretty-link-colored">[7c63ac]</a>.
 
 MXProtocol Architecture is implemented into the LPWAN App Server and LPWAN Server codebases, which are based on ChirpStack's LoRa App Server and LoRa Server respectively. Refer to the summary of <a href="#Appendix-2-LoRaWAN-Technology" class="pretty-link-colored">LoRaWAN Technology</a>
 
@@ -1807,7 +1807,7 @@ Organisation ID may stake across multiple Supernodes.
 
 #### UX Design
 
-MXC's DataHighway.com <a href="#reference-7c63ac" class="pretty-link-colored">[7c63ac]</a> will provide a User Interface (UI) with the following features:
+MXC's DataHighway.com that is mentioned on Page 2 of MXC's Data Economy Whitepaper <a href="#reference-7c63ac" class="pretty-link-colored">[7c63ac]</a> will provide a User Interface (UI) with the following features:
 
 * Data Wallet
   * Shows balance in DHX that is to be used for inter-chain data trading
@@ -2610,9 +2610,8 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [7a1075] <a id="reference-7a1075"></a><a href="https://www.alibabacloud.com/product/iot" target="_blank" class="pretty-link-colored">Alibaba Cloud</a>
 * MXC
   * [dd4565] <a id="reference-dd4565"></a><a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Paper, Page 22</a>
-  * [7c63ac] <a id="reference-7c63ac"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper, Page 2</a>
+  * [7c63ac] <a id="reference-7c63ac"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
   * [c63390] <a id="reference-c63390"></a><a href="https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC SMB Whitepaper</a>
-  * [2f6302] <a id="reference-2f6302"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
 * Notaries [702f3f] <a id="reference-702f3f"></a>
   * <a href="https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d" target="_blank" class="pretty-link-colored">Notarization in Blockchain</a>
 * Oracles [459cee] <a id="reference-459cee"></a>
