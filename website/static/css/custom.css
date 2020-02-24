@@ -145,3 +145,15 @@
   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #bf2fcb);
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
+
+.image-wrapper {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.figure-text {
+  text-align: center;
+  font-weight: 700;
+}
