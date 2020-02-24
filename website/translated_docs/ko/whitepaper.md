@@ -2568,70 +2568,86 @@ and Request Logger Bin <a href="#reference-92e7f1" class="pretty-link-colored">[
 
 Note: Generate a new reference with `openssl rand -hex 2`
 
-* [33d593] <a id="reference-33d593"></a><a href="https://web3.garden/" target="_blank" class="pretty-link-colored">Web3.Garden</a>
-* [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/web3garden/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
-* [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/web3garden/sunshine-runtime-module-library" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
-* [6fe50e] <a id="reference-6fe50e"></a><a href="https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing" target="_blank" class="pretty-link-colored">MXC Roaming Presentation by Aslan on 6th August 2019 including Activation Passive Roaming</a>
-* [4948eb] <a id="reference-4948eb"></a><a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
-* [dd4565] <a id="reference-dd4565"></a><a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Paper, Page 22</a>
-* [7c63ac] <a id="reference-7c63ac"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper, Page 2</a>
-* [d7d9a7] <a id="reference-d7d9a7"></a><a href="https://lora-alliance.org/sites/default/files/2018-04/lorawantm-backend-interfaces-v1.0.pdf" target="_blank" class="pretty-link-colored">LoRaWAN Backend Interface Specification</a>
-* [8f85ec] <a id="reference-8f85ec"></a><a href="https://datahighway.com" target="_blank" class="pretty-link-colored">DataHighway.com</a>
-* [459cee] <a id="reference-459cee"></a> Oracles
+* Blockchain
+  * [588d36] <a id="reference-588d36"></a><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.180298" target="_blank" class="pretty-link-colored">Towards open data blockchain analytics: a Bitcoin perspective</a>
+  * [f53865] <a id="reference-f53865"></a><a href="https://arxiv.org/abs/1805.02707" target="_blank" class="pretty-link-colored">A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks</a>
+  * [57117e] <a id="reference-57117e"></a><a href="https://hackernoon.com/will-bitcoins-price-rise-following-the-halving-in-2020-4885f9dcffb0" target="_blank" class="pretty-link-colored">Will Bitcoins price rise following the Halving in 2020</a>
+  * [fe834b] <a id="reference-fe834b"></a><a href="https://en.bitcoin.it/wiki/Controlled_supply" target="_blank" class="pretty-link-colored">Bitcoin Controlled Supply</a>
+  * [c98d3f] <a id="reference-c98d3f"></a><a href="https://blog.ethereum.org/2016/07/27/inflation-transaction-fees-cryptocurrency-monetary-policy/" target="_blank" class="pretty-link-colored">Ethereum Inflation Transaction Fees Cryptocurrency Monetary Policy</a>
+  * [c8b270] <a id="reference-c8b270"></a><a href="https://en.bitcoin.it/wiki/Proof_of_Stake" target="_blank" class="pretty-link-colored">Proof of Stake</a>
+  * [180b38] <a id="reference-180b38"></a><a href="https://medium.facilelogin.com/" target="_blank" class="pretty-link-colored">Mystery Behind Blocktime</a>
+  * [305bf5] <a id="reference-305bf5"></a><a href="https://www.bitcoinblockhalf.com/" target="_blank" class="pretty-link-colored">Bitcoin Block Halving</a>
+* DataHighway
+  * [8f85ec] <a id="reference-8f85ec"></a><a href="https://datahighway.com" target="_blank" class="pretty-link-colored">DataHighway.com</a>
+* DataHighway Runtime Modules (Palettes) [2961f6] <a id="reference-2961f6"></a>
+
+  * <a href="https://github.com/DataHighway-com/node/tree/master/packages/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
+* DAO
+  * [33d593] <a id="reference-33d593"></a><a href="https://web3.garden/" target="_blank" class="pretty-link-colored">Web3.Garden</a>
+  * [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/web3garden/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
+  * [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/web3garden/sunshine-runtime-module-library" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
+* Finance
+  * [3bbaf1] <a id="reference-3bbaf1"></a><a href="https://www.investopedia.com/terms/q/quantitative-easing.asp" target="_blank" class="pretty-link-colored">Quantitative Easing</a>
+  * [89198f] <a id="reference-89198f"></a><a href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" target="_blank" class="pretty-link-colored">Difference between Monetary Policy and Fiscal Policy</a>
+* Hardware
+  * [a0320e] <a id="reference-a0320e"></a><a href="https://matchx.io" target="_blank" class="pretty-link-colored">Matchx.io</a>
+* LoRaWAN
+  * [d7d9a7] <a id="reference-d7d9a7"></a><a href="https://lora-alliance.org/sites/default/files/2018-04/lorawantm-backend-interfaces-v1.0.pdf" target="_blank" class="pretty-link-colored">LoRaWAN Backend Interface Specification</a>
+  * [6091f0] <a id="reference-6091f0"></a><a href="https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/" target="_blank" class="pretty-link-colored">LoRaWAN Gateways What Does it Do</a>
+  * [7c412d] <a id="reference-7c412d"></a><a href="https://arxiv.org/pdf/1607.08011.pdf" target="_blank" class="pretty-link-colored">Understanding the Limits of LoRaWAN</a>
+  * [eaff82] <a id="reference-eaff82"></a><a href="https://www.rs-online.com/designspark/lorawan-enable-a-sensor" target="_blank" class="pretty-link-colored">LoRaWAN Enable Sensor</a>
+  * [c57f47] <a id="reference-c57f47"></a><a href="https://www.sciencedirect.com/science/article/pii/S2405959517302953" target="_blank" class="pretty-link-colored">Comparative Study of LPWAN Technologies</a>
+  * [9d4c5f] <a id="reference-9d4c5f"></a><a href="https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300" target="_blank" class="pretty-link-colored">LoRaWAN Fair Access Policy Limitations</a>
+  * [90b149] <a id="reference-90b149"></a><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/" target="_blank" class="pretty-link-colored">A Study of LoRa: Long Range & Low Power Networks for the Internet of Things</a>
+  * [a90861] <a id="reference-a90861"></a><a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
+* Mining
+  * [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/chainx_en.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
+* Miscellaneous
+  * [1d41a4] <a id="reference-1d41a4"></a><a href="http://mockbin.org" target="_blank" class="pretty-link-colored">Mockbin</a>
+  * [92e7f1] <a id="reference-92e7f1"></a><a href="https://requestloggerbin.herokuapp.com" target="_blank" class="pretty-link-colored">Request Logger Bin</a>
+* Monitoring
+  * [f05938] <a id="reference-f05938"></a><a href="https://www.loomsystems.com/blog/single-post/2017/06/07/prometheus-vs-grafana-vs-graphite-a-feature-comparison" target="_blank" class="pretty-link-colored">Prometheus vs Grafana vs Graphite</a>
+  * [5fa3e9] <a id="reference-5fa3e9"></a><a href="https://grafana.com" target="_blank" class="pretty-link-colored">Grafana</a>
+  * [7a1075] <a id="reference-7a1075"></a><a href="https://www.alibabacloud.com/product/iot" target="_blank" class="pretty-link-colored">Alibaba Cloud</a>
+* MXC
+  * [dd4565] <a id="reference-dd4565"></a><a href="https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC Technical Paper, Page 22</a>
+  * [7c63ac] <a id="reference-7c63ac"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper, Page 2</a>
+  * [c63390] <a id="reference-c63390"></a><a href="https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC SMB Whitepaper</a>
+  * [2f6302] <a id="reference-2f6302"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
+* Notaries [702f3f] <a id="reference-702f3f"></a>
+
+  * <a href="https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d" target="_blank" class="pretty-link-colored">Notarization in Blockchain</a>
+* Oracles [459cee] <a id="reference-459cee"></a>
+
   * <a href="https://blockchainhub.net/blockchain-oracles/" target="_blank" class="pretty-link-colored">Blockchain Oracles</a>
   * <a href="https://docs.chain.link/docs/contract-creators-overview" target="_blank" class="pretty-link-colored">ChainLink Contact Creators Overview</a>
   * <a href="https://github.com/JohannEid/awesome-chainlink" target="_blank" class="pretty-link-colored">Awesome ChainLink</a>
   * <a href="https://lankydan.dev/2019/01/01/validating-external-data-with-an-oracle" target="_blank" class="pretty-link-colored">Validating External Data with an Oracle</a>
   * <a href="https://medium.com/@SharesChainITO/what-is-an-oracle-and-how-can-it-be-used-on-and-off-the-blockchain-fb585d53fa2b" target="_blank" class="pretty-link-colored">What is an Oracle and how can it be used On and Off the Blockchain</a>
-* [702f3f] <a id="reference-702f3f"></a> Notaries
-  * <a href="https://medium.com/@kctheservant/notarization-in-blockchain-part-1-a9795f19e28d" target="_blank" class="pretty-link-colored">Notarization in Blockchain</a>
-* [f05938] <a id="reference-f05938"></a><a href="https://www.loomsystems.com/blog/single-post/2017/06/07/prometheus-vs-grafana-vs-graphite-a-feature-comparison" target="_blank" class="pretty-link-colored">Prometheus vs Grafana vs Graphite</a>
-* [b26ba7] <a id="reference-b26ba7"></a><a href="https://substrate.dev/docs/en/overview/glossary#aura-aka-authority-round" target="_blank" class="pretty-link-colored">Aura</a>
-* [2961f6] <a id="reference-2961f6"></a> DataHighway Runtime Modules
-  * <a href="https://github.com/DataHighway-com/node/tree/master/packages/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
-* [7fd55a] <a id="reference-7fd55a"></a><a href="https://substrate.dev/docs/en/overview/glossary#nominated-proof-of-stake-npos" target="_blank" class="pretty-link-colored">NPoS</a>
-* [d71631] <a id="reference-d71631"></a><a href="https://substrate.dev/substrate-verifiable-credentials" target="_blank" class="pretty-link-colored">Substrate Verifiable Credentials</a>
-* [128e60] <a id="reference-128e60"></a><a href="https://github.com/w3f/offences-monitor" target="_blank" class="pretty-link-colored">Monitor Slashable Offences</a>
-* [34e740] <a id="reference-34e740"></a><a href="https://polkadot.js.org/apps" target="_blank" class="pretty-link-colored">Polkadot.js Apps</a>
-* [836a2f] <a id="reference-836a2f"></a><a href="https://twitter.com/get_speckle" target="_blank" class="pretty-link-colored">Speckle</a>
-* [81db2d] <a id="reference-81db2d"></a><a href="https://github.com/paritytech/substrate-light-ui" target="_blank" class="pretty-link-colored">Substrate Light Client UI</a>
-* [6091f0] <a id="reference-6091f0"></a><a href="https://www.alliot.uk/lorixone-lorawan-gateway-what-does-it-do/" target="_blank" class="pretty-link-colored">LoRaWAN Gateways What Does it Do</a>
-* [7c412d] <a id="reference-7c412d"></a><a href="https://arxiv.org/pdf/1607.08011.pdf" target="_blank" class="pretty-link-colored">Understanding the Limits of LoRaWAN</a>
-* [eaff82] <a id="reference-eaff82"></a><a href="https://www.rs-online.com/designspark/lorawan-enable-a-sensor" target="_blank" class="pretty-link-colored">LoRaWAN Enable Sensor</a>
-* [c57f47] <a id="reference-c57f47"></a><a href="https://www.sciencedirect.com/science/article/pii/S2405959517302953" target="_blank" class="pretty-link-colored">Comparative Study of LPWAN Technologies</a>
-* [1d41a4] <a id="reference-1d41a4"></a><a href="http://mockbin.org" target="_blank" class="pretty-link-colored">Mockbin</a>
-* [92e7f1] <a id="reference-92e7f1"></a><a href="https://requestloggerbin.herokuapp.com" target="_blank" class="pretty-link-colored">Request Logger Bin</a>
-* [9d4c5f] <a id="reference-9d4c5f"></a><a href="https://www.thethingsnetwork.org/forum/t/limitations-data-rate-packet-size-30-seconds-uplink-and-10-messages-downlink-per-day-fair-access-policy/1300" target="_blank" class="pretty-link-colored">LoRaWAN Fair Access Policy Limitations</a>
-* [90b149] <a id="reference-90b149"></a><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/" target="_blank" class="pretty-link-colored">A Study of LoRa: Long Range & Low Power Networks for the Internet of Things</a>
-* [588d36] <a id="reference-588d36"></a><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.180298" target="_blank" class="pretty-link-colored">Towards open data blockchain analytics: a Bitcoin perspective</a>
-* [f53865] <a id="reference-f53865"></a><a href="https://arxiv.org/abs/1805.02707" target="_blank" class="pretty-link-colored">A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks</a>
-* [57117e] <a id="reference-57117e"></a><a href="https://hackernoon.com/will-bitcoins-price-rise-following-the-halving-in-2020-4885f9dcffb0" target="_blank" class="pretty-link-colored">Will Bitcoins price rise following the Halving in 2020</a>
-* [fe834b] <a id="reference-fe834b"></a><a href="https://en.bitcoin.it/wiki/Controlled_supply" target="_blank" class="pretty-link-colored">Bitcoin Controlled Supply</a>
-* [c98d3f] <a id="reference-c98d3f"></a><a href="https://blog.ethereum.org/2016/07/27/inflation-transaction-fees-cryptocurrency-monetary-policy/" target="_blank" class="pretty-link-colored">Ethereum Inflation Transaction Fees Cryptocurrency Monetary Policy</a>
-* [3bbaf1] <a id="reference-3bbaf1"></a><a href="https://www.investopedia.com/terms/q/quantitative-easing.asp" target="_blank" class="pretty-link-colored">Quantitative Easing</a>
-* [c8b270] <a id="reference-c8b270"></a><a href="https://en.bitcoin.it/wiki/Proof_of_Stake" target="_blank" class="pretty-link-colored">Proof of Stake</a>
-* [0ec873] <a id="reference-0ec873"></a><a href="https://substrate.dev/rustdocs/v1.0/srml_sudo/index.html#executing-privileged-functions" target="_blank" class="pretty-link-colored">Substrate Executing Privileged Functions</a>
-* [fa094e] <a id="reference-fa094e"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details" target="_blank" class="pretty-link-colored">Polkadot Token Economics Payment Details</a>
-* [903282] <a id="reference-903282"></a><a href="https://wiki.parity.io/Proof-of-Authority-Chains#chain-engine-specification" target="_blank" class="pretty-link-colored">Parity Proof of Authority (PoA) Chains</a>
-* [37cb7c] <a id="reference-37cb7c"></a><a href="https://github.com/paritytech/substrate/issues/1354" target="_blank" class="pretty-link-colored">Polkadot Transaction Limitations per Block</a>
-* [89198f] <a id="reference-89198f"></a><a href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" target="_blank" class="pretty-link-colored">Difference between Monetary Policy and Fiscal Policy</a>
-* [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/chainx_en.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
-* [a0320e] <a id="reference-a0320e"></a><a href="https://matchx.io" target="_blank" class="pretty-link-colored">Matchx.io</a>
-* [a90861] <a id="reference-a90861"></a><a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
-* [c63390] <a id="reference-c63390"></a><a href="https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC SMB Whitepaper</a>
-* [2c6aa0] <a id="reference-2c6aa0"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
-* [5fa3e9] <a id="reference-5fa3e9"></a><a href="https://grafana.com" target="_blank" class="pretty-link-colored">Grafana</a>
-* [7a1075] <a id="reference-7a1075"></a><a href="https://www.alibabacloud.com/product/iot" target="_blank" class="pretty-link-colored">Alibaba Cloud</a>
-* [3b726b] <a id="reference-3b726b"></a><a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slot</a>
-* [4330ba] <a id="reference-4330ba"></a><a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a>
-* [180b38] <a id="reference-180b38"></a><a href="https://medium.facilelogin.com/" target="_blank" class="pretty-link-colored">Mystery Behind Blocktime</a>
-* [305bf5] <a id="reference-305bf5"></a><a href="https://www.bitcoinblockhalf.com/" target="_blank" class="pretty-link-colored">Bitcoin Block Halving</a>
-* [c18c08] <a id="reference-c18c08"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">On the Origin of Polkadot</a>
-* [2f6302] <a id="reference-2f6302"></a><a href="https://www.mxc.org/hubfs/WP/MXC_data_economy_whitepaper.pdf" target="_blank" class="pretty-link-colored">MXC's Data Economy Whitepaper</a>
-* [038640] <a id="reference-038640"></a><a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a>
-* [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
-* [411c31] <a id="reference-411c31"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
-* [b05a57] <a id="reference-b05a57"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees" target="_blank" class="pretty-link-colored">Polkadot Token Economics Relay Chain Transaction Fees</a>
-* [46767b] <a id="reference-46767b"></a><a href="http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
-* [d38e97] <a id="reference-d38e97"></a><a href="https://telemetry.polkadot.io" target="_blank" class="pretty-link-colored">Polkadot Telemetry Service</a>
-* [57f381] <a id="reference-57f381"></a><a href="https://polkascan.io" target="_blank" class="pretty-link-colored">Polkascan</a>
+* Polkadot / Substrate / W3F
+  * [b26ba7] <a id="reference-b26ba7"></a><a href="https://substrate.dev/docs/en/overview/glossary#aura-aka-authority-round" target="_blank" class="pretty-link-colored">Aura</a>
+  * [7fd55a] <a id="reference-7fd55a"></a><a href="https://substrate.dev/docs/en/overview/glossary#nominated-proof-of-stake-npos" target="_blank" class="pretty-link-colored">NPoS</a>
+  * [d71631] <a id="reference-d71631"></a><a href="https://substrate.dev/substrate-verifiable-credentials" target="_blank" class="pretty-link-colored">Substrate Verifiable Credentials</a>
+  * [128e60] <a id="reference-128e60"></a><a href="https://github.com/w3f/offences-monitor" target="_blank" class="pretty-link-colored">Monitor Slashable Offences</a>
+  * [34e740] <a id="reference-34e740"></a><a href="https://polkadot.js.org/apps" target="_blank" class="pretty-link-colored">Polkadot.js Apps</a>
+  * [836a2f] <a id="reference-836a2f"></a><a href="https://twitter.com/get_speckle" target="_blank" class="pretty-link-colored">Speckle</a>
+  * [81db2d] <a id="reference-81db2d"></a><a href="https://github.com/paritytech/substrate-light-ui" target="_blank" class="pretty-link-colored">Substrate Light Client UI</a>
+  * [0ec873] <a id="reference-0ec873"></a><a href="https://substrate.dev/rustdocs/v1.0/srml_sudo/index.html#executing-privileged-functions" target="_blank" class="pretty-link-colored">Substrate Executing Privileged Functions</a>
+  * [fa094e] <a id="reference-fa094e"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#payment-details" target="_blank" class="pretty-link-colored">Polkadot Token Economics Payment Details</a>
+  * [903282] <a id="reference-903282"></a><a href="https://wiki.parity.io/Proof-of-Authority-Chains#chain-engine-specification" target="_blank" class="pretty-link-colored">Parity Proof of Authority (PoA) Chains</a>
+  * [37cb7c] <a id="reference-37cb7c"></a><a href="https://github.com/paritytech/substrate/issues/1354" target="_blank" class="pretty-link-colored">Polkadot Transaction Limitations per Block</a>
+  * [3b726b] <a id="reference-3b726b"></a><a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slot</a>
+  * [4330ba] <a id="reference-4330ba"></a><a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a>
+  * [038640] <a id="reference-038640"></a><a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a>
+  * [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
+  * [411c31] <a id="reference-411c31"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
+  * [b05a57] <a id="reference-b05a57"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees" target="_blank" class="pretty-link-colored">Polkadot Token Economics Relay Chain Transaction Fees</a>
+  * [46767b] <a id="reference-46767b"></a><a href="http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
+  * [d38e97] <a id="reference-d38e97"></a><a href="https://telemetry.polkadot.io" target="_blank" class="pretty-link-colored">Polkadot Telemetry Service</a>
+  * [57f381] <a id="reference-57f381"></a><a href="https://polkascan.io" target="_blank" class="pretty-link-colored">Polkascan</a>
+  * [2c6aa0] <a id="reference-2c6aa0"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
+  * [c18c08] <a id="reference-c18c08"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">On the Origin of Polkadot</a>
+* Roaming
+  * [4948eb] <a id="reference-4948eb"></a><a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
+  * [6fe50e] <a id="reference-6fe50e"></a><a href="https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing" target="_blank" class="pretty-link-colored">MXC Roaming Presentation by Aslan on 6th August 2019 including Activation Passive Roaming</a>
+
