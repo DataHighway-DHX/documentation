@@ -64,15 +64,18 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
+          <div>
             <p style={{paddingBottom: '1.25em'}}>
               <translate>
                 The decentralised DataHighway economic system is the future of IoT and will have a monetary system driven by the DHX token.
               </translate>
             </p>
-            
-            <Button href={docUrl('getting-started/users-purpose.html')}><translate>Getting Started</translate></Button>
-            <Button href={siteConfig.chatUrlDiscord}><translate>Support</translate></Button>
+          </div>
+          <PromoSection>
+            <p>
+              <Button href={docUrl('getting-started/users-purpose.html')}><translate>Getting Started</translate></Button>
+              <Button href={siteConfig.chatUrlDiscord}><translate>Support</translate></Button>
+            </p>
           </PromoSection>
         </div>
       </SplashContainer>
