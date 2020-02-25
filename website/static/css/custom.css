@@ -5,22 +5,60 @@
  * LICENSE file in the root directory of this source tree.
  */
  
-/* your custom css */
+/* Add Global CSS styles here.
 
-.download-whitepaper:link {
+  IMPORTANT: To conditionally apply styles locally only on specific Markdown pages
+  you can use the HTML `<style></style>` tag in that Markdown file.
+*/
+
+/* unvisited link */
+/* a:link {
+  font-weight: 400;
+  color: #00aaff;
+} */
+
+/* visited link */
+/* a:visited {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
+/* mouse over link */
+/* a:hover {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
+/* selected link */
+/* a:active {
+  font-weight: 400;
+  color: #6200ff;
+} */
+
+.pretty-link:link {
   text-decoration: none;
 }
 
-.download-whitepaper:visited {
+.pretty-link:visited {
   text-decoration: none;
 }
 
-.download-whitepaper:hover {
+.pretty-link:hover {
   text-decoration: underline;
 }
 
-.download-whitepaper:active {
+.pretty-link:active {
   text-decoration: underline;
+}
+
+.pretty-link-colored {
+  font-weight: 400;
+  color: #00aaff !important;
+}
+
+.pretty-link-colored-bold {
+  font-weight: 600;
+  color: #00aaff !important;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -36,4 +74,86 @@
 }
 
 @media only screen and (min-width: 1500px) {
+}
+
+.pdf-only {
+  display: none;
+}
+
+/* Download Whitepaper Button */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-download-wrapper {
+  /* Important: Displaying as block doesn't render correctly on PDF, so we
+  won't centre the download button in the middle this way, just use margin left */
+  /* display: block; */
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+  background: #FFF;
+}
+
+@media only screen and (min-device-width: 720px) {
+  .btn-download-wrapper {
+    margin-left: 100px;
+  }
+
+  .btn-download {
+    font-size: 1.5em;
+  }
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-download {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download:focus {
+  outline: none;
+}
+
+.btn-download.button-color-1 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #bf2fcb);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.image-wrapper {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.figure-text {
+  text-align: center;
+  font-weight: 700;
 }

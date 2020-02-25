@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Data Highway Developer Hub', // Title for your website.
-  tagline: 'Complete develop documentation for the Data Highway DAO.',
+  title: 'DataHighway Developer Hub', // Title for your website.
+  tagline: 'Complete develop documentation for the DataHighway DAO.',
   url: 'dev.datahighway.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'documentation',
-  organizationName: 'DataHighway-com',
+  organizationName: 'DataHighway-DHX',
   cname: 'dev.datahighway.com',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -39,10 +39,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'index', label: 'Docs'},
-    {doc: 'recipes/recipes', label: 'Recipes'},
-    {doc: 'tutorials/tutorials', label: 'Tutorials'},
+    {doc: 'getting-started/users-purpose', label: 'Getting Started'},
+    {doc: 'tutorials/tutorials-accounts-create-account', label: 'Tutorials'},
+    {doc: 'api/rust-reference-docs', label: 'API Reference'},
     {doc: 'whitepaper', label: 'Whitepaper' },
+    { search: false }, // See Algolia
+    { languages: false },
   ],
 
   // If you have users set above, you add it here:
@@ -74,7 +76,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Data Highway`,
+  copyright: `Copyright © ${new Date().getFullYear()} DataHighway`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -93,6 +95,8 @@ const siteConfig = {
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
 
+  twitterUsername: 'datahighway_dhx',
+
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
   // docsSideNavCollapsible: true,
@@ -106,10 +110,19 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  baseUrlGithub: 'https://github.com/DataHighway-DHX',
+  chatUrlDiscord: 'https://discord.gg/t3mQAZ',
+
+  // Search https://docusaurus.io/docs/en/search
+  // algolia: {
+  //   apiKey: 'my-api-key',
+  //   indexName: 'my-index-name',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
 };
 
-	// Use prism for syntax highlighting
-	usePrism: true,
+// Use prism for syntax highlighting
+usePrism: true,
 
 
 

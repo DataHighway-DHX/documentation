@@ -1,18 +1,27 @@
 {
   "docs": {
-    "Overview": [
-      "index",
-      "whitepaper"
-    ]
-  },
-  "recipes": {
-    "Overview": [
-      "recipes/recipes"
-    ]
+    "Getting Started": ["getting-started/users-purpose", "getting-started/users-roles", "getting-started/users-rewards"],
+    "Accounts": ["getting-started/users-accounts"],
+    "Nodes": ["getting-started/users-nodes-authorities", "getting-started/users-nodes-collators"],
+    "Miners": ["getting-started/users-miners-tokens", "getting-started/users-miners-hardware"]
   },
   "tutorials": {
-    "Overview": [
-      "tutorials/tutorials"
+    "Accounts": ["tutorials/tutorials-accounts-create-account"],
+    "Authority Node": ["tutorials/tutorials-nodes-authorities-setup"],
+    "Token Mining": [
+      "tutorials/tutorials-mining-tokens-setup",
+      "tutorials/tutorials-mining-tokens-check-eligibility",
+      "tutorials/tutorials-mining-tokens-claim-rewards"
+    ],
+    "Hardware Mining": [
+      "tutorials/tutorials-mining-hardware-setup",
+      "tutorials/tutorials-mining-hardware-check-eligibility",
+      "tutorials/tutorials-mining-hardware-claim-rewards"
+    ]
+  },
+  "whitepaper": {
+    "Whitepaper": [
+      "whitepaper"
     ]
   }
 }
