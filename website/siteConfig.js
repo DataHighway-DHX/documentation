@@ -111,7 +111,7 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
   baseUrlGithub: 'https://github.com/DataHighway-DHX',
-  chatUrlDiscord: 'https://discord.gg/t3mQAZ',
+  chatUrlDiscord: 'https://discord.gg/UuZN2tE',
 
   // Search https://docusaurus.io/docs/en/search
   // algolia: {
