@@ -542,24 +542,24 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 - DataHighway Roaming Preliminary Design Implementation Published on Github (Open-Source)
 
 ### February 2020
-- DataHighway Testnet (Mining Only) on Substrate-based chain using PoA collators
+- DataHighway Testnet (Mining Only) on Substrate-based chain using PoA validators
 - DataHighway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
 - DataHighway Roaming Detailed Design Implementation Published on Github (Open-Source)
-- DataHighway Parachain Slot Auction on Polkadot Testnet
-- DataHighway Blockchain ported to Polkadot Parachain using Cumulus
 
 ### March 2020
 - DataHighway Roaming Final Design (integration of Backend Interface 1.0 Specification)
 - DataHighway Testnet (Mining Only) on Substrate-based chain using NPoS collators
+- DataHighway Blockchain ported to Polkadot Parachain using Cumulus
+- DataHighway Parachain Slot Auction on Polkadot Testnet
 
 ### April 2020
 - Polkadot Mainnet Launch. See <a href="https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png" target="_blank" class="pretty-link-colored">Extract from Discord Discussion</a>
 - Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's Cumulus Framework <a href="#reference-4330ba" class="pretty-link-colored">[4330ba]</a> or the Parachain Development Kit (PDK) with a Polkadot Parachain Slot <a href="#reference-3b726b" class="pretty-link-colored">[3b726b]</a>
-- Data Highway Testnet (Roaming + Mining) on Substrate-based chain using PoA collators
+- Data Highway Testnet (Roaming + Mining) on Substrate-based chain using NPoS collators
 
 ### June 2020
 - DataHighway Mainnet Upgrade (Roaming + Mining)
-- DataHighway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using PoA collators
+- DataHighway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using NPoS collators
 
 ### July 2020
 - DataHighway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
