@@ -1,10 +1,10 @@
 ---
-id: users-miners-tokens
-title: Token Mining
-sidebar_label: Token Mining
+id: 用户-挖矿者-通证
+title: 通证挖矿
+sidebar_label: 通证挖矿
 ---
 
-## Why become a Token Miner on the DataHighway?
+## 为什么成为在数据高速公路上的通证挖矿者？
 
 Toke Miners are rewarded when they commit to **locking** or **signalling** supported cryptocurrencies for a period of time.
 
