@@ -1,14 +1,14 @@
 ---
-id: users-accounts
-title: Accounts
-sidebar_label: Accounts
+id: 用户账户
+title: 账户
+sidebar_label: 账户
 ---
 
-## Why get an Account on the DataHighway?
+## 为什么要在 DataHighways 上获得一个账户？
 
-Participants need to create an account on the DataHighway to:
+参与者需要在数据高速公路上创建一个账户：
 
-* Transfer DHX between accounts
+* 在账户间传输 DHX
 * Stake DHX tokens on a Collator Node as either a Collator or Nominator
 * Receive Block Rewards for staking DHX tokens as a Collator Node or Nominator
 * Receive additional Mining Speed Boosts in DHX tokens for participation in various forms of Mining
