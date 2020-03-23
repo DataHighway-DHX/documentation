@@ -9,13 +9,13 @@ sidebar_label: 账户
 参与者需要在数据高速公路上创建一个账户：
 
 * 在账户间传输 DHX
-* Stake DHX tokens on a Collator Node as either a Collator or Nominator
-* Receive Block Rewards for staking DHX tokens as a Collator Node or Nominator
-* Receive additional Mining Speed Boosts in DHX tokens for participation in various forms of Mining
-* Purchase data from the Inter-Chain Data Market
-* Purchase roaming access for their LPWAN IoT End Devices
+* 将DHX通证作为Collator或Nominator质押在Collator节点上
+* 接受区块奖励用于质押DHX通证作为Collator节点或Nominator
+* 在DHX通证中获取额外的挖矿速度，用于参与各种形式的挖矿活动
+* 从链际数据市场购买数据
+* 购买低功耗广域网络物联网终端设备漫游访问权限
 
-Please start with the <a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
+请开始关于<a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">创建账户</a>的教程
 
 
 
