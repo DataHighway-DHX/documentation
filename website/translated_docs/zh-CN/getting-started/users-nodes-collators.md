@@ -17,11 +17,11 @@ sidebar_label: 排序器 节点
 
 ## 为什么要成为一个数据高速公路排序器？
 
-提名者可领取他们提名的整理节点可能收到的部分区块奖励。 符合资格的通证挖矿者或硬件挖矿者声称的挖矿速度提升乘数可以用来获得更高的区块奖励 Nominating is less involved than becoming a Collator.
+提名者可领取他们提名的整理节点可能收到的部分区块奖励。 符合资格的通证挖矿者或硬件挖矿者声称的挖矿速度提升乘数可以用来获得更高的区块奖励 与其提名不如成为一个排序器。
 
-## How do you become a DataHighway Nominator?
+## 如何成为数据高速公路提名者？
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+尚不可用。 请从一个<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授权节点</a>开始
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
 
