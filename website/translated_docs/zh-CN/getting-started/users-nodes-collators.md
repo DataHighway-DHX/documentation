@@ -17,7 +17,7 @@ sidebar_label: 排序器 节点
 
 ## 为什么要成为一个数据高速公路排序器？
 
-Nominators may receive a proportion of the Block Reward that Collator Nodes they nominate may receive. The Mining Speed Boost multiplier that eligible Token Miners or Hardware Miners may claim may be used to receive a higher Block Reward. Nominating is less involved than becoming a Collator.
+提名者可领取他们提名的整理节点可能收到的部分区块奖励。 符合资格的通证挖矿者或硬件挖矿者声称的挖矿速度提升乘数可以用来获得更高的区块奖励 Nominating is less involved than becoming a Collator.
 
 ## How do you become a DataHighway Nominator?
 
