@@ -1,10 +1,10 @@
 ---
-id: users-nodes-collators
-title: Collator Nodes
-sidebar_label: Collator Nodes
+id: 用户-节点-collators
+title: 排序器 节点
+sidebar_label: 排序器 节点
 ---
 
-## Why become a DataHighway Collator?
+## 为什么要成为一个数据高速公路排序器？
 
 Later we will switch the DataHighway Testnet from using PoA to instead use Nominated Proof of Stake (NPos) consensus, where validators **stake DHX tokens** to validate transactions and blocks to secure the blockchain. Validator nodes that receive the Block Reward may optionally share a proportion of it with other accounts that staked tokens to nominated them.
 
