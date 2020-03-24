@@ -8,7 +8,7 @@ sidebar_label: 授权节点
 
 初始的 Data高速公路测试网将使用授权证明 (PoA) 共识，在这种共识中，验证器 (授权) **用其身份** 来验证交易和区块以确保区块链的安全。
 
-The Mining Speed Boost multiplier that eligible token or hardware miners may claim, may be used to receive a higher Block Reward.
+符合资格的通证或硬件挖矿者声称的挖矿速度提升乘数可以用来获得更高的区块奖励
 
 ## 如何成为数据高速公路授权节点？
 
