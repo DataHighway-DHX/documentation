@@ -1,10 +1,10 @@
 ---
-id: users-rewards
-title: Rewards
-sidebar_label: Rewards
+id: 用户-奖励
+title: 奖励
+sidebar_label: 奖励
 ---
 
-## How do you get DHX tokens from the Block Reward?
+## 您如何从区块奖励中获得DHX通证？
 
 Participants in the community that secure the DataHighway by staking DHX tokens on a node as a Collator or Nominator have a chance of being rewarded with a proportion of the Block Reward, which is funded by 70% of the total supply of DHX tokens available at the genesis block.
 
