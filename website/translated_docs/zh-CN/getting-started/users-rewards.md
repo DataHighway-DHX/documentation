@@ -8,7 +8,7 @@ sidebar_label: 奖励
 
 Participants in the community that secure the DataHighway by staking DHX tokens on a node as a Collator or Nominator have a chance of being rewarded with a proportion of the Block Reward, which is funded by 70% of the total supply of DHX tokens available at the genesis block.
 
-## How do you get DHX tokens from the DHX DAO's Unlocked Reserves?
+## 您如何从 DHX DAO的未锁定储备中获取 DHX 通证？
 
 Additional Mining Speed Boost bonus rewards multipliers on top of the Block Reward may be received by participating in Token Mining or Hardware Mining, which involves either making a commitment not to move their holding of a supported cryptocurrency, or ensuring the their IoT hardware remains online for a period of time.
 
