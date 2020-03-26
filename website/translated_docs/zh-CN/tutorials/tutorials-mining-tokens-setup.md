@@ -1,9 +1,9 @@
 ---
-id: tutorials-mining-tokens-setup
-title: Setup Token Mining
-sidebar_label: Setup Token Mining
+id: 教程-挖矿-通证-设置
+title: 设置 通证 挖矿
+sidebar_label: 设置 通证 挖矿
 ---
 
-## How do you configure Token Mining?
+## 如何配置通证挖矿？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and create an Extrinsic using the Token Mining Configuration Runtime Module.
+使用 Polkadot.js 应用程序UI 中的设置连接到数据高速公路，并使用通证挖矿配置运行模块创建额外功能。
