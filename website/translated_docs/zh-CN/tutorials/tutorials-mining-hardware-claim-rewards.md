@@ -6,4 +6,4 @@ sidebar_label: 认领奖励
 
 ## 您应当如何认领硬件挖矿奖励？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and create an Extrinsic using the Hardware Mining Claims Runtime Module.
+使用 Polkadot.js 应用程序UI 中的设置连接到数据高速公路，并使用硬件挖矿运行模块创建额外功能。
