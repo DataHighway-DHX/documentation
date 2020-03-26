@@ -1,7 +1,7 @@
 ---
-id: tutorials-mining-tokens-claim-rewards
-title: Claim Rewards
-sidebar_label: Claim Rewards
+id: 教程-挖矿-通证-索回-奖励
+title: 索回奖励
+sidebar_label: 索回奖励
 ---
 
 ## How do you claim rewards for Token Mining?
