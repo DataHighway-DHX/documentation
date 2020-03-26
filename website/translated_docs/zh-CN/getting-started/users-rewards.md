@@ -6,7 +6,7 @@ sidebar_label: 奖励
 
 ## 您如何从区块奖励中获得DHX通证？
 
-Participants in the community that secure the DataHighway by staking DHX tokens on a node as a Collator or Nominator have a chance of being rewarded with a proportion of the Block Reward, which is funded by 70% of the total supply of DHX tokens available at the genesis block.
+通过将DHX 通证在节点上质押作为排序器或提名器来保护数据高速公路的社区参与者有机会获得一定比例的区块奖励， 它由起源区块可用的 DHX 令牌总供应量的70%提供资金。
 
 ## 您如何从 DHX DAO的未锁定储备中获取 DHX 通证？
 
