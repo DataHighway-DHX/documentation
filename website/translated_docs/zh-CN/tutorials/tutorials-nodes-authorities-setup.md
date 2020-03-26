@@ -1,17 +1,17 @@
 ---
-id: tutorials-nodes-authorities-setup
-title: Setup Authority Node
-sidebar_label: Setup Authority Node
+id: 教程-节点-授权-设置
+title: 设置 授权 节点
+sidebar_label: 设置 授权 节点
 ---
 
-**DRAFT**
+**草案**
 
-## How do you setup an Authority Node?
+## 您如何设置一个授权节点？
 
-This guide covers how to set up a DataHighway Authority Node.
+本指南涵盖如何设置数据高速公路授权节点。
 
 
-### Provisioning a server
+### 配置服务器
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.: Vultr, DigitalOcean, Linode, OVH, Contabo, Scaleway, Amazon AWS, etc.
 
@@ -80,13 +80,13 @@ systemctl enable datahighway
 systemctl start datahighway
 ```
 
-Check the status of the service:
+检查服务状态：
 
 ```bash
 systemctl status datahighway
 ```
 
-You should see the node connecting to the network and syncing the latest blocks. If you need to tail the latest output, you can use:
+您应该看到该节点连接到网络并同步最新的区块。 If you need to tail the latest output, you can use:
 
 ```bash
 journalctl -u datahighway.service -f
