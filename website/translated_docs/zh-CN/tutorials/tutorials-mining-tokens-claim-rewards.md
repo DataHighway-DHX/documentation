@@ -4,6 +4,6 @@ title: 索回奖励
 sidebar_label: 索回奖励
 ---
 
-## How do you claim rewards for Token Mining?
+## 您应当如何认领奖励用于通证挖矿？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and create an Extrinsic using the Token Mining Claims Runtime Module.
+使用 Polkadot.js 应用程序UI 中的设置连接到数据高速公路，并使用通证挖矿索回运行模块创建额外功能。
