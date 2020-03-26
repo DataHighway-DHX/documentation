@@ -10,7 +10,7 @@ sidebar_label: 奖励
 
 ## 您如何从 DHX DAO的未锁定储备中获取 DHX 通证？
 
-Additional Mining Speed Boost bonus rewards multipliers on top of the Block Reward may be received by participating in Token Mining or Hardware Mining, which involves either making a commitment not to move their holding of a supported cryptocurrency, or ensuring the their IoT hardware remains online for a period of time.
+参与通证采矿或硬件开采可能会收到额外的采矿速度提升奖励乘数，其中包括承诺不移动其持有的受支持加密货币或确保他们的 IotT 硬件保持在线一段时间。
 
 It will be governed by stakeholders in the IoT community that are rewarded with incentives to stake their DHX tokens on the DHX Decentralized Autonomous Organization (DAO).
 
