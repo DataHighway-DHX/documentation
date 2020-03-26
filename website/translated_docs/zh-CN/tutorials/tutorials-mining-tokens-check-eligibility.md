@@ -10,4 +10,4 @@ sidebar_label: 资格检查
 
 ## 如何检查您是否有资格领取通证挖矿奖励？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and check the Chain State of the Token Mining Eligibility Runtime Module.
+使用 Polkadot.js 应用程序UI 中的设置连接到数据高速公路，并检查通证挖矿资格运行模块的练状态。
