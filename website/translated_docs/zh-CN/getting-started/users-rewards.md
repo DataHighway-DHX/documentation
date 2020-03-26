@@ -12,6 +12,6 @@ sidebar_label: 奖励
 
 参与通证采矿或硬件开采可能会收到额外的采矿速度提升奖励乘数，其中包括承诺不移动其持有的受支持加密货币或确保他们的 IotT 硬件保持在线一段时间。
 
-It will be governed by stakeholders in the IoT community that are rewarded with incentives to stake their DHX tokens on the DHX Decentralized Autonomous Organization (DAO).
+IoT社区的参与者们负责监管在DHX分布式自治组织 (DAO) 上质押他们的DHX通证并获得奖励
 
 The DHX DAO Unlocked Reserves that will be governed by the DHX DAO Treasury will be funded by the remaining 30% of the total supply of DHX tokens at the genesis block and other ongoing fees. These funds will be used to reward Proof of Participation by users in governance, mining, and roaming.
