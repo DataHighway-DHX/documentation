@@ -14,4 +14,4 @@ sidebar_label: 奖励
 
 IoT社区的参与者们负责监管在DHX分布式自治组织 (DAO) 上质押他们的DHX通证并获得奖励
 
-The DHX DAO Unlocked Reserves that will be governed by the DHX DAO Treasury will be funded by the remaining 30% of the total supply of DHX tokens at the genesis block and other ongoing fees. These funds will be used to reward Proof of Participation by users in governance, mining, and roaming.
+DHX DAO 的未锁仓储备将由DHX DAO 财库管理，由剩余DHX通证起源区块和其他持续费用的30%供应 这些资金将用于奖励用户参与监管、采矿和漫游。
