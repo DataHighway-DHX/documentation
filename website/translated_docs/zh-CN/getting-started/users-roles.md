@@ -28,8 +28,8 @@ sidebar_label: 角色
 
 * 网络运营商所有者(LoRaWAN)
 
-* Advocacy Miners
+* 拥护矿工
 
-* Development Miners (Inter-Chain Data Market Application Developers)
+* 开发矿工(链际数据市场应用开发者)
 
-* Governance Miners (of the DHX DAO)
+* （DHX DAO中的）治理矿工
