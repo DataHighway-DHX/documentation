@@ -18,6 +18,8 @@ node ./node_modules/.bin/md-to-pdf ./docs/whitepaper.md \
   ./v1/whitepaper.pdf
 ```
 
+Important: If you get an error, check if it actually generated the PDF changes correctly in either ./docs/whitepaper.pdf or ./v1/whitepaper.pdf, and use the one that worked.
+
 Note: `headerIds` must be `true` in config.json otherwise TOC links do not work.
 
 3. Update the Whitepaper Table of Contents (TOC)
@@ -54,7 +56,7 @@ If you get an error such as `Chromium revision is not downloaded`), then you are
 Run the following as a GitHub user with commit access to the repo:
 
 ```bash
-GIT_USER=<GIT_USERNAME> \
+GIT_USER=ltfschoen \
   CURRENT_BRANCH=master \
   USE_SSH=true \
   npm run publish-gh-pages
