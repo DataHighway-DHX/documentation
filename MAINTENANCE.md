@@ -7,7 +7,11 @@ It may be necessary to maintain duplicated styles that are in both ./style.css
 website/static/css/custom.css (used for generating Whitepaper
 in the DataHighway Developer Hub).
 
-2. Run the following to create a new release in PDF format. Replace `v1` below with the desired version:
+2. Updating diagrams
+
+Most of the original diagrams that are included in the original v1.0.0 whitepaper were generated with Visual Paradigm, whose source file is .vpd format, and then converted to an image that was stored in the ./assets/images folder and embedded in the generated whitepaper. However some of the diagrams were modified by the MXC marketing team, and these have been included in the updated version [v1.1.0 whitepaper](https://github.com/DataHighway-DHX/documentation/releases). Note that the latest version that has been released is stored into ./v1/whitepaper (at the time of writing it includes v1.1.0). If you need to update any of the diagrams then please coordinate with the MXC marketing team.
+
+3. Run the following to create a new release in PDF format. Replace `v1` below with the desired version:
 
 ```
 nvm use v10.16.0
@@ -22,7 +26,7 @@ Important: If you get an error, check if it actually generated the PDF changes c
 
 Note: `headerIds` must be `true` in config.json otherwise TOC links do not work.
 
-3. Update the Whitepaper Table of Contents (TOC)
+4. Update the Whitepaper Table of Contents (TOC)
 
 Generate the TOC of the Whitepaper and save to a file in Markdown format using [markdown-toc](https://github.com/jonschlinkert/markdown-toc):
 
