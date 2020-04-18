@@ -1,35 +1,35 @@
 ---
-id: users-roles
-title: Roles
-sidebar_label: Roles
+id: 用戶-角色
+title: 角色
+sidebar_label: 角色
 ---
 
-The following roles are the roles for users to participate on the DataHighway:
+以下角色是用戶參與數據高速公路時使用的角色：
 
-## Currently available roles
+## 當前可用的角色
 
-* Authority Node in Proof of Authority (PoA)
+* 授權書(PoA) 中的授權節點
 
-## Future roles
+## 未來的角色
 
-* Collator Node in Nominated Proof of Stake (NPoS)
+* 在股權委託證明(NPoS) 中的排序器節點
 
-* Nominator in Nominated Proof of Stake (NPoS)
+* 在股權委託證明(NPoS) 中的提名器
 
-* Data Buyer (on the Inter-Chain Data Market)
+* 數據購買者(在鏈際數據市場)
 
-* LPWAN IoT End Device Owner (Data Provider)
+* LPWAN IoT 終端設備所有者(數據提供者)
 
-* LPWAN IoT Gateway Owner
+* LPWAN IOT 網關所有者
 
-* MXC Supernode and other LoRaWAN Network Server Owners
+* MXC 超級節點和其他 LoRaawAN 網絡服務器所有者
 
-* Network Owners (LoRaWAN)
+* 網絡所有者(LoRaWAN)
 
-* Network Operator Owners (LoRaWAN)
+* 網絡運營商所有者(LoRaWAN)
 
-* Advocacy Miners
+* 擁護礦工
 
-* Development Miners (Inter-Chain Data Market Application Developers)
+* 開發礦工(鏈際數據市場應用開發者)
 
-* Governance Miners (of the DHX DAO)
+* （DHX DAO中的）治理礦工
