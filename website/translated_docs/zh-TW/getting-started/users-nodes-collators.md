@@ -10,9 +10,9 @@ sidebar_label: 排序器 節點
 
 當數據高速公路測試網成為Polkadot網絡上的副鏈時，驗證器將被稱為<a href="https://wiki.polkadot.network/docs/en/maintain-collator" target="_blank" class="pretty-link pretty-link-colored">排序器</a>。
 
-## How do you become a DataHighway Collator Node?
+## 如何成為數據高速公路授權節點？
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+尚不可用。 請從一個<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授權節點</a>開始
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Collator</a> tutorial. -->
 
 ## Why become a DataHighway Nominator?
