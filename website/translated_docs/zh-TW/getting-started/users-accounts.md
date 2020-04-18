@@ -1,21 +1,21 @@
 ---
-id: users-accounts
-title: Accounts
-sidebar_label: Accounts
+id: 用戶-賬戶
+title: 賬戶
+sidebar_label: 賬戶
 ---
 
-## Why get an Account on the DataHighway?
+## 為什麼要在 DataHighways 上獲得一個賬戶？
 
-Participants need to create an account on the DataHighway to:
+參與者需要在數據高速公路上創建一個賬戶：
 
-* Transfer DHX between accounts
-* Stake DHX tokens on a Collator Node as either a Collator or Nominator
-* Receive Block Rewards for staking DHX tokens as a Collator Node or Nominator
-* Receive additional Mining Speed Boosts in DHX tokens for participation in various forms of Mining
-* Purchase data from the Inter-Chain Data Market
-* Purchase roaming access for their LPWAN IoT End Devices
+* 在賬戶間傳輸 DHX
+* 將DHX通證作為排序器或提名器質押在排序器節點上
+* 接受區塊獎勵用於質押DHX通證作為排序器節點或提名器
+* 在DHX通證中獲取額外的挖礦速度，用於參與各種形式的挖礦活動
+* 從鏈際數據市場購買數據
+* 購買低功耗廣域網絡物聯網終端設備漫遊訪問權限
 
-Please start with the <a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
+請開始關於 <a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">創建賬戶 </a>的教程
 
 
 
