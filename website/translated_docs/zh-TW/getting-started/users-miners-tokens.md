@@ -1,34 +1,34 @@
 ---
-id: users-miners-tokens
-title: Token Mining
-sidebar_label: Token Mining
+id: 用戶-挖礦者-通證
+title: 通證挖礦
+sidebar_label: 通證挖礦
 ---
 
-## Why become a Token Miner on the DataHighway?
+## 為什麼成為在數據高速公路上的通證挖礦者？
 
-Toke Miners are rewarded when they commit to **locking** or **signalling** supported cryptocurrencies for a period of time.
+通證挖礦者承諾**鎖仓**或在一段時間內**預鎖倉**支持的加密貨幣時會獲得獎勵
 
-## What Mining Speed Boost (MSB) rate multipliers apply to different types of supported tokens?
+## 挖礦速度提升(MSB) 率乘數是如何適用於不同種類的支持硬件的？
 
-### Locking
+### 鎖倉
 
-Token Miners may register that they have locked or wish to signal any of the following tokens:
+通證挖礦者可以註冊其已經鎖定或想要發出信號的任何下列通證：
 * MXC
 * IOTA
 * DOT
 
-MXC tokens attract the highest MSB rate multipliers for lock commitments of 3, 6, 9, 12, 24, or 36 months respectively: 1.025, 1.05, 1.075, 1.10, 1.15, 1.2
+MXC極域通證在3、6、9、12、24或36個月的鎖定承諾期內吸引最高的MSB乘數，分別為：1.025, 1.05, 1.075, 1.10, 1.15, 1.2
 
-IOTA and DOT tokens attract the following lower MSBs for same lock commitment periods: 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
+IOTA通證和DOT通證在相同承諾期內吸引下列較低的MSB乘數，分別為：1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
 
-### Signalling
+### 預鎖倉
 
-Token Miners that wish to only signal (rather than locking) attract **10%** of the lower MSBs for the same periods: 1.00125, 1.0025, 1.00375, 1.005, 1.0075, 1.01
+僅希望發布信號(而不是鎖定) 的通證挖礦者在相同承諾期內吸引較低MSB乘數的**10%**：1.00125, 1.0025, 1.00375, 1.005, 1.0075, 1.01
 
-## How long is the commitment to lock the tokens?
+## 通證的鎖定期有多久？
 
-3, 6, 9, 12, 24, or 36 months
+3、6、9、12、24或36個月
 
-## How do you become a Token Miner?
+## 如何成為一名通證挖礦者？
 
-Please start with the <a href="../tutorials/tutorials-mining-token-setup" class="pretty-link pretty-link-colored">Setup Token Mining</a> tutorial.
+請開始<a href="../tutorials/tutorials-mining-token-setup" class="pretty-link pretty-link-colored">設置通證挖礦</a>教程
