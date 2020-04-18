@@ -1,9 +1,9 @@
 ---
-id: tutorials-mining-hardware-claim-rewards
-title: Claim Rewards
-sidebar_label: Claim Rewards
+id: 教程-挖礦-硬件-索回-獎勵
+title: 索回獎勵
+sidebar_label: 索回獎勵
 ---
 
-## How do you claim rewards for Hardware Mining?
+## 您應當如何認領硬件挖礦獎勵？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and create an Extrinsic using the Hardware Mining Claims Runtime Module.
+使用 Polkadot.js 應用程序UI 中的設置連接到數據高速公路，並使用硬件挖礦運行模塊創建額外功能。
