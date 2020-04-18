@@ -1,15 +1,15 @@
 ---
-id: users-nodes-authorities
-title: Authority Nodes
-sidebar_label: Authority Nodes
+id: 用戶-節點-授權
+title: 授權節點
+sidebar_label: 授權節點
 ---
 
-## Why become a DataHighway Authority?
+## 為什麼要成為一個數據高速公路授權機構？
 
-The initial DataHighway Testnet will use Proof of Authority (PoA) consensus where validators (authorities) **stake their identity** to validate transactions and blocks to secure the blockchain.
+初始的 Data高速公路測試網將使用授權證明 (PoA) 共識，在這種共識中，驗證器 (授權) **用其身份 **來驗證交易和區塊以確保區塊鏈的安全。
 
-The Mining Speed Boost multiplier that eligible token or hardware miners may claim, may be used to receive a higher Block Reward.
+符合資格的通證或硬件挖礦者聲稱的挖礦速度提升乘數可以用來獲得更高的區塊獎勵
 
-## How do you become a DataHighway Authority Node?
+## 如何成為數據高速公路授權節點？
 
-Please follow the <a href="../tutorials/tutorials-nodes-authorities-setup" class="pretty-link pretty-link-colored">Setup Authority Node</a> tutorial.
+請遵照<a href="../tutorials/tutorials-nodes-authorities-setup" class="pretty-link pretty-link-colored">設置授權節點</a>教程
