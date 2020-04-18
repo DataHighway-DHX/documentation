@@ -15,13 +15,13 @@ sidebar_label: 排序器 節點
 尚不可用。 請從一個<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授權節點</a>開始
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Collator</a> tutorial. -->
 
-## Why become a DataHighway Nominator?
+## 為什麼要成為一個數據高速公路排序器？
 
-Nominators may receive a proportion of the Block Reward that Collator Nodes they nominate may receive. The Mining Speed Boost multiplier that eligible Token Miners or Hardware Miners may claim may be used to receive a higher Block Reward. Nominating is less involved than becoming a Collator.
+提名者可領取他們提名的整理節點可能收到的部分區塊獎勵。 符合資格的通證挖礦者或硬件挖礦者聲稱的挖礦速度提升乘數可以用來獲得更高的區塊獎勵 與其提名不如成為一個排序器。 如何成為數據高速公路提名者？
 
-## How do you become a DataHighway Nominator?
+## 如何成為數據高速公路提名者？
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+尚不可用。 請從一個<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授權節點</a>開始
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
 
