@@ -1,3 +1,5 @@
+![CI](https://github.com/DataHighway-DHX/documentation/workflows/CI/badge.svg)
+
 # DataHighway Documentation
 
 Welcome to the DataHighway Developer Hub documentation. We're just getting started, so our documentation is still incomplete.
