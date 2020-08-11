@@ -12,7 +12,13 @@ jobs:
       uses: peter-evans/link-checker@v1
       with:
         args: -v -r docs
-
+        
+    - name: Archive linkchecker results
+      uses: actions/upload-artifact@v2
+      with:
+        name: link-checker-results
+        path: link-checker/out.md
+        
   publish:
     if: ${{ github.ref == 'master' }}
     needs: linkChecker
