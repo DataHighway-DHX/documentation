@@ -1,13 +1,13 @@
 ---
-id: tutorials-mining-tokens-check-eligibility
-title: Check Eligibility
-sidebar_label: Check Eligibility
+id: 教程-挖礦-通證-檢查-資格
+title: 資格檢查
+sidebar_label: 資格檢查
 ---
 
-## How do off-chain workers and oracles gather samples to determine your eligibility for Token Mining rewards?
+## 鏈下工作機和預言機是如何通過採集樣品來確定您是否有資格獲得通證挖礦獎勵的？
 
-Off-chain workers and oracles will take a random number of samples to determine the extent that the tokens have been remained online during the commitment period of time.
+鏈下工作機和預言機將採集隨機數量的樣品來確定通證在承諾期內保持在線的程度
 
-## How do you check your eligibility to claim Token Mining rewards?
+## 如何檢查您是否有資格領取通證挖礦獎勵？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and check the Chain State of the Token Mining Eligibility Runtime Module.
+使用 Polkadot.js 應用程序UI 中的設置連接到數據高速公路，並檢查通證挖礦資格運行模塊的練狀態。

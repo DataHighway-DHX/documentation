@@ -1,17 +1,17 @@
 ---
-id: users-rewards
-title: Rewards
-sidebar_label: Rewards
+id: 用戶-獎勵
+title: 獎勵
+sidebar_label: 獎勵
 ---
 
-## How do you get DHX tokens from the Block Reward?
+## 您如何從區塊獎勵中獲得DHX通證？
 
-Participants in the community that secure the DataHighway by staking DHX tokens on a node as a Collator or Nominator have a chance of being rewarded with a proportion of the Block Reward, which is funded by 70% of the total supply of DHX tokens available at the genesis block.
+通過將DHX 通證在節點上質押作為排序器或提名器來保護數據高速公路的社區參與者有機會獲得一定比例的區塊獎勵， 它由起源區塊可用的DHX 通證總供應量的70%提供資金。
 
-## How do you get DHX tokens from the DHX DAO's Unlocked Reserves?
+## 您如何從 DHX DAO的未鎖定儲備中獲取 DHX 通證？
 
-Additional Mining Speed Boost bonus rewards multipliers on top of the Block Reward may be received by participating in Token Mining or Hardware Mining, which involves either making a commitment not to move their holding of a supported cryptocurrency, or ensuring the their IoT hardware remains online for a period of time.
+參與通證採礦或硬件開採可能會收到額外的採礦速度提升獎勵乘數，其中包括承諾不移動其持有的受支持加密貨幣或確保他們的 IotT 硬件保持在線一段時間。
 
-It will be governed by stakeholders in the IoT community that are rewarded with incentives to stake their DHX tokens on the DHX Decentralized Autonomous Organization (DAO).
+IoT社區的參與者們負責監管在DHX分佈式自治組織 (DAO) 上質押他們的DHX通證並獲得獎勵
 
-The DHX DAO Unlocked Reserves that will be governed by the DHX DAO Treasury will be funded by the remaining 30% of the total supply of DHX tokens at the genesis block and other ongoing fees. These funds will be used to reward Proof of Participation by users in governance, mining, and roaming.
+DHX DAO 的未鎖倉儲備將由DHX DAO 財庫管理，由剩餘DHX通證起源區塊和其他持續費用的30%供應 這些資金將用於獎勵用戶參與監管、採礦和漫遊。

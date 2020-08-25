@@ -1,9 +1,9 @@
 ---
-id: tutorials-mining-hardware-setup
-title: Setup Hardware Mining
-sidebar_label: Setup Hardware Mining
+id: 教程-挖礦-硬件-設置
+title: 設置硬件挖礦
+sidebar_label: 設置硬件挖礦
 ---
 
-## How do you configure Hardware Mining?
+## 如何配置硬件挖礦？
 
-Connect to the DataHighway using Settings in the Polkadot.js Apps UI and create an Extrinsic using the Hardware Mining Configuration Runtime Module.
+使用 Polkadot.js 應用程序UI 中的設置連接到數據高速公路，並使用硬件挖礦運行模塊創建額外功能。

@@ -1,9 +1,9 @@
 ---
-id: rust-reference-docs
-title: Rust API Reference Documentation
-sidebar_label: API Reference Documentation
+id: rust-参考-文档
+title: Rust API 参考文档
+sidebar_label: API 参考文档
 ---
 
-## Why use the Rust API Reference Docs
+## 为什么使用Rust API 参考文档
 
-The Rust API Reference when be published will be based on the <a href="https://github.com/DataHighway-DHX/node" target="_blank" class="pretty-link pretty-link-colored">DataHighway node repository</a>
+Rust API 引用发布时将基于<a href="https://github.com/DataHighway-DHX/node" target="_blank" class="pretty-link pretty-link-colored">DataHighway节点存储库</a>

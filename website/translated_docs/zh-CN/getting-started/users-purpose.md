@@ -1,14 +1,14 @@
 ---
-id: users-purpose
-title: Purpose
-sidebar_label: Purpose
+id: 用户-目的
+title: 目的
+sidebar_label: 目的
 ---
 
-## Why participate in the DataHighway?
+## 为什么要参与数据高速公路？
 
-The purpose of the DataHighway is to have an Inter-Chain Data Market and LPWAN Decentralized Roaming Hub that allows data buyers to spend supported cryptocurrencies to cost-effectively purchase access to data from IoT devices that are owned by data providers.
+数据高速公路的目的是要建立一个链条间数据市场和去中心化的低功率广域网络 漫游枢纽 ，使数据购买者能够花费支持的加密货币有效的购买数据提供者拥有的物联网设备的数据。
 
 ---
 
-*Refer to the <a href="./whitepaper.md" class="pretty-link pretty-link-colored-bold">DataHighway Economic Whitepaper</a> for further details*
+*更多详情请参阅 <a href="./whitepaper.md" class="pretty-link pretty-link-colored-bold">Data高速公路经济白皮书</a>*
 
