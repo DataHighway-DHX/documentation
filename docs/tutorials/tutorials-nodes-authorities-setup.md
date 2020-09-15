@@ -24,9 +24,9 @@ Installing DataHighway and setting it up as a system service
 First, clone the DataHighway-DHX/node repo, install any dependencies, and run the required build scripts.
 
 ```bash
-apt update
-apt install -y gcc libc6-dev
-apt install -y cmake pkg-config libssl-dev git clang libclang-dev
+sudo apt update
+sudo apt install -y gcc libc6-dev
+sudo apt install -y cmake pkg-config libssl-dev git clang libclang-dev
 ```
 
 Prefetch SSH publickeys
@@ -39,8 +39,8 @@ Install rustup
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh -s -- -y
-source /root/.cargo/env
-export PATH=/root/.cargo/bin:$PATH
+source $HOME/.cargo/env
+export PATH=/home/deployer/.cargo//bin:$PATH
 ```
 
 Get packages
@@ -55,6 +55,15 @@ Build packages
 ```bash
 curl https://getsubstrate.io -sSf | bash -s -- --fast && \
 ./scripts/init.sh
+```
+
+Target a known working nightly toolchain release
+
+```bash
+rustup toolchain install nightly-2020-02-17
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-02-17
+rustup default nightly-2020-02-17
+rustup override set nightly-2020-02-17
 ```
 
 Build runtime code
