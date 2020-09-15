@@ -53,7 +53,14 @@ cd node
 Build packages
 
 ```bash
-./setup.sh
+curl https://getsubstrate.io -sSf | bash -s -- --fast && \
+./scripts/init.sh
+```
+
+Build runtime code
+
+```bash
+cargo build --release
 ```
 
 Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file:
