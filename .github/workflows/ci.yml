@@ -13,12 +13,6 @@ jobs:
       with:
         args: -v -r docs
         
-    - name: Archive linkchecker results
-      uses: actions/upload-artifact@v2
-      with:
-        name: link-checker-results
-        path: link-checker/out.md
-        
   publish:
     needs: linkChecker
     runs-on: ubuntu-latest
