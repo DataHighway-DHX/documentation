@@ -80,7 +80,11 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
 <span class="hljs-built_in">cd</span> node
 </code></pre>
 <p>Build packages</p>
-<pre><code class="hljs css language-bash">./setup.sh
+<pre><code class="hljs css language-bash">curl https://getsubstrate.io -sSf | bash -s -- --fast &amp;&amp; \
+./scripts/init.sh
+</code></pre>
+<p>Build runtime code</p>
+<pre><code class="hljs css language-bash">cargo build --release
 </code></pre>
 <p>Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file:</p>
 <pre><code class="hljs css language-bash">{
