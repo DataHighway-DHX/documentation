@@ -53,7 +53,14 @@ cd node
 Build packages
 
 ```bash
-./setup.sh
+curl https://getsubstrate.io -sSf | bash -s -- --fast && \
+./scripts/init.sh
+```
+
+Build runtime code
+
+```bash
+cargo build --release
 ```
 
 Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file:
@@ -80,13 +87,13 @@ systemctl enable datahighway
 systemctl start datahighway
 ```
 
-检查服务状态：
+Check the status of the service:
 
 ```bash
 systemctl status datahighway
 ```
 
-您应该看到该节点连接到网络并同步最新的区块。 If you need to tail the latest output, you can use:
+You should see the node connecting to the network and syncing the latest blocks. If you need to tail the latest output, you can use:
 
 ```bash
 journalctl -u datahighway.service -f
