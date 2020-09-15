@@ -23,5 +23,5 @@ jobs:
           node-version: 12
       - run: git config --global user.name ${{ secrets.GH_NAME }}
       - run: git config --global user.email ${{ secrets.GH_EMAIL }}
-      - run: echo "machine github.com login ${{ secrets.GH_NAME }} password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+      - run: echo "machine github.com login ${{ secrets.GH_NAME }} password ${{ secrets.GH_SECRET }}" > ~/.netrc
       - run: cd website && yarn install && GIT_USER="${{ secrets.GH_NAME }}" CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
