@@ -1,4 +1,4 @@
-![CI](https://github.com/DataHighway-DHX/documentation/workflows/CI/badge.svg)
+![CI](https://github.com/DataHighway-DHX/documentation/workflows/CI/badge.svg?branch=develop)
 
 # DataHighway Documentation
 
