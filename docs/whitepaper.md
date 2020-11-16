@@ -545,7 +545,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 - DataHighway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
 - DataHighway Roaming Detailed Design Implementation Published on Github (Open-Source)
 
-### January 2020
+### January 2021
 - DataHighway Roaming Final Design (integration of Backend Interface 1.0 Specification)
 - DataHighway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 - DataHighway Blockchain ported to Polkadot Parachain using Cumulus
