@@ -572,7 +572,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
 <div class="image-wrapper">
-    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-economic-variables.png">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/Whitepaper_Graphics-03.jpg">
 </div>
 
 <div class="figure-text">Table: DataHighway Economic Variables</div>
