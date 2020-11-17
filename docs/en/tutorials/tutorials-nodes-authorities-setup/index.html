@@ -75,6 +75,11 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
 <span class="hljs-built_in">source</span> <span class="hljs-variable">$HOME</span>/.cargo/env
 <span class="hljs-built_in">export</span> PATH=<span class="hljs-variable">$HOME</span>/.cargo/bin:<span class="hljs-variable">$PATH</span>
 </code></pre>
+<blockquote>
+<p>Note, if cargo was already installed, you might want to consider resetting the state with</p>
+</blockquote>
+<pre><code class="hljs css language-bash">cargo clean
+</code></pre>
 <p>Get packages</p>
 <pre><code class="hljs css language-bash">git <span class="hljs-built_in">clone</span> https://github.com/DataHighway-DHX/node.git
 <span class="hljs-built_in">cd</span> node
@@ -91,7 +96,7 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Unit]'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'Description=DataHighway'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Service]'</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">'Type=exec'</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">'Type=simple'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'WorkingDirectory='</span>`<span class="hljs-built_in">pwd</span>`
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'ExecStart='</span>`<span class="hljs-built_in">pwd</span>`<span class="hljs-string">'/target/release/datahighway --chain=datahighway --ws-external --rpc-cors "*"'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Install]'</span>
