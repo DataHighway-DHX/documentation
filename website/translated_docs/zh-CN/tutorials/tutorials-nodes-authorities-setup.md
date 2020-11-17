@@ -39,8 +39,8 @@ Install rustup
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh -s -- -y
-source /root/.cargo/env
-export PATH=/root/.cargo/bin:$PATH
+source $HOME/.cargo/env
+export PATH=$HOME/.cargo/bin:$PATH
 ```
 
 Get packages
