@@ -43,11 +43,6 @@ source $HOME/.cargo/env
 export PATH=$HOME/.cargo/bin:$PATH
 ```
 
-> Note, if cargo was already installed, you might want to consider resetting the state with
-```bash
-cargo clean
-```
-
 Get packages
 
 ```bash
@@ -68,7 +63,8 @@ Build runtime code
 cargo build --release
 ```
 
-Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file:
+
+Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file (harbour):
 
 ```bash
 {
@@ -77,7 +73,7 @@ Set up the node as a system service. To do this, navigate into the root director
   echo '[Service]'
   echo 'Type=simple'
   echo 'WorkingDirectory='`pwd`
-  echo 'ExecStart='`pwd`'/target/release/datahighway --chain=datahighway --ws-external --rpc-cors "*"'
+  echo 'ExecStart='`pwd`'/target/release/datahighway --chain=`pwd`/node/src/chain-definition-custom/chain_def_harbour.json --validator --ws-external --rpc-cors=all'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
