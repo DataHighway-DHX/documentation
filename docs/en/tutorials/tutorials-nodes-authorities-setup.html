@@ -72,8 +72,8 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
 </code></pre>
 <p>Install rustup</p>
 <pre><code class="hljs css language-bash">curl https://sh.rustup.rs -sSf | sh -s -- -y
-<span class="hljs-built_in">source</span> /root/.cargo/env
-<span class="hljs-built_in">export</span> PATH=/root/.cargo/bin:<span class="hljs-variable">$PATH</span>
+<span class="hljs-built_in">source</span> <span class="hljs-variable">$HOME</span>/.cargo/env
+<span class="hljs-built_in">export</span> PATH=<span class="hljs-variable">$HOME</span>/.cargo/bin:<span class="hljs-variable">$PATH</span>
 </code></pre>
 <p>Get packages</p>
 <pre><code class="hljs css language-bash">git <span class="hljs-built_in">clone</span> https://github.com/DataHighway-DHX/node.git
