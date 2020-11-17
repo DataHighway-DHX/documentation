@@ -43,6 +43,11 @@ source $HOME/.cargo/env
 export PATH=$HOME/.cargo/bin:$PATH
 ```
 
+> Note, if cargo was already installed, you might want to consider resetting the state with
+```bash
+cargo clean
+```
+
 Get packages
 
 ```bash
@@ -70,7 +75,7 @@ Set up the node as a system service. To do this, navigate into the root director
   echo '[Unit]'
   echo 'Description=DataHighway'
   echo '[Service]'
-  echo 'Type=exec'
+  echo 'Type=simple'
   echo 'WorkingDirectory='`pwd`
   echo 'ExecStart='`pwd`'/target/release/datahighway --chain=datahighway --ws-external --rpc-cors "*"'
   echo '[Install]'
