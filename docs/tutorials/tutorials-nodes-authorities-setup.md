@@ -19,7 +19,7 @@ We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operat
 
 SSH into the server.
 
-Installing DataHighway and setting it up as a system service
+### Installing DataHighway and setting it up as a system service
 
 First, clone the DataHighway-DHX/node repo, install any dependencies, and run the required build scripts.
 
@@ -64,7 +64,8 @@ cargo build --release
 ```
 
 
-Set up the node as a system service. To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file (harbour):
+### Set up the node as a system service. 
+To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file (harbour):
 
 ```bash
 {
@@ -100,3 +101,62 @@ You should see the node connecting to the network and syncing the latest blocks.
 ```bash
 journalctl -u datahighway.service -f
 ```
+
+###  Set Session Keys (WiP)
+
+Once your node is fully synced, stop the process by pressing Ctrl-C. At your terminal prompt, you
+will now start running the node.
+
+```sh
+./target/release/datahighway --validator --name "name on telemetry"
+```
+
+You can give your validator any name that you like, but note that others will be able to see it, and
+it will be included in the list of all servers using the same telemetry server. Since numerous
+people are using telemetry, it is recommended that you choose something likely to be unique.
+
+### Generating the Session Keys
+
+You need to tell the chain your Session keys by signing and submitting an extrinsic. This is what
+associates your validator node with your Controller account on Polkadot.
+
+#### Option 1: PolkadotJS-APPS
+
+You can generate your
+[Session keys](https://wiki.polkadot.network/en/latest/polkadot/learn/keys/#session-key) in the
+client via the apps RPC. If you are doing this, make sure that you have the PolkadotJS-Apps explorer
+attached to your validator node. You can configure the apps dashboard to connect to the endpoint of
+your validator in the Settings tab. If you are connected to a default endpoint hosted by Parity of
+Web3 Foundation, you will not be able to use this method since making RPC requests to this node
+would effect the local keystore hosted on a _public node_ and you want to make sure you are
+interacting with the keystore for _your node_.
+
+Once ensuring that you have connected to your node, the easiest way to set session keys for your
+node is by calling the `author_rotateKeys` RPC request to create new keys in your validator's
+keystore. Navigate to Toolbox tab and select RPC Calls then select the author > rotateKeys() option
+and remember to save the output that you get back for a later step.
+
+#### Option 2: CLI
+
+If you are on a remote server, it is easier to run this command on the same machine (while the node
+is running with the default HTTP RPC port configured):
+
+```sh
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+```
+
+The output will have a hex-encoded "result" field. The result is the concatenation of the four
+public keys. Save this result for a later step.
+
+You can restart your node at this point.
+
+### Submitting the `setKeys` Transaction
+
+You need to tell the chain your Session keys by signing and submitting an extrinsic. This is what
+associates your validator with your Controller account.
+
+Go to [Staking > Account Actions](https://polkadot.js.org/apps/#/staking/actions), and click "Set
+Session Key" on the bonding account you generated earlier. Enter the output from `author_rotateKeys`
+in the field and click "Set Session Key".
+
+Submit this extrinsic and you are now ready to start validating.
