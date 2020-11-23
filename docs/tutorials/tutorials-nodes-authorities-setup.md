@@ -15,7 +15,7 @@ This guide covers how to set up a DataHighway Authority Node.
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.: Vultr, DigitalOcean, Linode, OVH, Contabo, Scaleway, Amazon AWS, etc.
 
-We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
+We recommend a node with at least 4GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
 
 SSH into the server.
 
@@ -114,11 +114,16 @@ will now start running the node.
 You can give your validator any name that you like, but note that others will be able to see it, and
 it will be included in the list of all servers using the same telemetry server. Since numerous
 people are using telemetry, it is recommended that you choose something likely to be unique.
+The telemetry URLs are:
+|Environment|Telemetry URL|
+|-----------|-------------|
+|Harbour testnet|https://telemetry.polkadot.io/#list/DataHighway%20Harbour%20Testnet|
+|Mainnet||
 
 ### Generating the Session Keys
 
 You need to tell the chain your Session keys by signing and submitting an extrinsic. This is what
-associates your validator node with your Controller account on Polkadot.
+associates your validator node with your Controller account on DaaHighway.
 
 #### Option 1: PolkadotJS-APPS
 
