@@ -1,14 +1,14 @@
 ---
-id: tutorials-nodes-authorities-setup
-title: Setup Authority Node
-sidebar_label: Setup Authority Node
+id: tutorials-nodes-validator-setup
+title: Setup Validator Node
+sidebar_label: Setup Validator Node
 ---
 
 **DRAFT**
 
-## How do you setup an Authority Node?
+## How do you setup an Validator Node?
 
-This guide covers how to set up a DataHighway Authority Node.
+This guide covers how to set up a DataHighway Validator Node.
 
 
 ### Provisioning a server
