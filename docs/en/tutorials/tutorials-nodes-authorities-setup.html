@@ -59,7 +59,7 @@
 <p>This guide covers how to set up a DataHighway Authority Node.</p>
 <h3><a class="anchor" aria-hidden="true" id="provisioning-a-server"></a><a href="#provisioning-a-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Provisioning a server</h3>
 <p>Provision an appropriately sized server from a reputable VPS provider, e.g.: Vultr, DigitalOcean, Linode, OVH, Contabo, Scaleway, Amazon AWS, etc.</p>
-<p>We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.</p>
+<p>We recommend a node with at least 4GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.</p>
 <p>SSH into the server.</p>
 <h3><a class="anchor" aria-hidden="true" id="installing-datahighway-and-setting-it-up-as-a-system-service"></a><a href="#installing-datahighway-and-setting-it-up-as-a-system-service" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installing DataHighway and setting it up as a system service</h3>
 <p>First, clone the DataHighway-DHX/node repo, install any dependencies, and run the required build scripts.</p>
@@ -118,10 +118,20 @@ will now start running the node.</p>
 </code></pre>
 <p>You can give your validator any name that you like, but note that others will be able to see it, and
 it will be included in the list of all servers using the same telemetry server. Since numerous
-people are using telemetry, it is recommended that you choose something likely to be unique.</p>
+people are using telemetry, it is recommended that you choose something likely to be unique.
+The telemetry URLs are:</p>
+<table>
+<thead>
+<tr><th>Environment</th><th>Telemetry URL</th></tr>
+</thead>
+<tbody>
+<tr><td>Harbour testnet</td><td><a href="https://telemetry.polkadot.io/#list/DataHighway%20Harbour%20Testnet">https://telemetry.polkadot.io/#list/DataHighway%20Harbour%20Testnet</a></td></tr>
+<tr><td>Mainnet</td><td></td></tr>
+</tbody>
+</table>
 <h3><a class="anchor" aria-hidden="true" id="generating-the-session-keys"></a><a href="#generating-the-session-keys" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generating the Session Keys</h3>
 <p>You need to tell the chain your Session keys by signing and submitting an extrinsic. This is what
-associates your validator node with your Controller account on Polkadot.</p>
+associates your validator node with your Controller account on DaaHighway.</p>
 <h4><a class="anchor" aria-hidden="true" id="option-1-polkadotjs-apps"></a><a href="#option-1-polkadotjs-apps" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Option 1: PolkadotJS-APPS</h4>
 <p>You can generate your
 <a href="https://wiki.polkadot.network/en/latest/polkadot/learn/keys/#session-key">Session keys</a> in the
