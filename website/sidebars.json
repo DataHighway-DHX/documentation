@@ -7,7 +7,7 @@
   },
   "tutorials": {
     "Accounts": ["tutorials/tutorials-accounts-create-account"],
-    "Authority Node": ["tutorials/tutorials-nodes-authorities-setup"],
+    "Authority Node": ["tutorials/tutorials-nodes-validator-setup"],
     "Token Mining": [
       "tutorials/tutorials-mining-tokens-setup",
       "tutorials/tutorials-mining-tokens-check-eligibility",
