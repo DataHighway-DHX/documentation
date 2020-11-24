@@ -74,7 +74,7 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo '[Service]'
   echo 'Type=simple'
   echo 'WorkingDirectory=`pwd`'
-  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --bootnodes /ip4/18.185.107.14/tcp/30333/p2p/12D3KooWHws5vBGsiPFbtXVgCDrDeYMZSJm2MS1hV9hNXHQe6ZPE --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
+  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
