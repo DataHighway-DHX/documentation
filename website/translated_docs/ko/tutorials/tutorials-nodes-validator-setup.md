@@ -73,15 +73,15 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo 'Description=DataHighway'
   echo '[Service]'
   echo 'Type=simple'
-  echo 'WorkingDirectory='`pwd`
-  echo 'ExecStart='`pwd`'/target/release/datahighway --chain=`pwd`/node/src/chain-definition-custom/chain_def_harbour.json --validator --ws-external --rpc-cors=all --rpc-methods=Unsafe'
+  echo 'WorkingDirectory=`pwd`'
+  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --bootnodes /ip4/18.185.107.14/tcp/30333/p2p/12D3KooWHws5vBGsiPFbtXVgCDrDeYMZSJm2MS1hV9hNXHQe6ZPE --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
 ```
 Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround ["Method not found"](https://github.com/paritytech/substrate/issues/6100)
 
-Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the ws-external flag, so DataHighway does not accept outside connections.
+Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the unsafe-ws-external flag, so DataHighway does not accept outside connections.
 
 Double check that the config has been written to /etc/systemd/system/datahighway.service correctly. If so, enable the service so it runs on startup, and then try to start it now:
 
