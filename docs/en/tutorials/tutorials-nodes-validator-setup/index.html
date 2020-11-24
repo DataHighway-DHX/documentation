@@ -93,14 +93,14 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'Description=DataHighway'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Service]'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'Type=simple'</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">'WorkingDirectory='</span>`<span class="hljs-built_in">pwd</span>`
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">'ExecStart='</span>`<span class="hljs-built_in">pwd</span>`<span class="hljs-string">'/target/release/datahighway --chain=`pwd`/node/src/chain-definition-custom/chain_def_harbour.json --validator --ws-external --rpc-cors=all --rpc-methods=Unsafe'</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">'WorkingDirectory=`pwd`'</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --bootnodes /ip4/18.185.107.14/tcp/30333/p2p/12D3KooWHws5vBGsiPFbtXVgCDrDeYMZSJm2MS1hV9hNXHQe6ZPE --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Install]'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'WantedBy=multi-user.target'</span>
 } &gt; /etc/systemd/system/datahighway.service
 </code></pre>
 <p>Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround <a href="https://github.com/paritytech/substrate/issues/6100">&quot;Method not found&quot;</a></p>
-<p>Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the ws-external flag, so DataHighway does not accept outside connections.</p>
+<p>Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the unsafe-ws-external flag, so DataHighway does not accept outside connections.</p>
 <p>Double check that the config has been written to /etc/systemd/system/datahighway.service correctly. If so, enable the service so it runs on startup, and then try to start it now:</p>
 <pre><code class="hljs css language-bash">systemctl <span class="hljs-built_in">enable</span> datahighway
 systemctl start datahighway
