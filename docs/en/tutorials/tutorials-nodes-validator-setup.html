@@ -94,7 +94,7 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Service]'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'Type=simple'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'WorkingDirectory=`pwd`'</span>
-  <span class="hljs-built_in">echo</span> <span class="hljs-string">'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --bootnodes /ip4/18.185.107.14/tcp/30333/p2p/12D3KooWHws5vBGsiPFbtXVgCDrDeYMZSJm2MS1hV9hNXHQe6ZPE --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'[Install]'</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">'WantedBy=multi-user.target'</span>
 } &gt; /etc/systemd/system/datahighway.service
