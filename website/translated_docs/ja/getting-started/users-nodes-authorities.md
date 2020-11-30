@@ -1,5 +1,5 @@
 ---
-id: users-nodes-authorities
+id: users-nodes-validators
 title: Authority Nodes
 sidebar_label: Authority Nodes
 ---
@@ -12,4 +12,4 @@ The Mining Speed Boost multiplier that eligible token or hardware miners may cla
 
 ## How do you become a DataHighway Authority Node?
 
-Please follow the <a href="../tutorials/tutorials-nodes-authorities-setup" class="pretty-link pretty-link-colored">Setup Authority Node</a> tutorial.
+Please follow the <a href="../tutorials/tutorials-nodes-validators-setup" class="pretty-link pretty-link-colored">Setup Authority Node</a> tutorial.

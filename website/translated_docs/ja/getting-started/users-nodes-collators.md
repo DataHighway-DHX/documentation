@@ -12,7 +12,7 @@ When the DataHighway Testnet becomes a Parachain on the Polkadot network, then t
 
 ## How do you become a DataHighway Collator Node?
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+Not yet available. Please start with an <a href="./users-nodes-validators" class="pretty-link pretty-link-colored">Authority Node</a>.
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Collator</a> tutorial. -->
 
 ## Why become a DataHighway Nominator?
@@ -21,7 +21,7 @@ Nominators may receive a proportion of the Block Reward that Collator Nodes they
 
 ## How do you become a DataHighway Nominator?
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+Not yet available. Please start with an <a href="./users-nodes-validators" class="pretty-link pretty-link-colored">Authority Node</a>.
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
 
