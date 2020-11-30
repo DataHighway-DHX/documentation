@@ -8,7 +8,7 @@ The following roles are the roles for users to participate on the DataHighway:
 
 ## Currently available roles
 
-* Authority Node in Proof of Authority (PoA)
+* Validator Node in Nominated Proof of Stake (NPoS)
 
 ## Future roles
 
