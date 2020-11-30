@@ -88,12 +88,12 @@ If you have any questions, please join the <a href="https://discord.gg/KGTbv9Z" 
 	</ul></li>
 	<li><a href="#roadmap">Roadmap</a>
 	<ul>
-	<li><a href="#january-2020">January 2020</a></li>
-	<li><a href="#february-2020">February 2020</a></li>
-	<li><a href="#march-2020">March 2020</a></li>
-	<li><a href="#april-2020">April 2020</a></li>
-	<li><a href="#june-2020">June 2020</a></li>
-	<li><a href="#july-2020">July 2020</a></li>
+	<li><a href="#january-2020">November 2020</a></li>
+	<li><a href="#february-2020">December 2020</a></li>
+	<li><a href="#march-2020">January 2021</a></li>
+	<li><a href="#april-2020">February 2021</a></li>
+	<li><a href="#june-2020">March 2021</a></li>
+	<li><a href="#july-2020">April 2021</a></li>
 	</ul></li>
 	<li><a href="#economic-configuration">Economic Configuration</a>
 	<ul>
@@ -534,33 +534,33 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 
 ## Roadmap
 
-### January 2020
+### November 2020
 
 - DataHighway Initial Website Published
 - DataHighway Combined (Mining, Inter-Chain Data Market, and Roaming) Whitepaper Released (Open-Source)
 - DataHighway Roaming Preliminary Design Implementation Published on Github (Open-Source)
 
-### February 2020
-- DataHighway Testnet (Mining Only) on Substrate-based chain using PoA validators
+### December 2020
+- DataHighway  Mining Only on Substrate-based chain using PoA validators
 - DataHighway Roaming Draft Implementation Reviewed by Parity (Substrate Builders Program)
 - DataHighway Roaming Detailed Design Implementation Published on Github (Open-Source)
 
-### March 2020
+### January 2021
 - DataHighway Roaming Final Design (integration of Backend Interface 1.0 Specification)
 - DataHighway Testnet (Mining Only) on Substrate-based chain using NPoS collators
 - DataHighway Blockchain ported to Polkadot Parachain using Cumulus
 - DataHighway Parachain Slot Auction on Polkadot Testnet
 
-### April 2020
+### February 2021
 - Polkadot Mainnet Launch. See <a href="https://cdn.discordapp.com/attachments/664878094846525440/667004774062751770/unknown.png" target="_blank" class="pretty-link-colored">Extract from Discord Discussion</a>
 - Data Highway Mainnet (Mining Only) on Polkadot-compatible Parachain using Substrate's Cumulus Framework <a href="#reference-4330ba" class="pretty-link-colored">[4330ba]</a> or the Parachain Development Kit (PDK) with a Polkadot Parachain Slot <a href="#reference-3b726b" class="pretty-link-colored">[3b726b]</a>
 - Data Highway Testnet (Roaming + Mining) on Substrate-based chain using NPoS collators
 
-### June 2020
+### March 2021
 - DataHighway Mainnet Upgrade (Roaming + Mining)
 - DataHighway Testnet (Roaming + Mining + Inter-Chain Data Market) on Substrate-based chain using NPoS collators
 
-### July 2020
+### April 2021
 - DataHighway Mainnet Upgrade (Roaming + Mining + Inter-Chain Data Market)
 
 <div class="page-break"></div>
@@ -572,7 +572,7 @@ Only a limited amount of End Devices will be roaming initially, but scalability 
 The initial economic variables shown in the table below were decided upon through optioneering and may be configured:
 
 <div class="image-wrapper">
-    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/table-dhx-economic-variables.png">
+    <img src="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/Whitepaper_Graphics-03.jpg">
 </div>
 
 <div class="figure-text">Table: DataHighway Economic Variables</div>
