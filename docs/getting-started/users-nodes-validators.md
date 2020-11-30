@@ -21,6 +21,6 @@ The Mining Speed Boost multiplier that eligible Token Miners or Hardware Miners 
 
 ## How do you become a DataHighway Nominator?
 
-Not yet available. Please start with an <a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">Authority Node</a>.
+Not yet available. Please start with an <a href="./users-nodes-validators" class="pretty-link pretty-link-colored">Validator Node</a>.
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
