@@ -12,4 +12,4 @@ sidebar_label: 授權節點
 
 ## 如何成為數據高速公路授權節點？
 
-請遵照<a href="../tutorials/tutorials-nodes-authorities-setup" class="pretty-link pretty-link-colored">設置授權節點</a>教程
+請遵照<a href="../tutorials/tutorials-nodes-validators-setup" class="pretty-link pretty-link-colored">設置授權節點</a>教程
