@@ -8,7 +8,7 @@ sidebar_label: 角色
 
 ## 当前可用的角色
 
-* 授权书(PoA) 中的授权节点
+* Validator Node in Nominated Proof of Stake (NPoS)
 
 ## 未来的角色
 
