@@ -1,5 +1,5 @@
 ---
-id: tutorials-nodes-authorities-setup
+id: tutorials-nodes-validators-setup
 title: Setup Authority Node
 sidebar_label: Setup Authority Node
 ---

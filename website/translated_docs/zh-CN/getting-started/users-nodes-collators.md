@@ -12,7 +12,7 @@ sidebar_label: 排序器 节点
 
 ## 如何成为数据高速公路授权节点？
 
-尚不可用。 请从一个<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授权节点</a>开始
+尚不可用。 请从一个<a href="./users-nodes-validators" class="pretty-link pretty-link-colored">授权节点</a>开始
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Collator</a> tutorial. -->
 
 ## 为什么要成为一个数据高速公路排序器？
@@ -21,7 +21,7 @@ sidebar_label: 排序器 节点
 
 ## 如何成为数据高速公路提名者？
 
-尚不可用。 请从一个<a href="./users-nodes-authorities" class="pretty-link pretty-link-colored">授权节点</a>开始
+尚不可用。 请从一个<a href="./users-nodes-validators" class="pretty-link pretty-link-colored">授权节点</a>开始
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
 
