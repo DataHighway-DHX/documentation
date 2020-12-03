@@ -20,6 +20,6 @@ Nominators may receive a proportion of the Block Reward that Validator Nodes the
 
 ## How do you become a DataHighway Nominator?
 
-Not yet available. Please start with an <a href="./users-nodes-validators" class="pretty-link pretty-link-colored">Validator Node</a>.
+Not yet available. Please start with an <a href="./users-nodes-validator" class="pretty-link pretty-link-colored">Validator Node</a>.
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/maintain-validator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
