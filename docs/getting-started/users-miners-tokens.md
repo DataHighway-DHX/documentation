@@ -31,4 +31,4 @@ Token Miners that wish to only signal (rather than locking) attract **10%** of t
 
 ## How do you become a Token Miner?
 
-Please start with the <a href="../tutorials/tutorials-mining-token-setup.md" class="pretty-link pretty-link-colored">Setup Token Mining</a> tutorial.
+Please start with the <a href="../tutorials/tutorials-mining-tokens-setup.md" class="pretty-link pretty-link-colored">Setup Token Mining</a> tutorial.
