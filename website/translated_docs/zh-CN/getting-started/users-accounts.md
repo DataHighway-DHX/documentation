@@ -15,7 +15,7 @@ sidebar_label: 账户
 * 从链际数据市场购买数据
 * 购买低功耗广域网络物联网终端设备漫游访问权限
 
-请开始关于<a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">创建账户</a>的教程
+Please start with the <a href="../tutorials/tutorials-accounts-create-account.md" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
 
 
 
