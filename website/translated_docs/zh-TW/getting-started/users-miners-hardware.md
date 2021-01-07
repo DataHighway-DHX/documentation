@@ -26,4 +26,4 @@ sidebar_label: 硬件挖礦：
 
 ## 如何成為硬件礦工？
 
-請開始<a href="../tutorials/tutorials-mining-hardware-setup" class="pretty-link pretty-link-colored">硬件挖礦設置</a>教程
+Please start with the <a href="../tutorials/tutorials-mining-hardware-setup.md" class="pretty-link pretty-link-colored">Setup Hardware Mining</a> tutorial.
