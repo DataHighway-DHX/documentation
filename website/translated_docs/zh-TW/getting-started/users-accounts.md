@@ -15,7 +15,7 @@ sidebar_label: 賬戶
 * 從鏈際數據市場購買數據
 * 購買低功耗廣域網絡物聯網終端設備漫遊訪問權限
 
-請開始關於 <a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">創建賬戶 </a>的教程
+Please start with the <a href="../tutorials/tutorials-accounts-create-account.md" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
 
 
 
