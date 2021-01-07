@@ -12,7 +12,7 @@ When the DataHighway Testnet becomes a Parachain on the Polkadot network, then t
 
 ## How do you become a DataHighway Validator Node?
 
-Please follow the <a href="../tutorials/tutorials-nodes-validator-setup.md" class="pretty-link pretty-link-colored">Setup Validator Node</a> tutorial.
+Please follow the <a href="../tutorials/tutorials-nodes-validator-setup" class="pretty-link pretty-link-colored">Setup Validator Node</a> tutorial.
 
 ## Why become a DataHighway Nominator?
 
