@@ -31,4 +31,4 @@ IOTA通证和DOT通证在相同承诺期内吸引下列较低的MSB乘数，分�
 
 ## 如何成为一名通证挖矿者？
 
-请开始<a href="../tutorials/tutorials-mining-token-setup" class="pretty-link pretty-link-colored">设置通证挖矿</a>教程
+Please start with the <a href="../tutorials/tutorials-mining-tokens-setup.md" class="pretty-link pretty-link-colored">Setup Token Mining</a> tutorial.
