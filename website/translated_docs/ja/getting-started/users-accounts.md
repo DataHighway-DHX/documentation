@@ -15,7 +15,7 @@ Participants need to create an account on the DataHighway to:
 * Purchase data from the Inter-Chain Data Market
 * Purchase roaming access for their LPWAN IoT End Devices
 
-Please start with the <a href="../tutorials/tutorials-accounts-create-account" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
+Please start with the <a href="../tutorials/tutorials-accounts-create-account.md" class="pretty-link pretty-link-colored">Create Account</a> tutorial.
 
 
 
