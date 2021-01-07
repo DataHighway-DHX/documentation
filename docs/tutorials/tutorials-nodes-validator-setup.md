@@ -79,11 +79,32 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
 ```
+
+WorkingDirectory=needs to be the full path to your node project which you cloned. eg:
+```
+/home/foo/node
+```
+
+ExecStart=needs to be the full path to the datahighway binary, eg:
+```
+/home/foo/node/target/release/datahighway 
+```
+
+Name your node with the --name option which will be shown on telemetry, eg:
+```
+--name MyValidator
+```
+
 Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround ["Method not found"](https://github.com/paritytech/substrate/issues/6100)
 
 Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the unsafe-ws-external flag, so DataHighway does not accept outside connections.
 
-Double check that the config has been written to /etc/systemd/system/datahighway.service correctly. If so, enable the service so it runs on startup, and then try to start it now:
+Double check that the config has been written to /etc/systemd/system/datahighway.service correctly.
+```
+cat /etc/systemd/system/datahighway.service
+```
+
+Then enable the service so it runs on startup, and then try to start it now:
 
 ```bash
 systemctl enable datahighway
