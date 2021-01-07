@@ -408,7 +408,7 @@ Other roaming hubs that choose to store their roaming policies and agreements on
 
 ### Fair Distribution & Decentralisation Model
 
-* No pre-mining (no DHX coins in circulation before announcement to achieve the concept of decentralisation)
+* No DHX coins in circulation before announcement to achieve the concept of decentralisation
 * No ICO
 
 <div class="image-wrapper">
