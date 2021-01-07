@@ -10,5 +10,5 @@ sidebar_label: 目的
 
 ---
 
-*更多详情请参阅 <a href="./whitepaper.md" class="pretty-link pretty-link-colored-bold">Data高速公路经济白皮书</a>*
+*Refer to the <a href="../whitepaper" class="pretty-link pretty-link-colored-bold">DataHighway Economic Whitepaper</a> for further details*
 
