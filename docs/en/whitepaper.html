@@ -827,6 +827,9 @@ Refer to steps outlined in <a href="https://github.com/DataHighway-DHX/documenta
 <h2><a class="anchor" aria-hidden="true" id="dao-1"></a><a href="#dao-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DAO</h2>
 <p>The DHX DAO allows for distributed community membership, governance, and funding.</p>
 <p>It shall be based upon Sunshine DAO <a href="#reference-effe0d" class="pretty-link-colored">[effe0d]</a>, which ProtoShine <a href="#reference-aa9e13" class="pretty-link-colored">[aa9e13]</a> is based upon.</p>
+<p>DAO will be organized in MXC DataDash App, and the council consistutes the DAO.</p>
+<p>The minimal requirement for creating a council is to have 5 million MXC and 5 secure hardware.</p>
+<p>Council chair will have 20% of the mining power from its members</p>
 <h3><a class="anchor" aria-hidden="true" id="treasury"></a><a href="#treasury" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Treasury</h3>
 <h4><a class="anchor" aria-hidden="true" id="unlocked-reserves"></a><a href="#unlocked-reserves" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unlocked Reserves</h4>
 <p>The unlocked reserves are 30% of the genesis total supply of DHX.</p>
@@ -1296,7 +1299,7 @@ Refer to steps outlined in <a href="https://github.com/DataHighway-DHX/documenta
 <ul>
 <li>Assumptions:
 <ul>
-<li>Date: June 2020</li>
+<li>Date: Jan 2021</li>
 <li>Exchange Rate (Average Daily according to the price of DHX)
 <ul>
 <li>1 USD &lt;-&gt; 1 DHX</li>
@@ -1344,9 +1347,9 @@ Refer to steps outlined in <a href="https://github.com/DataHighway-DHX/documenta
 <ul>
 <li><p>1x Supernode =&gt; 1.24 MSB</p></li>
 <li><p>1x Consensus Node =&gt; 1.15 MSB</p></li>
-<li><p>3x Secure Gateways =&gt; 1.05 MSB</p></li>
+<li><p>3x Secure Gateways =&gt; 2.00 MSB</p></li>
 <li><p>20x Secure End Devices =&gt; 1.008 MSB</p></li>
-<li><p>Total MSB: 1.4 (total is 1.448 but max. is 1.4)</p></li>
+<li><p>Total MSB: 2.0 (total is 2.448 but max. is 2.0)</p></li>
 </ul></li>
 <li>Check Sample Dates during their lock bonus period to determine whether they are eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the &quot;sampling&quot; dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period</li>
 <li>Calculate Overall Bonus (i.e. max capped at 1.2 for Voting Power/ICBAM, max capped at 1.4 for PoP)</li>
@@ -2090,7 +2093,7 @@ Supernode owner user establishes payment conditions for roaming, such as:</li>
 
 <span class="hljs-comment">// Hardware Security Mining Speed Boost</span>
 <span class="hljs-keyword">pub</span> <span class="hljs-class"><span class="hljs-keyword">enum</span> <span class="hljs-title">MiningSpeedBoostForHardwareSecurity</span></span> {
-    SecureHardware = <span class="hljs-number">0.05</span>, <span class="hljs-comment">// MatchX</span>
+    SecureHardware = <span class="hljs-number">1.00</span>, <span class="hljs-comment">// MatchX</span>
     InsecureHardware = <span class="hljs-number">0.025</span>
 };
 
