@@ -1290,13 +1290,14 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
     * Calculate Hardware MSB (using Table 1.5)
         * 1x Supernode => 1.24 MSB
         * 1x Consensus Node => 1.15 MSB
-        * 3x Secure Gateways => 2.00 MSB
+        * 3x Secure Gateways => 2.00 MSB (1x Secure Gateway 2.00 MSB can boost 1 million MXC and equivalent assets.)
         * 20x Secure End Devices => 1.008 MSB
 
         * Total MSB: 2.0 (total is 2.448 but max. is 2.0)
     * Check Sample Dates during their lock bonus period to determine whether they are eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the "sampling" dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period 
     * Calculate Overall Bonus (i.e. max capped at 1.2 for Voting Power/ICBAM, max capped at 1.4 for PoP)
     * Show how may use the earned DHX and how more likely to earn bonus than other users
+    * one secure gateway can boost up to 1 million MXC and equivalent asset.
 
 ### Development Mining (Runtimes & DApps as Collateral)
 
