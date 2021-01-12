@@ -829,6 +829,12 @@ The DHX DAO allows for distributed community membership, governance, and funding
 
 It shall be based upon Sunshine DAO <a href="#reference-effe0d" class="pretty-link-colored">[effe0d]</a>, which ProtoShine <a href="#reference-aa9e13" class="pretty-link-colored">[aa9e13]</a> is based upon.
 
+DAO will be organized in MXC DataDash App, and the council consistutes the DAO.
+
+The minimal requirement for creating a council is to have 5 million MXC and 5 secure hardware.
+
+Council chair will have 20% of the mining power from its members
+
 ### Treasury
 
 #### Unlocked Reserves
@@ -1256,7 +1262,7 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
 ##### Example: PoP Hardware Assets Combo Mining for Voting Power
 
 * Assumptions:
-    * Date: June 2020
+    * Date: Jan 2021
     * Exchange Rate (Average Daily according to the price of DHX)
         * 1 USD <-> 1 DHX
         * 1 MXC <-> 1 DHX
@@ -1285,10 +1291,10 @@ Same as Token Asset Mining using "real mining power" equivalent in DHX
     * Calculate Hardware MSB (using Table 1.5)
         * 1x Supernode => 1.24 MSB
         * 1x Consensus Node => 1.15 MSB
-        * 3x Secure Gateways => 1.05 MSB
+        * 3x Secure Gateways => 2.00 MSB
         * 20x Secure End Devices => 1.008 MSB
 
-        * Total MSB: 1.4 (total is 1.448 but max. is 1.4)
+        * Total MSB: 2.0 (total is 2.448 but max. is 2.0)
     * Check Sample Dates during their lock bonus period to determine whether they are eligible for any Voting Power and MSB. If they had at least 80% of their lock balance in the respective accounts on each of the "sampling" dates in a speed bonus period (at the start and a random date during the period), then the Hardware MSB will apply to the period
     * Calculate Overall Bonus (i.e. max capped at 1.2 for Voting Power/ICBAM, max capped at 1.4 for PoP)
     * Show how may use the earned DHX and how more likely to earn bonus than other users
@@ -2098,7 +2104,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 
                 // Hardware Security Mining Speed Boost
                 pub enum MiningSpeedBoostForHardwareSecurity {
-                    SecureHardware = 0.05, // MatchX
+                    SecureHardware = 1.00, // MatchX
                     InsecureHardware = 0.025
                 };
 
