@@ -1,6 +1,6 @@
 {
   "stylesheet": [
-    "./style.css"
+    "../style.css"
   ],
   "css": "body { } .dh-logo-readme,.download-whitepaper { display: none; } .pdf-only { display: block; } .pretty-link-colored { font-weight: 400; color: #00aaff !important; }",
   "body_class": "markdown-body",
