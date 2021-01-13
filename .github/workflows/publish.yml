@@ -1,20 +1,11 @@
-name: CI
+name: Publish
 
-on: [pull_request]
+on:
+  push:
+    branches: [ master ]
 
 jobs:
-  linkChecker:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Link Checker
-      id: lc
-      uses: peter-evans/link-checker@v1
-      with:
-        args: -v -r docs
-        
   publish:
-    needs: linkChecker
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
