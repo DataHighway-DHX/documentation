@@ -66,7 +66,7 @@ cargo build --release
 
 ### Set up the node as a system service. 
 To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file.
-Replace the values for keys starting with $ to suit your own collator node, request the value for $dhxbootnode from DHX team.
+Replace the values for keys starting with $ to suit your own collator node
 
 ```bash
 {
@@ -82,12 +82,14 @@ parachain-id 2 --port 40334 --ws-port 9845 --bootnodes $dhxbootnode -- --chain r
 } > /etc/systemd/system/datahighway.service
 ```
 
+$dhxbootnode= requst this from DHX team thru discord
+
 $fullprojectpath=needs to be the full path to your node project which you cloned. eg:
 ```
 /home/foo/node
 ```
 
-Name your node with the --name option which will be shown on telemetry (not supported yet), eg:
+$nameofyournode=name your node with the --name option which will be shown on telemetry (not supported yet), eg:
 ```
 --name Mycollator
 ```
