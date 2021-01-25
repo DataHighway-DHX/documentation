@@ -2588,11 +2588,10 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [8f85ec] <a id="reference-8f85ec"></a><a href="https://datahighway.com" target="_blank" class="pretty-link-colored">DataHighway.com</a>
 * DataHighway Runtime Modules (Palettes) [2961f6] <a id="reference-2961f6"></a>
 
-  * <a href="https://github.com/DataHighway-com/node/tree/master/packages/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
+  * <a href="https://github.com/DataHighway-DHX/node/tree/master/pallets/roaming" target="_blank" class="pretty-link-colored">Roaming</a>
 * DAO
-  * [33d593] <a id="reference-33d593"></a><a href="https://web3.garden/" target="_blank" class="pretty-link-colored">Web3.Garden</a>
-  * [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/web3garden/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
-  * [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/web3garden/sunshine-runtime-module-library" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
+  * [effe0d] <a id="reference-effe0d"></a><a href="https://github.com/sunshine-protocol/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden SunshineDAO</a>
+  * [aa9e13] <a id="reference-aa9e13"></a><a href="https://github.com/sunshine-protocol/sunshine" target="_blank" class="pretty-link-colored">Web3.Garden ProtoShine</a>
 * Finance
   * [3bbaf1] <a id="reference-3bbaf1"></a><a href="https://www.investopedia.com/terms/q/quantitative-easing.asp" target="_blank" class="pretty-link-colored">Quantitative Easing</a>
   * [89198f] <a id="reference-89198f"></a><a href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" target="_blank" class="pretty-link-colored">Difference between Monetary Policy and Fiscal Policy</a>
@@ -2608,7 +2607,7 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [90b149] <a id="reference-90b149"></a><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038744/" target="_blank" class="pretty-link-colored">A Study of LoRa: Long Range & Low Power Networks for the Internet of Things</a>
   * [a90861] <a id="reference-a90861"></a><a href="https://www.loraserver.io/lora-app-server/overview/" target="_blank" class="pretty-link-colored">LoRa App Server Architecture</a>
 * Mining
-  * [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/chainx_en.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
+  * [b31f7c] <a id="reference-b31f7c"></a><a href="https://chainx.org/static/ChainXWhitePaper-901b6b70f654c8f8824686a2277971c0.pdf" target="_blank" class="pretty-link-colored">ChainX Whitepaper</a>
 * Miscellaneous
   * [1d41a4] <a id="reference-1d41a4"></a><a href="http://mockbin.org" target="_blank" class="pretty-link-colored">Mockbin</a>
   * [92e7f1] <a id="reference-92e7f1"></a><a href="https://requestloggerbin.herokuapp.com" target="_blank" class="pretty-link-colored">Request Logger Bin</a>
@@ -2645,15 +2644,15 @@ Note: Generate a new reference with `openssl rand -hex 2`
   * [3b726b] <a id="reference-3b726b"></a><a href="https://medium.com/polkadot-network/polkadot-parachain-slots-f3f051d41699" target="_blank" class="pretty-link-colored">Polkadot Parachain Slot</a>
   * [4330ba] <a id="reference-4330ba"></a><a href="https://wiki.polkadot.network/en/latest/polkadot/build/cumulus/" target="_blank" class="pretty-link-colored">Cumulus Framework</a>
   * [038640] <a id="reference-038640"></a><a href="https://github.com/paritytech/polkadot/blob/a169ae5a449814e2c34223c1b504c3f947c74b67/runtime/common/src/crowdfund.rs#L16" target="_blank" class="pretty-link-colored">Polkadot Crowdfunding for Parachain Slots</a>
-  * [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/srml/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
-  * [411c31] <a id="reference-411c31"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
+  * [49f7f0] <a id="reference-49f7f0"></a><a href="https://github.com/paritytech/substrate/blob/master/frame/balances/src/lib.rs" target="_blank" class="pretty-link-colored">Substrate Balances Runtime Module</a>
+  * [411c31] <a id="reference-411c31"></a><a href="https://web.archive.org/web/20210110164755/https://research.web3.foundation/en/latest/polkadot/economics/1-token-economics.html#npos-payments-and-inflation" target="_blank" class="pretty-link-colored">Polkadot Token Economics NPoS Payments and Inflation</a>
   * [b05a57] <a id="reference-b05a57"></a><a href="https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#relay-chain-transaction-fees" target="_blank" class="pretty-link-colored">Polkadot Token Economics Relay Chain Transaction Fees</a>
-  * [46767b] <a id="reference-46767b"></a><a href="http://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
+  * [46767b] <a id="reference-46767b"></a><a href="http://web.archive.org/web/20210119154527/https://w3f-research.readthedocs.io/en/latest/polkadot/economics/1-token-economics.html" target="_blank" class="pretty-link-colored">Polkadot Token Economics Inflation Model</a>
   * [d38e97] <a id="reference-d38e97"></a><a href="https://telemetry.polkadot.io" target="_blank" class="pretty-link-colored">Polkadot Telemetry Service</a>
   * [57f381] <a id="reference-57f381"></a><a href="https://polkascan.io" target="_blank" class="pretty-link-colored">Polkascan</a>
   * [2c6aa0] <a id="reference-2c6aa0"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">Smart Contract Platforms Blogpost</a>
   * [c18c08] <a id="reference-c18c08"></a><a href="https://medium.com/on-the-origin-of-smart-contract-platforms/on-the-origin-of-polkadot-c7750e2fc5ff" target="_blank" class="pretty-link-colored">On the Origin of Polkadot</a>
 * Roaming
-  * [4948eb] <a id="reference-4948eb"></a><a href="http___www.aphref.aph.gov.au_house_committee_coms_mobileroaming_report_chapter2.pdf" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
+  * [4948eb] <a id="reference-4948eb"></a><a href="http://web.archive.org/web/20190627191707/https://www.aph.gov.au/parliamentary_business/committees/house_of_representatives_committees?url=coms/mobileroaming/report/chapter2.htm" target="_blank" class="pretty-link-colored">Roaming Report, Page 12</a>
   * [6fe50e] <a id="reference-6fe50e"></a><a href="https://drive.google.com/file/d/17vyq7nVhb_fQ0a4opLI4TEKDK5laUqqq/view?usp=sharing" target="_blank" class="pretty-link-colored">MXC Roaming Presentation by Aslan on 6th August 2019 including Activation Passive Roaming</a>
 
