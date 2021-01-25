@@ -1,5 +1,5 @@
 ---
-id: tutorials-nodes-collator-setup
+id: tutorials-nodes-collators-setup
 title: Setup collator Node
 sidebar_label: Setup collator Node
 ---
