@@ -11,4 +11,4 @@ The DataHighway Testnet uses Nominated Proof of Stake (NPos) consensus, where Co
 
 ## How do you become a DataHighway Collator Node?
 
-Please follow the <a href="../tutorials/tutorials-nodes-Collator-setup" class="pretty-link pretty-link-colored">Setup Collator Node</a> tutorial.
+Please follow the <a href="../tutorials/tutorials-nodes-collators-setup" class="pretty-link pretty-link-colored">Setup Collator Node</a> tutorial.
