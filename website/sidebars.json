@@ -2,7 +2,7 @@
   "docs": {
     "Getting Started": ["getting-started/users-purpose", "getting-started/users-roles", "getting-started/users-rewards"],
     "Accounts": ["getting-started/users-accounts"],
-    "Nodes": ["getting-started/users-nodes-validators", "getting-started/users-nodes-collators"],
+    "Nodes": ["getting-started/users-nodes-collators"],
     "Miners": ["getting-started/users-miners-tokens", "getting-started/users-miners-hardware"]
   },
   "tutorials": {
