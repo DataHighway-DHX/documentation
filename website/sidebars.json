@@ -7,6 +7,7 @@
   },
   "tutorials": {
     "Accounts": ["tutorials/tutorials-accounts-create-account"],
+    "Validator Node": ["tutorials/tutorials-nodes-validator-setup"],
     "Collator Node": ["tutorials/tutorials-nodes-collators-setup"],
     "Token Mining": [
       "tutorials/tutorials-mining-tokens-setup",
