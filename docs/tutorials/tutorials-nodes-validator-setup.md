@@ -74,7 +74,7 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo '[Service]'
   echo 'Type=simple'
   echo 'WorkingDirectory=`pwd`'
-  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --name YOURNODENAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
+  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --bootnodes BootNode --name YOURNODENAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
@@ -94,6 +94,7 @@ Name your node with the --name option which will be shown on telemetry, eg:
 ```
 --name MyValidator
 ```
+BootNode=/ip4/18.185.37.254/tcp/30333/p2p/12D3KooWMfFwM841bRDW5eT4J2XJj2tYbbJwDZqU5B8BaDiarPd8
 
 Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround ["Method not found"](https://github.com/paritytech/substrate/issues/6100)
 
