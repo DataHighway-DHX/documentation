@@ -96,7 +96,7 @@ Name your node with the --name option which will be shown on telemetry, eg:
 ```
 BootNode=specify our bootnode to connect to the chain (vs. running your own one locally
 ```
---bootnodes /ip4/18.185.37.254/tcp/30333/p2p/12D3KooWPFmMZyN7ou3j8zgZoPQv1x1STS5AbbFqVHUnc8FdD6jd
+--bootnodes /ip4/18.185.37.254/tcp/30333/p2p/12D3KooWFmR35FFHiXcQv8hsFWDq6ofttqBPeMkd4Jt6qRgq3HnT
 ```
 
 Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround ["Method not found"](https://github.com/paritytech/substrate/issues/6100)
