@@ -109,7 +109,7 @@ apt install -y cmake pkg-config libssl-dev git clang libclang-dev
 <pre><code class="hljs"><span class="hljs-comment">--name MyValidator</span>
 </code></pre>
 <p>BootNode=specify our bootnode to connect to the chain (vs. running your own one locally</p>
-<pre><code class="hljs">--bootnodes /ip4/<span class="hljs-number">18.185</span><span class="hljs-number">.37</span><span class="hljs-number">.254</span>/tcp/<span class="hljs-number">30333</span>/p2p/<span class="hljs-number">12</span>D3KooWMfFwM841bRDW5eT4J2XJj2tYbbJwDZqU5B8BaDiarPd8
+<pre><code class="hljs">--bootnodes /ip4/<span class="hljs-number">18.185</span><span class="hljs-number">.37</span><span class="hljs-number">.254</span>/tcp/<span class="hljs-number">30333</span>/p2p/<span class="hljs-number">12</span>D3KooWPFmMZyN7ou3j8zgZoPQv1x1STS5AbbFqVHUnc8FdD6jd
 </code></pre>
 <p>Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround <a href="https://github.com/paritytech/substrate/issues/6100">&quot;Method not found&quot;</a></p>
 <p>Note2: This will create an DataHighway server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the unsafe-ws-external flag, so DataHighway does not accept outside connections.</p>
