@@ -31,7 +31,7 @@ page -->
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
 <br />
 <span class="btn-download-wrapper">
-    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
+    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1.0.1/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
 </span>
 <br /><br />
 
