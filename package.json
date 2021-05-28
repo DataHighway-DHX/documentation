@@ -1,0 +1,11 @@
+{
+  "name": "documentation",
+  "version": "1.2.0",
+  "main": "index.js",
+  "engines": {
+    "node": "==10.16.0"
+  },
+  "dependencies": {
+    "md-to-pdf": "github:simonhaenisch/md-to-pdf#v2.7.0"
+  }
+}

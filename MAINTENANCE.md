@@ -9,20 +9,23 @@ in the DataHighway Developer Hub).
 
 2. Updating diagrams
 
-Most of the original diagrams that are included in the original v1.0.0 whitepaper were generated with Visual Paradigm, whose source file is .vpd format, and then converted to an image that was stored in the ./assets/images folder and embedded in the generated whitepaper. However some of the diagrams were modified by the MXC marketing team, and these have been included in the updated version [v1.1.0 whitepaper](https://github.com/DataHighway-DHX/documentation/releases). Note that the latest version that has been released is stored into ./v1/whitepaper (at the time of writing it includes v1.1.0). If you need to update any of the diagrams then please coordinate with the MXC marketing team.
+Most of the original diagrams that are included in the original v1.0.0 whitepaper were generated with Visual Paradigm, whose source file is .vpd format, and then converted to an image that was stored in the ./assets/images folder and embedded in the generated whitepaper. However some of the diagrams were modified by the MXC marketing team, and these were included in version [v1.1.0 whitepaper](https://github.com/DataHighway-DHX/documentation/releases). Note that the latest version that has been released is stored into ./v1.2.0/whitepaper (at the time of writing it includes v1.2.0). If you need to update any of the diagrams then please coordinate with the MXC marketing team.
 
-3. Run the following to create a new release in PDF format. Replace `v1` below with the desired version:
+3. Run the following to create a new release in PDF format. Replace `v1.2.0` below with the desired version:
 
 ```
 nvm use v10.16.0
-npm i md-to-pdf &&
-mkdir ./v1 &&
+npm init &&
+npm install --save simonhaenisch/md-to-pdf#v2.7.0 &&
+mkdir ./v1.2.0 &&
 node ./node_modules/.bin/md-to-pdf ./docs/whitepaper.md \
   --config-file ./config.json \
-  ./v1/whitepaper.pdf
+  ./v1.2.0/whitepaper.pdf
 ```
 
-Important: If you get an error, check if it actually generated the PDF changes correctly in either ./docs/whitepaper.pdf or ./v1/whitepaper.pdf, and use the one that worked.
+Note: It is important to use Node.js v10.16.0 and version simonhaenisch/md-to-pdf#v2.7.0 otherwise you will get an error like `ListrError: Something went wrong`).
+
+Important: If you get an error, check if it actually generated the PDF changes correctly in either ./docs/whitepaper.pdf or ./v1.2.0/whitepaper.pdf, and use the one that worked.
 
 Note: `headerIds` must be `true` in config.json otherwise TOC links do not work.
 
