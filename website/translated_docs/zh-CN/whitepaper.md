@@ -28,12 +28,12 @@ page -->
 
 <div class="margin-sm"></div>
 
-<span class="language-options" style='font-style: italic;'><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.md" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span>
+<span class="language-options" style='font-style: italic;'><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.pdf" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span>
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
 <br />
 
 <span class="btn-download-wrapper">
-    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
+    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
 </span>
 <br /><br />
 
@@ -902,6 +902,50 @@ The DH's Cash Flow Statement reports for a period of time how changes in the Fin
 <div class="figure-text">Table: DataHighway Cash Flow Statement</div>
 
 <!-- Reference: https://docs.google.com/spreadsheets/d/1pVp7wXq_CxZEmt-5jHVSd1oO1txPCq_U1_drMIceTiw/edit#gid=0 -->
+
+#### Financial Procedures
+
+* DataHighway's Mainnet (Westlake) was launched in April 2021 to achieve the roadmap milestone date mentioned in the DataHighway Whitepaper.
+
+* DataHighway's Mainnet current assets include 30,000,000 DHX in the DHX DAO Treasury's Unlocked Reserves with hex 0x6d6f646c70792f74727372790000000000000000000000000000000000000000
+
+* DataHighway is currently using its Harbour Testnet to resolve Mainnet issues such as:
+    * Unusually large payouts to the initial validator set
+    * Removal of Sudo and replacement with on-chain DHX DAO governance
+
+* DataHighway currently supports Sudo. Sudo needs to be replaced with on-chain governance
+
+* DataHighway does not yet support on-chain governance required for the DHX DAO
+
+* Supernodes requested DHX tokens so they could distribute DHX tokens to their users that had participated in DHX Mining
+
+* DataHighway tested that Sudo transfers worked using Supernode accounts and appeared in the Subscan block explorer
+
+* DataHighway used the Sudo module to distribute the requested DHX tokens from the DHX DAO Treasury's Unlocked Reserves account to those Supernode accounts
+
+* Sudo was used to distribute DHX to Supernode accounts with these transactions:
+
+    * https://datahighway.subscan.io/extrinsic/665594-1
+    * https://datahighway.subscan.io/extrinsic/665623-1
+    * https://datahighway.subscan.io/extrinsic/665644-1
+    * https://datahighway.subscan.io/extrinsic/665661-1
+    * https://datahighway.subscan.io/extrinsic/665694-1
+    * https://datahighway.subscan.io/extrinsic/665713-1
+    * https://datahighway.subscan.io/extrinsic/665728-1
+
+* Supernode accounts refused to acknowledge receipt of the DHX tokens that were sent to them from the Treasury account using Sudo and they informed the DataHighway that the reason for this is because their systems do not support parsing Sudo transactions
+
+* DataHighway does not want to use Sudo any further without establishing a Multisig pallet.
+
+* DataHighway's community-governed DHX DAO will need to decide via on-chain governance whether to flag those funds as lost or whether to fork the DataHighway blockchain if the relevant Supernodes decide not to return the DHX tokens to the Treasury account. In the interim the DHX DAO will add those transactions as Liabilites in its Financial Model. In the future the DHX DAO would need to add to its Liabilities reimbursing the transaction fee to the relevant Supernodes when they return the tokens. DataHighway is of the understanding that Supernodes should be able to return DHX tokens to the Treasury independent of whether their systems support parsing Sudo transactions.
+
+* DataHighway would need to send DHX tokens to Supernode accounts via a Proxy account from the Treasury account for them to recognise the transactions. The Proxy account must be controlled via a Multisig.
+
+* DataHighway is currently of the understanding that the DHX token is a cryptocurrency like BTC or DAI and is therefore neither a security or utility token. Since the DataHighway's on-chain governance has not yet been tested as being ready to be used, human involvement with Sudo is necessary to move the project forward.
+
+* DataHighway is actually capable of executing on-chain governance, so it may already be considered a DAO to an extent that has no registered offices, directors or employees, and it may not even be recognised as its own legal person. The DHX DAO's human involvement should become limited as the DHX DAO's operation, management and control becomes automated, and decisions are by on-chain voting. Since it may be considered a DAO it has been recognised by the DataHighway that the DHX token may trigger securities regulations and laws. DataHighway is contacting legal firms that have have prior DAO experience since in when Sudo is removed the DHX token holders will be controlling minutes and approving decisions of the DAOs' operations.
+
+<div class="page-break"></div>
 
 #### Financial Procedures
 
