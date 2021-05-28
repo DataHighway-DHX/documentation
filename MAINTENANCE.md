@@ -14,16 +14,16 @@ Most of the original diagrams that are included in the original v1.0.0 whitepape
 3. Run the following to create a new release in PDF format. Replace `v1.2.0` below with the desired version:
 
 ```
-nvm use v10.16.0
-npm init &&
-npm install --save simonhaenisch/md-to-pdf#v2.7.0 &&
+nvm use v10.16.0 &&
+npm install &&
 mkdir ./v1.2.0 &&
 node ./node_modules/.bin/md-to-pdf ./docs/whitepaper.md \
   --config-file ./config.json \
   ./v1.2.0/whitepaper.pdf
 ```
 
-Note: It is important to use Node.js v10.16.0 and version simonhaenisch/md-to-pdf#v2.7.0 otherwise you will get an error like `ListrError: Something went wrong`).
+Note: It is important to use Node.js v10.16.0 and version simonhaenisch/md-to-pdf#v2.7.0 otherwise you will get an error like `ListrError: Something went wrong`). If there are issues running the following, then run `npm init &&
+npm install --save simonhaenisch/md-to-pdf#v2.7.0`.
 
 Important: If you get an error, check if it actually generated the PDF changes correctly in either ./docs/whitepaper.pdf or ./v1.2.0/whitepaper.pdf, and use the one that worked.
 
