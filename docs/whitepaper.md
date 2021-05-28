@@ -27,11 +27,11 @@ page -->
 
 <div class="margin-sm"></div>
 
-<span class="language-options" style='font-style: italic;'><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1.2.0/whitepaper.pdf" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span>
+<span class="language-options" style='font-style: italic;'><span class="download-whitepaper">Read this in other languages:</span> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.pdf" class="download-whitepaper" style="font-weight: 400; color: #00aaff !important;">English</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ko.md" class="download-whitepaper pretty-link-colored">한국어</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.ja.md" class="download-whitepaper pretty-link-colored">日本語</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-cn.md" class="download-whitepaper pretty-link-colored">简体中文</a> <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.zh-tw.md" class="download-whitepaper pretty-link-colored">正體中文</a></span>
 <!-- https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
 <br />
 <span class="btn-download-wrapper">
-    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/v1.2.0/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
+    <a href="https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/docs/whitepaper.pdf" class="btn-download button-color-1">DOWNLOAD WHITEPAPER</a>
 </span>
 <br /><br />
 
