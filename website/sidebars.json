@@ -9,6 +9,7 @@
     "Accounts": ["tutorials/tutorials-accounts-create-account"],
     "Validator Node": ["tutorials/tutorials-nodes-validator-setup"],
     "Collator Node": ["tutorials/tutorials-nodes-collators-setup"],
+    "Full Node": ["tutorials/tutorials-nodes-full-node-setup"],
     "Token Mining": [
       "tutorials/tutorials-mining-tokens-setup",
       "tutorials/tutorials-mining-tokens-check-eligibility",
