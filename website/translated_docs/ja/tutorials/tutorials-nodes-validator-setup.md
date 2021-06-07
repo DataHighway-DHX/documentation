@@ -4,9 +4,7 @@ title: Setup Validator Node
 sidebar_label: Setup Validator Node
 ---
 
-**DRAFT**
-
-## How do you setup an Validator Node?
+## How do you setup a Validator Node?
 
 This guide covers how to set up a DataHighway Validator Node.
 
