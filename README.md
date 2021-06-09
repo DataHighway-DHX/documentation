@@ -1,33 +1,34 @@
-# Website
+![CI](https://github.com/DataHighway-DHX/documentation/workflows/CI/badge.svg?branch=develop)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# DataHighway Documentation
 
-## Installation
+Welcome to the DataHighway Developer Hub documentation. We're just getting started, so our documentation is still incomplete.
 
-```console
-yarn install
+## Contributing
+
+Refer to <a href="./CONTRIBUTING.md" target="_blank" class="pretty-link pretty-link-colored" style="">CONTRIBUTING.md</a> for details about:
+* Creating Issues
+* Creating Pull Requests
+
+## Maintenance
+
+Refer to <a href="./MAINTENANCE.md" target="_blank" class="pretty-link pretty-link-colored" style="">MAINTENANCE.md</a> for details about:
+* Updating the DataHighway Whitepaper
+* Updating the DataHighway Documentation Website
+* Deploying updates
+
+### Running & Viewing Documentation Locally
+
+Run the following commands to install dependencies and start build the website.
+
+```bash
+cd website &&
+npm install && npm start
 ```
 
-## Local Development
+View in web browser http://localhost:3000
 
-```console
-yarn start
-```
+### Adding a New Document
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+* Create your markdown document in a suitable directory inside /docs.
+* If you have images in your document, put them in the /docs/images/ directory.
