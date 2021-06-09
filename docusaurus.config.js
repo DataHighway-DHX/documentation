@@ -1,5 +1,5 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+const docusaurusConfig = {
   plugins: [
     "@docusaurus/theme-live-codeblock",
     [
@@ -35,21 +35,6 @@ module.exports = {
     locales: ["en", "de", "zh-CN", "zh-TW"],
   },
   themeConfig: {
-    algolia: {
-      apiKey: "YOUR_API_KEY",
-      indexName: "YOUR_INDEX_NAME",
-
-      // Optional: see doc section below
-      contextualSearch: true,
-
-      // Optional: see doc section below
-      appId: "YOUR_APP_ID",
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
-    },
     liveCodeBlock: {
       /**
        * The position of the live playground, above or under the editor
@@ -163,3 +148,13 @@ module.exports = {
     ],
   ],
 };
+
+if (!process.env.DATAHIGHWAY_DOCS_DEV) {
+  docusaurusConfig.themeConfig.algolia = {
+    appId: process.env.ALGOLIA_APP_ID,
+    apiKey: process.env.ALGOLIA_KEY || 'demo-key',
+    indexName: 'datahighway',
+  }
+}
+
+module.exports = docusaurusConfig;
