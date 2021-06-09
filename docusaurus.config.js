@@ -73,6 +73,12 @@ const docusaurusConfig = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
+          to: "docs/whitepaper",
+          position: "left",
+          label: "Whitepaper",
+          activeBasePath: "docs/whitepaper",
+        },
+        {
           href: "https://github.com/DataHighway-DHX/documentation",
           label: "GitHub",
           position: "right",
