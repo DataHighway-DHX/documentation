@@ -1,30 +1,19 @@
 ## Updating the Whitepaper
 
-1. Modifying styles
 
-It may be necessary to maintain duplicated styles that are in both ./style.css
-(used for generating PDF of whitepaper for download with md-to-pdf program) and
-website/static/css/custom.css (used for generating Whitepaper
-in the DataHighway Developer Hub).
-
-2. Updating diagrams
+1. Updating diagrams
 
 Most of the original diagrams that are included in the original v1.0.0 whitepaper were generated with Visual Paradigm, whose source file is .vpd format, and then converted to an image that was stored in the ./assets/images folder and embedded in the generated whitepaper. However some of the diagrams were modified by the MXC marketing team, and these were included in previous version [v1.1.0 whitepaper](https://github.com/DataHighway-DHX/documentation/releases). If you need to update any of the diagrams then please coordinate with the MXC marketing team.
 
-3. Run the following to create a new release in PDF format. Replace `v1.2.0` below with the desired version:
+1. Start your development environment, and then run the following while in the `./static/whitepapers/economig` folder to create a new release in PDF format. Replace `v1.2.0` below with the desired version:
 
-```
-nvm use v10.16.0 &&
-npm install &&
-node ./node_modules/.bin/md-to-pdf ./docs/whitepaper.md \
-  --config-file ./config.json \
-  ./docs/whitepaper.pdf &&
-mkdir -p ./versions/v1.2.0 &&
-cp ./docs/whitepaper.pdf ./versions/v1.2.0/whitepaper.pdf
+```terminal
+npx mr-pdf --initialDocsURL="http://localhost:3000/docs/whitepaper" \
+--paginationSelector=".pagination-nav__item--next > a" \
+--excludeSelectors=".margin-vert--xl a" --pdfMargin="20" \
+--pdfFormat="A4" --outputPDFFilename="whitepaper_latest.pdf"
 ```
 
-Note: It is important to use Node.js v10.16.0 and version simonhaenisch/md-to-pdf#v2.7.0 otherwise you will get an error like `ListrError: Something went wrong`). If there are issues running the following, then run `npm init &&
-npm install --save simonhaenisch/md-to-pdf#v2.7.0`.
 
 Important: Check it generated the latest PDF to reflect the Markdown changes you made correctly in ./docs/whitepaper.pdf and the copy of it ./versions/v1.2.0/whitepaper.pdf.
 

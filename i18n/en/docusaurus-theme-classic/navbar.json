@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "DataHighway Developer Hub",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs & Tutorials": {
+    "message": "Docs & Tutorials",
+    "description": "Navbar item with label Docs & Tutorials"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
