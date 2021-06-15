@@ -63,7 +63,7 @@ cargo build --release
 
 
 ### Set up the node as a system service. 
-To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file (harbour):
+To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file and make specific configuration updates for your node as detailed below:
 
 ```bash
 {
