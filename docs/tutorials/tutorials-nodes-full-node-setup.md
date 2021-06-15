@@ -72,15 +72,10 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo '[Service]'
   echo 'Type=simple'
   echo 'WorkingDirectory=/home/foo/node'
-  echo 'ExecStart=/home/foo/node/target/release/datahighway --chain CHAINNAME  --bootnodes BOOTNODE --name YOURNODENAME'
+  echo 'ExecStart=/home/foo/node/target/release/datahighway --chain CHAIN_NAME  --bootnodes BOOT_NODE --name YOUR_NODE_NAME'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
-```
-
-CHAINNAME=Specify the chain name where you want to connect your node to, eg
-```
---chain harbour
 ```
 
 WorkingDirectory=needs to be the full path to your node project which you cloned. eg:
@@ -93,13 +88,18 @@ ExecStart=needs to include the full path to the datahighway binary, eg:
 /home/foo/node/target/release/datahighway 
 ```
 
-YOURNODENAME=Name your node with the --name option which will be shown on telemetry, eg:
+CHAIN_NAME=Specify the chain name where you want to connect your node to, eg
+```
+--chain harbour
+```
+
+YOUR_NODE_NAME=Name your node with the --name option which will be shown on telemetry, eg:
 ```
 --name MyAwesomeNode
 ```
-BOOTNODE=specify one of our chain specific bootnodes, its IP and Peer-ID can be provided thru a discord request
+BOOT_NODE=specify one of our chain specific bootnodes, its IP and Peer-ID can be provided thru a discord request
 ```
---bootnodes /ip4/GETIPFROMDISCORD/tcp/30333/p2p/GETPEERIDFROMDISCORD
+--bootnodes /ip4/GET_IP_FROM_DISCORD/tcp/30333/p2p/GET_PEER_ID_FROM_DISCORD
 ```
 
 
