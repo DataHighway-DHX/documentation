@@ -4,9 +4,7 @@ title: Setup Validator Node
 sidebar_label: Setup Validator Node
 ---
 
-**DRAFT**
-
-## How do you setup an Validator Node?
+## How do you setup a Validator Node?
 
 This guide covers how to set up a DataHighway Validator Node.
 
@@ -65,7 +63,7 @@ cargo build --release
 
 
 ### Set up the node as a system service. 
-To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file (harbour):
+To do this, navigate into the root directory of the DataHighway-DHX/node repo and execute the following to create the service configuration file and make specific configuration updates for your node as detailed below:
 
 ```bash
 {
@@ -73,8 +71,8 @@ To do this, navigate into the root directory of the DataHighway-DHX/node repo an
   echo 'Description=DataHighway'
   echo '[Service]'
   echo 'Type=simple'
-  echo 'WorkingDirectory=`pwd`'
-  echo 'ExecStart=`pwd`/node/target/release/datahighway --chain `pwd`/node/node/src/chain-definition-custom/chain_def_harbour.json --bootnodes BootNode --name YOURNODENAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
+  echo 'WorkingDirectory=/home/foo/node'
+  echo 'ExecStart=/home/foo/node/target/release/datahighway --chain CHAIN_NAME --bootnodes BOOT_NODE --name YOUR_NODE_NAME --validator --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe --execution=native -lruntime=debug'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
@@ -85,18 +83,23 @@ WorkingDirectory=needs to be the full path to your node project which you cloned
 /home/foo/node
 ```
 
-ExecStart=needs to be the full path to the datahighway binary, eg:
+ExecStart=needs to include the full path to the datahighway binary, eg:
 ```
 /home/foo/node/target/release/datahighway 
 ```
 
-Name your node with the --name option which will be shown on telemetry, eg:
+CHAIN_NAME=Specify the chain name where you want to connect your node to, eg
 ```
---name MyValidator
+--chain harbour
 ```
-BootNode=specify our bootnode to connect to the chain (vs. running your own one locally
+
+YOUR_NODE_NAME=Name your node with the --name option which will be shown on telemetry, eg:
 ```
---bootnodes /ip4/18.185.37.254/tcp/30333/p2p/12D3KooWFmR35FFHiXcQv8hsFWDq6ofttqBPeMkd4Jt6qRgq3HnT
+--name MyAwesomeNode
+```
+BOOT_NODE=specify one of our chain specific bootnodes, its IP and Peer-ID can be provided thru a discord request
+```
+--bootnodes /ip4/GET_IP_FROM_DISCORD/tcp/30333/p2p/GET_PEER_ID_FROM_DISCORD
 ```
 
 Note1: The Startup argument '--rpc-methods=Unsafe' is required to workaround ["Method not found"](https://github.com/paritytech/substrate/issues/6100)
