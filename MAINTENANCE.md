@@ -18,6 +18,8 @@ npm start
 2. Change into folder `./static/whitepapers/economic` folder and run the following to create a new release in PDF format. Replace `v1.2.0` or `v1_2_x` below with the desired version:
 
 ```terminal
+cd ./static/whitepapers/economic
+
 mr-pdf --initialDocURLs="http://localhost:3000/docs/whitepaper" \
 --contentSelector="article" \
 --paginationSelector=".pagination-nav__item--next > a" \
