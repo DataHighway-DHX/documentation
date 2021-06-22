@@ -1,5 +1,6 @@
 ---
 id: users-purpose
+sidebar_position: 1
 title: Purpose
 sidebar_label: Purpose
 ---

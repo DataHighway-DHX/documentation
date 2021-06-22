@@ -26,4 +26,4 @@ Insecure LPWAN hardware attracts the following lower MSBs for same commitment pe
 
 ## How do you become a Hardware Miner?
 
-Please start with the <a href="../tutorials/tutorials-mining-hardware-setup.md" class="pretty-link pretty-link-colored">Setup Hardware Mining</a> tutorial.
+Please start with the [Setup Hardware Mining](tutorials/tutorials-mining-hardware-setup.md) tutorial.

@@ -12,7 +12,7 @@ When the DataHighway Testnet becomes a Parachain on the Polkadot network, then t
 
 ## How do you become a DataHighway Validator Node?
 
-Please follow the <a href="../tutorials/tutorials-nodes-validator-setup" class="pretty-link pretty-link-colored">Setup Validator Node</a> tutorial.
+Please follow the [Setup Validator Node](getting-started/users-nodes-validators.md) tutorial.
 
 ## Why become a DataHighway Nominator?
 
@@ -21,6 +21,6 @@ The Mining Speed Boost multiplier that eligible Token Miners or Hardware Miners 
 
 ## How do you become a DataHighway Nominator?
 
-Not yet available. Please start with an <a href="./users-nodes-validators.md" class="pretty-link pretty-link-colored">Validator Node</a>.
+Not yet available. Please start with an [Validator Node](getting-started/users-nodes-validators.md).
 
 <!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/learn-collator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
