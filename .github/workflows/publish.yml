@@ -38,7 +38,7 @@ jobs:
           ssh-private-key: ${{ secrets.GH_SECRET }}
       - name: Release to GitHub Pages
         env:
-          USE_SSH: true
+          USE_SSH: false
           GIT_USER: ${{ secrets.GH_NAME }}
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
