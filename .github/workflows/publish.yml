@@ -41,4 +41,4 @@ jobs:
           else
           npm i
           fi
-          npm run deploy
+          export GIT_USER=${{ secrets.GH_NAME }} npm run deploy
