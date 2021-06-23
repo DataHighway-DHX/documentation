@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://dev.datahighway.com/documentation/blog/welcome</link>
+            <link>https://dev.datahighway.com/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome! We'll be posting some development updates here as the development continues. :)]]></description>
