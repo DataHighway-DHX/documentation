@@ -1,4 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const math = require("remark-math");
+const katex = require("rehype-katex");
 const docusaurusConfig = {
   plugins: [
     "@docusaurus/theme-live-codeblock",
@@ -140,6 +142,8 @@ const docusaurusConfig = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/DataHighway-DHX/documentation",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -158,9 +162,9 @@ const docusaurusConfig = {
 if (!process.env.DATAHIGHWAY_DOCS_DEV) {
   docusaurusConfig.themeConfig.algolia = {
     appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_KEY || 'demo-key',
-    indexName: 'datahighway',
-  }
+    apiKey: process.env.ALGOLIA_KEY || "demo-key",
+    indexName: "datahighway",
+  };
 }
 
 module.exports = docusaurusConfig;
