@@ -25,6 +25,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - name: Release to GitHub Pages
         env:
           GIT_USER: ${{ secrets.GH_NAME }}
         run: |
