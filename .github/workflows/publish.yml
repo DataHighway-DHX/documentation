@@ -27,9 +27,14 @@ jobs:
           node-version: 14
         env:
           GIT_USER: ${{ secrets.GH_NAME }}
-      - run: |
-          git config --global user.name ${{ secrets.GH_NAME }}
+        run: |
           git config --global user.email ${{ secrets.GH_EMAIL }}
-          echo "machine github.com login ${{ secrets.GH_NAME }} password ${{ secrets.GH_TOKEN }}" > ~/.netrc 
-          GIT_USER=${{ secrets.GH_NAME }} npm install 
+          git config --global user.name ${{ secrets.GH_NAME }}
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
           npm run deploy
