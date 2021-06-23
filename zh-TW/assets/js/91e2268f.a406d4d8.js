@@ -1,1 +1,0 @@
-(self.webpackChunkdocv_2=self.webpackChunkdocv_2||[]).push([[983],{4102:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/documentation/zh-TW/blog/tags","slug":"welcome","name":"welcome","count":1,"permalink":"/documentation/zh-TW/blog/tags/welcome"}')}}]);
