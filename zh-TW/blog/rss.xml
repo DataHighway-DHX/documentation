@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>DataHighway Developer Hub Blog</title>
+        <link>https://DataHighway-DHX.github.io/blog</link>
+        <description>DataHighway Developer Hub Blog</description>
+        <lastBuildDate>Mon, 31 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://DataHighway-DHX.github.io/documentation/zh-TW/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Mon, 31 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome! We'll be posting some development updates here as the development continues. :)]]></description>
+        </item>
+    </channel>
+</rss>

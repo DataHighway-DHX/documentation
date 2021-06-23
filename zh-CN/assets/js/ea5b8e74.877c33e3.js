@@ -1,0 +1,1 @@
+(self.webpackChunkdocv_2=self.webpackChunkdocv_2||[]).push([[183],{2170:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/documentation/zh-CN/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
