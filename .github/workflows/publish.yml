@@ -25,5 +25,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: GIT_USER="${{ secrets.GH_NAME }}" yarn run publish-gh-pages
-
+        env:
+          GIT_USER: ${{ secrets.GH_NAME }}
+      - run: |
+          git config --global user.name ${{ secrets.GH_NAME }}
+          git config --global user.email ${{ secrets.GH_EMAIL }}
+          echo "machine github.com login ${{ secrets.GH_NAME }} password ${{ secrets.GH_TOKEN }}" > ~/.netrc 
+          GIT_USER=${{ secrets.GH_NAME }} npm install 
+          npm run deploy
