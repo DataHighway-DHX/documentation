@@ -39,7 +39,10 @@ jobs:
           elif [ -e package-lock.json ]; then
           npm ci
           else
+          touch .env
+          echo "ALGOLIA_KEY=${{ secrets.ALGOLIA_KEY }}" > .env
+          echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
+          echo "ALGOLIA_INDEX_NAME=datahighway" >> .env
           npm i
           fi
-          export GIT_USER=${{ secrets.GH_NAME }}
-          npm run deploy
+          export GIT_USER=${{ secrets.GH_NAME }} npm run deploy
