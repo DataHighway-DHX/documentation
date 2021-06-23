@@ -34,15 +34,9 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.GH_EMAIL }}
           git config --global user.name ${{ secrets.GH_NAME }}
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
           touch .env
           echo "ALGOLIA_KEY=${{ secrets.ALGOLIA_KEY }}" > .env
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           echo "ALGOLIA_INDEX_NAME=datahighway" >> .env
           yarn install
           GIT_USER=${{ secrets.GH_NAME }} yarn deploy
-          fi
