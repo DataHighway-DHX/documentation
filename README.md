@@ -19,10 +19,9 @@ Refer to <a href="./MAINTENANCE.md" target="_blank" class="pretty-link pretty-li
 
 ### Running & Viewing Documentation Locally
 
-Run the following commands to install dependencies and start build the website.
+Install Node >=12.13.0, then run the following commands to install dependencies and start build the website.
 
 ```bash
-cd website &&
 npm install && npm start
 ```
 
