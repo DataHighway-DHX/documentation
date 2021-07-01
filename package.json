@@ -21,6 +21,7 @@
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
     "docusaurus2-dotenv": "^1.4.0",
+    "dotenv": "^10.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "file-loader": "^6.2.0",
     "hast-util-is-element": "^1.1.0",
