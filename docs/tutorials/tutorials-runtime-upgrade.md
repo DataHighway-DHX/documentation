@@ -19,7 +19,7 @@ sidebar_label: Runtime Upgrade
 `cargo build --release`
 
 
-### Step 2: Generate a Preimage Hash of the Proposal for a forkless runtime upgrade
+### Step 2: Submit a Preimage Hash of the Proposal for a forkless runtime upgrade
 
 * Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwestlake.datahighway.com#/democracy
 
