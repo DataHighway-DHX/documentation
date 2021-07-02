@@ -34,6 +34,10 @@ sidebar_label: Runtime Upgrade
   
 * Copy the preimage hash. This represents the proposal. You will use this hash when submitting the actual proposal.
 
+* Leave the value for the _weight parameter at the default of 0.
+
+* Click "Submit Transaction" and then "Sign and Submit".
+
 
 ### Step 3: Submit the Proposal
 
@@ -45,13 +49,6 @@ sidebar_label: Runtime Upgrade
 
 * Click the _Submit proposal_ button and sign the transaction
 
-### Step 4: Submit the Preimage of the Proposal for the forkless runtime upgrade
-
-* Repeat Step 2.
-
-* Leave the value for the _weight parameter at the default of 0.
-
-* Click "Submit Transaction" and then "Sign and Submit".
 
 ### Reference
 * [Participating in Democracy on Kusama and Polkadot](https://wiki.polkadot.network/docs/maintain-guides-democracy/#proposing-an-action)
