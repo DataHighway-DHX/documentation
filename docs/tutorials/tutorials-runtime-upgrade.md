@@ -4,7 +4,7 @@ title: Runtime Upgrade
 sidebar_label: Runtime Upgrade
 ---
 
-## How to perform runtime-upgrade
+## How to propose a forkless runtime upgrade
 
 ### Step 1: Prepare WASM binary 
 
