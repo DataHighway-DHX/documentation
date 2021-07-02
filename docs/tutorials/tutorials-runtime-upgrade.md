@@ -14,7 +14,10 @@ sidebar_label: Runtime Upgrade
 
 `cd node`
 
-* `cargo build --release`
+* Build the Wasm bytecode
+
+`cargo build --release`
+
 
 ### Step 2: Generate a Preimage Hash of the Proposal for a forkless runtime upgrade
 
