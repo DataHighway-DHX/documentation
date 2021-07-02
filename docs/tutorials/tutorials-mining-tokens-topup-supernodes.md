@@ -10,7 +10,7 @@ sidebar_label: Topup Supernodes
 
 **Important:** It may be necessary to use the democracy runtime module to propose to modify the current runtime configuration so that the Minimum Deposit, Launch Period, and Voting Period are reasonable values. If they were set with unreasonable values at genesis, then it may be necessary to modify them using Sudo. 
 
-### Step 2: Generate a Preimage Hash of the Proposal to transfer Treasury funds to the Multisig Proxy account
+### Step 2: Submit a Preimage Hash of the Proposal to transfer Treasury funds to the Multisig Proxy account
 
 * Add the Multisig Proxy account and the DHX DAO Unlocked Reserves (Treasury) account (4LTFqiD6H6g8a7ur9WH4RxhWx2givWfK7o5EDed3ai1nYTvk) to your [Address book](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-harbour.datahighway.com#/addresses)
 	* Note: The Treasury account for each chain is specified in the [chain_spec.rs](https://github.com/DataHighway-DHX/node/blob/master/node/src/chain_spec.rs)
@@ -31,7 +31,11 @@ sidebar_label: Topup Supernodes
 
 * Choose for _value_ the value in DHX that you propose to be transferred to the Multisig Proxy that will perform the subsequent transfer to the Supernode account
 
-* Copy the preimage hash. This represents the proposal. You will use this hash when submitting the actual proposal.
+* Copy the preimage hash that represents the proposal.
+
+* Leave the value for the _weight parameter at the default of 0.
+
+* Click "Submit Transaction" and then "Sign and Submit".
 
 ### Step 3: Submit the Proposal
 
@@ -43,15 +47,7 @@ sidebar_label: Topup Supernodes
 
 * Click the _Submit proposal_ button and sign the transaction
 
-### Step 4: Submit the Preimage Hash of the Proposal to transfer treasury funds to the Multisig Proxy account
-
-* Repeat Step 2.
-
-* Leave the value for the _weight parameter at the default of 0.
-
-* Click "Submit Transaction" and then "Sign and Submit".
-
-### Step 5: Seconding the Proposal
+### Step 4: Seconding the Proposal
 
 * Click the _Second_ button associated with the Proposal from the previous steps.
 
@@ -64,7 +60,7 @@ sidebar_label: Topup Supernodes
 
 * Wait until the Launch Period ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/node/blob/master/runtime/src/lib.rs#L810)
 
-### Step 6: Voting on the Proposal
+### Step 5: Voting on the Proposal
 
 * Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-harbour.datahighway.com#/democracy
 
@@ -78,7 +74,7 @@ sidebar_label: Topup Supernodes
 
 * Wait until the Voting Period ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/node/blob/master/runtime/src/lib.rs#L811)
 
-### Step 7: Transfer from the Multisig Proxy account to the Supernode
+### Step 6: Transfer from the Multisig Proxy account to the Supernode
 
 * Check that the recipient Supernode is able to receive and interpret transactions received from a Multisig account.
 
