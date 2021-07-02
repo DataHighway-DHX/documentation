@@ -1,12 +1,16 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const math = require("remark-math");
 const katex = require("rehype-katex");
+require('dotenv').config();
+
 const docusaurusConfig = {
   plugins: [
     "@docusaurus/theme-live-codeblock",
     [
       "docusaurus2-dotenv",
       {
+        path: '.env',
+        safe: false,
         systemvars: true,
       },
     ],
@@ -162,8 +166,10 @@ const docusaurusConfig = {
 if (!process.env.DATAHIGHWAY_DOCS_DEV) {
   docusaurusConfig.themeConfig.algolia = {
     appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_KEY || "demo-key",
-    indexName: "datahighway",
+    apiKey: process.env.ALGOLIA_API_KEY || "demo-key",
+    indexName: `${process.env.ALGOLIA_INDEX_NAME}` || "datahighway",
+    // Optional https://docusaurus.io/docs/search#contextual-search
+    // contextualSearch: true,
   };
 }
 

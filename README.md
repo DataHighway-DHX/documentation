@@ -19,10 +19,14 @@ Refer to <a href="./MAINTENANCE.md" target="_blank" class="pretty-link pretty-li
 
 ### Running & Viewing Documentation Locally
 
+_Optionally_ Obtain [Algolia API](https://www.algolia.com/) keys to enable "search". Run the following, then paste them in the .env file.
+```bash
+cp .env.example .env
+```
+
 Run the following commands to install dependencies and start build the website.
 
 ```bash
-cd website &&
 npm install && npm start
 ```
 
