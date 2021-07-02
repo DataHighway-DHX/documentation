@@ -29,7 +29,6 @@ sidebar_label: Runtime Upgrade
   
 * Copy the preimage hash. This represents the proposal. You will use this hash when submitting the actual proposal.
 
-* Leave the value for the _weight parameter at the default of 0. Click "Submit Transaction" and then "Sign and Submit".
 
 ### Step 3: Submit the Proposal
 
