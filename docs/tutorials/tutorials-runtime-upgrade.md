@@ -10,7 +10,9 @@ sidebar_label: Runtime Upgrade
 
 * Clone <a href="https://github.com/DataHighway-DHX/node" target="_blank" class="pretty-link pretty-link-colored">node</a> repo
 
-* `cd node`
+* Switch to the root directory of the cloned project
+
+`cd node`
 
 * `cargo build --release`
 
