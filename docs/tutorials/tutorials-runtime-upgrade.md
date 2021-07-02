@@ -44,3 +44,14 @@ sidebar_label: Runtime Upgrade
 * Set the locked balance. 
 
 * Click the _Submit proposal_ button and sign the transaction
+
+### Step 4: Submit the Preimage of the Proposal for the forkless runtime upgrade
+
+* Repeat Step 2.
+
+* Leave the value for the _weight parameter at the default of 0.
+
+* Click "Submit Transaction" and then "Sign and Submit".
+
+### Reference
+* [Participating in Democracy on Kusama and Polkadot](https://wiki.polkadot.network/docs/maintain-guides-democracy/#proposing-an-action)
