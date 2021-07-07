@@ -5,8 +5,12 @@ const docusaurusConfig = {
     [
       '@docusaurus/plugin-client-redirects',
       {
-        to: '/docs/whitepaper', // string
-        from: 'docs/en/whitepaper', // string | string[]
+        redirects: [
+          {
+            to: '/docs/whitepaper', // string
+            from: '/docs/en/whitepaper', // string | string[]
+          },
+        ],
       },
     ],
     [
