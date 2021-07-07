@@ -3,6 +3,13 @@ const docusaurusConfig = {
   plugins: [
     "@docusaurus/theme-live-codeblock",
     [
+      '@docusaurus/plugin-client-redirects',
+      {
+        to: '/docs/whitepaper', // string
+        from: 'docs/en/whitepaper', // string | string[]
+      },
+    ],
+    [
       "docusaurus2-dotenv",
       {
         systemvars: true,
