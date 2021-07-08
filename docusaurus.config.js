@@ -35,7 +35,7 @@ const docusaurusConfig = {
     chatUrlDiscord: "https://discord.gg/UuZN2tE",
   },
   url: "https://DataHighway-DHX.github.io",
-  baseUrl: "/documentation/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
