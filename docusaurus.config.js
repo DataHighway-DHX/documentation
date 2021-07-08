@@ -35,12 +35,13 @@ const docusaurusConfig = {
     chatUrlDiscord: "https://discord.gg/UuZN2tE",
   },
   url: "https://dev.datahighway.com",
-  baseUrl: "/documentation/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "DataHighway-DHX", // Usually your GitHub org/user name.
   projectName: "documentation", // Usually your repo name.
+  trailingSlash: false,
   i18n: {
     defaultLocale: "en",
     locales: ["en", "de", "zh-CN", "zh-TW"],
