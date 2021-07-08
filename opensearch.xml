@@ -4,8 +4,8 @@
   <ShortName>DataHighway Developer Hub</ShortName>
   <Description>Search DataHighway Developer Hub</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://dev.datahighway.com/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://dev.datahighway.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://dev.datahighway.com/opensearch.xml" />
-  <moz:SearchForm>https://dev.datahighway.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://DataHighway-DHX.github.io/documentation/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://DataHighway-DHX.github.io/documentation/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://DataHighway-DHX.github.io/documentation/opensearch.xml" />
+  <moz:SearchForm>https://DataHighway-DHX.github.io/documentation/</moz:SearchForm>
 </OpenSearchDescription>
