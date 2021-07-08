@@ -39,4 +39,4 @@ jobs:
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           echo "ALGOLIA_INDEX_NAME=datahighway" >> .env
           yarn install
-          export GIT_USER=${{ secrets.GH_NAME }} yarn deploy
+          export GIT_USER=${{ secrets.GH_NAME }} && yarn deploy
