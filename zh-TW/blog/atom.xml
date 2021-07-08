@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dev.datahighway.com/documentation/zh-TW/blog</id>
+    <id>https://dev.datahighway.com/zh-TW/blog</id>
     <title>DataHighway Developer Hub Blog</title>
     <updated>2021-05-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dev.datahighway.com/documentation/zh-TW/blog"/>
+    <link rel="alternate" href="https://dev.datahighway.com/zh-TW/blog"/>
     <subtitle>DataHighway Developer Hub Blog</subtitle>
-    <icon>https://dev.datahighway.com/documentation/zh-TW/img/favicon.ico</icon>
+    <icon>https://dev.datahighway.com/zh-TW/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://dev.datahighway.com/documentation/zh-TW/blog/welcome"/>
+        <link href="https://dev.datahighway.com/zh-TW/blog/welcome"/>
         <updated>2021-05-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome! We'll be posting some development updates here as the development continues. :)]]></summary>
     </entry>
