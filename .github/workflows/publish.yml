@@ -39,6 +39,6 @@ jobs:
           echo "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_API_KEY }}" > .env
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           source .env
-          set
+          cat .env
           npm install
           npm run deploy
