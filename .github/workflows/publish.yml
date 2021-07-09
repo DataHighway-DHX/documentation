@@ -39,6 +39,11 @@ jobs:
           echo "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_API_KEY }}" > .env
           echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
           source .env
-          cat .env
-          npm install
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
           npm run deploy
