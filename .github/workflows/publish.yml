@@ -35,10 +35,5 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.GH_EMAIL }}
           git config --global user.name ${{ secrets.GH_NAME }}
-          touch .env
-          echo "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_KEY }}" > .env
-          echo "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }}" >> .env
-          echo "ALGOLIA_INDEX_NAME=datahighway" >> .env
-          source .env
           npm install
           npm run deploy
