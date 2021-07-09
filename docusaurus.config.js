@@ -170,7 +170,7 @@ const docusaurusConfig = {
 if (!process.env.DATAHIGHWAY_DOCS_DEV) {
   docusaurusConfig.themeConfig.algolia = {
     appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_KEY || 'demo-key',
+    apiKey: process.env.ALGOLIA_API_KEY,
     indexName: 'datahighway',
   }
 }
