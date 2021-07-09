@@ -47,6 +47,11 @@ const docusaurusConfig = {
     locales: ["en", "de", "zh-CN", "zh-TW"],
   },
   themeConfig: {
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'datahighway',
+    },
     liveCodeBlock: {
       /**
        * The position of the live playground, above or under the editor
@@ -166,13 +171,5 @@ const docusaurusConfig = {
     ],
   ],
 };
-
-if (!process.env.DATAHIGHWAY_DOCS_DEV) {
-  docusaurusConfig.themeConfig.algolia = {
-    appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_API_KEY,
-    indexName: 'datahighway',
-  }
-}
 
 module.exports = docusaurusConfig;
