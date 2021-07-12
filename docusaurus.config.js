@@ -13,12 +13,6 @@ const docusaurusConfig = {
         ],
       },
     ],
-    [
-      "docusaurus2-dotenv",
-      {
-        systemvars: false,
-      },
-    ],
   ],
   title: "DataHighway Developer Hub",
   tagline: "Complete develop documentation for the DataHighway DAO.",
