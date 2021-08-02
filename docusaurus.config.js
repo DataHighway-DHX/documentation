@@ -97,7 +97,7 @@ const docusaurusConfig = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          to: "docs/whitepaper",
+          to: "docs/whitepapers/whitepaper",
           position: "left",
           label: "Whitepaper",
           activeBasePath: "docs/whitepaper",
