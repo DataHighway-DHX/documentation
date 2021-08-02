@@ -1,19 +1,30 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+const math = require("remark-math");
+const katex = require("rehype-katex");
+require('dotenv').config();
+
 const docusaurusConfig = {
   plugins: [
     "@docusaurus/theme-live-codeblock",
     [
-      '@docusaurus/plugin-client-redirects',
+      "docusaurus2-dotenv",
       {
-        redirects: [
-          {
-            to: '/docs/whitepaper', // string
-            from: '/docs/en/whitepaper', // string | string[]
-          },
-        ],
+        path: '.env',
+        safe: false,
+        systemvars: true,
       },
     ],
+  [
+      '@docusaurus/plugin-client-redirects',
+{
+  redirects: [
+    {
+      to: '/docs/whitepaper', // string
+      from: '/docs/en/whitepaper', // string | string[]
+    },
   ],
+},
+],
+],
   title: "DataHighway Developer Hub",
   tagline: "Complete develop documentation for the DataHighway DAO.",
   customFields: {
@@ -85,7 +96,7 @@ const docusaurusConfig = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          to: "docs/whitepaper",
+          to: "docs/whitepapers/whitepaper",
           position: "left",
           label: "Whitepaper",
           activeBasePath: "docs/whitepaper",
@@ -152,6 +163,8 @@ const docusaurusConfig = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/DataHighway-DHX/documentation",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -166,5 +179,13 @@ const docusaurusConfig = {
     ],
   ],
 };
+
+if (!process.env.DATAHIGHWAY_DOCS_DEV) {
+  docusaurusConfig.themeConfig.algolia = {
+    appId: process.env.ALGOLIA_APP_ID,
+    apiKey: process.env.ALGOLIA_KEY || 'demo-key',
+    indexName: 'datahighway',
+  }
+}
 
 module.exports = docusaurusConfig;

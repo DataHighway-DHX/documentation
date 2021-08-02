@@ -1,0 +1,634 @@
+---
+id: shortpaper
+title: DataHighway's Shortpaper (DRAFT)
+sidebar_label: DataHighway's Shortpaper (DRAFT)
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import TOCInline from '@theme/TOCInline';
+
+# DataHighway Shortpaper
+
+:::caution
+This document is in draft status, and is intended to be an easier to understand version of the Whitepaper. There are some design differences between the two papers. We believe that these are improvements. However, if you are a DAO member (DHX Holder) feel free to provide feedback to this shortpaper in the form of a pull request.
+
+**To Review:**
+* Equation formatting is a mess --- can use some assistance cleaning it up.
+* Equations are being duplicated for unknown reasons
+* Unable to add stylesheets for equations as outlined in https://docusaurus.io/docs/markdown-features/math-equations
+* We need to better outline advocacy and developer mining as well as signalling.
+* Proposal for secure hardware to receive its own MB.
+
+**To be clear -- this document is incomplete, and requires additional work.**
+:::
+
+## Table of Contents
+<TOCInline toc={toc} />
+
+## Summary
+DataHighway is a blockchain solution with the purpose of managing and trading data for AI and scientific purposes. As such, it provides a multi-faceted opportunity for AI developers, scientific researchers, data miners, and blockchain enthusiasts. Naturally, these groups can also overlap, providing multiple opportunities for individuals to participate in the DataHighway.
+
+### Blockchain Enthusiasts
+
+Blockchain enthusiasts can participate in the DataHighway blockchain through a concept called “mining”. DataHighway block confirmation is done through Nominated Proof-of-Stake (NPoS), however there are additional ways to earn the DataHighway token (DHX). DataHighway uses Proof-of-Participation (PoP) to provide DHX rewards to participants completing specific actions to support the DataHighway. These actions include promoting the DataHighway, connecting hardware with the DataHighway, and bonding DHX or other tokens supported by the DataHighway.
+
+Blockchain enthusiasts can further participate in the **governance** of the DataHighway blockchain. DataHighway is a Decentralized Autonomous Organization (DAO), making it an organization run by the community holding the DHX token. Token holders can create referendums on the network outlining steps the DAO should take, such as items that should be developed or token allocations for specific marketing activities. These referendums will be voted on by the DataHighway community using the DHX token. It is by using this method that we ensure that those invested in the DataHighway will determine the future of the blockchain.
+
+### AI Developers
+DataHighway integrates with [MXC Supernodes](https://www.mxc.org/mxc-supernode) to provide an end-to-end network of hardware devices that collect data and share it with a digital marketplace for purchase. At the core of this network is blockchain integration, so developers can be certain that the data they are purchasing is accurate and reliable.
+
+### Data Miners
+DataHighway makes real-world data mining easier than ever before. By integrating with the MXC Supernode network, DataHighway data miners have access to a global, low power, wireless network. DataHighway enhances this network by making it possible for data miners to connect their sensors to the network directly, without purchasing the additional hardware commonly needed to create a network for data collection. Sensors using the DataHighway solution, will be able to travel between network providers without any additional configuration.
+
+## Mining DHX
+Mining the DHX tokens can be done through a traditional mining approach by hosting a validator, becoming a nominator, or by interacting with and supporting the DataHighway. Traditional mining is done through block generation and confirmation by hosting a nominator or network validator. DataHighway adds additional mining opportunities using Proof-of-Participation (PoP).
+
+By implementing PoP, DataHighway rewards participants for supporting the DataHighway blockchain. Each day 5000 DHX is generated and distributed among mining participants. A twenty-percent (20%) proportion of this 5000 DHX is allocated to validators and nominators. The remaining tokens are provided to the treasury to be distributed to the remaining miners through PoP. This distribution is determined by each participant’s Mining Power (mPower).
+
+**All newly minted DHX has a cooling-off period of 7 days. During this time it will not be possible to bond, restake, withdraw or sell this DHX. **
+
+### Validators and Nominators
+Validators are the block builders of the DataHighway and are rewarded with 20 percent of all generated DHX.
+
+Validator trust is established using a Nominated Proof-of-Stake (NPoS) model. Any person holding DHX is encouraged to act as a nominator by bonding DHX to validators they trust. Validators that are elected into the active validator set share a portion of the staking rewards. The validator owner decides what commission rate percentage they want to take as income and the remaining percentage is shared with their nominators.
+
+Nominating a validator also holds a level of risk. If the validator behaves poorly, nominators and the validator will either have a portion of the bond slashed, or a portion of their potential rewards.
+
+If a nominator chooses to unbond their token, there is a cooldown period of 7 days. During this period they will not receive any staking rewards from bonding with validators and they will not be able to transfer their token.
+
+#### Validator Estimated ROI
+<table>
+    <tr>
+        <td>Year
+        </td>
+        <td>Revenue (DHX)  \
+            Per Validator \
+            Per Year \
+            (Excluding MSB & MLB)
+        </td>
+        <td>Max. Revenue (DHX) \
+            Per Validator Per Year (Including Max MSB of 60% & Max MLB of 20%
+        </td>
+        <td>Cost (DHX)
+            <p>
+                Per Validator Per Year (Excluding MSB & MLB)
+            </p>
+        </td>
+        <td>ROI
+            <p>
+                (Profit Factor)
+                <p>
+                    Per Validator Per Year (Excluding MSB & MLB)
+                </p>
+            </p>
+        </td>
+        <td>ROI \
+            (Profit Factor) \
+            \
+            Per Validator Per Year
+            <p>
+                (Including MSB & MLB)
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>2020 - 2023
+        </td>
+        <td>1752
+        </td>
+        <td>2803.2
+        </td>
+        <td>120
+        </td>
+        <td>14.6
+        </td>
+        <td>23.36
+        </td>
+    </tr>
+    <tr>
+        <td>2024-2027
+        </td>
+        <td>876
+        </td>
+        <td>1401.6
+        </td>
+        <td>120
+        </td>
+        <td>7.3
+        </td>
+        <td>11.68
+        </td>
+    </tr>
+    <tr>
+        <td>2028 - 2031
+        </td>
+        <td>438
+        </td>
+        <td>700.8
+        </td>
+        <td>120
+        </td>
+        <td>3.65
+        </td>
+        <td>5.84
+        </td>
+    </tr>
+</table>
+*Table 1: Validator Estimated Combined ROI*
+
+###Proof of Participation
+#### The 10:1 Rule
+Mining DHX through Proof of Participation requires you to take an active role in DHX governance. To accomplish this, in order to mine DHX, you must first have DHX bonded to a governance council member. This bonded DHX functions as the “limiter” to your mining potential. In order to mine 1 DHX in one day, you need to have both enough mPower and 10 DHX bonded. The bonded DHX must also go through a 7 day cooling-off period. This means that to mine 1 DHX per day for a week, you would need to have 70 DHX bonded.
+
+$$
+amountToMiner * 70 = bondedDhxRequired
+$$
+*Equation 1: Bonding requirement to eligible to mine DHX*
+
+#### Understanding mPower
+mPower is used to determine how mining rewards are distributed. By participating in different actions, you gain mPower. Your total resulting mPower is generally determined by combining two variables. These include:
+
+Mining Base (MB)
+Mining Speed Bonus (MSB)
+
+Your mPower is equal to:
+$$
+mPower = (MB * MSB ) + MHB + SHM
+$$
+*Equation 2: mPower Equation*
+
+##### Mining Base (MB)
+MB is the base mining amount and only applies to token mining (i.e. mining DHX by locking other tokens). The MB may vary depending on both the token and it’s value in relation to DHX.
+
+Each category of mining has its own role to play on the DHX blockchain. Tokens can be voted into different categories through governance. Each category of mining has a different “category multiplier” (CM), determining how much mPower you will get based on the amount of token you have locked.
+
+<table>
+    <tr>
+        <td>Token Category
+        </td>
+        <td>CM
+        </td>
+        <td>Equation
+        </td>
+    </tr>
+    <tr>
+        <td>Category 1 (DHX, MXC)
+        </td>
+        <td>1.0
+        </td>
+        <td>
+            MB = sumToken * M
+        </td>
+    </tr>
+    <tr>
+        <td>Category 2 (E.IOTA, DOT)
+        </td>
+        <td>0.2
+        </td>
+        <td rowspan="2" >
+            MB = sumToken * M * min(dhxExchangeRate, 1)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 3 (H.BTC, Filecoin, OKB)
+        </td>
+        <td>0.1
+        </td>
+    </tr>
+</table>
+*Table 3: Calculating Mining Boost (MB) based on Token Categories*
+
+The DHX exchange rate will initially be determined using the API provided by CoinGecko. Following this, DHX will use a series of Oracles to individually confirm the exchange rate.
+
+E.IOTA is a pegged Ethereum ERC-20 IOTA token. In order to participate with IOTA, a user will signal their IOTA holdings using their IOTA wallet. E.IOTA will then be assigned to the user for their use in DHX mining until the original IOTA wallet balance changes.
+
+H.BTC is Huobi BTC, and functions much in the same way as E.IOTA.
+
+##### Secure Hardware Mining (SHM)
+:::tip
+This is a proposal to directly apply MB to SHM, in contrast to only providing a MSB
+:::
+SHM is an essential part of building the DataHighway, and therefore receives its own MB. The MB per SHM device is unique to that device, and is determined through governance. Once a SHM device is accepted, the MB additional provided by this device will not change unless it no longer meets one of the following requirements:
+* Receives regular security updates (defined as quarterly updates)
+* etc
+
+##### Mining Speed Bonus (MSB)
+
+A MSB applies to both ICBAM* (token mining) and Non-ICBAM** (e.g. hardware, development, advocacy and governance mining).
+
+MSB is calculated by summing the Mining Duration Bonus (MDB), and the Mining Diversity Threshold (MDT):
+
+$$
+MSB = 1 + Σ(MDB, MDT)
+$$
+*Equation 3: Calculating Mining Speed Boost (MSB)*
+
+###### Mining Diversity Threshold (MDT)
+The MDT functions as an incentive for miners to diversify their mining by adding a PoP Non-ICBAM mining method, such as becoming a validator or nominator.
+
+It applies a Mining Diversity Threshold Limit (MDTL) on the MSB unless PoP ICBAM (token) miners diversify and simultaneously participate in PoP Non-ICBAM (e.g. hardware, development, advocacy, or governance) mining to at least a Mining Diversity Threshold Qualifying Extent (MDTQE) of diversification that is measured by their Non-ICBAM MSB.
+
+For example, if the MDTL is configured as 1.1 and the MDTQE is 1.25, then the miner should be encouraged to try to achieve a Non-ICBAM MSB of at least 1.25 by perhaps participating in hardware mining, instead of just participating in ICBAM (token) mining, otherwise their ICBAM (token) mining MSB will be limited to a maximum of 1.1.
+
+###### Mining Duration Bonus (MDB)
+
+The duration of the ICBAM (token mining), which is referred to as DHX Mining in the DataDash app, also plays a role in how MSB is calculated. Longer lock durations contribute to the overall stability of the DHX token value and are therefore rewarded by the network. The original MSB is then multiplied by the MDB’s duration bonus multiplier (the associated percentage is referred to as the “boost” in the DataDash app). You can view the duration bonus multiplier for A (DHX Mining) in the table below. The boost percentage for Categories 2 and Category 3 are calculated as follows, where C is the other category number.
+
+$$
+Category C “boost” % = Category 1 “boost” % x Category C “category multiplier” (CM)
+$$
+*Equation 4: Calculating the Mining Duration Bonus (MDB) for a Token Category*
+<table>
+    <tr>
+        <td>Token Category
+        </td>
+        <td>3 months
+        </td>
+        <td>9 months
+        </td>
+        <td>12 months
+        </td>
+        <td>24 months
+        </td>
+    </tr>
+    <tr>
+        <td>Category 1
+        </td>
+        <td>1.00 (0% boost)
+        </td>
+        <td>1.10 (10%)
+        </td>
+        <td>1.20 (20%)
+        </td>
+        <td>1.40 (40%)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 2
+        </td>
+        <td>1.00 (0% boost)
+        </td>
+        <td>1.02 (2%)
+        </td>
+        <td>1.04 (4%)
+        </td>
+        <td>1.08 (8%)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 3
+        </td>
+        <td>1.00 (0% boost)
+        </td>
+        <td>1.01 (1%)
+        </td>
+        <td>1.02 (2%)
+        </td>
+        <td>1.04 (4%)
+        </td>
+    </tr>
+</table>
+
+*Table 4: Calculating ICBAM Mining Duration Bonus (MDB) using Token Category and Lock Duration*
+
+$$
+MDB = Σ(A, B)
+$$
+
+*Equation 5: Calculating the total Mining Duration Bonus (MDB)*
+
+The MDB is the sum of:
+* A: ICBAM (token mining) MDB, which is DHX Mining, with a maximum value of 0.4 (e.g. 40%, which is shown as 1.4 in Table 4), and;
+* B: Non-ICBAM MDB also with a maximum value of 0.4. This excludes hardware mining since that is covered separately by MHB.
+
+##### Mining Hardware Bonus (MHB)
+
+Different hardware (HW) devices connected with the network have a MHB specific to the category of hardware connected.
+
+If you have a MHB, then this would add a boost to your total mPower, applied to the total mPower including all other bonuses. For example, if you have a Category 1 piece of hardware, the bonus would be applied as:
+
+$$
+min(mPower, HW#  1,000,000)
+$$
+
+*Equation 6: Calculating the Mining Hardware Bonus (MHB)*
+
+Each mPower unit can be boosted only by 1 HW device, e.g. if we have 200k mPower from our Category 1 tokens and two Category 1 HW devices then the total mPower will equal 400k (since a MF of 2 is applied from Table 5), as only the 1st HW device may be boosted ***.
+
+<table>
+    <tr>
+        <td>Hardware Category
+        </td>
+        <td>Mining Factor (MF)
+        </td>
+        <td>Max amount of mPower that can apply per gateway (maxA)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 1
+        </td>
+        <td>2
+        </td>
+        <td>
+            1 millionmin(dhxExchangeRate, 1)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 2
+        </td>
+        <td>1.5
+        </td>
+        <td>
+            500,000min(dhxExchangeRate, 1)
+        </td>
+    </tr>
+    <tr>
+        <td>Category 3
+        </td>
+        <td>1.25
+        </td>
+        <td>
+            250,000 min(dhxExchangeRate, 1)
+        </td>
+    </tr>
+</table>
+
+*Table 5: Calculating Mining Hardware Bonus (MHB) using Hardware Category*
+
+
+:::caution
+Equation formatting is wrong
+:::
+$$
+MHB = (MB * MDB ) * ( MF * HW# - 1)		if  MHB < (maxA * HW#)
+MHB = maxA * HW#					else
+$$
+
+### Signalling
+:::caution
+This section needs work.
+:::
+Token Miners that wish to only signal (rather than locking) attract 10% of the lowest boost percentage associated with a MDB duration bonus multiplier.
+
+e.g. if a user locked Category 1 tokens for 12 months then the MDB’s duration bonus multiplier from Table 4 would be 1.2 (20% boost), however if they chose to signal them instead then only 10% of that multiplier would apply, so they would get 1.02 (2% boost) instead.
+
+### Developer Mining
+:::caution
+This section needs work.
+:::
+Incubate runtime and decentralised App (dApp) development on DataHighway through DHX funding (e.g. dApps, bounties).
+
+### Advocacy Mining
+:::caution
+This section needs work.
+:::
+
+## DataHighway DAO
+
+DataHighway shall function autonomously as a Decentralized Autonomous Organization (DAO). Each organizational decision for the DataHighway will be made by the individuals participating in the network. In this way a business or development referendum can be made that is then voted on by the community using DHX tokens. When a referendum is approved, the proposed bounty for that action can then be claimed by the individual or organization that completes that task that is then accepted by the community. In this way, the community not only decides how DataHighway will function, it also has further opportunities to earn DHX.
+
+Naturally to stimulate the promotion and development of the DataHighway, 30% of the total genesis DHX supply has been assigned as unlocked reserves in the DHX Treasury.
+
+#### Economic Configuration
+The initial economic variables shown in the table below were decided upon through optioneering and may be further configured. The DHX DAO may elect to make a protocol change these economic variables.
+
+<table>
+    <tr>
+        <td>Genesis Total Supply (Monetary Base)
+        </td>
+        <td>100,000,000
+        </td>
+    </tr>
+    <tr>
+        <td>Genesis DHX DAO Treasury Unlocked Reserves
+        </td>
+        <td>30,000,000
+        </td>
+    </tr>
+    <tr>
+        <td>Remaining Genesis Supply
+        </td>
+        <td>70,000,000
+        </td>
+    </tr>
+    <tr>
+        <td>Genesis Estimated Staking Participation Validator Size
+        </td>
+        <td>100
+        </td>
+    </tr>
+    <tr>
+        <td>Exchange Rate (USD per DHX) Assumption
+        </td>
+        <td>1
+        </td>
+    </tr>
+    <tr>
+        <td>Block Production / Mining Time (estimated block time 9 seconds)
+        </td>
+        <td>4.32
+        </td>
+    </tr>
+    <tr>
+        <td>Initial Block Reward
+        </td>
+        <td>0.250000000000
+        </td>
+    </tr>
+    <tr>
+        <td>Block Reward Validator Fees (percent of Annual Supply)
+        </td>
+        <td>20%
+        </td>
+    </tr>
+    <tr>
+        <td>Block Reward Treasury Fees (percent of Annual Supply)
+        </td>
+        <td>80%
+        </td>
+    </tr>
+    <tr>
+        <td>Halving Cycle Duration (Years)
+        </td>
+        <td>4
+        </td>
+    </tr>
+</table>
+
+*Table 5: DataHighway Economic Variables*
+
+The issuance of the DHX token is through either:
+
+* Block Authoring / Production Rewards - DHX distributed to NPoS Validators for producing a block
+* Unfreezing DAO Treasury Unlocked Reserves - DHX entitlements claimed through DAO approval in a democratic way
+* Decentralised / Centralized Exchange - DHX exchanged for other assets
+
+#### Treasury
+At genesis, the treasury will hold 30% of the genesis total supply of DHX. These tokens are to be used for the promotion and further development of the DataHighway. In order for these tokens to be distributed, a referendum must be created and accepted with stakeholder consensus through the Governance process.
+
+The treasury is also the source of token rewards for PoP mining activities. During block development, 80% of all created DHX is then assigned to the treasury to be distributed through PoP based on participants’ mPower.
+
+The maximum amount of DHX distributed for PoP proposals is less than 1000 per day.
+
+#### Halving
+The initial token issuance halving inflation strategy cycle (halving of the block production reward) shall occur every four (4) years using the "Decreasing-Supply Algorithm".
+
+<table>
+    <tr>
+        <td>Year
+        </td>
+        <td>Halving Cycle
+        </td>
+        <td>Halving Factor
+        </td>
+        <td>Block Reward
+        </td>
+        <td>Remaining Total Supply (DHX)
+        </td>
+    </tr>
+    <tr>
+        <td>2020
+        </td>
+        <td>1
+        </td>
+        <td>1
+        </td>
+        <td>0.25
+        </td>
+        <td>68029000
+        </td>
+    </tr>
+    <tr>
+        <td>2021
+        </td>
+        <td>1
+        </td>
+        <td>1
+        </td>
+        <td>0.25
+        </td>
+        <td>66058000
+        </td>
+    </tr>
+    <tr>
+        <td>2022
+        </td>
+        <td>1
+        </td>
+        <td>1
+        </td>
+        <td>0.25
+        </td>
+        <td>64087000
+        </td>
+    </tr>
+    <tr>
+        <td>2023
+        </td>
+        <td>1
+        </td>
+        <td>1
+        </td>
+        <td>0.25
+        </td>
+        <td>62116000
+        </td>
+    </tr>
+    <tr>
+        <td>2024
+        </td>
+        <td>2
+        </td>
+        <td>0.5
+        </td>
+        <td>0.125
+        </td>
+        <td>61130500
+        </td>
+    </tr>
+    <tr>
+        <td>2025
+        </td>
+        <td>2
+        </td>
+        <td>0.5
+        </td>
+        <td>0.125
+        </td>
+        <td>60145000
+        </td>
+    </tr>
+    <tr>
+        <td>2026
+        </td>
+        <td>2
+        </td>
+        <td>0.5
+        </td>
+        <td>0.125
+        </td>
+        <td>59159500
+        </td>
+    </tr>
+    <tr>
+        <td>2027
+        </td>
+        <td>2
+        </td>
+        <td>0.5
+        </td>
+        <td>0.125
+        </td>
+        <td>58174000
+        </td>
+    </tr>
+    <tr>
+        <td>2028
+        </td>
+        <td>3
+        </td>
+        <td>0.25
+        </td>
+        <td>0.0625
+        </td>
+        <td>57681250
+        </td>
+    </tr>
+    <tr>
+        <td>2029
+        </td>
+        <td>3
+        </td>
+        <td>0.25
+        </td>
+        <td>0.0625
+        </td>
+        <td>57188500
+        </td>
+    </tr>
+    <tr>
+        <td>2030
+        </td>
+        <td>3
+        </td>
+        <td>0.25
+        </td>
+        <td>0.0625
+        </td>
+        <td>56695750
+        </td>
+    </tr>
+</table>
+Note: Calculations after 2030 are not shown for brevity.
+*Table 6: DataHighway Initial Token Issuance Halving Inflation Strategy Cycle*
+
+### Governance
+All DHX DAO decisions shall be made through on-chain governance once the temporary Sudo and a Multisig control of the DHX DAO Treasury Unlocked Reserves are removed, and will function much in the same way as [Polkadot Governance](https://wiki.polkadot.network/docs/en/learn-governance), with some exceptions.
+
+Participation in DataHighway Governance is required in order to take advantage of PoP mining. This participation takes the form of bonding DHX to a council member, or potential council member. This bonded DHX helps to ensure that all participants in the DataHighway work together to determine who should be on the council. If a council member is not chosen, and is not shortlisted, DHX tokens belonging to the participant that they bonded will be unbonded and returned to them automatically. They must then rebond those tokens to a different council member or candidate in order to continue PoP mining.
+
+##### Governance through MXC Supernodes a broker:
+Each MXC Supernode is viewed as a single identity on the DataHighway, thereby acting as a broker for all participants that have chosen them. When mining on an MXC Supernode, a portion of each participants’ mPower goes to a council chair, who then acts as a proxy on behalf of them when determining how an MXC Supernode will vote on a referendum. All council chairs will be required to vote on each referendum, otherwise the council chair benefit will be slashed.
+
+Once participant votes are tallied for an MXC Supernode, its council chair will submit its vote using the DHX tokens that participants bonded using the 10:1 rule.
+
+If there are multiple councils on an MXC Supernode, then the council with the most mPower on that MXC Supernode will be determined as its "Primary Council". The vote from that MXC Supernode will be automatically cast based on the decision of its Primary Council.
