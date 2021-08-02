@@ -1,4 +1,3 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
 const math = require("remark-math");
 const katex = require("rehype-katex");
 require('dotenv').config();
