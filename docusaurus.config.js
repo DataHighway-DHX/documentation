@@ -14,7 +14,18 @@ const docusaurusConfig = {
         systemvars: true,
       },
     ],
+  [
+      '@docusaurus/plugin-client-redirects',
+{
+  redirects: [
+    {
+      to: '/docs/whitepaper', // string
+      from: '/docs/en/whitepaper', // string | string[]
+    },
   ],
+},
+],
+],
   title: "DataHighway Developer Hub",
   tagline: "Complete develop documentation for the DataHighway DAO.",
   customFields: {
@@ -36,11 +47,18 @@ const docusaurusConfig = {
   favicon: "img/favicon.ico",
   organizationName: "DataHighway-DHX", // Usually your GitHub org/user name.
   projectName: "documentation", // Usually your repo name.
+  trailingSlash: false,
   i18n: {
     defaultLocale: "en",
     locales: ["en", "de", "zh-CN", "zh-TW"],
   },
   themeConfig: {
+  /*
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'datahighway',
+    },*/
     liveCodeBlock: {
       /**
        * The position of the live playground, above or under the editor
@@ -79,7 +97,7 @@ const docusaurusConfig = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          to: "docs/whitepapers/whitepaper",
+          to: "docs/whitepaper",
           position: "left",
           label: "Whitepaper",
           activeBasePath: "docs/whitepaper",
@@ -166,11 +184,9 @@ const docusaurusConfig = {
 if (!process.env.DATAHIGHWAY_DOCS_DEV) {
   docusaurusConfig.themeConfig.algolia = {
     appId: process.env.ALGOLIA_APP_ID,
-    apiKey: process.env.ALGOLIA_API_KEY || "demo-key",
-    indexName: `${process.env.ALGOLIA_INDEX_NAME}` || "datahighway",
-    // Optional https://docusaurus.io/docs/search#contextual-search
-    // contextualSearch: true,
-  };
+    apiKey: process.env.ALGOLIA_KEY || 'demo-key',
+    indexName: 'datahighway',
+  }
 }
 
 module.exports = docusaurusConfig;
