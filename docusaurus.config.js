@@ -18,7 +18,7 @@ const docusaurusConfig = {
 {
   redirects: [
     {
-      to: '/docs/whitepaper', // string
+      to: '/docs/whitepapers/whitepaper', // string
       from: '/docs/en/whitepaper', // string | string[]
     },
   ],
