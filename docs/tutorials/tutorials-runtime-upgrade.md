@@ -36,7 +36,7 @@ sidebar_label: Runtime Upgrade
 
 * Click "Submit Transaction" and then "Sign and Submit".
 
-![Submit Preimage](/static/img/tutorial/submit_preimage.png "Submit Preimage")
+![Submit Preimage](/img/tutorial/submit_preimage.png "Submit Preimage")
 
 ### Step 3: Submit the Proposal
 
@@ -48,7 +48,7 @@ sidebar_label: Runtime Upgrade
 
 * Click the _Submit proposal_ button and sign the transaction
 
-![Submit Proposal](/static/img/tutorial/submit_proposal.png "Submit Proposal")
+![Submit Proposal](/img/tutorial/submit_proposal.png "Submit Proposal")
 
 ### Step 4: Seconding the Proposal
 
@@ -56,11 +56,11 @@ sidebar_label: Runtime Upgrade
 
 * Verify the number of tokens required to second the proposal and Click the "Second" button and sign the transaction
 
-![Second Proposal1](/static/img/tutorial/second_proposal1.png "Second Proposal1")
+![Second Proposal1](/img/tutorial/second_proposal1.png "Second Proposal1")
 
-![Second Proposal2](/static/img/tutorial/second_proposal2.png "Second Proposal2")
+![Second Proposal2](/img/tutorial/second_proposal2.png "Second Proposal2")
 
-![Second Proposal3](/static/img/tutorial/second_proposal3.png "Second Proposal3")
+![Second Proposal3](/img/tutorial/second_proposal3.png "Second Proposal3")
 
 ### Step 5: Voting on the Proposal
 
@@ -70,21 +70,21 @@ sidebar_label: Runtime Upgrade
 
 * If the proposal passes, it is enacted after a certain amount of time
 
-![Vote1](/static/img/tutorial/vote1.png "Vote1")
+![Vote1](/img/tutorial/vote1.png "Vote1")
 
-![Vote2](/static/img/tutorial/vote2.png "Vote2")
+![Vote2](/img/tutorial/vote2.png "Vote2")
 
-![Vote3](/static/img/tutorial/vote3.png "Vote3")
+![Vote3](/img/tutorial/vote3.png "Vote3")
 
 ### Step 6: Dispatch
 
 * After the voting period has expired, the proposal will be visible under the "Dispatch" tab if approved.
 
-![Dispatch](/static/img/tutorial/dispatch.png "Dispatch")
+![Dispatch](/img/tutorial/dispatch.png "Dispatch")
 
 After the dispatch period has expired, Runtime_upgrade will start and you can see upgraded version on top left corner.
 
-![Runtime](/static/img/tutorial/runtime.png "Runtime")
+![Runtime](/img/tutorial/runtime.png "Runtime")
 
 
 ### Reference
