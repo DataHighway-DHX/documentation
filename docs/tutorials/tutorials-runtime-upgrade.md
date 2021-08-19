@@ -56,6 +56,36 @@ sidebar_label: Runtime Upgrade
 
 * Verify the number of tokens required to second the proposal and Click the "Second" button and sign the transaction
 
+![Second Proposal1](/static/img/tutorial/second_proposal1.png "Second Proposal1")
+
+![Second Proposal2](/static/img/tutorial/second_proposal2.png "Second Proposal2")
+
+![Second Proposal3](/static/img/tutorial/second_proposal3.png "Second Proposal3")
+
+### Step 5: Voting on the Proposal
+
+* The most seconded proposal moves to public referendum
+
+* Once in referendum, token holders vote "Aye" or "Nay" on the proposal by locking tokens. Two factors account the vote weight: amount locked and locking period
+
+* If the proposal passes, it is enacted after a certain amount of time
+
+![Vote1](/static/img/tutorial/vote1.png "Vote1")
+
+![Vote2](/static/img/tutorial/vote2.png "Vote2")
+
+![Vote3](/static/img/tutorial/vote3.png "Vote3")
+
+### Step 6: Dispatch
+
+* After the voting period has expired, the proposal will be visible under the "Dispatch" tab if approved.
+
+![Dispatch](/static/img/tutorial/dispatch.png "Dispatch")
+
+After the dispatch period has expired, Runtime_upgrade will start and you can see upgraded version on top left corner.
+
+![Runtime](/static/img/tutorial/runtime.png "Runtime")
+
 
 ### Reference
 * [Participating in Democracy on Kusama and Polkadot](https://wiki.polkadot.network/docs/maintain-guides-democracy/#proposing-an-action)
