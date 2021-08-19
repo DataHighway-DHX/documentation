@@ -89,3 +89,5 @@ After the dispatch period has expired, Runtime_upgrade will start and you can se
 
 ### Reference
 * [Participating in Democracy on Kusama and Polkadot](https://wiki.polkadot.network/docs/maintain-guides-democracy/#proposing-an-action)
+
+**Important:** If you want to test locally, you may need to modify the current runtime configuration of democracy module such as Launch Period, EnactmentPeriod and Voting Period.
