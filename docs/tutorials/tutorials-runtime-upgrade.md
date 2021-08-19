@@ -25,8 +25,6 @@ sidebar_label: Runtime Upgrade
 
 * The first step is to submit a preimage of the proposal. Click on _Submit preimage_
 
-* Choose _sudo_ as extrinsic and select _sudoUncheckedWeight_ as function
-
 * Choose _system_ as call and _setCode_ as function 
 
 * Click the _code_ input field, and select the Wasm binary that defines the upgraded runtime: 
@@ -38,7 +36,6 @@ sidebar_label: Runtime Upgrade
 
 * Click "Submit Transaction" and then "Sign and Submit".
 
-
 ### Step 3: Submit the Proposal
 
 * Select the account from which you want to submit the proposal. 
@@ -48,6 +45,12 @@ sidebar_label: Runtime Upgrade
 * Set the locked balance. 
 
 * Click the _Submit proposal_ button and sign the transaction
+
+### Step 4: Seconding the Proposal
+
+* Select the account to second the proposal
+
+* Verify the number of tokens required to second the proposal and Click the "Second" button and sign the transaction
 
 
 ### Reference
