@@ -36,6 +36,8 @@ sidebar_label: Runtime Upgrade
 
 * Click "Submit Transaction" and then "Sign and Submit".
 
+![Submit Preimage](/static/img/tutorial/submit_preimage.png "Submit Preimage")
+
 ### Step 3: Submit the Proposal
 
 * Select the account from which you want to submit the proposal. 
@@ -45,6 +47,8 @@ sidebar_label: Runtime Upgrade
 * Set the locked balance. 
 
 * Click the _Submit proposal_ button and sign the transaction
+
+![Submit Proposal](/static/img/tutorial/submit_proposal.png "Submit Proposal")
 
 ### Step 4: Seconding the Proposal
 
