@@ -38,6 +38,8 @@ sidebar_label: Runtime Upgrade
 
 ![Submit Preimage](/img/tutorial/submit_preimage.png "Submit Preimage")
 
+**Important** If you forgot to copy the preimage hash, you can easily regenerate and copy it again by choosing the same extrinsic.(It won't allow to submit it again but you can get preimage hash.).
+
 ### Step 3: Submit the Proposal
 
 * Select the account from which you want to submit the proposal. 
@@ -62,6 +64,8 @@ sidebar_label: Runtime Upgrade
 
 ![Second Proposal3](/img/tutorial/second_proposal3.png "Second Proposal3")
 
+**Important** By seconding a proposal you will move it higher up the rank of proposals. The most seconded proposal — in value, not number of supporters — will be brought to a referendum every launch period. If nobody seconds a proposal, it would still reach to referendum.
+
 ### Step 5: Voting on the Proposal
 
 * The most seconded proposal moves to public referendum
@@ -75,6 +79,8 @@ sidebar_label: Runtime Upgrade
 ![Vote2](/img/tutorial/vote2.png "Vote2")
 
 ![Vote3](/img/tutorial/vote3.png "Vote3")
+
+**Important** If referendum does not pass due to any reason(Either nobody votes or more `Nay` and less `Aye`), you can re-submit proposal using same preimage hash.
 
 ### Step 6: Dispatch
 
