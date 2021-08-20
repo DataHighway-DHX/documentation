@@ -66,7 +66,7 @@ sidebar_label: Runtime Upgrade
 
 * The most seconded proposal moves to public referendum
 
-* Once in referendum, token holders vote "Aye" or "Nay" on the proposal by locking tokens. Two factors account the vote weight: amount locked and locking period
+* Once in referendum, token holders vote "Aye" or "Nay" on the proposal by locking tokens. Two factors account the vote weight: amount locked (i.e. conviction) and locking period
 
 * If the proposal passes, it is enacted after a certain amount of time
 
