@@ -38,7 +38,7 @@ sidebar_label: Runtime Upgrade
 
 ![Submit Preimage](/img/tutorial/submit_preimage.png "Submit Preimage")
 
-**Important** If you forgot to copy the preimage hash, you can easily regenerate and copy it again by choosing the same extrinsic.(It won't allow to submit it again but you can get preimage hash.).
+**Important** If you forgot to copy the preimage hash, you can easily regenerate and copy it again by choosing the same extrinsic (it won't allow to submit it again but you can get preimage hash).
 
 ### Step 3: Submit the Proposal
 
@@ -80,7 +80,7 @@ sidebar_label: Runtime Upgrade
 
 ![Vote3](/img/tutorial/vote3.png "Vote3")
 
-**Important** If referendum does not pass due to any reason(Either nobody votes or more `Nay` and less `Aye`), you can re-submit proposal using same preimage hash.
+**Important** If referendum does not pass due to any reason (either nobody votes or more `Nay` and less `Aye`), you can re-submit proposal using same preimage hash.
 
 ### Step 6: Dispatch
 
