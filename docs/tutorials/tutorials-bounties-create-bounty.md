@@ -57,6 +57,8 @@ The scope of the treasury spending proposal described in [Template Treasury Spen
 
 ### Bounty Spending Proposal Process <a id="bounty-spending-proposal-process"></a>
 
+A bounty spending proposal serves to allow delegation of the curation activity associated with a [Treasury Spending Proposal](#treasury-spending-proposal) from Council Members to Curators that are granted agency over a bounty-specific portion of the approved Treasury funds instead.
+
 ##### Prepare and Publish Bounty Spending Proposal
 
 * Curators prepare the bounty spending proposal using [Template Bounty Spending Proposal Work](#template-bounty-spending-proposal-work), which uses the bouny spending proposal checklist template to ensure all information necessary for Council to make an informed decision is provided https://docs.google.com/document/d/1-IBz_owspV5OcvezWXpksWDQReWowschD0TFuaVKKcU/edit?usp=sharing
