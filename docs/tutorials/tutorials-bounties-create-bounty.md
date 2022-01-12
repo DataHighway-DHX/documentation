@@ -154,8 +154,7 @@ A bounty spending proposal serves to allow delegation of the curation activity a
       * Detail the topics and categories that the bounty covers in granular detail to allow token holders to understand the logic behind it. 
 
   * Proposal objective and solution(s):
-    * [ ] Goals: [INPUT HERE]
-    * [ ] Objectives: [INPUT HERE]
+    * [ ] Goals and Objectives: [INPUT HERE]
     * [ ] Success Factors: [INPUT HERE]
     * [ ] Milestones & Budgets & Tools: [INPUT HERE]
     * [ ] Solution Details: [INPUT HERE]
