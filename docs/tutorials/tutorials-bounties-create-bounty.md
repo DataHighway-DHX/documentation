@@ -113,7 +113,7 @@ A bounty spending proposal serves to allow delegation of the curation activity a
 
 ##### Prepare Template of the Bounty Spending Proposal Work <a id="template-bounty-spending-proposal-work"></a>
 
-* [ ] Bounty Spending Proposal: [TITLE OF PROPOSAL]
+* [ ] Bounty Spending Proposal Title: [TITLE OF PROPOSAL]
 > HINT: (i.e. Request Funding for Bounty Proposal #???)
 
 * [ ] Proponent: [DOT Address]
