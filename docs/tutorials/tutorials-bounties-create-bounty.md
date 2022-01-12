@@ -155,7 +155,6 @@ A bounty spending proposal serves to allow delegation of the curation activity a
 
   * Proposal objective and solution(s):
     * [ ] Goals: [INPUT HERE]
-    * [ ] Success Criteria: [INPUT HERE]
     * [ ] Objectives: [INPUT HERE]
     * [ ] Success Factors: [INPUT HERE]
     * [ ] Milestones & Budgets & Tools: [INPUT HERE]
