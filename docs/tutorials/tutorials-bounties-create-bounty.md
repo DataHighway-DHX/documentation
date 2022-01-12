@@ -146,8 +146,7 @@ A bounty spending proposal serves to allow delegation of the curation activity a
 
   * Problem statement:
     * [ ] Problem Statement: [INPUT HERE]
-    * [ ] Topic Details: [INPUT HERE]
-    * [ ] Category Details: [INPUT HERE]
+    * [ ] Topic and Category Details: [INPUT HERE]
 
     > HINT:
       * Explain using bullet points what problem the proposal is trying to solve
