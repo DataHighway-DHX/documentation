@@ -51,9 +51,7 @@ The scope of the treasury spending proposal described in [Template Treasury Spen
 
 * Bounty Spending Proposal ID: [INPUT HERE]
 
-* Beneficiaries: [INPUT HERE]
-
-> HINT: List the beneficiaries, how they will each contribute to the treasury spending proposal or the associated bounty spending proposal, and the proportion of the funds that will be distributed to them.
+* Beneficiary: [DOT Address]
 
 ### Bounty Spending Proposal Process <a id="bounty-spending-proposal-process"></a>
 
@@ -129,6 +127,10 @@ A bounty spending proposal serves to allow delegation of the curation activity a
 * Proposed Curator reward: [INPUT HERE]
 
 > HINT: Curators receive a percentage proportion of the the chosen bounty applicant value. The percentage is determined by the Proponent. CURATORS_FEE = TOTAL_BOUNTY_VALUE - BOUNTY_WORKERS_FEE 
+
+* Beneficiary:
+
+> HINT: Explain how the beneficiary (i.e. Curator) will contribute to the treasury spending proposal or the associated bounty spending proposal, and the how they will distribute a proportion of the funds to others, and who else will receive the funds and why.
 
 * Short description:
   * Context of the bounty:
