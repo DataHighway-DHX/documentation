@@ -41,17 +41,17 @@ The scope of the treasury spending proposal described in [Template Treasury Spen
 
 ##### Prepare Template of the Treasury Spending Proposal <a id="template-treasury-spending-proposal-work"></a>
 
-* Treasury Proposal: [TITLE OF PROPOSAL]
+* [ ] Treasury Proposal: [TITLE OF PROPOSAL]
 
-* Proponent: [DOT Address]
+* [ ] Proponent: [DOT Address]
 
 > HINT: Use the identity module on the address before submission of proposal to allow more certainty on the voting process
 
-* Date: DD.MM.YYYY
+* [ ] Date: DD.MM.YYYY
 
-* Bounty Spending Proposal ID: [INPUT HERE]
+* [ ] Bounty Spending Proposal ID: [INPUT HERE]
 
-* Beneficiary: [DOT Address]
+* [ ] Beneficiary: [DOT Address]
 
 ### Bounty Spending Proposal Process <a id="bounty-spending-proposal-process"></a>
 
@@ -113,53 +113,53 @@ A bounty spending proposal serves to allow delegation of the curation activity a
 
 ##### Prepare Template of the Bounty Spending Proposal Work <a id="template-bounty-spending-proposal-work"></a>
 
-* Bounty Spending Proposal: [TITLE OF PROPOSAL]
+* [ ] Bounty Spending Proposal: [TITLE OF PROPOSAL]
 > HINT: (i.e. Request Funding for Bounty Proposal #???)
 
-* Proponent: [DOT Address]
+* [ ] Proponent: [DOT Address]
 
 > HINT: Use the identity module on the address before submission of proposal to allow more certainty on the voting process
 
-* Date: DD.MM.YYYY
+* [ ] Date: DD.MM.YYYY
 
-* Requested allocation value: [INPUT HERE]
+* [ ] Requested allocation value: [INPUT HERE]
 
-* Proposed Curator reward: [INPUT HERE]
+* [ ] Proposed Curator reward: [INPUT HERE]
 
 > HINT: Curators receive a percentage proportion of the the chosen bounty applicant value. The percentage is determined by the Proponent. CURATORS_FEE = TOTAL_BOUNTY_VALUE - BOUNTY_WORKERS_FEE 
 
-* Beneficiary:
+* [ ] Beneficiary:
 
 > HINT: Explain how the beneficiary (i.e. Curator) will contribute to the treasury spending proposal or the associated bounty spending proposal, and the how they will distribute a proportion of the funds to others, and who else will receive the funds and why.
 
 * Short description:
   * Context of the bounty:
-    * Context: [INPUT HERE]
+    * [ ] Context: [INPUT HERE]
 
     > HINT: Add context of any points discussed in advance in any channel related to the bounty proposal and background research for your project.
 
   * Topic and categories of the bounty:
-    * Topic: [INPUT HERE]
-    * Categories: [INPUT HERE]
+    * [ ] Topic: [INPUT HERE]
+    * [ ] Categories: [INPUT HERE]
 
     > HINT: Add the central topic of the bounty, and the general categories and topics it should be included in.
 
   * Problem statement:
-    * Problem Statement: [INPUT HERE]
-    * Topic Details: [INPUT HERE]
-    * Category Details: [INPUT HERE]
+    * [ ] Problem Statement: [INPUT HERE]
+    * [ ] Topic Details: [INPUT HERE]
+    * [ ] Category Details: [INPUT HERE]
 
     > HINT:
       * Explain using bullet points what problem the proposal is trying to solve
       * Detail the topics and categories that the bounty covers in granular detail to allow token holders to understand the logic behind it. 
 
   * Proposal objective and solution(s):
-    * Goals: [INPUT HERE]
-    * Success Criteria: [INPUT HERE]
-    * Objectives: [INPUT HERE]
-    * Success Factors: [INPUT HERE]
-    * Milestones & Budgets & Tools: [INPUT HERE]
-    * Solution Details: [INPUT HERE]
+    * [ ] Goals: [INPUT HERE]
+    * [ ] Success Criteria: [INPUT HERE]
+    * [ ] Objectives: [INPUT HERE]
+    * [ ] Success Factors: [INPUT HERE]
+    * [ ] Milestones & Budgets & Tools: [INPUT HERE]
+    * [ ] Solution Details: [INPUT HERE]
 
     > HINT:
       * Explain what the goal of the bounty is?
