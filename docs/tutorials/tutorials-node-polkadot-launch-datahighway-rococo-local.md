@@ -187,7 +187,17 @@ cd DataHighway-Parachain
 cp ./res/rococo.json .
 ```
 
+If you are using a chain specification with custom keys rather than defaults like Alice, and running the node without the flag `--alice` then it is necessary to add the keys to the keystore.
+```
+~/parachains/polkadot-launch/bin/datahighway-collator key insert --base-path /home/deployer/.local/share/datahighway-collator \
+--chain rococo-local-parachain-2000-raw.json \
+--scheme Sr25519 \
+--suri <Secret Seed> \
+--key-type aura
+```
+
 Try to run another DataHighway collator node manually on your local machine with the following:
+Important note: Remove `--alice` if you are using custom session keys that have been added to the keystore.
 
 ```
 rm -rf /tmp/parachain/alice
