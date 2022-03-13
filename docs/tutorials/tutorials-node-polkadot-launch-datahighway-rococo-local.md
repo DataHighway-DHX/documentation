@@ -180,7 +180,13 @@ cd DataHighway-Parachain
 ~/parachains/polkadot-launch/bin/datahighway-collator export-genesis-state --chain rococo-local-parachain-2000-raw.json > para-2000-genesis
 ```
 
-Copy the "rococo" relay chain specification into the main DataHighway-Parachain directory.
+Copy the "rococo" original generated chain specification, "raw" chain specification, exported state and wasm file from server to local machine that is used to run the collator so it may be stored in the ./res folder 
+
+```
+scp -J luke@<IP_ADDR_1> luke@<IP_ADDR_2>:/home/luke/DataHighway-DHX/DataHighway-Parachain/target/release/wbuild/datahighway-parachain-runtime/datahighway_runtime.compact.wasm .
+```
+
+Copy the files into the ./res folder
 
 ```
 cd DataHighway-Parachain
@@ -206,19 +212,19 @@ rm -rf /tmp/parachain/alice
 	--collator \
 	--alice \
 	--chain rococo-local-parachain-2000-raw.json \
-  --base-path /tmp/parachain/alice \
-  --bootnodes <INSERT_EXISTING_COLLATOR_BOOTNODE_FROM_POLKADOT_LAUNCH_LOGS> \
+	--base-path /tmp/parachain/alice \
+	--bootnodes <INSERT_EXISTING_COLLATOR_BOOTNODE_FROM_POLKADOT_LAUNCH_LOGS> \
 	--name DataHighway-Collator-Alice \
 	--force-authoring \
 	--port 31400 \
 	--rpc-port 9933 \
-  --ws-port 9977 \
+	--ws-port 9977 \
 	--unsafe-ws-external \
 	--unsafe-rpc-external \
 	--rpc-cors=all \
 	--rpc-methods=Unsafe \
 	-- \
-  --execution wasm \
+	--execution wasm \
 	--chain rococo-local-raw.json \
 	--port 30342 \
 	--rpc-port 9942 \
