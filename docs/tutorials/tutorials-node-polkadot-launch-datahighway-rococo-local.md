@@ -193,12 +193,19 @@ cd DataHighway-Parachain
 cp ./res/rococo.json .
 ```
 
+Obtain Alice's secret Seed
+```
+subkey inspect //Alice
+--> outputs: 0xe5be9a5092b81bca64be81d212e7f2f9eba183bb7a90954f7b76361f6edb5c0a
+```
+
 If you are using a chain specification with custom keys rather than defaults like Alice, and running the node without the flag `--alice` then it is necessary to add the keys to the keystore.
 ```
-~/parachains/polkadot-launch/bin/datahighway-collator key insert --base-path /home/deployer/.local/share/datahighway-collator \
+~/parachains/polkadot-launch/bin/datahighway-collator key insert \
+--base-path /tmp/parachain/alice \
 --chain rococo-local-parachain-2000-raw.json \
 --scheme Sr25519 \
---suri <Secret Seed> \
+--suri 0xe5be9a5092b81bca64be81d212e7f2f9eba183bb7a90954f7b76361f6edb5c0a \
 --key-type aura
 ```
 
@@ -214,7 +221,7 @@ rm -rf /tmp/parachain/alice
 	--chain rococo-local-parachain-2000-raw.json \
 	--base-path /tmp/parachain/alice \
 	--bootnodes <INSERT_EXISTING_COLLATOR_BOOTNODE_FROM_POLKADOT_LAUNCH_LOGS> \
-	--name DataHighway-Collator-Alice \
+	--name "DataHighway-Collator-Alice" \
 	--force-authoring \
 	--port 31400 \
 	--rpc-port 9933 \
