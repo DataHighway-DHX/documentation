@@ -8,9 +8,9 @@ sidebar_label: Setup parachain testnet for Datahighway on 'rococo-local' using P
 
 The following is based on using an Apple macOS 11.2.2 with M1 processor. It generally follows the steps here https://docs.substrate.io/tutorials/v3/cumulus/start-relay/.
 The versions used are specified here https://docs.substrate.io/tutorials/v3/cumulus/start-relay/#software-versioning, including:
-* polkadot branch 'v0.9.16' from https://github.com/paritytech/polkadot/tree/v0.9.16
-* substrate-parachain-template branch 'polkadot-v0.9.16' from https://github.com/substrate-developer-hub/substrate-parachain-template/tree/polkadot-v0.9.16
-* Polkadot-JS Apps v0.103.2-8 from https://github.com/polkadot-js/apps/commit/0b6e52733181392e823f7c37e833f4f5fd6b16ef)
+* polkadot branch 'v0.9.17' from https://github.com/paritytech/polkadot/tree/v0.9.17
+* substrate-parachain-template branch 'polkadot-v0.9.16' from https://github.com/substrate-developer-hub/substrate-parachain-template/tree/polkadot-v0.9.17
+* Polkadot-JS Apps v0.103.2-8 from https://github.com/polkadot-js/apps/commit/129508461b062907c85bfa32ade096296cd3fe76)
 
 create the following shell scripts and `chmod 777 <FILENAME>` each of them, and then run `./run_polkadot_launch.sh`
 
@@ -48,7 +48,7 @@ cd ~/parachains/polkadot-launch
 mkdir -p ~/parachains/polkadot-launch/bin
 ```
 
-### Build the Polkadot repository using v0.9.16
+### Build the Polkadot repository using v0.9.17
 
 This is for the the relay chain node on the Rococo network, generated the relay chain specification, and convert it to a SCALE encoded raw chain spec for use when starting nodes. Then copy across the Polkadot binary and the chain specifications to the Polkadot-Launch folder.
 
@@ -61,7 +61,7 @@ setup_polkadot_relaychain.sh
 cd ~/parachains
 git clone https://github.com/paritytech/polkadot
 cd polkadot
-git checkout v0.9.16
+git checkout v0.9.17
 . ~/.cargo/env
 PATH=$PATH:/root/.cargo/bin
 rustup update stable
@@ -103,15 +103,15 @@ Also change `"" | "local"` to `"" | "local" | "rococo-local"` in command.rs, so 
 git clone https://github.com/ltfschoen/substrate-parachain-template
 cd substrate-parachain-template
 git remote add upstream https://github.com/substrate-developer-hub/substrate-parachain-template
-git fetch upstream polkadot-v0.9.16:polkadot-v0.9.16
-git checkout polkadot-v0.9.16
+git fetch upstream polkadot-v0.9.17:polkadot-v0.9.17
+git checkout polkadot-v0.9.17
 . ~/.cargo/env
 PATH=$PATH:/root/.cargo/bin
 rustup update stable
-rustup toolchain install nightly-2021-11-07-x86_64-apple-darwin
-rustup target add wasm32-unknown-unknown --toolchain nightly-2021-11-07-x86_64-apple-darwin
-rustup default nightly-2021-11-07-x86_64-apple-darwin
-rustup override set nightly-2021-11-07-x86_64-apple-darwin
+rustup toolchain install nightly-2021-12-15-x86_64-apple-darwin
+rustup target add wasm32-unknown-unknown --toolchain nightly-2021-12-15-x86_64-apple-darwin
+rustup default nightly-2021-12-15-x86_64-apple-darwin
+rustup override set nightly-2021-12-15-x86_64-apple-darwin
 cargo build --release
 cp ./target/release/parachain-collator ~/parachains/polkadot-launch/bin
 ```
@@ -120,6 +120,8 @@ Then install dependencies including Node.js. Modify the Polkadot-Launch config.j
 
 Note that the example config.json file that is included in https://github.com/ltfschoen/substrate-parachain-template is likely the same as the config.json file in 
 https://github.com/DataHighway-DHX/polkadot-launch/blob/master/config.json
+
+Note that any pallets that you incorporate from the Substrate repository should be also from its similar branch 'polkadot_v0.9.17'
 
 ### [SKIP] Build Cumulus codebase
 
@@ -130,7 +132,7 @@ setup_cumulus_parachain.sh
 cd ~/parachains
 git clone https://github.com/paritytech/cumulus
 cd cumulus
-git checkout polkadot-v0.9.16
+git checkout polkadot-v0.9.17
 cargo build --release -p polkadot-collator
 cp ./target/release/polkadot-collator ~/parachains/polkadot-launch/bin
 ```
@@ -248,13 +250,13 @@ Check it works in the UI
 
 ```
 git clone https://github.com/polkadot-js/apps
-git checkout 0b6e52733181392e823f7c37e833f4f5fd6b16ef
+git checkout 129508461b062907c85bfa32ade096296cd3fe76
 nvm use v16.3.0
 yarn
 yarn start
 ```
 
-Go to http://localhost:3000/?rpc=ws%3A%2F%2F127.0.0.1%3A9988#/accounts and verify that you can transfer 1 UNIT from Alice to Bob
+Go to http://localhost:3000/?rpc=ws%3A%2F%2F127.0.0.1%3A9988#/accounts and verify that the parachain is generating and finalizing blocks, that you can transfer 1 UNIT from Alice to Bob
 
 ### Additional Notes: 
 
