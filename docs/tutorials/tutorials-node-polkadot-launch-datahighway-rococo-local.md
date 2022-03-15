@@ -246,6 +246,8 @@ Note: Obtain <INSERT_EXISTING_COLLATOR_BOOTNODE_FROM_POLKADOT_LAUNCH_LOGS> from 
 Added Boot Nodes: /ip4/127.0.0.1/tcp/30336/p2p/12D3KooWRxTiM5vAPZ9RNSgd7Uqwfa8bpx4MoNo2M1m4f34nrCot,/ip4/127.0.0.1/tcp/30337/p2p/12D3KooWAWqYpvBZvvmPJ8wQ5PeiCcv8XuFzjVQrT6JGyXyU72Fu
 ```
 
+Wait for about 15 blocks until the logs say ` Starting collation.`, which is when the parachain will start collating and finalizing blocks
+
 Check it works in the UI
 
 ```
