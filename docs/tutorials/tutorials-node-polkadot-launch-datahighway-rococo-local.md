@@ -231,6 +231,8 @@ rm -rf /tmp/parachain/alice
 	--unsafe-ws-external \
 	--unsafe-rpc-external \
 	--rpc-cors=all \
+	--rpc-max-payload 1000 \
+	--rpc-cors=all \
 	--rpc-methods=Unsafe \
 	-- \
 	--execution wasm \
@@ -238,6 +240,12 @@ rm -rf /tmp/parachain/alice
 	--port 30342 \
 	--rpc-port 9942 \
 	--ws-port 9953
+```
+
+Note: The following was added to support Try-Runtime. See https://docs.substrate.io/v3/tools/try-runtime/#usage
+```
+	--rpc-max-payload 1000 \
+	--rpc-cors=all \
 ```
 
 Note: Obtain <INSERT_EXISTING_COLLATOR_BOOTNODE_FROM_POLKADOT_LAUNCH_LOGS> from the Polkadot-Launch logs. An example of what it outputs is the following, but the Local Node Identities may be different:
@@ -259,6 +267,37 @@ yarn start
 ```
 
 Go to http://localhost:3000/?rpc=ws%3A%2F%2F127.0.0.1%3A9988#/accounts and verify that the parachain is generating and finalizing blocks, that you can transfer 1 UNIT from Alice to Bob
+
+### Benchmarking
+
+Run the following:
+```
+./scripts/benchmark_all_pallets.sh
+```
+
+### Try-Runtime
+
+* Build whilst specifying the `try-runtime` feature
+```
+./scripts/init.sh
+
+cargo build --release --features=try-runtime
+```
+
+* Run Try-Runtime so `on-runtime-upgrade` will invoke all  `OnRuntimeUpgrade` hooks in pallets and the runtime
+```
+RUST_LOG=runtime=trace,try-runtime::cli=trace,executor=trace \
+RUST_BACKTRACE=1 \
+./target/release/datahighway-collator \
+try-runtime \
+--chain rococo-local-parachain-2000-raw.json \
+--url <ws/s port>
+--block-at <block-hash> \
+on-runtime-upgrade \
+live
+```
+
+See `./scripts/try-runtime.sh`
 
 ### Additional Notes: 
 
