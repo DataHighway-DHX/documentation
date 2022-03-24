@@ -29,7 +29,8 @@ sidebar_label: Runtime Upgrade
 
 * Click the _code_ input field, and select the Wasm binary that defines the upgraded runtime: 
   `target/release/wbuild/datahighway-runtime/datahighway_runtime.compact.wasm`
-  
+  * Note: If you get errosr then copy the `datahighway_runtime.compact.compressed.wasm` file instead
+
 * Copy the preimage hash. This represents the proposal. You will use this hash when submitting the actual proposal.
 
 * Leave the value for the _weight parameter at the default of 0.
