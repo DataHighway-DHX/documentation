@@ -105,7 +105,7 @@ The following is the proportion of the total supply of DHX that will be distribu
 
 DHX Mining Power (mPower) Rewards equivalent to a 40% mPower boost (based on 24 month period) shall apply to tokens that are contributed to the crowdloan.
 
-Note: In the crowdloan, those that lock their tokens to help the Tanganika Network secure a parachain slot will need to lock them for up to 48 weeks in a Kusama parachain crowdloan in order to get DHX tokens in return.
+Note: In the crowdloan, those that lock their tokens to help the Tanganika Network secure a parachain slot will need to lock them for up to 48 weeks in a Kusama parachain crowdloan to get DHX tokens in return.
 
 Depending on the vesting period mentioned in the Reward Distributions section, they could bond the DHX tokens they claim from DHX Mining when the tokens are distributed to them.
 
