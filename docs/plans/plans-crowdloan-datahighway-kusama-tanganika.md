@@ -24,10 +24,6 @@ Paid as a % of your contribution to the pool (your KSM Contribution / Total KSM 
 
 **30%** of the reward pool (**90k DHX** tokens) will be distributed within a reasonable timeframe upon successful launch and transfers being enabled. The remaining **70%** of the reward pool (**210k** DHX tokens) will vest over the slot lease duration (48 weeks).
 
-### KSM : DHX Ratio
-
-1 KSM earns **7.5** DHX token rewards.
-
 ## Timing
 
 ### Crowdloan Start Date
@@ -66,7 +62,7 @@ DHX is Tanganika's native token that was migrated from the DataHighway standalon
 
 ### Future Steps
 
-Verified ID - It will be necessary to get a "verified id" so that the Kusama parachain is shown in green under the list of parathreads in Polkadot.js Apps
+It will be necessary to get a "verified id" so that the Kusama parachain is shown in green under the list of parathreads in Polkadot.js Apps
 
 ## What is the Parachain Testnet of Tanganika Network?
 
