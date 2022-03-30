@@ -11,5 +11,5 @@ The purpose of the DataHighway is to have an Inter-Chain Data Market and LPWAN D
 
 ---
 
-*Refer to the <a href="../whitepapers/whitepaper" class="pretty-link pretty-link-colored-bold">DataHighway Economic Whitepaper</a> for further details*
+*Refer to the <a href="../whitepapers/whitepaper" className="pretty-link pretty-link-colored-bold">DataHighway Economic Whitepaper</a> for further details*
 

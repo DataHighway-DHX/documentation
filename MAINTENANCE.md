@@ -37,6 +37,41 @@ Important:
 
 External links may reference the static location of the latest whitepaper in ./whitepapers/economic/whitepaper_latest.pdf. A copy of each version is stored in a directory with the version name to make it easier for users to find older versions. 
 
+## Updating the Crowdloan
+
+
+1. Install Node.js v16.3.0
+
+2. Start your development environment
+
+```terminal
+yarn install && \
+yarn global add mr-pdf@v1.0.5 && \
+yarn start
+```
+
+2. Change into folder `./static/crowdloans/tanganika` folder and run the following to create a new release in PDF format. Replace `v1.0` or `v1_x` below with the desired version:
+
+```terminal
+cd ./static/crowdloans/tanganika
+
+mr-pdf --initialDocURLs="http://localhost:3000/docs/crowdloans" \
+--contentSelector="article" \
+--paginationSelector=".pagination-nav__item--next > a" \
+--pdfMargin="50,50,50,50" \
+--pdfFormat="A4" \
+--outputPDFFilename="crowdloan_tanganika_latest.pdf"
+
+cp ./crowdloan_tanganika_latest.pdf ./crowdloan_tanganika_v1_x.pdf
+```
+
+
+Important:
+* Remove the first few including page 1 that generates text "untitled" and the Table of Contents pages, so the first page starts with "DataHighway's Whitepaper"
+* Check it generated the latest PDF to reflect the Markdown changes you made correctly in ./docs/crowdloans/crowdloan-tanganika.mdx and the copy of it ./static/crowdloans/tanganika/crowdloan_tanganika_v1_x.pdf.
+
+External links may reference the static location of the latest crowdloan in ./crowdloans/crowdloan_tanganika_latest.pdf. A copy of each version is stored in a directory with the version name to make it easier for users to find older versions. 
+
 ### Troubleshooting
 
 If you get an error such as `Chromium revision is not downloaded`), then you are likely using a version of Node.js that isn't supported by md-to-pdf
