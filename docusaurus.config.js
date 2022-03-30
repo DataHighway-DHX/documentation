@@ -23,7 +23,7 @@ const docusaurusConfig = {
         },
         {
           to: '/docs/crowdloans/crowdloan-tanganika', // string
-          from: '/docs/en/crowdloan-tanganika', // string | string[]
+          from: '/docs/en/crowdloans/crowdloan-tanganika', // string | string[]
         },
       ],
     },
