@@ -8,7 +8,7 @@ sidebar_label: Validator Nodes
 
 The DataHighway Testnet uses Nominated Proof of Stake (NPos) consensus, where validators **stake DHX tokens** to validate transactions and blocks to secure the blockchain. Validator nodes that receive the Block Reward may optionally share a proportion of it with other accounts that staked tokens to nominated them.
 
-When the DataHighway Testnet becomes a Parachain on the Polkadot network, then the validators will become known instead as <a href="https://wiki.polkadot.network/docs/en/learn-collator" target="_blank" class="pretty-link pretty-link-colored">Collators</a>.
+When the DataHighway Testnet becomes a Parachain on the Polkadot network, then the validators will become known instead as <a href="https://wiki.polkadot.network/docs/en/learn-collator" target="_blank" className="pretty-link pretty-link-colored">Collators</a>.
 
 ## How do you become a DataHighway Validator Node?
 
@@ -23,4 +23,4 @@ The Mining Speed Boost multiplier that eligible Token Miners or Hardware Miners 
 
 Not yet available. Please start with an [Validator Node](getting-started/users-nodes-validators.md).
 
-<!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/learn-collator" target="_blank" class="pretty-link pretty-link-colored">Nominating</a> tutorial. -->
+<!-- Please follow the <a href="https://wiki.polkadot.network/docs/en/learn-collator" target="_blank" className="pretty-link pretty-link-colored">Nominating</a> tutorial. -->

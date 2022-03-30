@@ -14,16 +14,20 @@ const docusaurusConfig = {
       },
     ],
   [
-      '@docusaurus/plugin-client-redirects',
-{
-  redirects: [
+    '@docusaurus/plugin-client-redirects',
     {
-      to: '/docs/whitepapers/whitepaper', // string
-      from: '/docs/en/whitepaper', // string | string[]
+      redirects: [
+        {
+          to: '/docs/whitepapers/whitepaper', // string
+          from: '/docs/en/whitepaper', // string | string[]
+        },
+        {
+          to: '/docs/crowdloans/crowdloan-tanganika', // string
+          from: '/docs/en/crowdloan-tanganika', // string | string[]
+        },
+      ],
     },
   ],
-},
-],
 ],
   title: "DataHighway Developer Hub",
   tagline: "Complete develop documentation for the DataHighway DAO.",
@@ -100,6 +104,12 @@ const docusaurusConfig = {
           position: "left",
           label: "Whitepaper",
           activeBasePath: "docs/whitepaper",
+        },
+        {
+          to: "docs/crowdloans/crowdloan-tanganika",
+          position: "left",
+          label: "Crowdloan Tanganika",
+          activeBasePath: "docs/crowdloans",
         },
         {
           href: "https://github.com/DataHighway-DHX/documentation",

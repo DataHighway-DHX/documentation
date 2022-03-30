@@ -8,7 +8,7 @@ sidebar_label: Runtime Upgrade
 
 ### Step 1: Prepare WASM binary 
 
-* Clone <a href="https://github.com/DataHighway-DHX/node" target="_blank" class="pretty-link pretty-link-colored">node</a> repo
+* Clone <a href="https://github.com/DataHighway-DHX/node" target="_blank" className="pretty-link pretty-link-colored">node</a> repo
 
 * Switch to the root directory of the cloned project
 
