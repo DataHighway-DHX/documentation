@@ -119,7 +119,7 @@ Note: The minimum amount of mPower and bonded DHX that is required to mine DHX t
 
 Secure DHX Mining may be achieved using M2 Pro hardware.
 
-The different forms of DHX Mining that will be available are mentioned in the whitepaper (i.e. hardware mining using an M2 Pro, token mining by locking DataHighway's authorized value added tokens like MXC, E-IOTA, Polkadot, Filecoin, Huobi BTC).
+The different forms of DHX Mining that will be available are mentioned in the [DataHighway Whitepaper](https://dev.datahighway.com/docs/whitepapers/whitepaper) (i.e. hardware mining using an M2 Pro, token mining by locking DataHighway's authorized value added tokens like MXC, E-IOTA, Polkadot, Filecoin, Huobi BTC).
 
 ### How to get DHX tokens
 
