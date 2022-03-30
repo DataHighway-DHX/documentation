@@ -1,5 +1,5 @@
 ---
-id: plans-crowdloan-datahighway-kusama-tanganika.md
+id: crowdloan-tanganika
 title: Crowdloan Plan for Tanganika Network (DataHighway's Kusama Parachain)
 sidebar_label: Crowdloan Plan for Tanganika Network (DataHighway's Kusama Parachain)
 ---
