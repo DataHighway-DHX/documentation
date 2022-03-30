@@ -28,11 +28,7 @@ Paid as a % of your contribution to the pool (your KSM Contribution / Total KSM 
 
 ### Crowdloan Start Date
 
-TBC
-
-### Crowdloan End Date
-
-TBC
+If a crowdloan is used then the first one commencing in April 2022 will be targeted.
 
 ### Lease Duration
 
