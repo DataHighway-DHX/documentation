@@ -7,8 +7,29 @@ sidebar_label: Crowdloan Plan for Tanganika Network (DataHighway's Kusama Parach
 ## About the Tanganika Network Crowdloan?
 
 To launch the Tanganika Network on Kusama we need help to bootstrap it. The project must secure enough funds to cover the cost of renting ("leasing") a parachain slot on the network. To meet this objective, the DataHighway team will run a crowdloan campaign on behalf of the network. For the Tanganika crowdloan, individuals agree to lock up a portion of their KSM in exchange for the DHX native network token. These tokens are locked from the point of participation until the slot is successfully won, and then through the entirety of the lease period (48 Weeks). A pool of **300,000 (300k) DHX** tokens representing **1%** of the DataHighway Treasury's Unlocked Reserves comprising 30,000,000 DHX tokens, which equates to **0.3%** of the DataHighway's network's genesis total supply will be distributed to crowdloan participants as a reward (proportionate to their share of the overall KSMs contributed to the crowdloan) throughout the lease period.
-The DHX tokens shall be bridged between the DataHighway's standalone chain which will stop to operate, and its Tanganika parathread/parachain network on the Kusama. 
+The DHX tokens shall be bridged between the DataHighway's standalone chain which will stop operating, and its Tanganika parathread/parachain network on the Kusama.
 
+## How to Contribute
+
+Please follow the steps in the **["Participating in a crowdloan"](https://kusama.network/auctions/)** section at https://kusama.network/auctions/ to contribute to the Tanganika Network crowdloan campaign natively on Kusama using Polkadot.js.
+
+Tanganika Network intents to begin bidding to secure its first Kusama parachain during the next batch of [slot auctions](https://wiki.polkadot.network/docs/learn-auction). Those that contribute to the [crowdloan](https://wiki.polkadot.network/docs/learn-crowdloans) and contribute KSM to support the bid by the Tanganika Network will be rewarded with DHX tokens from the DataHighway Treasury's Unlocked Reserves.
+
+The Kusama parachain auction timetable may be found [here](https://kusama.network/parachains/#contribute).
+
+## Timing
+
+### Crowdloan Start Date
+
+If a crowdloan approach is used then **Kusama's 31st Auction** shown in the Kusama parachain auction timetame [here](https://kusama.network/parachains/#contribute) will be targeted.
+
+### Lease Duration
+
+We wish to use the crowdloan to secure a slot as a Kusama parachain for the maximum duration of 48 weeks.
+
+### Token Lock Period
+
+KSM tokens contributed to the crowdloan will be locked from the time they are contributed until the end of the parachain lease.
 
 ## Rewards
 
@@ -23,20 +44,6 @@ Paid as a % of your contribution to the pool (your KSM Contribution / Total KSM 
 ### Reward Distributions
 
 **30%** of the reward pool (**90k DHX** tokens) will be distributed within a reasonable timeframe upon successful launch and transfers being enabled. The remaining **70%** of the reward pool (**210k** DHX tokens) will vest over the slot lease duration (48 weeks).
-
-## Timing
-
-### Crowdloan Start Date
-
-If a crowdloan is used then the first one commencing in April 2022 will be targeted.
-
-### Lease Duration
-
-We wish to use the crowdloan to secure a slot as a Kusama parachain for the maximum duration of 48 weeks.
-
-### Token Lock Period
-
-KSM tokens contributed to the crowdloan will be locked from the time they are contributed until the end of the parachain lease.
 
 ## Participation Requirements
 
