@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/DataHighway-DHX"
   },
   "copyright": {
-    "message": "Copyright © 2021 DataHighway DAO",
+    "message": "Copyright © 2022 DataHighway DAO",
     "description": "The footer copyright"
   }
 }
