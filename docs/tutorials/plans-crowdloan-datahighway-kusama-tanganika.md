@@ -56,6 +56,8 @@ Tanganika Network will be a Kusama Parachain and the DataHighway's parachain can
 
 DHX is Tanganika's native token that was migrated from the DataHighway standalone chain at **1:1**.
 
+The Tanganika Network was named after the second largest of the lakes in eastern Africa.
+
 ### Future Steps
 
 It will be necessary to get a "verified id" so that the Kusama parachain is shown in green under the list of parathreads in Polkadot.js Apps
