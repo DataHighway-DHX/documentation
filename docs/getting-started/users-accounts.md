@@ -4,16 +4,14 @@ title: Accounts
 sidebar_label: Accounts
 ---
 
-## Why get an Account on the DataHighway?
+## Why get a DataHighway account? 
 
 Participants need to create an account on the DataHighway to:
 
 * Transfer DHX between accounts
-* Stake DHX tokens on a Collator Node as either a Collator or Nominator
-* Receive Block Rewards for staking DHX tokens as a Collator Node or Nominator
-* Receive additional Mining Speed Boosts in DHX tokens for participation in various forms of Mining
-* Purchase data from the Inter-Chain Data Market
-* Purchase roaming access for their LPWAN IoT End Devices
+* Run a Collator Node
+* Governance participation
+* Receive DHX tokens for participating in DHX Mining
 
 Please start with the [Create Account](tutorials/tutorials-accounts-create-account.md) tutorial.
 

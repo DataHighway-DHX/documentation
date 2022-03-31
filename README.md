@@ -28,7 +28,7 @@ cp .env.example .env
 Run the following commands to install dependencies and start build the website.
 
 ```bash
-npm install && npm start
+yarn install && yarn start
 ```
 
 View in web browser http://localhost:3000

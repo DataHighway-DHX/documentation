@@ -1,29 +1,9 @@
 ---
 id: users-miners-hardware
-title: Hardware Mining
-sidebar_label: Hardware Mining
+title: DHX Mining
+sidebar_label: DHX Mining
 ---
 
-## Why become a Hardware Miner on the DataHighway?
+## How do participate in DHX Mining?
 
-Hardware Miners are rewarded when they commit to maintaining the uptime of their IoT hardware for a period of time.
-
-## What Mining Speed Boost (MSB) rate multipliers apply to different types of supported hardware?
-
-Hardware Miners may register any of the following IoT hardware:
-* Secure LPWAN hardware
-* Insecure LPWAN hardware
-
-Secure LPWAN hardware attracts the highest MSB rate multipliers for commitments of 3, 6, 9, 12, 24, or 36 months respectively: 1.025, 1.05, 1.075, 1.10, 1.15, 1.2
-
-Insecure LPWAN hardware attracts the following lower MSBs for same commitment periods: 1.0125, 1.025, 1.0375, 1.05, 1.075, 1.1
-
-
-## How long is the commitment to lock the hardware?
-
-3, 6, 9, 12, 24, or 36 months
-
-
-## How do you become a Hardware Miner?
-
-Please start with the [Setup Hardware Mining](tutorials/tutorials-mining-hardware-setup.md) tutorial.
+Refer to the <a href="https://www.mxc.org/mxcdatadash" target="_blank" className="pretty-link pretty-link-colored">MXC DataDash App</a>.

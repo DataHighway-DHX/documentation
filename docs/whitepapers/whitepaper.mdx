@@ -1406,7 +1406,7 @@ Aggregations associated with Smart Machine Bidding (SMB) and packet forwarding f
 * Store mapping of current Gateway ID Staked amount to Supernode ID on the parachain.
 * Show updated Supernode Stake after adding Gateway Stake to existing Supernode Stake.
 
-Gateway ID must be associated with both its Organisation ID and its “Home” Supernode ID on the parachain since the Organisation ID that owns the Gateway ID that is used for the roaming Join Procedure at a “Visited” Supernode may differ from the Organisation ID that owns that “Visited” Supernode, and rewards should be distributed to the overarching Organisation IDs. It is not possible to determine the Organisation ID of a Gateway ID if the Gateway ID is only associated with its “Home” Supernode.
+Gateway ID must be associated with both its Organisation ID and its "Home" Supernode ID on the parachain since the Organisation ID that owns the Gateway ID that is used for the roaming Join Procedure at a "Visited" Supernode may differ from the Organisation ID that owns that "Visited" Supernode, and rewards should be distributed to the overarching Organisation IDs. It is not possible to determine the Organisation ID of a Gateway ID if the Gateway ID is only associated with its "Home" Supernode.
 
 Organisation ID may stake across multiple Supernodes.
 
@@ -1424,7 +1424,7 @@ Organisation ID may stake across multiple Supernodes.
 * Store Staking and Regional Duty Cycle (DC) requirements for End Devices on the parachain.
 * Lock the minimum MXC tokens for an End Device to Stake on a Supernode ready for Contour Payments.
 * Store mapping of current End Device ID Staked amount to Supernode ID on the parachain.
-* Store mapping of End Device ID, “Home” Supernode IP, and Join Server IP for resolving when roaming.
+* Store mapping of End Device ID, "Home" Supernode IP, and Join Server IP for resolving when roaming.
 * Show updated Supernode Stake after adding End Device Stake to existing Supernode Stake. 
 
 
@@ -1609,7 +1609,7 @@ Data Buyers may be presented with a variety of paths to be onboarded, such as a 
 
 After visiting the Data Marketplace, choosing a region and specifying their roaming requirements if any, they will be presented with a list of bundled plans that have been pre-packaged by organizations from various Supernodes that are competing for business.
 
-Data Buyers may search, filter, and select a pre-packaged bundle. An advanced option may be provided for users that would prefer to choose a specific combination of their favourite End Devices, dedicated Gateways, and Supernodes, such as only those from specific hardware manufacturers or specifications (i.e. MatchX), or only from specific “Data Producer” organisations, or only from those with a certain level of reputation (i.e. only Supernodes with an amount of MXC staked by stakeholders on their "home" Supernode that exceeds a certain threshold) that is proven to have been obtained by a broad diversity of different stakeholders, and that has historical records demonstrating proven reliability of uptime (of the Supernode and/or the recommended or chosen devices), whether they've enabled roaming or not, and whether they have invested in backup devices to try to guarantee a level of service uptime incase they have limited historical records (fallback device details that are offered by the same Supernode and other Supernodes from other networks incase the chosen Supernode or device fails).
+Data Buyers may search, filter, and select a pre-packaged bundle. An advanced option may be provided for users that would prefer to choose a specific combination of their favourite End Devices, dedicated Gateways, and Supernodes, such as only those from specific hardware manufacturers or specifications (i.e. MatchX), or only from specific "Data Producer" organisations, or only from those with a certain level of reputation (i.e. only Supernodes with an amount of MXC staked by stakeholders on their "home" Supernode that exceeds a certain threshold) that is proven to have been obtained by a broad diversity of different stakeholders, and that has historical records demonstrating proven reliability of uptime (of the Supernode and/or the recommended or chosen devices), whether they've enabled roaming or not, and whether they have invested in backup devices to try to guarantee a level of service uptime incase they have limited historical records (fallback device details that are offered by the same Supernode and other Supernodes from other networks incase the chosen Supernode or device fails).
 
 Lastly, the Data Buyer adds items to their shopping cart and chooses to go to checkout for payment. The Data Buyer may optionally be offered insurance coverage incase of roaming network failure or failure of their chosen or similar equivalent device.
 
@@ -1624,7 +1624,7 @@ Lastly, the Data Buyer adds items to their shopping cart and chooses to go to ch
 ###### Data Buyer Payment Options
 
 The Data Buyer (i.e. an Application Developer) is given payment options that include:
-* Direct payment in DHX from their “Data Wallet”.
+* Direct payment in DHX from their "Data Wallet".
 
 They may choosing to pay in DHX, which they may have obtained from either:
 * Earning DHX through:
@@ -1977,7 +1977,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
   * 25 bit for NetID Type 0.
   * 17 bit for NetID Type 3
   * 10 bit for NetID Type 6
-* Join Request is comprised of `JoinEUI/AppEUI + DevEUI + DevNonce`, where the JoinEUI/AppEUI identifies the Join Server and helps the Visited Network discover the Home Network of an “activating” device. Note that when you have a random DevAddr or when a JoinEUI/AppEUI is present, it indicates that the device has lost its Home Network whilst Roaming.
+* Join Request is comprised of `JoinEUI/AppEUI + DevEUI + DevNonce`, where the JoinEUI/AppEUI identifies the Join Server and helps the Visited Network discover the Home Network of an "activating" device. Note that when you have a random DevAddr or when a JoinEUI/AppEUI is present, it indicates that the device has lost its Home Network whilst Roaming.
 * Network Server - It may belong to an NetID, with a channel plan, a FNS URL and SNS URL, and IP address, HTTP auth credentials, JS URLs, JS IP address, JS HTTP auth credentials, and roaming policy
 * Roaming Hub - Star Interconnection where a Roaming Hub is inserted using a Serving Network Server, since configuration and management of Mesh Interconnection (of Network Servers and Join Servers) does not scale
 * SNS - Serving Network Server
@@ -2048,7 +2048,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
 * **Messages (per day) Max.** - Unlimited
 * **LoRaWAN Protocol** - LoRa-based communication protocol called LoRaWAN was standardized by LoRa-Alliance (first version in 2015)
 * **LoRaWAN Protocol Benefits**
-  * **Multiple Gateway Reception from End Devices of Messages Simultaneously** - Multiple base stations (Gateways) in a neighborhood (at higher network deployment cost in the IoT “gig” data economy) may exploit redundant reception, whereby messages transmitted by an end device using different spreading factors can be received simultaneously by all LoRa Gateways in the range, thereby improving the successfully received messages ratio. LoRa Supernodes (backend system network servers) filter the duplicate receptions, whilst also checking security, sending acknowledgments to the end device, and sending the message to the corresponding LoRa Application Server (application server).
+  * **Multiple Gateway Reception from End Devices of Messages Simultaneously** - Multiple base stations (Gateways) in a neighborhood (at higher network deployment cost in the IoT "gig" data economy) may exploit redundant reception, whereby messages transmitted by an end device using different spreading factors can be received simultaneously by all LoRa Gateways in the range, thereby improving the successfully received messages ratio. LoRa Supernodes (backend system network servers) filter the duplicate receptions, whilst also checking security, sending acknowledgments to the end device, and sending the message to the corresponding LoRa Application Server (application server).
   * **Multiple Gateway Reception from End Devices of Localizing End Devices** - Multiple receptions of the same message by different base stations are exploited by LoRaWAN using the time difference of arrival (TDOA)-based localization technique supported by very accurate time synchronization between multiple base stations for localizing end devices.
   * **Multiple Gateway Reception from End Devices for Avoids Roaming Handover** - Multiple receptions of the same message at different Gateways avoids the need for handover in a LoRaWAN network (i.e. if a node is mobile or moving, handover is not needed between the base stations).
   * **Multiple types (Classes) of End Device** - LoRaWAN provides various classes of end devices to address the different requirements of a wide range of IoT applications, e.g., latency requirements.
@@ -2060,7 +2060,7 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
   * Gateway may have 8-channels, but only has a single channel for sending data, the rest are for receiving messages from Sensors. 
   * Gateways send a max payload size of 243 Bytes, but usually around 20 Bytes each
   * Connection to a Gateway is possible if you have line-of-sight or only a few structures in the way
-  * **Messages from Gateways to Sensors** - Gateways with 8-channels may only send data to Sensors on 1 of those channels, and should be carefully managed since its subject to limitations (see section “LoRaWAN Network Usage (Bandwidth & Duration) Limitations”). 
+  * **Messages from Gateways to Sensors** - Gateways with 8-channels may only send data to Sensors on 1 of those channels, and should be carefully managed since its subject to limitations (see section "LoRaWAN Network Usage (Bandwidth & Duration) Limitations"). 
 
 * **LoRaWAN End Devices (Sensors)**
   * **Device Provisioning & Joining (of Sensors)**
@@ -2207,23 +2207,23 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
   * Bob, signs up to the M2M Wallet (MXC’s implementation of the LoRa App Server) as the admin user of his organisation
   * Bob enables and uses the M2M Wallet’s Gateway Discovery feature, which sends periodical pings to identify the coverage of where the Supernodes and Gateways are located in the same MXC network and makes a 6-month plan of lakes, coastlines, and flower gardens that he will visit that are within range of them.
   * Bob configures the M2M Wallet’s Gateway Discovery daily ping broadcast interval, transmission frequency (channel), and data rate, so they are compliant with the region of the Supernode that’s associated with the Gateway.
-  * Bob identifies that his favourite sailing location is 30km away from an edge Gateway, and so purchases his own Gateway (with onboard GPS) that he will install in the vicinity. He configures it to use a “home” Supernode and the LoRaWAN active channels of the region
-  * Bob adds his Sensors in the M2M Wallet’s “Devices” section and associates them with a new Service Profile. He chooses the “home” Supernode in the M2M Wallet where each of his Sensors and Gateways will be provisioned. He also toggles that all the Sensors need to go through a Join Procedure to be Activated since they all support OTAA. He configures how frequently each date to initiate Sensor status requests, and their min/max allowed Data Rate. He defines a Custom Payload Codec to allow the Supernode (LoRa App Server) to encode and decode the binary device payload for the user by using a Custom Payload Decoder Script with signature `function Decode(fPort, bytes)` that the Supernode uses to convert the encoded payload object to JSON format, and a Custom Payload Encoder Script with signature `function Encode(fPort, obj)`, which encodes the given payload into an array of Bytes
-  * Bob updates the firmware of his Sensors and Gateways in the M2M “Applications” section called “Fuota Deployment”
-  * Bob uploads PEM file TLS and CA Certificates (including those for the routing profile) to enable TLS in the M2M “Applications” section called “TLS Certificates” for the connection between the Supernode (MXProtocol Server that’s based on LoRa Server) and the Application Server (LoRa App Server) 
-  * Bob configures the M2M “Service Profile” section to connect his organisation to the “home” Supernode. He toggles enabling the attachment of metadata to uplink packets processed by his Gateways (i.e. geolocation). He also toggles allowing the Supernode to geolocate all his Sensors and Gateways to support roaming
-  * Bob configures the M2M “Applications” section to associate the Sensors in his Service Profile with real-world applications including: Watersport Tourism and Flower Garden Photography Tourism.
-  * Bob configures in the M2M “Applications” section under "HTTP Integration Headers" an endpoint URL of a Data Service (including associated HTTP headers for authorization) so that uplink data packets received in the current session by the Supernode (LoRa App Server) from Sensors may be automatically forwarded in JSON format by HTTP POST request and then parsed, stored, and served to authorised Data Buyers from the DataHighway. He uses Mockbin <a href="#reference-1d41a4" className="pretty-link-colored">[1d41a4]</a>
+  * Bob identifies that his favourite sailing location is 30km away from an edge Gateway, and so purchases his own Gateway (with onboard GPS) that he will install in the vicinity. He configures it to use a "home" Supernode and the LoRaWAN active channels of the region
+  * Bob adds his Sensors in the M2M Wallet’s "Devices" section and associates them with a new Service Profile. He chooses the "home" Supernode in the M2M Wallet where each of his Sensors and Gateways will be provisioned. He also toggles that all the Sensors need to go through a Join Procedure to be Activated since they all support OTAA. He configures how frequently each date to initiate Sensor status requests, and their min/max allowed Data Rate. He defines a Custom Payload Codec to allow the Supernode (LoRa App Server) to encode and decode the binary device payload for the user by using a Custom Payload Decoder Script with signature `function Decode(fPort, bytes)` that the Supernode uses to convert the encoded payload object to JSON format, and a Custom Payload Encoder Script with signature `function Encode(fPort, obj)`, which encodes the given payload into an array of Bytes
+  * Bob updates the firmware of his Sensors and Gateways in the M2M "Applications" section called "Fuota Deployment"
+  * Bob uploads PEM file TLS and CA Certificates (including those for the routing profile) to enable TLS in the M2M "Applications" section called "TLS Certificates" for the connection between the Supernode (MXProtocol Server that’s based on LoRa Server) and the Application Server (LoRa App Server) 
+  * Bob configures the M2M "Service Profile" section to connect his organisation to the "home" Supernode. He toggles enabling the attachment of metadata to uplink packets processed by his Gateways (i.e. geolocation). He also toggles allowing the Supernode to geolocate all his Sensors and Gateways to support roaming
+  * Bob configures the M2M "Applications" section to associate the Sensors in his Service Profile with real-world applications including: Watersport Tourism and Flower Garden Photography Tourism.
+  * Bob configures in the M2M "Applications" section under "HTTP Integration Headers" an endpoint URL of a Data Service (including associated HTTP headers for authorization) so that uplink data packets received in the current session by the Supernode (LoRa App Server) from Sensors may be automatically forwarded in JSON format by HTTP POST request and then parsed, stored, and served to authorised Data Buyers from the DataHighway. He uses Mockbin <a href="#reference-1d41a4" className="pretty-link-colored">[1d41a4]</a>
  and Request Logger Bin <a href="#reference-92e7f1" className="pretty-link-colored">[92e7f1]</a> to preview the data.
-  * Bob configures in the M2M “Multicast Groups” section by adding Fixed Weather Unit #1 and Fixed Weather Unit #2 (that each comprise of Sensors from a Service Profile and Application) to a new Multicast Group, and configures the Multicast address, the session and application session keys, the frame counter, data rate and frequency to transmit the Multicast frames, chooses the Multicast Group Type to schedule Multicast frames from the Supernode only during daylight hours 
+  * Bob configures in the M2M "Multicast Groups" section by adding Fixed Weather Unit #1 and Fixed Weather Unit #2 (that each comprise of Sensors from a Service Profile and Application) to a new Multicast Group, and configures the Multicast address, the session and application session keys, the frame counter, data rate and frequency to transmit the Multicast frames, chooses the Multicast Group Type to schedule Multicast frames from the Supernode only during daylight hours 
   * Bob finds the following M2M Wallets sections most useful for monitoring his Sensors and Gateways:
-    * “Devices” section, where it lists each device, its Device EUI, GPS map location, activation status, battery level, last online status, downlink queue list and confirmation status, frames, device data collected (collect from devices via Websockets API), and firmware details.
-    * “Gateways” section, where it shows things like its GPS map location, altitude, last online status, and activity of his Gateway over the past 30 days (downlinks/uplinks), data rate, geolocation concentrator board config, live frames data log (of toggled uplink and downlink frame’s attached metadata transmitted and received info including LoRaWAN PHYPayload) (collect via Websockets API)
-  * Bob chooses a “data” plan based on outcomes of using the Estimated Data Usage Calculator (a software product idea for convenience that’s yet to be built).
+    * "Devices" section, where it lists each device, its Device EUI, GPS map location, activation status, battery level, last online status, downlink queue list and confirmation status, frames, device data collected (collect from devices via Websockets API), and firmware details.
+    * "Gateways" section, where it shows things like its GPS map location, altitude, last online status, and activity of his Gateway over the past 30 days (downlinks/uplinks), data rate, geolocation concentrator board config, live frames data log (of toggled uplink and downlink frame’s attached metadata transmitted and received info including LoRaWAN PHYPayload) (collect via Websockets API)
+  * Bob chooses a "data" plan based on outcomes of using the Estimated Data Usage Calculator (a software product idea for convenience that’s yet to be built).
     * Sensors - Since he has 15x Sensors (each needing 1 MB per month with max 10 messages per hour), and only needs during daylight hours, he needs ~7.5 MB per month, so he chooses the Ad-Hoc offer of 20 MB (~1,000,000 Packets) for 200 MXC (1 USD), which expires after 1 month.
     * Gateway - Since he has 1x Gateway that will be located in a remote edge location, so whilst he may only use ~10 MB per month from his two nearby Sensors, he may earn VMXC from other users that connect to it, as well as from Staking earnings, which may cover the initial outlay to purchase the Gateway, so he chooses the Ad-Hoc offer of 20 MB (~1,000,000 Packets) for 500 MXC (2.5 USD), which expires after 1 month
-  * Bob chooses an “access” plan for data processing and roaming resources
-    * Toggles “Roaming Participation” in the Devices User Panel to activate roaming for the 6x Sensors used in his Mobile Weather Unit #3
+  * Bob chooses an "access" plan for data processing and roaming resources
+    * Toggles "Roaming Participation" in the Devices User Panel to activate roaming for the 6x Sensors used in his Mobile Weather Unit #3
       * Note: When roaming his transaction fees will be higher
   * Bob makes payment and chooses Supernodes to stake against to earn
     * Top-up MXC in exchange for ETH in AXS Wallet
@@ -2246,25 +2246,25 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
     * Location - Spandau Lake, Berlin
       * Gateway #1 - fixed near his favourite sailing location
       * Roaming - Yes
-      * “Home” Supernode #1 (Berlin)
+      * "Home" Supernode #1 (Berlin)
       * Price - Price not shown on DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> - Bob knows he’s the only Gateway near his devices, so if anyone purchases access to the Sensors in one of his Fixed Weather Unit #1 or #2, he’ll be paying off the price of his investment in buying the Gateway
     * Location - Spandau Lake (North), Berlin
       * 5x Sensors (Fixed Weather Unit #1)
       * Roaming - No
-      * “Home” Supernode - Supernode #1 (Berlin)
+      * "Home" Supernode - Supernode #1 (Berlin)
       * Gateway - Gateway #1
       * DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Market Price - 5 MB (~250,000 Packets) for 200 DHX (200 MXC, 1 USD) with max. 10 messages per hour per Sensor, which expires after 1 month.
-      * Note: Bob knows in this case he’s only selling a fraction of his bandwidth, and if he obtains one customer per month he’s covering his whole monthly “data” costs, and if he had more than one customer he’ll start paying off his Sensors, and eventually just make profit to reinvest into purchasing more devices. He could also sell access only to individual Sensors.
+      * Note: Bob knows in this case he’s only selling a fraction of his bandwidth, and if he obtains one customer per month he’s covering his whole monthly "data" costs, and if he had more than one customer he’ll start paying off his Sensors, and eventually just make profit to reinvest into purchasing more devices. He could also sell access only to individual Sensors.
     * Location - Spandau Lake (South), Berlin
       * 5x Sensors (Fixed Weather Unit #2)
       * Roaming: No
-      * “Home” Supernode - Supernode #1 (Berlin)
+      * "Home" Supernode - Supernode #1 (Berlin)
       * Gateway - Gateway #1 
       * DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Market Price - Same as at Fixed Weather Unit #1 
     * Location - Krakow, Poland
       * 6x Sensors (Mobile Weather Unit #3)
       * Roaming - Yes
-      * “Home” Supernode - Supernode #2 (Poland)
+      * "Home" Supernode - Supernode #2 (Poland)
       * Gateway - any available
       * DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Market Price - Same as at Fixed Weather Unit #1
     * Supernode #1
@@ -2274,14 +2274,14 @@ In addition to the Substrate Core Runtime Modules, the DH will have the followin
       * 75 MXC Staked (from 6x Sensors)
 
 * Alice’s Setup
-  * Alice has heard about the IoT “gig” economy where anyone can sell device data, and she’s heard about MXC’s DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a>
+  * Alice has heard about the IoT "gig" economy where anyone can sell device data, and she’s heard about MXC’s DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a>
   * Alice wants to update the Krakow Sailing Club’s website with a map of holiday destinations at popular lakes in Poland and Germany.
-  * Alice goes to DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a>, and searches for “Watersport” applications in the Data Market. It lists Bob’s different fixed and mobile Weather Units. She’s wants to buy access to the “data” bundle from Bob’s Mobile Weather Unit #3, since it has roaming enabled, and there’s evidence that it has sufficient uptime
+  * Alice goes to DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a>, and searches for "Watersport" applications in the Data Market. It lists Bob’s different fixed and mobile Weather Units. She’s wants to buy access to the "data" bundle from Bob’s Mobile Weather Unit #3, since it has roaming enabled, and there’s evidence that it has sufficient uptime
   * Alice finds out that she could earn DHX by staking some of her IOTA over a bridge, but she doesn’t have time and she doesn’t want to miss out on Bob’s cheap offer.
   * Alice also finds out that she could run DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Parachain Validator node to earn DHX, but she doesn’t have time for that yet either.
   * Alice finds out she could earn DHX by buying more DHX than she needs and staking it against an existing DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Parachain Validator by Nominating them.
   * Alice decides to use the DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> In-built DEX to exchange all her BTC for DHX.
-  * Alice purchases Bob’s Mobile Weather Unit #3 and and stakes the remaining DHX on a DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Parachain Validator, so 200 DHX are converted to 200 VMXC internally and transferred to Bob’s “Home” Supernode #2 (Poland) associated with Bob’s organisation, since the Supernode will handle calculating the transaction costs and earnings over the month, and any roaming that’s involved and then make monthly payments
+  * Alice purchases Bob’s Mobile Weather Unit #3 and and stakes the remaining DHX on a DataHighway.com <a href="#reference-8f85ec" className="pretty-link-colored">[8f85ec]</a> Parachain Validator, so 200 DHX are converted to 200 VMXC internally and transferred to Bob’s "Home" Supernode #2 (Poland) associated with Bob’s organisation, since the Supernode will handle calculating the transaction costs and earnings over the month, and any roaming that’s involved and then make monthly payments
   * Alice is granted access to the data provider’s API Keys so her Application may perform queries
 
 <div className="page-break"></div>
