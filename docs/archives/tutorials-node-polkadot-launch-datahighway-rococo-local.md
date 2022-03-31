@@ -1,7 +1,7 @@
 ---
 id: tutorials-nodes-polkadot-launch-datahighway-rococo-local
-title: Setup Rococo Parachain Testnet parachain testnet for Datahighway on 'rococo-local' using Polkadot-Launch
-sidebar_label: Setup Rococo Parachain Testnet (Spreehafen)
+title: Setup parachain testnet for Datahighway on 'rococo-local' using Polkadot-Launch
+sidebar_label: Setup parachain testnet for Datahighway on 'rococo-local' using Polkadot-Launch
 ---
 
 ## How do you setup a DataHighway Parachain testnet on 'rococo-local' using Polkadot-Launch?

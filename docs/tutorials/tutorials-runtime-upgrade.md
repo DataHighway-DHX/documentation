@@ -8,11 +8,11 @@ sidebar_label: Runtime Upgrade
 
 ### Step 1: Prepare WASM binary 
 
-* Clone <a href="https://github.com/DataHighway-DHX/node" target="_blank" className="pretty-link pretty-link-colored">node</a> repo
+* Clone the <a href="https://github.com/DataHighway-DHX/DataHighway-Parachain" target="_blank" className="pretty-link pretty-link-colored">DataHighway-Parachain</a> repo
 
 * Switch to the root directory of the cloned project
 
-`cd node`
+`cd DataHighway-Parachain`
 
 * Build the Wasm bytecode
 
@@ -21,15 +21,15 @@ sidebar_label: Runtime Upgrade
 
 ### Step 2: Submit a Preimage Hash of the Proposal for a forkless runtime upgrade
 
-* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwestlake.datahighway.com#/democracy
+* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss://tanganika.datahighway.com#/democracy
 
 * The first step is to submit a preimage of the proposal. Click on _Submit preimage_
 
 * Choose _system_ as call and _setCode_ as function 
 
 * Click the _code_ input field, and select the Wasm binary that defines the upgraded runtime: 
-  `target/release/wbuild/datahighway-runtime/datahighway_runtime.compact.wasm`
-  * Note: If you get errosr then copy the `datahighway_runtime.compact.compressed.wasm` file instead
+  `target/release/wbuild/datahighway-parachain-runtime/datahighway_parachain_runtime.compact.compact.wasm`
+  * Note: Ensure that you use the "compact" file
 
 * Copy the preimage hash. This represents the proposal. You will use this hash when submitting the actual proposal.
 

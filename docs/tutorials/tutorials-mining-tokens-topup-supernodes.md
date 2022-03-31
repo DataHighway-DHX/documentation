@@ -4,7 +4,7 @@ title: Topup Supernodes
 sidebar_label: Topup Supernodes
 ---
 
-## How the community may propose to transfer DHX tokens from the DHX DAO Unlocked Reserves (Treasury) to a Multisig Proxy account for subsequent transfer to topup a Supernode
+## How community may propose to transfer DHX tokens from Treasury to a Multisig Proxy account for transfer to topup a Supernode
 
 ### Step 1: Check the DataHighway runtime parameters are reasonable values and modify them if necessary
 
@@ -12,10 +12,10 @@ sidebar_label: Topup Supernodes
 
 ### Step 2: Submit a Preimage Hash of the Proposal to transfer Treasury funds to the Multisig Proxy account
 
-* Add the Multisig Proxy account and the DHX DAO Unlocked Reserves (Treasury) account (4LTFqiD6H6g8a7ur9WH4RxhWx2givWfK7o5EDed3ai1nYTvk) to your [Address book](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-harbour.datahighway.com#/addresses)
-	* Note: The Treasury account for each chain is specified in the [chain_spec.rs](https://github.com/DataHighway-DHX/node/blob/master/node/src/chain_spec.rs)
+* Add the Multisig Proxy account and the DHX DAO Unlocked Reserves (Treasury) account (4LTFqiD6H6g8a7ur9WH4RxhWx2givWfK7o5EDed3ai1nYTvk) to your [Address book](https://polkadot.js.org/apps/?rpc=wss://tanganika.datahighway.com#/addresses) on the Tanganika Network
+	* Note: The Treasury account for each chain is specified in the [chain_spec.rs](https://github.com/DataHighway-DHX/DataHighway-Parachain/blob/main/node/src/chain_spec.rs)
 
-* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-harbour.datahighway.com#/democracy
+* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss://tanganika.datahighway.com#/democracy
 
 * The first step is to submit a preimage of the proposal.
 
@@ -52,17 +52,17 @@ sidebar_label: Topup Supernodes
 * Click the _Second_ button associated with the Proposal from the previous steps.
 
 * Choose an account to second the proposal with the required deposit.
-	* Note: The Minimum Deposit is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/node/blob/master/runtime/src/lib.rs#L810)
+	* Note: The `MinimumDeposit` is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/DataHighway-Parachain/blob/main/runtime/src/lib.rs#L941)
 
 * Click "Second" to broadcast the transaction.
 
 * Repeat the above steps with other accounts that wish to second the proposal until it is tabled (brought to a referendum vote at an upcoming launch period).
 
-* Wait until the Launch Period ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/node/blob/master/runtime/src/lib.rs#L810)
+* Wait until the `LaunchPeriod` ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/DataHighway-Parachain/blob/main/runtime/src/lib.rs#L937)
 
 ### Step 5: Voting on the Proposal
 
-* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-harbour.datahighway.com#/democracy
+* Go to _Democracy_ page https://polkadot.js.org/apps/?rpc=wss://tanganika.datahighway.com#/democracy
 
 * Go to the "Referenda" column
 
@@ -72,7 +72,7 @@ sidebar_label: Topup Supernodes
 
 * Repeat the above steps with other accounts that wish to vote on the referenda.
 
-* Wait until the Voting Period ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/node/blob/master/runtime/src/lib.rs#L811)
+* Wait until the `VotingPeriod` ends, which is specified in the [DataHighway's runtime configuration under "democracy"](https://github.com/DataHighway-DHX/DataHighway-Parachain/blob/main/runtime/src/lib.rs#L938)
 
 ### Step 6: Transfer from the Multisig Proxy account to the Supernode
 
