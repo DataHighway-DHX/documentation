@@ -45,6 +45,12 @@ git clone https://github.com/DataHighway-DHX/DataHighway-Parachain
 cd DataHighway-Parachain
 ```
 
+Checkout to latest release tag. At the time of updating this document, latest release was `3.6.0`
+
+```bash
+git checkout v3.6.0
+```
+
 Build packages
 
 ```bash
@@ -73,7 +79,7 @@ Replace the values for keys starting with $ to suit your own collator node
   echo '[Service]'
   echo 'Type=simple'
   echo 'WorkingDirectory=$fullprojectpath'
-  echo 'ExecStart=$fullprojectpath/res/kusama/datahighway-collator --collator --force-authoring --base-path $fullprojectpath/.local/share/datahighway-collator --chain $fullprojectpath/res/kusama/kusama-parachain-raw.json --name $nameofyourcollatornode --port 40334 --ws-port 9845 --bootnodes $dhxbootnode -- --execution wasm --chain $fullprojectpath/res/kusama/kusama.json --port 30333 --ws-port 9978'
+  echo 'ExecStart=$fullprojectpath/res/kusama/datahighway-collator --collator --base-path $fullprojectpath/.local/share/datahighway-collator --chain $fullprojectpath/res/kusama/kusama-parachain-raw.json --name $nameofyourcollatornode  --force-authoring --port 40333 --rpc-port 9933 --ws-port 9744 --bootnodes $dhxbootnode --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe -- --execution wasm --chain $fullprojectpath/res/kusama/kusama.json --port 30333 --ws-port 9944'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
@@ -124,3 +130,27 @@ Generate and add your Aura session keys (author ID) for your collator node to si
 ```bash
 $fullprojectpath/res/kusama/datahighway-collator key insert --base-path $fullprojectpath/.local/share/datahighway-collator --chain $fullprojectpath/res/kusama/kusama-parachain-raw.json --scheme Sr25519 --suri $youraurasecretseed --key-type aura
 ```
+
+### Set Session Keys
+
+DataHighway is using [Collator Selection](https://paritytech.github.io/cumulus/pallet_collator_selection/index.html) pallet for registering collators.
+
+1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developper > Extrinsic_**
+2. Select your _collator account_ and extrinsic type: **_session / setKeys_**
+3. Enter the **_session keys_** and set proof to **_0x00_**
+4. Submit the transaction.
+
+### Register as a Collator candidate
+
+To start collating, you need to have 10 DHX tokens
+
+1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developper > Extrinsic_**
+2. Select your _collator account_ and extrinsic type: **_CollatorSelection / registerAsCandidate_**
+3. Submit the transaction.
+
+Onboarding takes place at **_n+1_** session. Once your collator is active, you will see your collator inside **Network** tab every time you produce a block.
+You will also see your collator in **_Network > Collators_**. 
+
+
+
+
