@@ -86,7 +86,7 @@ Replace the values for keys starting with $ to suit your own collator node
 ```
 
 Where: 
-* $dhxbootnode = request this from DHX team through Discord
+* $dhxbootnode = Request it from our DHX admins via Discord, Telegram, or Twitter
 * $fullprojectpath = needs to be the full path to your DataHighway-Parachain project which you cloned. eg:
 ```
 /home/foo/DataHighway-Parachain
@@ -135,7 +135,7 @@ $fullprojectpath/res/kusama/datahighway-collator key insert --base-path $fullpro
 
 DataHighway is using [Collator Selection](https://paritytech.github.io/cumulus/pallet_collator_selection/index.html) pallet for registering collators.
 
-1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developper > Extrinsic_**
+1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developer > Extrinsic_**
 2. Select your _collator account_ and extrinsic type: **_session / setKeys_**
 3. Enter the **_session keys_** and set proof to **_0x00_**
 4. Submit the transaction.
@@ -144,7 +144,7 @@ DataHighway is using [Collator Selection](https://paritytech.github.io/cumulus/p
 
 To start collating, you need to have 10 DHX tokens
 
-1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developper > Extrinsic_**
+1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developer > Extrinsic_**
 2. Select your _collator account_ and extrinsic type: **_CollatorSelection / registerAsCandidate_**
 3. Submit the transaction.
 
