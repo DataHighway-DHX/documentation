@@ -142,15 +142,16 @@ DataHighway is using [Collator Selection](https://paritytech.github.io/cumulus/p
 
 ### Register as a Collator candidate
 
-To start collating, you need to have 10 DHX tokens
+To start collating, you need to have 10 DHX tokens 
 
 1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developer > Extrinsic_**
-2. Select your _collator account_ and extrinsic type: **_CollatorSelection / registerAsCandidate_**
+
+2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of GIANT you want to stake. This should be in full denomation, For example if you want to stake 50_GIANT, enter 50_000_000_000_000_000_000
+
 3. Submit the transaction.
 
+
+
 Onboarding takes place at **_n+1_** session. Once your collator is active, you will see your collator inside **Network** tab every time you produce a block.
-You will also see your collator in **_Network > Collators_**. 
 
-
-
-
+You will also see your collator in **_Network > Collators_**.
