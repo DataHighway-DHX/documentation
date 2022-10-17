@@ -153,5 +153,3 @@ To start collating, you need to have 10 DHX tokens
 
 
 Onboarding takes place at **_n+1_** session. Once your collator is active, you will see your collator inside **Network** tab every time you produce a block.
-
-You will also see your collator in **_Network > Collators_**.
