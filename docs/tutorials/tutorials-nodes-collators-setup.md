@@ -146,7 +146,7 @@ To start collating, you need to have 10 DHX tokens
 
 1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developer > Extrinsic_**
 
-2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of GIANT you want to stake. This should be in full denomation, For example if you want to stake 50_GIANT, enter 50_000_000_000_000_000_000
+2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of GIANT you want to stake. This should be in full denomation, For example if you want to stake 50 GIANT, enter 50000000000000000000
 
 3. Submit the transaction.
 
