@@ -54,7 +54,7 @@ Every time a block is produced, the winning collator node gets 69.444.444.444.44
 The rewards are distributed among the participants in proportion to their contribution.
 Take this picture as an example:
 
-IMAGE 2
+![Collator_Contribution](../../static/img/tutorial/Collator_Contribution.png)
 
 Carl build his own Collator Node and transferred 30 DHX as contribution
 
