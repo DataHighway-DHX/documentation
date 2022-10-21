@@ -29,7 +29,7 @@ If you want to deposit 10 DHX, then you need to write 10.000.000.000.000.000
 
 9) At the end, it should looks like this:
 
-![Delegator01](/static/img/tutorial/Delegator01.png)
+![Delegator01](https://user-images.githubusercontent.com/24459595/197201644-95ba7fd0-f422-4359-b5bf-2228b86329e3.png)
 
 Where CHARLIE is the wallet, ALICE is the collator node and the deposit is 15DHX = 15.000.000.000.000.000.000 attoDHX (18 zeros)
 
@@ -46,7 +46,7 @@ Where CHARLIE is the wallet, ALICE is the collator node and the deposit is 15DHX
 5) You should get the list of collators in node in detail
 
 
-![Delegator02](/static/img/tutorial/Delegator02.png)
+![Delegator02](https://user-images.githubusercontent.com/24459595/197201659-2b9ad171-848d-410f-a0c0-70179e061cca.png)
 
 ## How can I check the winner?
 
@@ -59,7 +59,7 @@ So see the blockchain follow this steps:
 2) Make sure you are in the “explorer” tab
 3) Let's break down the page:
 
-![Delegator03](/static/img/tutorial/Delegator03.png)
+![Delegator03](https://user-images.githubusercontent.com/24459595/197201675-1159062d-64a3-4031-bb10-ed9a4408ddb2.png)
 
 * *Last block*: seconds count to get the next block. When it reaches the target, a new block is released
 * *Target*: Interval of time between block releases
@@ -97,11 +97,11 @@ $1 Collator Node + 2 Delegators$
 
 It should looks like this:
 
-![Delegator04](/static/img/tutorial/Delegator04.png)
+![Delegator04](https://user-images.githubusercontent.com/24459595/197201705-eeebd46c-ffbf-41b8-9b05-800264eb7bd8.png)
 
 On the middle left of the page, you will find *“system events”*. Click on the *“parachainStaking.Rewarded”*. There will be three lines with this title (because there are 3 contributors), click them all. It will looks like this:
 
-![Delegator05](/static/img/tutorial/Delegator05.png)
+![Delegator05](https://user-images.githubusercontent.com/24459595/197201722-f5e6d7ba-0ce1-4c91-8223-3842077b9d05.png)
 
 5) The first entry, is the Collator Node, and its rewards are: 331,160,917,713,130 atto DHX
 
