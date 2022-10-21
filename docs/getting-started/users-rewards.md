@@ -16,7 +16,7 @@ DHX is a polkadot parachain, and every 12 seconds, one block is added to the blo
 ![Collator-Delegator](/static/img/tutorial/Collator-Delegator.png)
 
 The winning condition is determined by Kusama consensus protocol. For more details, please 
-refer to the <a href=https://guide.kusama.network/docs/learn-consensus/ target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
+refer to the <a href="https://guide.kusama.network/docs/learn-consensus/" target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
 
 
 Community members can participate on the blockchain via two ways:
@@ -25,7 +25,7 @@ Community members can participate on the blockchain via two ways:
 
 * Being a Delegator
 
-The collator node is an entity that pushes blocks onto the blockchain. To participate as a collator please documentation this documentation <a href=https://dev.datahighway.com/docs/tutorials/tutorials-nodes-collators-setup/ target="_blank" className="pretty-link pretty-link-colored">Setup Collator Node</a>.
+The collator node is an entity that pushes blocks onto the blockchain. To participate as a collator please documentation this documentation <a href="https://dev.datahighway.com/docs/tutorials/tutorials-nodes-collators-setup/" target="_blank" className="pretty-link pretty-link-colored">Setup Collator Node</a>.
 
 The delegators are community members that support collators and their contributions. To be a Delegator please review the documentation How to become a Delegator [Missing Link]
 
