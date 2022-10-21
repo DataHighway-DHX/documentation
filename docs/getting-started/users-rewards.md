@@ -19,6 +19,7 @@ The winning condition is determined by Kusama consensus protocol. For more detai
 refer to the <a href="https://guide.kusama.network/docs/learn-consensus/" target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
 
 
+
 Community members can participate on the blockchain via two ways:
 
 * Being a Collator node
@@ -54,7 +55,6 @@ The rewards are distributed among the participants in proportion to their contri
 Take this picture as an example:
 
 ![Collator_Contribution](/static/img/tutorial/Collator_Contribution.png)
-
 
 Carl build his own Collator Node and transferred 30 DHX as contribution
 
