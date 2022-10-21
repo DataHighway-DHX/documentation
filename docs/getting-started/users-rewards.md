@@ -13,7 +13,7 @@ The DHX DAO Unlocked Reserves (that will be governed by the DHX DAO Treasury) wi
 
 DHX is a polkadot parachain, and every 12 seconds, one block is added to the blockchain by a winner Collator Node. Once the Collator wins, the rewards are distributed between the Collator Node and their Delegators:
 
-![Collator-Delegator](/static/img/tutorial/Collator-Delegator.png)
+![Collator-Delegator](https://user-images.githubusercontent.com/24459595/197198048-a10d8b63-6ad2-4e5d-bd18-b31cc7dd5677.png)
 
 The winning condition is determined by Kusama consensus protocol. For more details, please 
 refer to the <a href="https://guide.kusama.network/docs/learn-consensus/" target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
@@ -54,7 +54,7 @@ Every time a block is produced, the winning collator node gets 69.444.444.444.44
 The rewards are distributed among the participants in proportion to their contribution.
 Take this picture as an example:
 
-![Collator_Contribution](/static/img/tutorial/Collator_Contribution.png)
+![Collator_Contribution](https://user-images.githubusercontent.com/24459595/197198040-8a8f61b7-b398-47ca-8d70-6958ffa11e51.png)
 
 Carl build his own Collator Node and transferred 30 DHX as contribution
 
