@@ -13,10 +13,11 @@ The DHX DAO Unlocked Reserves (that will be governed by the DHX DAO Treasury) wi
 
 DHX is a polkadot parachain, and every 12 seconds, one block is added to the blockchain by a winner Collator Node. Once the Collator wins, the rewards are distributed between the Collator Node and their Delegators:
 
-![Collator-Delegator](/img/tutorial/Collator-Delegator.png)
+![Collator-Delegator](/static/img/tutorial/Collator-Delegator.png)
 
 The winning condition is determined by Kusama consensus protocol. For more details, please 
-refer to the <a href=https://guide.kusama.network/docs/learn-consensus/ target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
+refer to the <a href="https://guide.kusama.network/docs/learn-consensus/" target="_blank" className="pretty-link pretty-link-colored">Kusama Consensus Documentation</a>.
+
 
 
 Community members can participate on the blockchain via two ways:
@@ -25,7 +26,7 @@ Community members can participate on the blockchain via two ways:
 
 * Being a Delegator
 
-The collator node is an entity that pushes blocks onto the blockchain. To participate as a collator please documentation this documentation <a href=https://dev.datahighway.com/docs/tutorials/tutorials-nodes-collators-setup/ target="_blank" className="pretty-link pretty-link-colored">Setup Collator Node</a>.
+The collator node is an entity that pushes blocks onto the blockchain. To participate as a collator please documentation this documentation <a href="https://dev.datahighway.com/docs/tutorials/tutorials-nodes-collators-setup/" target="_blank" className="pretty-link pretty-link-colored">Setup Collator Node</a>.
 
 The delegators are community members that support collators and their contributions. To be a Delegator please review the documentation How to become a Delegator [Missing Link]
 
@@ -53,7 +54,7 @@ Every time a block is produced, the winning collator node gets 69.444.444.444.44
 The rewards are distributed among the participants in proportion to their contribution.
 Take this picture as an example:
 
-![Collator_Contribution](/img/tutorial/Collator_Contribution.png)
+![Collator_Contribution](/static/img/tutorial/Collator_Contribution.png)
 
 Carl build his own Collator Node and transferred 30 DHX as contribution
 
