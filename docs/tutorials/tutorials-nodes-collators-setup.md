@@ -18,6 +18,8 @@ SSH into the server.
 
 ### Installing DataHighway and setting it up as a system service
 
+#### Building the binary from source
+
 ```bash
 apt update
 apt install -y gcc libc6-dev
@@ -58,19 +60,78 @@ curl https://getsubstrate.io -sSf | bash -s -- --fast && \
 ./scripts/init.sh
 ```
 
+#### Download a prebuilt binary
 
-To start your collator node you need to use the same binary that was used to start the first collator node, which has been stored in the $fullprojectpath/res/kusama/datahighway-collator.tar.gz.
+Instead of building from source, you can download a prebuilt binary from the official DHX Parachain Github release. To get the prebuilt binary with the chainspec definitions:
 
-Unzip that file into the root directory of the DataHighway-DHX/DataHighway-Parachain
+- Datahighway binary
+```sh
+wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/datahighway-collator -O /opt/datahighway/datahighway-collator-v3.7.1
 ```
-gunzip -c ./res/kusama/datahighway-collator.tar.gz | tar xopf -
-mv datahighway-collator ./res/kusama
+
+- Kusama relay chainspec file 
+```
+wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/kusama.json -O /opt/datahighway/kusama.json
+```
+
+- Datahighway chainspec file
+```
+wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/datahighway-collator -O /opt/datahighway/kusama-parachain-raw.json
 ```
 
 ### Set up the node as a system service.
 
 To do this, navigate into the root directory of the DataHighway-DHX/DataHighway-Parachain repo and execute the following to create the service configuration file.
-Replace the values for keys starting with $ to suit your own collator node
+
+Create a new script at `/opt/datahighway/start.sh` with the following content:
+
+```bash
+#!/bin/bash
+
+NAME="Datahighway_mainnet_server_3"
+RELAY_SPEC="/opt/datahighway/kusama.json"
+PARA_SPEC="/opt/datahighway/kusama-parachain-raw.json"
+COLLATOR_PATH="/opt/datahighway/datahighway-collator-v3.7.1"
+RELAY_PORT="40444"
+RELAY_RPC_PORT="7676"
+RELAY_WS_PORT="8787"
+PARA_RPC_PORT="7677"
+PARA_WS_PORT="8788"
+PARA_PORT="50555"
+PARA_DATABASE_BASE="~/.chains/datahighway-testnet/para"
+RELAY_DATABASE_BASE="~/.chains/datahighway-testnet/relay/"
+PARA_BOOTNODE="/ip4/3.127.123.230/tcp/40333/p2p/12D3KooWHJ9NwkCNJ8BFD4BptJybQQSyBJm1mtr3XRpfqWR5vjaj"
+
+CMD="$COLLATOR_PATH --collator \
+	--chain $PARA_SPEC \
+	--force-authoring \
+	--unsafe-ws-external \
+	--unsafe-rpc-external \
+	--rpc-cors=all \
+	--rpc-methods=Unsafe \
+	--name "\"$NAME\"" \
+	--port $PARA_PORT \
+	--rpc-port $PARA_RPC_PORT \
+	--ws-port $PARA_WS_PORT \
+	--bootnodes $PARA_BOOTNODE \
+	--base-path $PARA_DATABASE_BASE \
+	-- \
+	--chain $RELAY_SPEC
+	--execution wasm \
+	--port $RELAY_PORT \
+	--rpc-port $RELAY_RPC_PORT \
+	--ws-port $RELAY_WS_PORT \
+	--base-path $RELAY_DATABASE_BASE \
+"
+
+echo "-----------------------"
+echo "Executing: $CMD"
+echo "----------------------"
+
+$CMD
+```
+
+To start the collator as a service, run the following script:
 
 ```bash
 {
@@ -78,22 +139,10 @@ Replace the values for keys starting with $ to suit your own collator node
   echo 'Description=DataHighway'
   echo '[Service]'
   echo 'Type=simple'
-  echo 'WorkingDirectory=$fullprojectpath'
-  echo 'ExecStart=$fullprojectpath/res/kusama/datahighway-collator --collator --base-path $fullprojectpath/.local/share/datahighway-collator --chain $fullprojectpath/res/kusama/kusama-parachain-raw.json --name $nameofyourcollatornode  --force-authoring --port 40333 --rpc-port 9933 --ws-port 9744 --bootnodes $dhxbootnode --unsafe-ws-external --unsafe-rpc-external --rpc-cors=all --rpc-methods=Unsafe -- --execution wasm --chain $fullprojectpath/res/kusama/kusama.json --port 30333 --ws-port 9944'
+  echo 'ExecStart=/opt/datahighway/start.sh'
   echo '[Install]'
   echo 'WantedBy=multi-user.target'
 } > /etc/systemd/system/datahighway.service
-```
-
-Where: 
-* $dhxbootnode = Request it from our DHX admins via Discord, Telegram, or Twitter
-* $fullprojectpath = needs to be the full path to your DataHighway-Parachain project which you cloned. eg:
-```
-/home/foo/DataHighway-Parachain
-```
-* $nameofyourcollatornode = name of your collator node with the --name option which will be shown on telemetry (if supported), eg:
-```
---name "My collator"
 ```
 
 Double check that the config has been written to /etc/systemd/system/datahighway.service correctly.
@@ -127,8 +176,10 @@ journalctl -u datahighway.service -f
 
 Generate and add your Aura session keys (author ID) for your collator node to sign blocks with on Tanganika:
 
+From `/opt/datahighway` directory you can run this command:
 ```bash
-$fullprojectpath/res/kusama/datahighway-collator key insert --base-path $fullprojectpath/.local/share/datahighway-collator --chain $fullprojectpath/res/kusama/kusama-parachain-raw.json --scheme Sr25519 --suri $youraurasecretseed --key-type aura
+# TODO: add proper curl call to replace this command:
+./datahighway-collator-v3.7.1 key insert --base-path $fullprojectpath/.local/share/datahighway-collator --chain kusama-parachain-raw.json --scheme Sr25519 --suri $youraurasecretseed --key-type aura
 ```
 
 ### Set Session Keys
