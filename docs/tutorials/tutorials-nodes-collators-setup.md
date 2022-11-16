@@ -47,10 +47,10 @@ git clone https://github.com/DataHighway-DHX/DataHighway-Parachain
 cd DataHighway-Parachain
 ```
 
-Checkout to latest release tag. At the time of updating this document, latest release was `3.6.0`
+Checkout to latest release tag. At the time of updating this document, latest release is [`3.7.1`](https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/tag/v3.7.1)
 
 ```bash
-git checkout v3.6.0
+git checkout v3.7.1
 ```
 
 Build packages
@@ -84,9 +84,13 @@ wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/
 wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/kusama-parachain-raw.json -O /opt/datahighway/kusama-parachain-raw.json
 ```
 
+### **NOTE**: If you're running a v3.6.0 node and want to upgrade to v3.7.1, please be sure to check the [GRANDPA ISSUE](https://github.com/DataHighway-DHX/DataHighway-Parachain/wiki/%5BWIP%5D-2022-11-12-GRANDPA-ISSUE).
+
 ### Set up the node as a system service.
 
 To do this, navigate into the root directory of the DataHighway-DHX/DataHighway-Parachain repo and execute the following to create the service configuration file.
+
+**NOTE**: If any command throws something like `Permission denied`, run it with *sudo*.
 
 Create a new script at `/opt/datahighway/start.sh` with the following content:
 
@@ -219,7 +223,5 @@ To start collating, you need to have 10 DHX tokens
 2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of GIANT you want to stake. This should be in full denomation, For example if you want to stake 50 GIANT, enter 50000000000000000000
 
 3. Submit the transaction.
-
-
 
 Onboarding takes place at **_n+1_** session.
