@@ -4,7 +4,7 @@ title: Setup Collator Node
 sidebar_label: Setup Collator Node
 ---
 
-## How do you setup an Collator Node?
+## How do you setup a Collator Node?
 
 This guide covers how to set up a DataHighway Collator Node on the Tanganika Network.
 
@@ -64,6 +64,11 @@ curl https://getsubstrate.io -sSf | bash -s -- --fast && \
 
 Instead of building from source, you can download a prebuilt binary from the official DHX Parachain Github release. To get the prebuilt binary with the chainspec definitions:
 
+Create a datahighway folder in opt:
+```sh
+mkdir /opt/datahighway
+```
+
 - Datahighway binary
 ```sh
 wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/datahighway-collator -O /opt/datahighway/datahighway-collator-v3.7.1
@@ -76,7 +81,7 @@ wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/
 
 - Datahighway chainspec file
 ```
-wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/datahighway-collator -O /opt/datahighway/kusama-parachain-raw.json
+wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/kusama-parachain-raw.json -O /opt/datahighway/kusama-parachain-raw.json
 ```
 
 ### Set up the node as a system service.
@@ -98,8 +103,8 @@ RELAY_WS_PORT="8787"
 PARA_RPC_PORT="7677"
 PARA_WS_PORT="8788"
 PARA_PORT="50555"
-PARA_DATABASE_BASE="~/.chains/datahighway-testnet/para"
-RELAY_DATABASE_BASE="~/.chains/datahighway-testnet/relay/"
+PARA_DATABASE_BASE="~/.chains/datahighway-mainnet/para"
+RELAY_DATABASE_BASE="~/.chains/datahighway-mainnet/relay/"
 PARA_BOOTNODE="/ip4/3.127.123.230/tcp/40333/p2p/12D3KooWHJ9NwkCNJ8BFD4BptJybQQSyBJm1mtr3XRpfqWR5vjaj"
 
 CMD="$COLLATOR_PATH --collator \
@@ -130,6 +135,13 @@ echo "----------------------"
 
 $CMD
 ```
+
+Notes on the parameters:
+- NAME - name of your node
+- RELAY_SPEC - chain spec file of the relay chain (download from the Github Release page)
+- PARA_SPEC - chain spec file of the parachain (download from the Github Release page)
+- PARA_DATABASE_BASE - path to the parachain database
+- RELAY_DATABASE_BASE - path to the relay database
 
 To start the collator as a service, run the following script:
 
@@ -178,9 +190,16 @@ Generate and add your Aura session keys (author ID) for your collator node to si
 
 From `/opt/datahighway` directory you can run this command:
 ```bash
-# TODO: add proper curl call to replace this command:
-./datahighway-collator-v3.7.1 key insert --base-path $fullprojectpath/.local/share/datahighway-collator --chain kusama-parachain-raw.json --scheme Sr25519 --suri $youraurasecretseed --key-type aura
+curl http://127.0.0.1:7677 -H "Content-Type:application/json;charset=utf-8" -d   '{
+    "jsonrpc":"2.0",
+    "id":1,
+    "method":"author_insertKey",
+    "params": ["aura", "$suri", "$pkey"]
+  }'
 ```
+Replace `$suri` with your node key secret word, eg: `same jelly ceiling beauty tunnel delay exile science three winner balance minute`
+
+And replace `$pkey` with the public key generated from `$suri`, eg: `0x6849bcd876d48609c6d38a6511f53873d571aaece8a73923c1488d496d3f2510`
 
 ### Set Session Keys
 
