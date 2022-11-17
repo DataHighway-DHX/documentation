@@ -147,6 +147,12 @@ Notes on the parameters:
 - PARA_DATABASE_BASE - path to the parachain database
 - RELAY_DATABASE_BASE - path to the relay database
 
+Grant execute permissions to the start script and collator executable:
+```bash
+chmod +x /opt/datahighway/start.sh
+chmod +x /opt/datahighway/datahighway-collator-v3.7.1
+```
+
 To start the collator as a service, run the following script:
 
 ```bash
