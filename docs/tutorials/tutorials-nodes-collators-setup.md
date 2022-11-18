@@ -81,7 +81,7 @@ wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/
 
 - Datahighway chainspec file
 ```
-wget https://github.com/DataHighway-DHX/DataHighway-Parachain/releases/download/v3.7.1/kusama-parachain-raw.json -O /opt/datahighway/kusama-parachain-raw.json
+wget https://raw.githubusercontent.com/DataHighway-DHX/DataHighway-Parachain/v3.6.0/res/kusama/kusama-parachain-raw.json -O /opt/datahighway/kusama-parachain-raw.json
 ```
 
 ### **NOTE**: If you're running a v3.6.0 node and want to upgrade to v3.7.1, please be sure to check the [GRANDPA ISSUE](https://github.com/DataHighway-DHX/DataHighway-Parachain/wiki/%5BWIP%5D-2022-11-12-GRANDPA-ISSUE).
