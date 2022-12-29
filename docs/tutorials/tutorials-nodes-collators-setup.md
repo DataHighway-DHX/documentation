@@ -107,7 +107,7 @@ RELAY_WS_PORT="8787"
 PARA_RPC_PORT="7677"
 PARA_WS_PORT="8788"
 PARA_PORT="50555"
-PARA_DATABASE_BASE="~/.chains/datahighway-mainnet/para"
+PARA_DATABASE_BASE="~/.chains/datahighway-mainnet/para/"
 RELAY_DATABASE_BASE="~/.chains/datahighway-mainnet/relay/"
 PARA_BOOTNODE="/ip4/3.127.123.230/tcp/40333/p2p/12D3KooWHJ9NwkCNJ8BFD4BptJybQQSyBJm1mtr3XRpfqWR5vjaj"
 
@@ -125,7 +125,7 @@ CMD="$COLLATOR_PATH --collator \
 	--bootnodes $PARA_BOOTNODE \
 	--base-path $PARA_DATABASE_BASE \
 	-- \
-	--chain $RELAY_SPEC
+	--chain $RELAY_SPEC \
 	--execution wasm \
 	--port $RELAY_PORT \
 	--rpc-port $RELAY_RPC_PORT \
@@ -226,7 +226,7 @@ To start collating, you need to have 10 DHX tokens
 
 1. Go to the [Tanganika Polkadot.js portal](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftanganika.datahighway.com#/explorer): **_Developer > Extrinsic_**
 
-2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of GIANT you want to stake. This should be in full denomation, For example if you want to stake 50 GIANT, enter 50000000000000000000
+2. Select your _collator account_ and extrinsic type: **_parachainStaking / joinAsCandidate_**. Provide the amount of DHX you want to stake. This should be in full denomation, For example if you want to stake 50 DHX, enter 50000000000000000000
 
 3. Submit the transaction.
 
